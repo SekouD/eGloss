@@ -12,7 +12,7 @@ from xml.dom.minidom import parseString
 tree = ET.parse('quiz-L1-Grammaire-Gloses-20141004-0841.xml')
 root = tree.getroot()
 
-#gloses = {}
+gloses = {}
 
 counter = 0
 total = 0
