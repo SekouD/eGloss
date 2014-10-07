@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<word name="syntagme">
+<answer id=0>
+<function>fonction</function>
+<score>%</score>
+<comment>"commentaire"</comment>
+</answer>
+</word>
