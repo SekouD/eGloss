@@ -53,7 +53,7 @@
 <tbody>
 <tr>
 <td>
-<p>{2:SAC:=REL.M.SG[homme]#Bravo !~=REL.COMP.M.SG[homme]#TB. Dans ce cas, on préfère ne pas noter la fonction du relatif...~%85%REL-M.SG[homme]#Bien, mais le genre est-il marqué à la fin ?~%85%REL.M-SG[homme]#Bien, mais le nombre est-il marqué ?~%75%REL-M-SG[homme]#Bien, mais le genre et le nombre sont-ils marqués à la fin ?<span>~%75%REL*.DAT[homme]#La fonction est-elle vraiment datif ?</span>~%75%REL[homme]#Quel genre, quel nombre pour le relatif ?~%65%REL*[homme]#Quel genre, quel nombre pour le relatif ?~%60%REL.M.SG#Bien, mais il manque l’antécédent…~%50%REL*#Et quel est son antécédent ?~%25%PRO#Pouvez-vous préciser la nature de ce pronom ?~CONJ#Ne serait-ce pas plutôt un pronom ?~*#Ce mot n’introduit-il pas une proposition subordonnée relative ?}</p>
+<p>{2:SAC:=REL.M.SG[homme]#Bravo !~=REL.COMP.M.SG[homme]#TB. Dans ce cas, on préfère ne pas noter la fonction du relatif...~%85%REL-M.SG[homme]#Bien, mais le genre est-il marqué à la fin ?~%85%REL.M-SG[homme]#Bien, mais le nombre est-il marqué ?~%75%REL-M-SG[homme]#Bien, mais le genre et le nombre sont-ils marqués à la fin ?~%75%REL*.DAT[homme]#La fonction est-elle vraiment datif ?~%75%REL[homme]#Quel genre, quel nombre pour le relatif ?~%65%REL*[homme]#Quel genre, quel nombre pour le relatif ?~%60%REL.M.SG#Bien, mais il manque l’antécédent…~%50%REL*#Et quel est son antécédent ?~%25%PRO#Pouvez-vous préciser la nature de ce pronom ?~CONJ#Ne serait-ce pas plutôt un pronom ?~*#Ce mot n’introduit-il pas une proposition subordonnée relative ?}</p>
 </td>
 </tr>
 </tbody>
@@ -1409,8 +1409,15 @@
     </td> 
   </tr> 
   <tr> 
-    <td width="13%" valign="top">{1:SAC:=DEF-M.SG#Correct, bien !~%50%DET-M.SG#Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.~%10%INDEF-M.SG# Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ?Est-ce un défini ou bien un indéfini ?} 
-    </td> 
+    <td width="13%" valign="top">
+    <table> <tbody>
+        <tr>
+          <td>
+            <p>{2:SAC:=temps.M.SG#Bien !~%75%temps.M#En effet, le nombre n’est pas marqué si le mot est pris isolément. Mais ici le contexte ne nous permet-il pas de déduire le nombre ?~temp#Quel est le singulier de ce nom ?~%5%temps*#Etes-vous sûr de ne rien oublier ? Pensez aux propriétés du nom…~%10%temps#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p>
+          </td>
+        </tr></tbody>
+      </table>
+    </td>
     <td width="13%" valign="top"> 
       <table> <tbody> 
         <tr> 
@@ -1720,7 +1727,7 @@
     </td>
     <td width="20%" valign="top">{1:SAC:=PREP.DE_DEF-M.SG#C’est bien ça !~=PREP.DE_DEF.M.SG#On peut se demander si la partie variable ne concerne pas seulement le genre et le nombre.~%80%PREP.DE_DEF.M-SG#Le genre et le nombre de la deuxième partie ne sont-ils pas marqués ensemble ?~%75%PREP.DE_DET.M.SG#Le nom qui suit pourrait-il ne pas être au défini ?~%75%PREP.DE_DET-M.SG#Le nom qui suit pourrait-il ne pas être au défini ?~%40%PREP.DE*#Ok pour la préposition. Mais comment noter la deuxième partie ?~%40%*DEF-M.SG#Ok pour le déterminant, mais comment noter la première partie ?~*INDEF*#Un article indéfini ?~PART-M.SG#On parle qqch ou bien on parle de qqch ?~*PART*#On parle qqch ou bien on parle de qqch ?~*#Ne serait-ce pas une forme contractée de la préposition DE et du déterminant LE ?}
     </td>
-    <td width="20%" valign="top">{1:SAC:=thé.M.SG#Correct !~%75%thé-M.SG#Le genre est-il marqué ici ?~%75% thé.M-SG#Où est la marque du singulier ?~%60% thé-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%thé*#Quel genre, quel nombre ?~%10%thé#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} <br />
+    <td width="20%" valign="top">{1:SAC:=thé.M.SG#Correct !~%75%thé-M.SG#Le genre est-il marqué ici ?~%75% thé.M-SG#Où est la marque du singulier ?~%60% thé-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%thé*#Quel genre, quel nombre ?~%10%thé#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}
     </td>
   </tr></tbody>
 </table>]]></text>
@@ -2152,13 +2159,13 @@
   <tr>
     <td width="20%" valign="top">{1:SAC:=POSS.1PL.SG#Très bien !~%75%POSS.1PL-SG#Le nombre est-il vraiment marqué ?~%50%POSS.1PL#Quelles sont les propriétés du possédé ?~%25%POSS.SG#Qui est le possesseur?~%20%POSS-SG#Qui est le possesseur et le nombre du possédé est-il marqué ?~%10%*POSS*#Qui est le possesseur, il possède quoi ?~%5%POSS#Qui est le possesseur, il possède quoi ?~*M*#Le genre est-il marqué ?~*#Ce petit mot n’établit-il pas une relation de possession ?}
     </td>
-    <td width="20%" valign="top">{1:SAC:=chat.M.SG#Correct !~%75%chat-M.SG#Le genre est-il marqué ici ?~%75% chat.M-SG#Où est la marque du singulier ?~%60% chat-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%chat*#Quel genre, quel nombre ?~%10%chat#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} <br />
+    <td width="20%" valign="top">{1:SAC:=chat.M.SG#Correct !~%75%chat-M.SG#Le genre est-il marqué ici ?~%75% chat.M-SG#Où est la marque du singulier ?~%60% chat-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%chat*#Quel genre, quel nombre ?~%10%chat#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}
     </td>
-    <td width="20%" valign="top">{1:SAC:= manger.IND.PRS.3SG#Bien !~%75%manger.PRS.IND.3SG#Pensez à l’ordre des marques !~%75%manger.IND.PRS-3SG#Y a-t-il vraiment une marque de personne ici ?~%75%mange.IND.PRS.3SG# Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%60%manger.IND.PRS.1SG#Est-ce la bonne personne ?~%60%manger.PRS.3SG#Quel mode ? ~%50%manger.PRS-3SG#Quel mode ? Et la personne est-elle vraiment marquée ?~%5%manger*#Quel mode, quel temps, quelle personne ?~%10%manger#Quel mode, quel temps, quelle personne ?~mange#Donnez la forme de citation, le mode, le temps et la personne.~*# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…} <br />
+    <td width="20%" valign="top">{1:SAC:= manger.IND.PRS.3SG#Bien !~%75%manger.PRS.IND.3SG#Pensez à l’ordre des marques !~%75%manger.IND.PRS-3SG#Y a-t-il vraiment une marque de personne ici ?~%75%mange.IND.PRS.3SG# Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%60%manger.IND.PRS.1SG#Est-ce la bonne personne ?~%60%manger.PRS.3SG#Quel mode ? ~%50%manger.PRS-3SG#Quel mode ? Et la personne est-elle vraiment marquée ?~%5%manger*#Quel mode, quel temps, quelle personne ?~%10%manger#Quel mode, quel temps, quelle personne ?~mange#Donnez la forme de citation, le mode, le temps et la personne.~*# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
     </td>
     <td width="20%" valign="top">{1:SAC:=INDEF.SG-F#Correct, bien !~%75%INDEF-F.SG#Pensez à l’ordre des marques.~%75%INDEF.SG.F#Pensez à l’indépendance des marques.~%60%INDEF.F.SG#Pensez à l’ordre des marques.~%50%DET-F.SG#Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.~%35%DET-F.SG#Préférez l’abréviation INDEF pour les déterminants indéfinis. Et pensez aussi à l’ordre des marques.~%25%DET.F.SG#Préférez l’abréviation INDEF pour les déterminants indéfinis. Pensez aussi à l’ordre et à l’indépendance des marques.~%15%DEF.SG-F# Est-ce un défini ?~%10%DEF-F.SG#Est-ce un défini ? Pensez aussi à l’ordre des marques.~%10%INDEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation INDEF pour les déterminants indéfinis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
     </td>
-    <td width="20%" valign="top">{1:SAC:=souris.F.SG#Correct !~%75%souris-F.SG#Le féminin est-il marqué ?~%75%souris.F-SG#Où est la marque du singulier ?~%60%souris-F-SG#Le féminin est-il marqué ? Montrez-moi la marque du singulier…~%5%souris*#Quel genre, quel nombre ?~%10%souris#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} <br />
+    <td width="20%" valign="top">{1:SAC:=souris.F.SG#Correct !~%75%souris-F.SG#Le féminin est-il marqué ?~%75%souris.F-SG#Où est la marque du singulier ?~%60%souris-F-SG#Le féminin est-il marqué ? Montrez-moi la marque du singulier…~%5%souris*#Quel genre, quel nombre ?~%10%souris#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}
     </td>
   </tr></tbody>
 </table>]]></text>
@@ -4379,15 +4386,15 @@
     </td>
   </tr>
   <tr>
-    <td width="20%" valign="top">{1:SAC:=POSS.3SG-PL#Correct, bravo !~%75%POSS.3SG.PL#N'y a-t-il pas de marque du pluriel ?~%50%POSS.3SG#Quelles sont les propriétés du possédé ?~%5%POSS.3PL-PL#Sans rire, ses comme troisième personne du pluriel ?~%25%POSS-PL#Qui est le possesseur ?~%20%POSS.PL#Qui est le possesseur ? Et le pluriel n'est-il pas marqué ?~%10%*POSS*#Qui est le possesseur, il possède quoi ?~%5%POSS#Qui est le possesseur, il possède quoi ?~*M*#Le genre est-il marqué ?~*# Ce petit mot n’établit-il pas une relation de possession ?} <br />
+    <td width="20%" valign="top">{1:SAC:=POSS.3SG-PL#Correct, bravo !~%75%POSS.3SG.PL#N'y a-t-il pas de marque du pluriel ?~%50%POSS.3SG#Quelles sont les propriétés du possédé ?~%5%POSS.3PL-PL#Sans rire, ses comme troisième personne du pluriel ?~%25%POSS-PL#Qui est le possesseur ?~%20%POSS.PL#Qui est le possesseur ? Et le pluriel n'est-il pas marqué ?~%10%*POSS*#Qui est le possesseur, il possède quoi ?~%5%POSS#Qui est le possesseur, il possède quoi ?~*M*#Le genre est-il marqué ?~*# Ce petit mot n’établit-il pas une relation de possession ?}
     </td>
-    <td width="20%" valign="top">{1:SAC:=enfant-PL~%50%enfant.M-PL#Le genre est-il connu ? Une enfant, un enfant ?~%50%enfant.F-PL# Le genre est-il connu ?~%40%enfant.M.PL#Le genre est-il connu, le nombre est-il marqué ?~%25%enfants-PL#Quelle est la forme de citation pour ce mot ? ~enfants*#Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom ?~%5%enfant*#Etes-vous sûr de ne rien oublier ? Quelles sont les propriétés grammaticales du nom ?~%10%enfant#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}<br />
+    <td width="20%" valign="top">{1:SAC:=enfant-PL~%50%enfant.M-PL#Le genre est-il connu ? Une enfant, un enfant ?~%50%enfant.F-PL# Le genre est-il connu ?~%40%enfant.M.PL#Le genre est-il connu, le nombre est-il marqué ?~%25%enfants-PL#Quelle est la forme de citation pour ce mot ? ~enfants*#Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom ?~%5%enfant*#Etes-vous sûr de ne rien oublier ? Quelles sont les propriétés grammaticales du nom ?~%10%enfant#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}
     </td>
-    <td width="20%" valign="top">{1:SAC:=boire.IND.PRS-3PL#Bien !~%75%boire.PRS.IND-3PL#Pensez à l’ordre des marques !~%75%boire.IND.PRS.3PL#N’y a-t-il pas une marque de personne ?~%75%boivent.IND.PRS-3PL# Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%60%boire.*PRS-3PL#Quel mode ? ~%50%boire.*PRS.3PL#Quel mode ? Et la personne n’est-elle pas marquée ?~%5%boire*#Quel mode, quel temps, quelle personne ?~%10%boire#Quel mode, quel temps, quelle personne ?~boivent*#Donnez la forme de citation, le mode, le temps et la personne.~*# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…} <br />
+    <td width="20%" valign="top">{1:SAC:=boire.IND.PRS-3PL#Bien !~%75%boire.PRS.IND-3PL#Pensez à l’ordre des marques !~%75%boire.IND.PRS.3PL#N’y a-t-il pas une marque de personne ?~%75%boivent.IND.PRS-3PL# Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%60%boire.*PRS-3PL#Quel mode ? ~%50%boire.*PRS.3PL#Quel mode ? Et la personne n’est-elle pas marquée ?~%5%boire*#Quel mode, quel temps, quelle personne ?~%10%boire#Quel mode, quel temps, quelle personne ?~boivent*#Donnez la forme de citation, le mode, le temps et la personne.~*# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
     </td>
-    <td width="20%" valign="top">{1:SAC:=PART-M.SG~%75%PART.M.SG#Les différents partitifs ont-ils une base commune ?~%75%PART.M-SG#Les différents partitifs ont-ils une base commune ?~%5%PART*#Quel genre, quel nombre ? (utilisez PART plutôt que PART.DE)~PREP.DE_DET-M.SG#Hum…y a-t-il une préposition ici ?~PREP*#Hum… y a-t-il une préposition ici ?} <br />
+    <td width="20%" valign="top">{1:SAC:=PART-M.SG~%75%PART.M.SG#Les différents partitifs ont-ils une base commune ?~%75%PART.M-SG#Les différents partitifs ont-ils une base commune ?~%5%PART*#Quel genre, quel nombre ? (utilisez PART plutôt que PART.DE)~PREP.DE_DET-M.SG#Hum…y a-t-il une préposition ici ?~PREP*#Hum… y a-t-il une préposition ici ?}
     </td>
-    <td width="20%" valign="top">{1:SAC:=thé.M.SG#Correct !~%75%thé-M.SG#Le genre est-il marqué ici ?~%75% thé.M-SG#Où est la marque du singulier ?~%60% thé-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%thé*#Quel genre, quel nombre ?~%10%thé#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} <br />
+    <td width="20%" valign="top">{1:SAC:=thé.M.SG#Correct !~%75%thé-M.SG#Le genre est-il marqué ici ?~%75% thé.M-SG#Où est la marque du singulier ?~%60% thé-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%thé*#Quel genre, quel nombre ?~%10%thé#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}
     </td>
   </tr></tbody>
 </table>]]></text>
