@@ -59,8 +59,6 @@ for question in root.findall('question'):
                     if gloses == answers: pass
                     else: gloses[mot + '#'] = answers
                 gloses[mot] = answers
-            print(liste_mot)
-            print(question[0][0].text)
 
 gloses_xml = BS('<?xml version="1.0" encoding="UTF-8"?>')
 
