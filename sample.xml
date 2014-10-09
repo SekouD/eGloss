@@ -1,8 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <word name="syntagme">
-<answer id=0>
-<function>fonction</function>
-<score>%</score>
-<comment>"commentaire"</comment>
-</answer>
+    <answer id="0">
+        <function>fonction</function>
+        <score>%</score>
+        <comment>"commentaire"</comment>
+    </answer>
+    <answer id="1">
+        <function>fonction</function>
+        <score>%</score>
+        <comment>"commentaire"</comment>
+    </answer>
+</word>
+
+<word name="syntagme">
+    <answer id="0">answer</answer>
+    <answer id="1">answer</answer>
 </word>
