@@ -59,7 +59,8 @@ for question in root.findall('question'):
                     else:
                         score = '0'
                         function = reponse[:reponse.find('#')]
-                    comment = reponse[reponse.find('#') + 1:]
+                    if "#" in reponse: comment = reponse[reponse.find('#') + 1:]
+                    else: reponse = 'None'
                     answers.append(dict(zip(['score','function','comment'], [score, function, comment])))
                 if mot in gloses:
                     if gloses == answers: pass
