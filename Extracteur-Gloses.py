@@ -50,9 +50,14 @@ for question in root.findall('question'):
                 reponses = raw_reponses.split(sep='~')
                 answers = []
                 for reponse in reponses:
-                    if "SAC" in reponse: score = '100'
-                    else: score = reponse[reponse.find('%') + 1:reponse.rfind('%')]
-                    function = reponse[4:reponse.find('#')]
+                    if not reponse.startswith('%'):
+                        score = '0'
+                        function = reponse[:reponse.find('#')]
+                    else:
+                        if "SAC" in reponse: score = '100'
+                        else:
+                            score = reponse[reponse.find('%') + 1:reponse.rfind('%')]
+                        function = reponse[4:reponse.find('#')]
                     comment = reponse[reponse.find('#') + 1:]
                     answers.append(dict(zip(['score','function','comment'], [score, function, comment])))
                 if mot in gloses:
