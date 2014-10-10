@@ -2,10 +2,10 @@
 <word name="Cet">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEM.M.SG.LIAIS
+   {2:SAC:=DEM.M.SG.LIAIS
   </function>
   <comment>
    Très bien !
@@ -13,10 +13,10 @@
  </answer>
  <answer id="1">
   <score>
-   =DEM-M.SG.LIAIS#Très bien
+   0
   </score>
   <function>
-   -M.SG.LIAIS
+   =DEM-M.SG.LIAIS
   </function>
   <comment>
    Très bien !
@@ -46,9 +46,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#Ne serait-ce pas un déterminant démonstratif de la série CE, CETTE, CES ? Pensez, par ailleurs, à traiter la consonne de liaison...
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant démonstratif de la série CE, CETTE, CES ? Pensez, par ailleurs, à traiter la consonne de liaison...}
@@ -58,10 +59,10 @@
 <word name="Du">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PART-M.S
+   {1:SAC:=PART-M.S
   </function>
   <comment>
    {1:SAC:=PART-M.SG
@@ -102,10 +103,10 @@
  </answer>
  <answer id="4">
   <score>
-   PREP.DE_DET-M.SG#Hum…y a-t-il une préposition ici
+   0
   </score>
   <function>
-   .DE_DET-M.SG
+   PREP.DE_DET-M.SG
   </function>
   <comment>
    Hum…y a-t-il une préposition ici ?
@@ -113,10 +114,10 @@
  </answer>
  <answer id="5">
   <score>
-   PREP*#Hum… y a-t-il une préposition ici ?
+   0
   </score>
   <function>
-   *
+   PREP*
   </function>
   <comment>
    Hum… y a-t-il une préposition ici ?}
@@ -126,10 +127,10 @@
 <word name="J'ai">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PRO.1SG.SUJ_avoir.IND.PRS.1SG
+   {1:SAC:=PRO.1SG.SUJ_avoir.IND.PRS.1SG
   </function>
   <comment>
    Très bien !
@@ -335,9 +336,10 @@
  </answer>
  <answer id="19">
   <score>
-   j’ai#Traitez les deux parties, JE et AI en les séparant par un tiret du 8
+   0
   </score>
   <function>
+   j’ai
   </function>
   <comment>
    Traitez les deux parties, JE et AI en les séparant par un tiret du 8.
@@ -345,9 +347,10 @@
  </answer>
  <answer id="20">
   <score>
-   *#Ne serait-ce pas un pronom personnel sujet suivi du verbe avoir ? Séparez les deux parties par un tiret du 8…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un pronom personnel sujet suivi du verbe avoir ? Séparez les deux parties par un tiret du 8…}
@@ -357,10 +360,10 @@
 <word name="Jean">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=Jean.M.SG
+   {1:SAC:=Jean.M.SG
   </function>
   <comment>
    Correct !
@@ -423,9 +426,10 @@
  </answer>
  <answer id="6">
   <score>
-   NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre
+   0
   </score>
   <function>
+   NPR*
   </function>
   <comment>
    Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.
@@ -433,9 +437,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
@@ -445,10 +450,10 @@
 <word name="Julie">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=Julie.F.SG
+   {1:SAC:=Julie.F.SG
   </function>
   <comment>
    Correct !
@@ -511,9 +516,10 @@
  </answer>
  <answer id="6">
   <score>
-   NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre
+   0
   </score>
   <function>
+   NPR*
   </function>
   <comment>
    Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.
@@ -521,9 +527,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
@@ -533,10 +540,10 @@
 <word name="Justine">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=Justine.F.SG
+   {1:SAC:=Justine.F.SG
   </function>
   <comment>
    Correct !
@@ -599,9 +606,10 @@
  </answer>
  <answer id="6">
   <score>
-   NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre
+   0
   </score>
   <function>
+   NPR*
   </function>
   <comment>
    Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.
@@ -609,9 +617,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
@@ -621,10 +630,10 @@
 <word name="La">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-F.SG
+   {1:SAC:=DEF-F.SG
   </function>
   <comment>
    Correct, bien !
@@ -676,9 +685,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou indéfini ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou indéfini ?}
@@ -688,10 +698,10 @@
 <word name="La ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-F.SG
+   {2:SAC:=DEF-F.SG
   </function>
   <comment>
    Correct, bien !
@@ -743,9 +753,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou indéfini ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou indéfini ?}
@@ -755,10 +766,10 @@
 <word name="La#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-F.SG
+   {1:SAC:=DEF-F.SG
   </function>
   <comment>
    Correct, bien !
@@ -810,9 +821,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou indéfini ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou indéfini ?}
@@ -822,10 +834,10 @@
 <word name="Le">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-M.SG
+   {1:SAC:=DEF-M.SG
   </function>
   <comment>
    Correct, bien !
@@ -877,9 +889,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
@@ -889,10 +902,10 @@
 <word name="Le ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=temps.M.SG
+   {2:SAC:=temps.M.SG
   </function>
   <comment>
    Bien !
@@ -911,9 +924,10 @@
  </answer>
  <answer id="2">
   <score>
-   temp#Quel est le singulier de ce nom
+   0
   </score>
   <function>
+   temp
   </function>
   <comment>
    Quel est le singulier de ce nom ?
@@ -943,9 +957,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -955,10 +970,10 @@
 <word name="Le#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-M.SG
+   {1:SAC:=DEF-M.SG
   </function>
   <comment>
    Correct, bien !
@@ -1010,9 +1025,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
@@ -1022,10 +1038,10 @@
 <word name="Les">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-PL
+   {1:SAC:=DEF-PL
   </function>
   <comment>
    Bien !
@@ -1132,9 +1148,10 @@
  </answer>
  <answer id="10">
   <score>
-   *M*#Le genre est-il connu
+   0
   </score>
   <function>
+   *M*
   </function>
   <comment>
    Le genre est-il connu?
@@ -1142,9 +1159,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
@@ -1154,10 +1172,10 @@
 <word name="Les ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-PL
+   {1:SAC:=DEF-PL
   </function>
   <comment>
    Bien !
@@ -1264,9 +1282,10 @@
  </answer>
  <answer id="10">
   <score>
-   *M*#Le genre est-il connu
+   0
   </score>
   <function>
+   *M*
   </function>
   <comment>
    Le genre est-il connu?
@@ -1274,9 +1293,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
@@ -1286,10 +1306,10 @@
 <word name="Les#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-PL
+   {1:SAC:=DEF-PL
   </function>
   <comment>
    Bien !
@@ -1396,9 +1416,10 @@
  </answer>
  <answer id="10">
   <score>
-   *M*#Le genre est-il connu
+   0
   </score>
   <function>
+   *M*
   </function>
   <comment>
    Le genre est-il connu?
@@ -1406,9 +1427,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
@@ -1418,10 +1440,10 @@
 <word name="Leurs">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=POSS.3PL-PL
+   {1:SAC:=POSS.3PL-PL
   </function>
   <comment>
    Très bien !
@@ -1495,9 +1517,10 @@
  </answer>
  <answer id="7">
   <score>
-   *M*#Le genre est-il marqué
+   0
   </score>
   <function>
+   *M*
   </function>
   <comment>
    Le genre est-il marqué ?
@@ -1505,9 +1528,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ce petit mot n’établit-il pas une relation de possession ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce petit mot n’établit-il pas une relation de possession ?}
@@ -1517,10 +1541,10 @@
 <word name="Marie">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=Marie.F.SG
+   {1:SAC:=Marie.F.SG
   </function>
   <comment>
    Correct !
@@ -1583,9 +1607,10 @@
  </answer>
  <answer id="6">
   <score>
-   NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre
+   0
   </score>
   <function>
+   NPR*
   </function>
   <comment>
    Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.
@@ -1604,9 +1629,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
@@ -1616,10 +1642,10 @@
 <word name="Nathalie">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=Nathalie.F.SG
+   {1:SAC:=Nathalie.F.SG
   </function>
   <comment>
    Correct !
@@ -1682,9 +1708,10 @@
  </answer>
  <answer id="6">
   <score>
-   NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre
+   0
   </score>
   <function>
+   NPR*
   </function>
   <comment>
    Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.
@@ -1692,9 +1719,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
@@ -1704,10 +1732,10 @@
 <word name="Nos">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=POSS.1PL-PL
+   {2:SAC:=POSS.1PL-PL
   </function>
   <comment>
    Très bien !
@@ -1803,9 +1831,10 @@
  </answer>
  <answer id="9">
   <score>
-   *M*#Le genre est-il marqué
+   0
   </score>
   <function>
+   *M*
   </function>
   <comment>
    Le genre est-il marqué ?
@@ -1813,9 +1842,10 @@
  </answer>
  <answer id="10">
   <score>
-   *#Ce petit mot n’établit-il pas une relation de possession ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce petit mot n’établit-il pas une relation de possession ?}
@@ -1825,10 +1855,10 @@
 <word name="Notre">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=POSS.1PL.SG
+   {1:SAC:=POSS.1PL.SG
   </function>
   <comment>
    Très bien !
@@ -1902,9 +1932,10 @@
  </answer>
  <answer id="7">
   <score>
-   *M*#Le genre est-il marqué
+   0
   </score>
   <function>
+   *M*
   </function>
   <comment>
    Le genre est-il marqué ?
@@ -1912,9 +1943,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ce petit mot n’établit-il pas une relation de possession ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce petit mot n’établit-il pas une relation de possession ?}
@@ -1924,10 +1956,10 @@
 <word name="Nous vous entendons ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PRO.1PL.SUJ_PRO.2PL.ACC_entendre.IND.PRS-1PL
+   {3:SAC:=PRO.1PL.SUJ_PRO.2PL.ACC_entendre.IND.PRS-1PL
   </function>
   <comment>
    Correct, bravo !
@@ -2045,10 +2077,10 @@
  </answer>
  <answer id="11">
   <score>
-   nous vous entendons#Traitez les trois parties, NOUS, VOUS, et ENTENDONS, en les séparant par un tiret du 8
+   0
   </score>
   <function>
-   vous entendons
+   nous vous entendons
   </function>
   <comment>
    Traitez les trois parties, NOUS, VOUS, et ENTENDONS, en les séparant par un tiret du 8.
@@ -2056,9 +2088,10 @@
  </answer>
  <answer id="12">
   <score>
-   *#Ne serait-ce pas un pronom personnel sujet suivi d’un pronom personnel accusatif, suivi du verbe entendre ? Séparez les trois parties par un tiret du 8…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un pronom personnel sujet suivi d’un pronom personnel accusatif, suivi du verbe entendre ? Séparez les trois parties par un tiret du 8…}
@@ -2068,10 +2101,10 @@
 <word name="Pierre">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=Pierre.M.SG
+   {1:SAC:=Pierre.M.SG
   </function>
   <comment>
    Correct !
@@ -2134,9 +2167,10 @@
  </answer>
  <answer id="6">
   <score>
-   NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre
+   0
   </score>
   <function>
+   NPR*
   </function>
   <comment>
    Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.
@@ -2144,9 +2178,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
@@ -2156,10 +2191,10 @@
 <word name="Ses">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=POSS.3SG-PL
+   {1:SAC:=POSS.3SG-PL
   </function>
   <comment>
    Correct, bravo !
@@ -2244,9 +2279,10 @@
  </answer>
  <answer id="8">
   <score>
-   *M*#Le genre est-il marqué
+   0
   </score>
   <function>
+   *M*
   </function>
   <comment>
    Le genre est-il marqué ?
@@ -2254,9 +2290,10 @@
  </answer>
  <answer id="9">
   <score>
-   *# Ce petit mot n’établit-il pas une relation de possession ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce petit mot n’établit-il pas une relation de possession ?}
@@ -2266,10 +2303,10 @@
 <word name="Ses#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=POSS.3SG-PL
+   {1:SAC:=POSS.3SG-PL
   </function>
   <comment>
    Correct, bravo !
@@ -2354,9 +2391,10 @@
  </answer>
  <answer id="8">
   <score>
-   *M*#Le genre est-il marqué
+   0
   </score>
   <function>
+   *M*
   </function>
   <comment>
    Le genre est-il marqué ?
@@ -2364,9 +2402,10 @@
  </answer>
  <answer id="9">
   <score>
-   *# Ce petit mot n’établit-il pas une relation de possession ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce petit mot n’établit-il pas une relation de possession ?}
@@ -2376,10 +2415,10 @@
 <word name="Sophie">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=Sophie.F.SG
+   {1:SAC:=Sophie.F.SG
   </function>
   <comment>
    Correct !
@@ -2442,9 +2481,10 @@
  </answer>
  <answer id="6">
   <score>
-   NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre
+   0
   </score>
   <function>
+   NPR*
   </function>
   <comment>
    Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.
@@ -2452,9 +2492,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
@@ -2464,10 +2505,10 @@
 <word name="Une">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=INDEF.SG-F
+   {2:SAC:=INDEF.SG-F
   </function>
   <comment>
    Très bien !
@@ -2541,10 +2582,10 @@
  </answer>
  <answer id="7">
   <score>
-   DET-F.SG#Oui c’est un déterminant, mais utilisez plutôt INDEF pour les indéfinis. Pensez à l’ordre des marques
+   0
   </score>
   <function>
-   F.SG
+   DET-F.SG
   </function>
   <comment>
    Oui c’est un déterminant, mais utilisez plutôt INDEF pour les indéfinis. Pensez à l’ordre des marques.
@@ -2563,9 +2604,10 @@
  </answer>
  <answer id="9">
   <score>
-   IND*#Utilisez INDEF plutôt que IND. Quel genre, quel nombre
+   0
   </score>
   <function>
+   IND*
   </function>
   <comment>
    Utilisez INDEF plutôt que IND. Quel genre, quel nombre ?
@@ -2573,9 +2615,10 @@
  </answer>
  <answer id="10">
   <score>
-   DET*#Utilisez INDEF plutôt que DET pour les déterminants indéfinis. Quel genre, quel nombre
+   0
   </score>
   <function>
+   DET*
   </function>
   <comment>
    Utilisez INDEF plutôt que DET pour les déterminants indéfinis. Quel genre, quel nombre ?
@@ -2583,9 +2626,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Est-ce un défini ou bien un indéfini ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Est-ce un défini ou bien un indéfini ?}
@@ -2595,10 +2639,10 @@
 <word name="acheter">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=acheter-INF
+   {1:SAC:=acheter-INF
   </function>
   <comment>
    Bien !
@@ -2639,9 +2683,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
@@ -2651,10 +2696,10 @@
 <word name="amie">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=amie.F.SG
+   {1:SAC:=amie.F.SG
   </function>
   <comment>
    Correct !
@@ -2750,9 +2795,10 @@
  </answer>
  <answer id="9">
   <score>
-   ami#Pour les noms, on passe du singulier au pluriel, et non pas du masculin au féminin..
+   0
   </score>
   <function>
+   ami
   </function>
   <comment>
    Pour les noms, on passe du singulier au pluriel, et non pas du masculin au féminin...
@@ -2760,9 +2806,10 @@
  </answer>
  <answer id="10">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -2772,10 +2819,10 @@
 <word name="ananas">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=ananas.M.PL
+   {1:SAC:=ananas.M.PL
   </function>
   <comment>
    Correct !
@@ -2849,10 +2896,10 @@
  </answer>
  <answer id="7">
   <score>
-   anana#Un anana, des ananas
+   0
   </score>
   <function>
-   a
+   anana
   </function>
   <comment>
    Un anana, des ananas ?
@@ -2860,9 +2907,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -2872,10 +2920,10 @@
 <word name="arriver">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=arriver-INF
+   {1:SAC:=arriver-INF
   </function>
   <comment>
    Bien !
@@ -2916,9 +2964,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
@@ -2928,10 +2977,10 @@
 <word name="au">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.A_DET-M.SG
+   {1:SAC:=PREP.A_DET-M.SG
   </function>
   <comment>
    C’est bien ça !
@@ -2994,10 +3043,10 @@
  </answer>
  <answer id="6">
   <score>
-   *INDEF*#Un article indéfini
+   0
   </score>
   <function>
-   EF*
+   *INDEF*
   </function>
   <comment>
    Un article indéfini ?
@@ -3005,9 +3054,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ne serait-ce pas une forme contractée de la préposition A et du déterminant LE ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas une forme contractée de la préposition A et du déterminant LE ?}
@@ -3017,10 +3067,10 @@
 <word name="aux">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.A_DET-PL
+   {2:SAC:=PREP.A_DET-PL
   </function>
   <comment>
    C’est bien ça !
@@ -3094,10 +3144,10 @@
  </answer>
  <answer id="7">
   <score>
-   *INDEF*#Un article indéfini
+   0
   </score>
   <function>
-   EF*
+   *INDEF*
   </function>
   <comment>
    Un article indéfini ?
@@ -3105,9 +3155,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas une forme contractée de la préposition A et du déterminant LES ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas une forme contractée de la préposition A et du déterminant LES ?}
@@ -3117,10 +3168,10 @@
 <word name="avec">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.AVEC
+   {1:SAC:=PREP.AVEC
   </function>
   <comment>
    C’est bien ça !
@@ -3139,9 +3190,10 @@
  </answer>
  <answer id="2">
   <score>
-   ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est
+   0
   </score>
   <function>
+   ADV
   </function>
   <comment>
    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
@@ -3149,9 +3201,10 @@
  </answer>
  <answer id="3">
   <score>
-   CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
@@ -3159,9 +3212,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas une préposition ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas une préposition ?}
@@ -3171,10 +3225,10 @@
 <word name="avec#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.AVEC
+   {1:SAC:=PREP.AVEC
   </function>
   <comment>
    C’est bien ça !
@@ -3193,9 +3247,10 @@
  </answer>
  <answer id="2">
   <score>
-   ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est
+   0
   </score>
   <function>
+   ADV
   </function>
   <comment>
    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
@@ -3203,9 +3258,10 @@
  </answer>
  <answer id="3">
   <score>
-   CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
@@ -3213,9 +3269,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas une préposition ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas une préposition ?}
@@ -3225,10 +3282,10 @@
 <word name="bien">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=bien
+   {1:SAC:=bien
   </function>
   <comment>
    Bien !
@@ -3236,9 +3293,10 @@
  </answer>
  <answer id="1">
   <score>
-   ADV#Donnez simplement le lexème
+   0
   </score>
   <function>
+   ADV
   </function>
   <comment>
    Donnez simplement le lexème.
@@ -3246,9 +3304,10 @@
  </answer>
  <answer id="2">
   <score>
-   *#Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…}
@@ -3258,10 +3317,10 @@
 <word name="boivent">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=boire.IND.PRS-3PL
+   {1:SAC:=boire.IND.PRS-3PL
   </function>
   <comment>
    Bien !
@@ -3346,10 +3405,10 @@
  </answer>
  <answer id="8">
   <score>
-   boivent*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   ent*
+   boivent*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -3357,9 +3416,10 @@
  </answer>
  <answer id="9">
   <score>
-   *# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -3369,10 +3429,10 @@
 <word name="boivent ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=boire.IND.PRS-3PL
+   {1:SAC:=boire.IND.PRS-3PL
   </function>
   <comment>
    Bien !
@@ -3457,10 +3517,10 @@
  </answer>
  <answer id="8">
   <score>
-   boivent*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   ent*
+   boivent*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -3468,9 +3528,10 @@
  </answer>
  <answer id="9">
   <score>
-   *# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -3480,10 +3541,10 @@
 <word name="café ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=café.M.SG
+   {1:SAC:=café.M.SG
   </function>
   <comment>
    Correct !
@@ -3546,9 +3607,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -3558,10 +3620,10 @@
 <word name="camarades">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=camarade-P
+   {1:SAC:=camarade-P
   </function>
   <comment>
    {1:SAC:=camarade-PL
@@ -3613,10 +3675,10 @@
  </answer>
  <answer id="5">
   <score>
-   camarades*#Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom
+   0
   </score>
   <function>
-   rades*
+   camarades*
   </function>
   <comment>
    Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom ?
@@ -3624,10 +3686,10 @@
  </answer>
  <answer id="6">
   <score>
-   camarades#Donnez la forme de citation, le genre et le nombre
+   0
   </score>
   <function>
-   rades
+   camarades
   </function>
   <comment>
    Donnez la forme de citation, le genre et le nombre.
@@ -3657,9 +3719,10 @@
  </answer>
  <answer id="9">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -3669,10 +3732,10 @@
 <word name="certitude">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=certitude.F.SG
+   {2:SAC:=certitude.F.SG
   </function>
   <comment>
    Correct !
@@ -3735,9 +3798,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -3747,10 +3811,10 @@
 <word name="chante">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=chanter.SBJ.PRS.3SG
+   {1:SAC:=chanter.SBJ.PRS.3SG
   </function>
   <comment>
    Correct, bravo !
@@ -3868,10 +3932,10 @@
  </answer>
  <answer id="11">
   <score>
-   chante*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   te*
+   chante*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -3879,9 +3943,10 @@
  </answer>
  <answer id="12">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -3891,10 +3956,10 @@
 <word name="chat">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=chat.M.SG
+   {1:SAC:=chat.M.SG
   </function>
   <comment>
    Correct !
@@ -3957,9 +4022,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -3969,10 +4035,10 @@
 <word name="chat#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=chat.M.SG
+   {1:SAC:=chat.M.SG
   </function>
   <comment>
    Correct !
@@ -4035,9 +4101,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -4047,10 +4114,10 @@
 <word name="chats">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=chat.M-PL
+   {1:SAC:=chat.M-PL
   </function>
   <comment>
    C’est bien ça !
@@ -4124,10 +4191,10 @@
  </answer>
  <answer id="7">
   <score>
-   chats*#Donnez la forme de citation et les propriétés du nom
+   0
   </score>
   <function>
-   s*
+   chats*
   </function>
   <comment>
    Donnez la forme de citation et les propriétés du nom.
@@ -4135,9 +4202,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -4147,10 +4215,10 @@
 <word name="collège ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=collège.M.SG
+   {1:SAC:=collège.M.SG
   </function>
   <comment>
    Correct !
@@ -4213,9 +4281,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -4225,10 +4294,10 @@
 <word name="contrôlable ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=contrôlable.M.SG
+   {1:SAC:=contrôlable.M.SG
   </function>
   <comment>
    Bien !
@@ -4280,9 +4349,10 @@
  </answer>
  <answer id="5">
   <score>
-   ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales
+   0
   </score>
   <function>
+   ADJ
   </function>
   <comment>
    La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.
@@ -4290,9 +4360,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ce mot n’a-t-il pas un rôle de qualification ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’a-t-il pas un rôle de qualification ?}
@@ -4302,10 +4373,10 @@
 <word name="couleurs">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=couleur.F-PL
+   {1:SAC:=couleur.F-PL
   </function>
   <comment>
    C’est bien ça !
@@ -4357,10 +4428,10 @@
  </answer>
  <answer id="5">
   <score>
-   couleur*#Etes-vous sûr de ne rien oublier ? Pensez aux propriétés du nom
+   0
   </score>
   <function>
-   eur*
+   couleur*
   </function>
   <comment>
    Etes-vous sûr de ne rien oublier ? Pensez aux propriétés du nom…
@@ -4379,10 +4450,10 @@
  </answer>
  <answer id="7">
   <score>
-   couleurs*#Donnez la forme de citation et les propriétés du nom
+   0
   </score>
   <function>
-   eurs*
+   couleurs*
   </function>
   <comment>
    Donnez la forme de citation et les propriétés du nom.
@@ -4390,9 +4461,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -4402,10 +4474,10 @@
 <word name="couloirs ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=couloir.M-PL
+   {1:SAC:=couloir.M-PL
   </function>
   <comment>
    C’est bien ça !
@@ -4479,10 +4551,10 @@
  </answer>
  <answer id="7">
   <score>
-   couloirs*#Donnez la forme de citation et les propriétés du nom
+   0
   </score>
   <function>
-   oirs*
+   couloirs*
   </function>
   <comment>
    Donnez la forme de citation et les propriétés du nom.
@@ -4490,9 +4562,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -4502,10 +4575,10 @@
 <word name="couteau">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=couteau.M.SG
+   {1:SAC:=couteau.M.SG
   </function>
   <comment>
    Correct !
@@ -4568,9 +4641,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -4580,10 +4654,10 @@
 <word name="d'une ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.DE_INDEF.SG-F
+   {2:SAC:=PREP.DE_INDEF.SG-F
   </function>
   <comment>
    Très bien !
@@ -4679,10 +4753,10 @@
  </answer>
  <answer id="9">
   <score>
-   *DEF*#Un article défini
+   0
   </score>
   <function>
-   *
+   *DEF*
   </function>
   <comment>
    Un article défini ?
@@ -4690,9 +4764,10 @@
  </answer>
  <answer id="10">
   <score>
-   *#Ne serait-ce pas la préposition DE suivie du déterminant UNE ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas la préposition DE suivie du déterminant UNE ?}
@@ -4702,10 +4777,10 @@
 <word name="dans">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.DANS
+   {1:SAC:=PREP.DANS
   </function>
   <comment>
    C’est bien ça !
@@ -4724,9 +4799,10 @@
  </answer>
  <answer id="2">
   <score>
-   ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est
+   0
   </score>
   <function>
+   ADV
   </function>
   <comment>
    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
@@ -4734,9 +4810,10 @@
  </answer>
  <answer id="3">
   <score>
-   CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
@@ -4744,9 +4821,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas une préposition ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas une préposition ?}
@@ -4756,10 +4834,10 @@
 <word name="dans ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.DANS
+   {1:SAC:=PREP.DANS
   </function>
   <comment>
    C’est bien ça !
@@ -4778,9 +4856,10 @@
  </answer>
  <answer id="2">
   <score>
-   ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est
+   0
   </score>
   <function>
+   ADV
   </function>
   <comment>
    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
@@ -4788,9 +4867,10 @@
  </answer>
  <answer id="3">
   <score>
-   CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
@@ -4798,9 +4878,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas une préposition ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas une préposition ?}
@@ -4810,10 +4891,10 @@
 <word name="de">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.DE
+   {1:SAC:=PREP.DE
   </function>
   <comment>
    C’est bien ça !
@@ -4832,9 +4913,10 @@
  </answer>
  <answer id="2">
   <score>
-   ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est
+   0
   </score>
   <function>
+   ADV
   </function>
   <comment>
    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
@@ -4842,9 +4924,10 @@
  </answer>
  <answer id="3">
   <score>
-   CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
@@ -4852,9 +4935,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas une préposition ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas une préposition ?}
@@ -4864,10 +4948,10 @@
 <word name="de la">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PART-F.S
+   {2:SAC:=PART-F.S
   </function>
   <comment>
    {2:SAC:=PART-F.SG
@@ -4908,10 +4992,10 @@
  </answer>
  <answer id="4">
   <score>
-   PREP.DE_DET-F.SG#Hum…on donne qqch, non
+   0
   </score>
   <function>
-   .DE_DET-F.SG
+   PREP.DE_DET-F.SG
   </function>
   <comment>
    Hum…on donne qqch, non ?
@@ -4919,9 +5003,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Hum…on donne qqch, non ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Hum…on donne qqch, non ?}
@@ -4931,10 +5016,10 @@
 <word name="de#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.DE
+   {1:SAC:=PREP.DE
   </function>
   <comment>
    C’est bien ça !
@@ -4953,9 +5038,10 @@
  </answer>
  <answer id="2">
   <score>
-   ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est
+   0
   </score>
   <function>
+   ADV
   </function>
   <comment>
    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
@@ -4963,9 +5049,10 @@
  </answer>
  <answer id="3">
   <score>
-   CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
@@ -4973,9 +5060,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas une préposition ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas une préposition ?}
@@ -4985,10 +5073,10 @@
 <word name="des">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.DE_DET.P
+   {2:SAC:=PREP.DE_DET.P
   </function>
   <comment>
    {2:SAC:=PREP.DE_DET.PL
@@ -5018,10 +5106,10 @@
  </answer>
  <answer id="3">
   <score>
-   INDEF.PL#On discute qqch ou bien on discute de qqch
+   0
   </score>
   <function>
-   F.PL
+   INDEF.PL
   </function>
   <comment>
    On discute qqch ou bien on discute de qqch ?
@@ -5029,10 +5117,10 @@
  </answer>
  <answer id="4">
   <score>
-   INDEF-PL# On discute qqch ou bien on discute de qqch
+   0
   </score>
   <function>
-   F-PL
+   INDEF-PL
   </function>
   <comment>
    On discute qqch ou bien on discute de qqch ?
@@ -5040,10 +5128,10 @@
  </answer>
  <answer id="5">
   <score>
-   *DEF*#Un article défini
+   0
   </score>
   <function>
-   *
+   *DEF*
   </function>
   <comment>
    Un article défini ?
@@ -5051,9 +5139,10 @@
  </answer>
  <answer id="6">
   <score>
-   *F*#Le genre est-il marqué
+   0
   </score>
   <function>
+   *F*
   </function>
   <comment>
    Le genre est-il marqué ?
@@ -5061,9 +5150,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ne serait-ce pas une forme contractée de la préposition de et du déterminant les ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas une forme contractée de la préposition de et du déterminant les ?}
@@ -5073,10 +5163,10 @@
 <word name="des#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.DE_DET.P
+   {2:SAC:=PREP.DE_DET.P
   </function>
   <comment>
    {2:SAC:=PREP.DE_DET.PL
@@ -5106,10 +5196,10 @@
  </answer>
  <answer id="3">
   <score>
-   INDEF.PL#On discute qqch ou bien on discute de qqch
+   0
   </score>
   <function>
-   F.PL
+   INDEF.PL
   </function>
   <comment>
    On discute qqch ou bien on discute de qqch ?
@@ -5117,10 +5207,10 @@
  </answer>
  <answer id="4">
   <score>
-   INDEF-PL# On discute qqch ou bien on discute de qqch
+   0
   </score>
   <function>
-   F-PL
+   INDEF-PL
   </function>
   <comment>
    On discute qqch ou bien on discute de qqch ?
@@ -5128,10 +5218,10 @@
  </answer>
  <answer id="5">
   <score>
-   *DEF*#Un article défini
+   0
   </score>
   <function>
-   *
+   *DEF*
   </function>
   <comment>
    Un article défini ?
@@ -5139,9 +5229,10 @@
  </answer>
  <answer id="6">
   <score>
-   *F*#Le genre est-il marqué
+   0
   </score>
   <function>
+   *F*
   </function>
   <comment>
    Le genre est-il marqué ?
@@ -5149,9 +5240,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ne serait-ce pas une forme contractée de la préposition de et du déterminant les ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas une forme contractée de la préposition de et du déterminant les ?}
@@ -5161,10 +5253,10 @@
 <word name="difficilement ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=difficilement
+   {1:SAC:=difficilement
   </function>
   <comment>
    Bien !
@@ -5172,9 +5264,10 @@
  </answer>
  <answer id="1">
   <score>
-   ADV#Donnez simplement le lexème
+   0
   </score>
   <function>
+   ADV
   </function>
   <comment>
    Donnez simplement le lexème.
@@ -5182,9 +5275,10 @@
  </answer>
  <answer id="2">
   <score>
-   *#Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…}
@@ -5194,10 +5288,10 @@
 <word name="discutaient">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=discuter-IND.IMPF-3PL
+   {1:SAC:=discuter-IND.IMPF-3PL
   </function>
   <comment>
    Bien !
@@ -5205,10 +5299,10 @@
  </answer>
  <answer id="1">
   <score>
-   =discuter.IND-IMPF-3PL#Pourquoi pas -IND.IMPF-3PL
+   0
   </score>
   <function>
-   cuter.IND-IMPF-3PL
+   =discuter.IND-IMPF-3PL
   </function>
   <comment>
    Pourquoi pas -IND.IMPF-3PL ?
@@ -5304,10 +5398,10 @@
  </answer>
  <answer id="10">
   <score>
-   discutaient*#Donnez la forme de citation et pensez au mode, au temps et à la personne
+   0
   </score>
   <function>
-   utaient*
+   discutaient*
   </function>
   <comment>
    Donnez la forme de citation et pensez au mode, au temps et à la personne…
@@ -5315,9 +5409,10 @@
  </answer>
  <answer id="11">
   <score>
-   * #Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -5327,10 +5422,10 @@
 <word name="donne">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:= donner.IND.PRS.3SG
+   {1:SAC:= donner.IND.PRS.3SG
   </function>
   <comment>
    Bien !
@@ -5437,10 +5532,10 @@
  </answer>
  <answer id="10">
   <score>
-   donne*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   e*
+   donne*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -5448,9 +5543,10 @@
  </answer>
  <answer id="11">
   <score>
-   *# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -5460,10 +5556,10 @@
 <word name="dont">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=REL.GEN[chat]
+   {1:SAC:=REL.GEN[chat]
   </function>
   <comment>
    Bravo !
@@ -5548,9 +5644,10 @@
  </answer>
  <answer id="8">
   <score>
-   CONJ#Ne serait-ce pas plutôt un pronom
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    Ne serait-ce pas plutôt un pronom ?
@@ -5558,9 +5655,10 @@
  </answer>
  <answer id="9">
   <score>
-   *#Ce mot n’introduit-il pas une proposition subordonnée relative ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’introduit-il pas une proposition subordonnée relative ?}
@@ -5570,10 +5668,10 @@
 <word name="dramaturge ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=dramaturge.F.SG
+   {1:SAC:=dramaturge.F.SG
   </function>
   <comment>
    Correct !
@@ -5636,9 +5734,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -5648,10 +5747,10 @@
 <word name="du">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PART-M.S
+   {1:SAC:=PART-M.S
   </function>
   <comment>
    {1:SAC:=PART-M.SG
@@ -5692,10 +5791,10 @@
  </answer>
  <answer id="4">
   <score>
-   PREP.DE_DET-M.SG#Hum…y a-t-il une préposition ici
+   0
   </score>
   <function>
-   .DE_DET-M.SG
+   PREP.DE_DET-M.SG
   </function>
   <comment>
    Hum…y a-t-il une préposition ici ?
@@ -5703,10 +5802,10 @@
  </answer>
  <answer id="5">
   <score>
-   PREP*#Hum… y a-t-il une préposition ici ?}
+   0
   </score>
   <function>
-   *
+   PREP*
   </function>
   <comment>
    Hum… y a-t-il une préposition ici ?}
@@ -5716,10 +5815,10 @@
 <word name="du ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.DE_DEF-M.SG
+   {2:SAC:=PREP.DE_DEF-M.SG
   </function>
   <comment>
    Bien !
@@ -5793,10 +5892,10 @@
  </answer>
  <answer id="7">
   <score>
-   PART*#Dans ce cas, n’y a-t-il pas une préposition
+   0
   </score>
   <function>
-   *
+   PART*
   </function>
   <comment>
    Dans ce cas, n’y a-t-il pas une préposition ?
@@ -5804,9 +5903,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas la forme contractée d’une préposition et d’un déterminant ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas la forme contractée d’une préposition et d’un déterminant ?}
@@ -5816,10 +5916,10 @@
 <word name="du #">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.DE_DEF-M.SG
+   {2:SAC:=PREP.DE_DEF-M.SG
   </function>
   <comment>
    Bien !
@@ -5893,10 +5993,10 @@
  </answer>
  <answer id="7">
   <score>
-   PART*#Dans ce cas, n’y a-t-il pas une préposition
+   0
   </score>
   <function>
-   *
+   PART*
   </function>
   <comment>
    Dans ce cas, n’y a-t-il pas une préposition ?
@@ -5904,9 +6004,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas la forme contractée d’une préposition et d’un déterminant ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas la forme contractée d’une préposition et d’un déterminant ?}
@@ -5916,10 +6017,10 @@
 <word name="du#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PART-M.S
+   {1:SAC:=PART-M.S
   </function>
   <comment>
    {1:SAC:=PART-M.SG
@@ -5960,10 +6061,10 @@
  </answer>
  <answer id="4">
   <score>
-   PREP.DE_DET-M.SG#Hum…y a-t-il une préposition ici
+   0
   </score>
   <function>
-   .DE_DET-M.SG
+   PREP.DE_DET-M.SG
   </function>
   <comment>
    Hum…y a-t-il une préposition ici ?
@@ -5971,10 +6072,10 @@
  </answer>
  <answer id="5">
   <score>
-   PREP*#Hum… y a-t-il une préposition ici ?}
+   0
   </score>
   <function>
-   *
+   PREP*
   </function>
   <comment>
    Hum… y a-t-il une préposition ici ?}
@@ -5984,10 +6085,10 @@
 <word name="duquel">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=REL.M.SG[homme]
+   {2:SAC:=REL.M.SG[homme]
   </function>
   <comment>
    Bravo !
@@ -5995,10 +6096,10 @@
  </answer>
  <answer id="1">
   <score>
-   =REL.COMP.M.SG[homme]#TB. Dans ce cas, on préfère ne pas noter la fonction du relatif..
+   0
   </score>
   <function>
-   .COMP.M.SG[homme]
+   =REL.COMP.M.SG[homme]
   </function>
   <comment>
    TB. Dans ce cas, on préfère ne pas noter la fonction du relatif...
@@ -6105,9 +6206,10 @@
  </answer>
  <answer id="11">
   <score>
-   CONJ#Ne serait-ce pas plutôt un pronom
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    Ne serait-ce pas plutôt un pronom ?
@@ -6115,9 +6217,10 @@
  </answer>
  <answer id="12">
   <score>
-   *#Ce mot n’introduit-il pas une proposition subordonnée relative ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’introduit-il pas une proposition subordonnée relative ?}
@@ -6127,10 +6230,10 @@
 <word name="en">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.EN
+   {1:SAC:=PREP.EN
   </function>
   <comment>
    Bien !
@@ -6149,9 +6252,10 @@
  </answer>
  <answer id="2">
   <score>
-   ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est
+   0
   </score>
   <function>
+   ADV
   </function>
   <comment>
    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est …
@@ -6159,9 +6263,10 @@
  </answer>
  <answer id="3">
   <score>
-   *#N’est-ce pas une préposition ? Ce mot sert ici à former un gérondif…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas une préposition ? Ce mot sert ici à former un gérondif…}
@@ -6171,10 +6276,10 @@
 <word name="enfants">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=enfant-P
+   {1:SAC:=enfant-P
   </function>
   <comment>
    {1:SAC:=enfant-PL
@@ -6226,10 +6331,10 @@
  </answer>
  <answer id="5">
   <score>
-   enfants*#Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom
+   0
   </score>
   <function>
-   nts*
+   enfants*
   </function>
   <comment>
    Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom ?
@@ -6259,9 +6364,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -6271,10 +6377,10 @@
 <word name="enfants ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=enfant-P
+   {1:SAC:=enfant-P
   </function>
   <comment>
    {1:SAC:=enfant-PL
@@ -6326,10 +6432,10 @@
  </answer>
  <answer id="5">
   <score>
-   enfants*#Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom
+   0
   </score>
   <function>
-   nts*
+   enfants*
   </function>
   <comment>
    Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom ?
@@ -6359,9 +6465,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -6371,10 +6478,10 @@
 <word name="est">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=être.IND.PRS.3SG
+   {1:SAC:=être.IND.PRS.3SG
   </function>
   <comment>
    Correct !
@@ -6437,9 +6544,10 @@
  </answer>
  <answer id="6">
   <score>
-   est*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
+   est*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -6447,9 +6555,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -6459,10 +6568,10 @@
 <word name="est ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=être.IND.PRS.3SG
+   {1:SAC:=être.IND.PRS.3SG
   </function>
   <comment>
    Correct !
@@ -6525,9 +6634,10 @@
  </answer>
  <answer id="6">
   <score>
-   est*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
+   est*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -6535,9 +6645,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -6547,10 +6658,10 @@
 <word name="est #">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=être.IND.PRS.3SG
+   {1:SAC:=être.IND.PRS.3SG
   </function>
   <comment>
    Correct !
@@ -6613,9 +6724,10 @@
  </answer>
  <answer id="6">
   <score>
-   est*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
+   est*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -6623,9 +6735,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -6635,10 +6748,10 @@
 <word name="est#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=être.IND.PRS.3SG
+   {1:SAC:=être.IND.PRS.3SG
   </function>
   <comment>
    Correct !
@@ -6701,9 +6814,10 @@
  </answer>
  <answer id="6">
   <score>
-   est*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
+   est*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -6711,9 +6825,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -6723,10 +6838,10 @@
 <word name="et">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=COORD.ET
+   {1:SAC:=COORD.ET
   </function>
   <comment>
    Bien !
@@ -6767,9 +6882,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}
@@ -6779,10 +6895,10 @@
 <word name="fille">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=fille.F.SG
+   {1:SAC:=fille.F.SG
   </function>
   <comment>
    Correct !
@@ -6845,10 +6961,10 @@
  </answer>
  <answer id="6">
   <score>
-   fils*#Vous chercheriez fille dans le dictionnaire à fils
+   0
   </score>
   <function>
-   *
+   fils*
   </function>
   <comment>
    Vous chercheriez fille dans le dictionnaire à fils ?
@@ -6856,9 +6972,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -6868,10 +6985,10 @@
 <word name="fils">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=fils.M.PL
+   {1:SAC:=fils.M.PL
   </function>
   <comment>
    Correct !
@@ -6923,9 +7040,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -6935,10 +7053,10 @@
 <word name="fière">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=fier-F.SG
+   {1:SAC:=fier-F.SG
   </function>
   <comment>
    Bien !
@@ -6990,10 +7108,10 @@
  </answer>
  <answer id="5">
   <score>
-   fière*#Donnez la forme de citation. Pour les adjectifs en français, il s'agit du masculin singulier... Et quel genre, quel nombre
+   0
   </score>
   <function>
-   e*
+   fière*
   </function>
   <comment>
    Donnez la forme de citation. Pour les adjectifs en français, il s'agit du masculin singulier... Et quel genre, quel nombre ?
@@ -7023,9 +7141,10 @@
  </answer>
  <answer id="8">
   <score>
-   ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales
+   0
   </score>
   <function>
+   ADJ
   </function>
   <comment>
    La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.
@@ -7033,9 +7152,10 @@
  </answer>
  <answer id="9">
   <score>
-   *# Ce mot n’a-t-il pas un rôle de qualification ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’a-t-il pas un rôle de qualification ?}
@@ -7045,10 +7165,10 @@
 <word name="frère">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=frère.M.SG
+   {1:SAC:=frère.M.SG
   </function>
   <comment>
    Correct !
@@ -7111,9 +7231,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -7123,10 +7244,10 @@
 <word name="grand">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=grand.M.SG
+   {1:SAC:=grand.M.SG
   </function>
   <comment>
    Bien !
@@ -7189,9 +7310,10 @@
  </answer>
  <answer id="6">
   <score>
-   ADJ*#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales
+   0
   </score>
   <function>
+   ADJ*
   </function>
   <comment>
    La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.
@@ -7199,9 +7321,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ce mot n’a-t-il pas un rôle de qualification ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’a-t-il pas un rôle de qualification ?}
@@ -7211,10 +7334,10 @@
 <word name="grande ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=grand-F.SG
+   {1:SAC:=grand-F.SG
   </function>
   <comment>
    Bien !
@@ -7266,10 +7389,10 @@
  </answer>
  <answer id="5">
   <score>
-   grande*#Donnez la forme de citation. Et quel genre, quel nombre
+   0
   </score>
   <function>
-   de*
+   grande*
   </function>
   <comment>
    Donnez la forme de citation. Et quel genre, quel nombre ?
@@ -7299,9 +7422,10 @@
  </answer>
  <answer id="8">
   <score>
-   ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales
+   0
   </score>
   <function>
+   ADJ
   </function>
   <comment>
    La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.
@@ -7309,9 +7433,10 @@
  </answer>
  <answer id="9">
   <score>
-   *#Ce mot n’a-t-il pas un rôle de qualification ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’a-t-il pas un rôle de qualification ?}
@@ -7321,10 +7446,10 @@
 <word name="gâteau">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=gâteau.M.SG
+   {1:SAC:=gâteau.M.SG
   </function>
   <comment>
    Correct !
@@ -7387,9 +7512,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -7399,10 +7525,10 @@
 <word name="homme">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=homme.M.SG
+   {1:SAC:=homme.M.SG
   </function>
   <comment>
    Correct !
@@ -7465,9 +7591,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -7477,10 +7604,10 @@
 <word name="honnête">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=honnête.M.SG
+   {1:SAC:=honnête.M.SG
   </function>
   <comment>
    Bien !
@@ -7543,9 +7670,10 @@
  </answer>
  <answer id="6">
   <score>
-   ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales
+   0
   </score>
   <function>
+   ADJ
   </function>
   <comment>
    La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.
@@ -7553,9 +7681,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ce mot n’a-t-il pas un rôle de qualification ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’a-t-il pas un rôle de qualification ?}
@@ -7565,10 +7694,10 @@
 <word name="ils détestent ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PRO.3PL.SUJ_détester.IND.PRS-3PL
+   {2:SAC:=PRO.3PL.SUJ_détester.IND.PRS-3PL
   </function>
   <comment>
    Très bien !
@@ -7675,10 +7804,10 @@
  </answer>
  <answer id="10">
   <score>
-   ils détestent#Traitez les deux parties, ILS et DETESTENT en les séparant par un tiret du 8
+   0
   </score>
   <function>
-   détestent
+   ils détestent
   </function>
   <comment>
    Traitez les deux parties, ILS et DETESTENT en les séparant par un tiret du 8.
@@ -7686,9 +7815,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe détester ? Séparez les deux parties par un tiret du 8…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe détester ? Séparez les deux parties par un tiret du 8…}
@@ -7698,10 +7828,10 @@
 <word name="inonde">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=inonder.IND.PRS.3SG
+   {1:SAC:=inonder.IND.PRS.3SG
   </function>
   <comment>
    Correct !
@@ -7797,10 +7927,10 @@
  </answer>
  <answer id="9">
   <score>
-   inonde*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   de*
+   inonde*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -7808,9 +7938,10 @@
  </answer>
  <answer id="10">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -7820,10 +7951,10 @@
 <word name="je discute">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PRO.1SG.SUJ_discuter.IND.PRS.1SG
+   {1:SAC:=PRO.1SG.SUJ_discuter.IND.PRS.1SG
   </function>
   <comment>
    Très bien !
@@ -7919,10 +8050,10 @@
  </answer>
  <answer id="9">
   <score>
-   je discute#Traitez les deux parties, JE et DISCUTE en les séparant par un tiret du 8
+   0
   </score>
   <function>
-   iscute
+   je discute
   </function>
   <comment>
    Traitez les deux parties, JE et DISCUTE en les séparant par un tiret du 8.
@@ -7930,9 +8061,10 @@
  </answer>
  <answer id="10">
   <score>
-   *#Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe discuter ? Séparez les deux parties par un tiret du 8…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe discuter ? Séparez les deux parties par un tiret du 8…}
@@ -7942,10 +8074,10 @@
 <word name="je lui parle">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PRO.1SG.SUJ_PRO.3SG.DAT_parler.IND.PRS.1SG
+   {3:SAC:=PRO.1SG.SUJ_PRO.3SG.DAT_parler.IND.PRS.1SG
   </function>
   <comment>
    Correct, bravo !
@@ -8085,10 +8217,10 @@
  </answer>
  <answer id="13">
   <score>
-   je lui parle#Traitez les trois parties, JE, LUI, et PARLE, en les séparant par un tiret du 8
+   0
   </score>
   <function>
-   ui parle
+   je lui parle
   </function>
   <comment>
    Traitez les trois parties, JE, LUI, et PARLE, en les séparant par un tiret du 8.
@@ -8107,9 +8239,10 @@
  </answer>
  <answer id="15">
   <score>
-   *#Ne serait-ce pas un pronom personnel sujet suivi d’un pronom personnel datif, suivi du verbe parler ? Séparez les trois parties par un tiret du 8…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un pronom personnel sujet suivi d’un pronom personnel datif, suivi du verbe parler ? Séparez les trois parties par un tiret du 8…}
@@ -8119,10 +8252,10 @@
 <word name="jouer">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=jouer-INF
+   {1:SAC:=jouer-INF
   </function>
   <comment>
    Bien !
@@ -8163,9 +8296,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
@@ -8175,10 +8309,10 @@
 <word name="la">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-F.SG
+   {1:SAC:=DEF-F.SG
   </function>
   <comment>
    Correct, bien !
@@ -8230,9 +8364,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou indéfini ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou indéfini ?}
@@ -8242,10 +8377,10 @@
 <word name="la#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-F.SG
+   {1:SAC:=DEF-F.SG
   </function>
   <comment>
    Correct, bien !
@@ -8297,9 +8432,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou indéfini ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou indéfini ?}
@@ -8309,10 +8445,10 @@
 <word name="lait ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=lait.M.SG
+   {1:SAC:=lait.M.SG
   </function>
   <comment>
    Correct !
@@ -8375,9 +8511,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -8387,10 +8524,10 @@
 <word name="le ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-M.SG
+   {1:SAC:=DEF-M.SG
   </function>
   <comment>
    Correct, bien !
@@ -8442,9 +8579,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
@@ -8454,10 +8592,10 @@
 <word name="lequel">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=REL.M.SG[couteau]
+   {1:SAC:=REL.M.SG[couteau]
   </function>
   <comment>
    Bravo !
@@ -8553,9 +8691,10 @@
  </answer>
  <answer id="9">
   <score>
-   CONJ#Ne serait-ce pas plutôt un pronom
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    Ne serait-ce pas plutôt un pronom ?
@@ -8563,9 +8702,10 @@
  </answer>
  <answer id="10">
   <score>
-   *#Ce mot n’introduit-il pas une proposition subordonnée relative ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’introduit-il pas une proposition subordonnée relative ?}
@@ -8575,10 +8715,10 @@
 <word name="les">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-PL
+   {1:SAC:=DEF-PL
   </function>
   <comment>
    Bien !
@@ -8685,9 +8825,10 @@
  </answer>
  <answer id="10">
   <score>
-   *M*#Le genre est-il connu
+   0
   </score>
   <function>
+   *M*
   </function>
   <comment>
    Le genre est-il connu?
@@ -8695,9 +8836,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
@@ -8707,10 +8849,10 @@
 <word name="les ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-PL
+   {1:SAC:=DEF-PL
   </function>
   <comment>
    Bien !
@@ -8817,9 +8959,10 @@
  </answer>
  <answer id="10">
   <score>
-   *M*#Le genre est-il connu
+   0
   </score>
   <function>
+   *M*
   </function>
   <comment>
    Le genre est-il connu?
@@ -8827,9 +8970,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
@@ -8839,10 +8983,10 @@
 <word name="les#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=DEF-PL
+   {1:SAC:=DEF-PL
   </function>
   <comment>
    Bien !
@@ -8949,9 +9093,10 @@
  </answer>
  <answer id="10">
   <score>
-   *M*#Le genre est-il connu
+   0
   </score>
   <function>
+   *M*
   </function>
   <comment>
    Le genre est-il connu?
@@ -8959,9 +9104,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
@@ -8971,10 +9117,10 @@
 <word name="leur">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=POSS.3PL.SG
+   {2:SAC:=POSS.3PL.SG
   </function>
   <comment>
    Correct, bravo !
@@ -9081,9 +9227,10 @@
  </answer>
  <answer id="10">
   <score>
-   *M*#Le genre est-il marqué
+   0
   </score>
   <function>
+   *M*
   </function>
   <comment>
    Le genre est-il marqué ?
@@ -9091,9 +9238,10 @@
  </answer>
  <answer id="11">
   <score>
-   *# Ce petit mot n’établit-il pas une relation de possession ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce petit mot n’établit-il pas une relation de possession ?}
@@ -9103,10 +9251,10 @@
 <word name="lire ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=lire.INF
+   {1:SAC:=lire.INF
   </function>
   <comment>
    Bien !Sachez que l'on accepte aussi -INF si l'on considère qu'un r phonologique est une marque de l'infinitif.
@@ -9114,10 +9262,10 @@
  </answer>
  <answer id="1">
   <score>
-   =lire-INF#Bien ! Sachez que l'on accepte aussi .INF si l'on considère qu'il n'y a pas de marque d'infinitif aussi explicite que dans les verbes du premier groupe, par exemple
+   0
   </score>
   <function>
-   e-INF
+   =lire-INF
   </function>
   <comment>
    Bien ! Sachez que l'on accepte aussi .INF si l'on considère qu'il n'y a pas de marque d'infinitif aussi explicite que dans les verbes du premier groupe, par exemple.
@@ -9147,9 +9295,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
@@ -9159,10 +9308,10 @@
 <word name="mais ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=COORD.MAIS
+   {1:SAC:=COORD.MAIS
   </function>
   <comment>
    Bien !
@@ -9203,9 +9352,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}
@@ -9215,10 +9365,10 @@
 <word name="mange">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:= manger.IND.PRS.3SG
+   {1:SAC:= manger.IND.PRS.3SG
   </function>
   <comment>
    Bien !
@@ -9314,10 +9464,10 @@
  </answer>
  <answer id="9">
   <score>
-   mange#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   e
+   mange
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -9325,9 +9475,10 @@
  </answer>
  <answer id="10">
   <score>
-   *# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -9337,10 +9488,10 @@
 <word name="mange#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:= manger.IND.PRS.3SG
+   {1:SAC:= manger.IND.PRS.3SG
   </function>
   <comment>
    Bien !
@@ -9436,10 +9587,10 @@
  </answer>
  <answer id="9">
   <score>
-   mange#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   e
+   mange
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -9447,9 +9598,10 @@
  </answer>
  <answer id="10">
   <score>
-   *# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -9459,10 +9611,10 @@
 <word name="mangent">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=manger.IND.PRS-3PL
+   {1:SAC:=manger.IND.PRS-3PL
   </function>
   <comment>
    Bien !
@@ -9547,10 +9699,10 @@
  </answer>
  <answer id="8">
   <score>
-   mangent*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   ent*
+   mangent*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -9558,9 +9710,10 @@
  </answer>
  <answer id="9">
   <score>
-   *# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -9570,10 +9723,10 @@
 <word name="marché">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=marché.M.SG
+   {1:SAC:=marché.M.SG
   </function>
   <comment>
    Correct !
@@ -9636,9 +9789,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -9648,10 +9802,10 @@
 <word name="me réjouit">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PRO.1SG.ACC_réjouir.IND.PRS-3SG
+   {2:SAC:=PRO.1SG.ACC_réjouir.IND.PRS-3SG
   </function>
   <comment>
    Très bien !
@@ -9802,10 +9956,10 @@
  </answer>
  <answer id="14">
   <score>
-   me réjouit#Traitez les deux parties, ME et REJOUIT en les séparant par un tiret du 8
+   0
   </score>
   <function>
-   éjouit
+   me réjouit
   </function>
   <comment>
    Traitez les deux parties, ME et REJOUIT en les séparant par un tiret du 8.
@@ -9824,9 +9978,10 @@
  </answer>
  <answer id="16">
   <score>
-   *#Ne serait-ce pas un pronom personnel accusatif (clitique) suivi du verbe réjouir ? Séparez les deux parties par un tiret du 8…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un pronom personnel accusatif (clitique) suivi du verbe réjouir ? Séparez les deux parties par un tiret du 8…}
@@ -9836,10 +9991,10 @@
 <word name="meilleure">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=meilleur-F.SG
+   {1:SAC:=meilleur-F.SG
   </function>
   <comment>
    Bien !
@@ -9891,10 +10046,10 @@
  </answer>
  <answer id="5">
   <score>
-   meilleure*#Donnez la forme de citation. Et quel genre, quel nombre
+   0
   </score>
   <function>
-   leure*
+   meilleure*
   </function>
   <comment>
    Donnez la forme de citation. Et quel genre, quel nombre ?
@@ -9924,9 +10079,10 @@
  </answer>
  <answer id="8">
   <score>
-   ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales
+   0
   </score>
   <function>
+   ADJ
   </function>
   <comment>
    La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.
@@ -9934,9 +10090,10 @@
  </answer>
  <answer id="9">
   <score>
-   *#Ce mot n’a-t-il pas un rôle de qualification ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’a-t-il pas un rôle de qualification ?}
@@ -9946,10 +10103,10 @@
 <word name="moi">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PRO.1SG
+   {1:SAC:=PRO.1SG
   </function>
   <comment>
    Très bien !
@@ -9990,9 +10147,10 @@
  </answer>
  <answer id="4">
   <score>
-   moi#Donnez sa catégorie et la personne, en les séparant par un point
+   0
   </score>
   <function>
+   moi
   </function>
   <comment>
    Donnez sa catégorie et la personne, en les séparant par un point.
@@ -10000,9 +10158,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Ce mot ne remplace-t-il pas quelque chose ou plutôt quelqu’un ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne remplace-t-il pas quelque chose ou plutôt quelqu’un ?}
@@ -10012,10 +10171,10 @@
 <word name="noix">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=noix.F.PL
+   {1:SAC:=noix.F.PL
   </function>
   <comment>
    Correct !
@@ -10089,9 +10248,10 @@
  </answer>
  <answer id="7">
   <score>
-   noi#Une noi, des noix
+   0
   </score>
   <function>
+   noi
   </function>
   <comment>
    Une noi, des noix ?
@@ -10099,9 +10259,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -10111,10 +10272,10 @@
 <word name="nourriture">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=nourriture.F.SG
+   {1:SAC:=nourriture.F.SG
   </function>
   <comment>
    Correct !
@@ -10177,9 +10338,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -10189,10 +10351,10 @@
 <word name="ou ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=COORD.OU
+   {1:SAC:=COORD.OU
   </function>
   <comment>
    Bien !
@@ -10233,9 +10395,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}
@@ -10245,10 +10408,10 @@
 <word name="parlent">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=parler.IND.PRS-3PL
+   {1:SAC:=parler.IND.PRS-3PL
   </function>
   <comment>
    Bien !
@@ -10333,10 +10496,10 @@
  </answer>
  <answer id="8">
   <score>
-   parlent*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   ent*
+   parlent*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -10344,9 +10507,10 @@
  </answer>
  <answer id="9">
   <score>
-   *# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -10356,10 +10520,10 @@
 <word name="parlent#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=parler.IND.PRS-3PL
+   {1:SAC:=parler.IND.PRS-3PL
   </function>
   <comment>
    Bien !
@@ -10444,10 +10608,10 @@
  </answer>
  <answer id="8">
   <score>
-   parlent*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   ent*
+   parlent*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -10455,9 +10619,10 @@
  </answer>
  <answer id="9">
   <score>
-   *# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -10467,10 +10632,10 @@
 <word name="parler ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=parler-INF
+   {1:SAC:=parler-INF
   </function>
   <comment>
    Bien !
@@ -10511,9 +10676,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
@@ -10523,10 +10689,10 @@
 <word name="partit">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=partir-IND.PRF-3SG
+   {2:SAC:=partir-IND.PRF-3SG
   </function>
   <comment>
    Bien !
@@ -10633,10 +10799,10 @@
  </answer>
  <answer id="10">
   <score>
-   partit*#Donnez la forme de citation et pensez au mode, au temps et à la personne
+   0
   </score>
   <function>
-   it*
+   partit*
   </function>
   <comment>
    Donnez la forme de citation et pensez au mode, au temps et à la personne…
@@ -10644,9 +10810,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit... Sachez que l’abréviation standard choisie pour le passé simple en français est PRF (parfait)…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit... Sachez que l’abréviation standard choisie pour le passé simple en français est PRF (parfait)…}
@@ -10656,10 +10823,10 @@
 <word name="passe ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=passer.IND.PRS.3SG
+   {1:SAC:=passer.IND.PRS.3SG
   </function>
   <comment>
    Correct !
@@ -10722,10 +10889,10 @@
  </answer>
  <answer id="6">
   <score>
-   passe*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   e*
+   passe*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -10733,9 +10900,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -10745,10 +10913,10 @@
 <word name="peignent">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=peindre.IND.PRS-3PL
+   {1:SAC:=peindre.IND.PRS-3PL
   </function>
   <comment>
    Correct !
@@ -10844,10 +11012,10 @@
  </answer>
  <answer id="9">
   <score>
-   peigner#Relisez la phrase, ils peignent ou ils peignent
+   0
   </score>
   <function>
-   ner
+   peigner
   </function>
   <comment>
    Relisez la phrase, ils peignent ou ils peignent ?
@@ -10855,10 +11023,10 @@
  </answer>
  <answer id="10">
   <score>
-   peignent*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   nent*
+   peignent*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -10866,9 +11034,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -10878,10 +11047,10 @@
 <word name="pendant">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.PENDANT
+   {1:SAC:=PREP.PENDANT
   </function>
   <comment>
    C’est bien ça !
@@ -10900,9 +11069,10 @@
  </answer>
  <answer id="2">
   <score>
-   ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est
+   0
   </score>
   <function>
+   ADV
   </function>
   <comment>
    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
@@ -10910,9 +11080,10 @@
  </answer>
  <answer id="3">
   <score>
-   CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
@@ -10920,9 +11091,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas une préposition ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas une préposition ?}
@@ -10932,10 +11104,10 @@
 <word name="personne">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=personne.F.SG
+   {1:SAC:=personne.F.SG
   </function>
   <comment>
    Correct !
@@ -10998,9 +11170,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -11010,10 +11183,10 @@
 <word name="petite">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=petit-F.SG
+   {1:SAC:=petit-F.SG
   </function>
   <comment>
    Bien !
@@ -11065,10 +11238,10 @@
  </answer>
  <answer id="5">
   <score>
-   petite*#Donnez la forme de citation. Et quel genre, quel nombre
+   0
   </score>
   <function>
-   te*
+   petite*
   </function>
   <comment>
    Donnez la forme de citation. Et quel genre, quel nombre ?
@@ -11098,9 +11271,10 @@
  </answer>
  <answer id="8">
   <score>
-   ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales
+   0
   </score>
   <function>
+   ADJ
   </function>
   <comment>
    La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.
@@ -11108,9 +11282,10 @@
  </answer>
  <answer id="9">
   <score>
-   *# Ce mot n’a-t-il pas un rôle de qualification ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’a-t-il pas un rôle de qualification ?}
@@ -11120,10 +11295,10 @@
 <word name="pièce ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=pièce.F.SG
+   {1:SAC:=pièce.F.SG
   </function>
   <comment>
    Correct !
@@ -11186,9 +11361,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -11198,10 +11374,10 @@
 <word name="place">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=place.F.SG
+   {1:SAC:=place.F.SG
   </function>
   <comment>
    Correct !
@@ -11264,9 +11440,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -11276,10 +11453,10 @@
 <word name="poupée">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=poupée.F.SG
+   {1:SAC:=poupée.F.SG
   </function>
   <comment>
    Correct !
@@ -11342,9 +11519,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -11354,10 +11532,10 @@
 <word name="pour">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.POUR
+   {2:SAC:=PREP.POUR
   </function>
   <comment>
    C’est bien ça !
@@ -11376,9 +11554,10 @@
  </answer>
  <answer id="2">
   <score>
-   ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est
+   0
   </score>
   <function>
+   ADV
   </function>
   <comment>
    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
@@ -11386,9 +11565,10 @@
  </answer>
  <answer id="3">
   <score>
-   CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
@@ -11396,9 +11576,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas une préposition ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas une préposition ?}
@@ -11408,10 +11589,10 @@
 <word name="pourra">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=pouvoir-IND.FUT-3SG
+   {2:SAC:=pouvoir-IND.FUT-3SG
   </function>
   <comment>
    Correct !
@@ -11518,10 +11699,10 @@
  </answer>
  <answer id="10">
   <score>
-   pourra*#Donnez la forme de citation. Et quel mode, quel temps, quelle personne
+   0
   </score>
   <function>
-   ra*
+   pourra*
   </function>
   <comment>
    Donnez la forme de citation. Et quel mode, quel temps, quelle personne ?
@@ -11529,9 +11710,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -11541,10 +11723,10 @@
 <word name="professeur">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=professeur.SG
+   {1:SAC:=professeur.SG
   </function>
   <comment>
    C’est bien ça !
@@ -11629,9 +11811,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -11641,10 +11824,10 @@
 <word name="puisse">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=pouvoir.SBJ.PRS.3SG
+   {2:SAC:=pouvoir.SBJ.PRS.3SG
   </function>
   <comment>
    Correct, bravo !
@@ -11784,10 +11967,10 @@
  </answer>
  <answer id="13">
   <score>
-   puisse*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   se*
+   puisse*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -11795,9 +11978,10 @@
  </answer>
  <answer id="14">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -11807,10 +11991,10 @@
 <word name="que">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=CONJ.QUE
+   {1:SAC:=CONJ.QUE
   </function>
   <comment>
    Bien !
@@ -11840,9 +12024,10 @@
  </answer>
  <answer id="3">
   <score>
-   REL*#Un pronom relatif ? Ne serait-ce pas plutôt une conjonction de subordination introduisant une complétive
+   0
   </score>
   <function>
+   REL*
   </function>
   <comment>
    Un pronom relatif ? Ne serait-ce pas plutôt une conjonction de subordination introduisant une complétive ?
@@ -11850,9 +12035,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}
@@ -11862,10 +12048,10 @@
 <word name="que ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=REL.ACC[pièce]
+   {2:SAC:=REL.ACC[pièce]
   </function>
   <comment>
    Bravo !
@@ -11917,9 +12103,10 @@
  </answer>
  <answer id="5">
   <score>
-   CONJ#Ne serait-ce pas plutôt un pronom ? Et quel type de pronom
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    Ne serait-ce pas plutôt un pronom ? Et quel type de pronom ?
@@ -11927,9 +12114,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ce mot n’introduit-il pas une proposition subordonnée ? Une relative ou bien une complétive ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’introduit-il pas une proposition subordonnée ? Une relative ou bien une complétive ?}
@@ -11939,10 +12127,10 @@
 <word name="que#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=CONJ.QUE
+   {1:SAC:=CONJ.QUE
   </function>
   <comment>
    Bien !
@@ -11972,9 +12160,10 @@
  </answer>
  <answer id="3">
   <score>
-   REL*#Un pronom relatif ? Ne serait-ce pas plutôt une conjonction de subordination introduisant une complétive
+   0
   </score>
   <function>
+   REL*
   </function>
   <comment>
    Un pronom relatif ? Ne serait-ce pas plutôt une conjonction de subordination introduisant une complétive ?
@@ -11982,9 +12171,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}
@@ -11994,10 +12184,10 @@
 <word name="qui">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=REL[personne]
+   {1:SAC:=REL[personne]
   </function>
   <comment>
    Bravo !
@@ -12049,9 +12239,10 @@
  </answer>
  <answer id="5">
   <score>
-   CONJ#Ne serait-ce pas plutôt un pronom
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    Ne serait-ce pas plutôt un pronom ?
@@ -12059,9 +12250,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ce mot n’introduit-il pas une proposition subordonnée relative ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’introduit-il pas une proposition subordonnée relative ?}
@@ -12071,10 +12263,10 @@
 <word name="qui ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=REL.SUJ[temps]
+   {2:SAC:=REL.SUJ[temps]
   </function>
   <comment>
    Bravo !
@@ -12126,9 +12318,10 @@
  </answer>
  <answer id="5">
   <score>
-   CONJ#Ne serait-ce pas plutôt un pronom
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    Ne serait-ce pas plutôt un pronom ?
@@ -12136,9 +12329,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ce mot n’introduit-il pas une proposition subordonnée relative ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’introduit-il pas une proposition subordonnée relative ?}
@@ -12148,10 +12342,10 @@
 <word name="sa">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=POSS.3SG-F.SG
+   {2:SAC:=POSS.3SG-F.SG
   </function>
   <comment>
    Correct, bravo !
@@ -12269,9 +12463,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ce petit mot n’établit-il pas une relation de possession ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce petit mot n’établit-il pas une relation de possession ?}
@@ -12281,10 +12476,10 @@
 <word name="scolaires">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=scolaire.F-PL
+   {1:SAC:=scolaire.F-PL
   </function>
   <comment>
    C’est bien ça !
@@ -12325,10 +12520,10 @@
  </answer>
  <answer id="4">
   <score>
-   scolaires*#Donnez la forme de citation. Et quel genre, quel nombre
+   0
   </score>
   <function>
-   aires*
+   scolaires*
   </function>
   <comment>
    Donnez la forme de citation. Et quel genre, quel nombre ?
@@ -12358,9 +12553,10 @@
  </answer>
  <answer id="7">
   <score>
-   ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales
+   0
   </score>
   <function>
+   ADJ
   </function>
   <comment>
    La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.
@@ -12368,9 +12564,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ce mot n’a-t-il pas un rôle de qualification ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’a-t-il pas un rôle de qualification ?}
@@ -12380,10 +12577,10 @@
 <word name="se méfie">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=REFL.3SG_méfier.IND.PRS.3SG
+   {2:SAC:=REFL.3SG_méfier.IND.PRS.3SG
   </function>
   <comment>
    Très bien !
@@ -12523,10 +12720,10 @@
  </answer>
  <answer id="13">
   <score>
-   se méfie#Traitez les deux parties, SE et MEFIE en les séparant par un tiret du 8
+   0
   </score>
   <function>
-   éfie
+   se méfie
   </function>
   <comment>
    Traitez les deux parties, SE et MEFIE en les séparant par un tiret du 8.
@@ -12534,9 +12731,10 @@
  </answer>
  <answer id="14">
   <score>
-   *#Ne serait-ce pas un pronom réfléchi suivi du verbe méfier ? Séparez les deux parties par un tiret du 8…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un pronom réfléchi suivi du verbe méfier ? Séparez les deux parties par un tiret du 8…}
@@ -12546,10 +12744,10 @@
 <word name="secours">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=secours.M.PL
+   {1:SAC:=secours.M.PL
   </function>
   <comment>
    Correct !
@@ -12623,10 +12821,10 @@
  </answer>
  <answer id="7">
   <score>
-   secour#Un secour, des secours
+   0
   </score>
   <function>
-   ur
+   secour
   </function>
   <comment>
    Un secour, des secours ?
@@ -12634,9 +12832,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -12646,10 +12845,10 @@
 <word name="semble">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=sembler.IND.PRS.3SG
+   {1:SAC:=sembler.IND.PRS.3SG
   </function>
   <comment>
    Correct !
@@ -12723,10 +12922,10 @@
  </answer>
  <answer id="7">
   <score>
-   semble*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   le*
+   semble*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -12734,9 +12933,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -12746,10 +12946,10 @@
 <word name="ses">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=POSS.3SG-PL
+   {1:SAC:=POSS.3SG-PL
   </function>
   <comment>
    Correct, bravo !
@@ -12823,9 +13023,10 @@
  </answer>
  <answer id="7">
   <score>
-   *M*#Le genre est-il marqué
+   0
   </score>
   <function>
+   *M*
   </function>
   <comment>
    Le genre est-il marqué ?
@@ -12833,9 +13034,10 @@
  </answer>
  <answer id="8">
   <score>
-   *# Ce petit mot n’établit-il pas une relation de possession ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce petit mot n’établit-il pas une relation de possession ?}
@@ -12845,10 +13047,10 @@
 <word name="singes">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=singe.M-PL
+   {1:SAC:=singe.M-PL
   </function>
   <comment>
    C’est bien ça !
@@ -12922,10 +13124,10 @@
  </answer>
  <answer id="7">
   <score>
-   singes*#Donnez la forme de citation et les propriétés du nom
+   0
   </score>
   <function>
-   es*
+   singes*
   </function>
   <comment>
    Donnez la forme de citation et les propriétés du nom.
@@ -12933,9 +13135,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -12945,10 +13148,10 @@
 <word name="son">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=POSS.3SG-M.SG
+   {2:SAC:=POSS.3SG-M.SG
   </function>
   <comment>
    Correct, bravo !
@@ -13044,9 +13247,10 @@
  </answer>
  <answer id="9">
   <score>
-   POSS#Qui est le possesseur, il possède quoi
+   0
   </score>
   <function>
+   POSS
   </function>
   <comment>
    Qui est le possesseur, il possède quoi ?
@@ -13065,9 +13269,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ce petit mot n’établit-il pas une relation de possession ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce petit mot n’établit-il pas une relation de possession ?}
@@ -13077,10 +13282,10 @@
 <word name="sont">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=être.IND.PRS.3PL
+   {1:SAC:=être.IND.PRS.3PL
   </function>
   <comment>
    Correct !
@@ -13143,10 +13348,10 @@
  </answer>
  <answer id="6">
   <score>
-   sont*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   *
+   sont*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -13154,9 +13359,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -13166,10 +13372,10 @@
 <word name="souris">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=souris.F.SG
+   {1:SAC:=souris.F.SG
   </function>
   <comment>
    Correct !
@@ -13232,9 +13438,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -13244,10 +13451,10 @@
 <word name="souris#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=souris.F.SG
+   {1:SAC:=souris.F.SG
   </function>
   <comment>
    Correct !
@@ -13310,9 +13517,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -13322,10 +13530,10 @@
 <word name="sous-tasse">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=sous+tasse.F.SG
+   {1:SAC:=sous+tasse.F.SG
   </function>
   <comment>
    Correct !
@@ -13399,9 +13607,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ? Pensez que c'est un composé : la notation avec le signe +...
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ? Pensez que c'est un composé : la notation avec le signe +...}
@@ -13411,10 +13620,10 @@
 <word name="temps ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=temps.M.SG
+   {2:SAC:=temps.M.SG
   </function>
   <comment>
    Bien !
@@ -13433,9 +13642,10 @@
  </answer>
  <answer id="2">
   <score>
-   temp#Quel est le singulier de ce nom
+   0
   </score>
   <function>
+   temp
   </function>
   <comment>
    Quel est le singulier de ce nom ?
@@ -13465,9 +13675,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -13477,10 +13688,10 @@
 <word name="thé">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=thé.M.SG
+   {1:SAC:=thé.M.SG
   </function>
   <comment>
    Correct !
@@ -13543,9 +13754,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -13555,10 +13767,10 @@
 <word name="thé ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=thé.M.SG
+   {1:SAC:=thé.M.SG
   </function>
   <comment>
    Correct !
@@ -13621,9 +13833,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -13633,10 +13846,10 @@
 <word name="thé#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=thé.M.SG
+   {1:SAC:=thé.M.SG
   </function>
   <comment>
    Correct !
@@ -13699,9 +13912,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -13711,10 +13925,10 @@
 <word name="tranchant">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=tranchant.M.SG
+   {1:SAC:=tranchant.M.SG
   </function>
   <comment>
    Bien !
@@ -13777,9 +13991,10 @@
  </answer>
  <answer id="6">
   <score>
-   ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales
+   0
   </score>
   <function>
+   ADJ
   </function>
   <comment>
    La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.
@@ -13787,9 +14002,10 @@
  </answer>
  <answer id="7">
   <score>
-   *#Ce mot n’a-t-il pas un rôle de qualification ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’a-t-il pas un rôle de qualification ?}
@@ -13799,10 +14015,10 @@
 <word name="travailler">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=travailler-INF
+   {1:SAC:=travailler-INF
   </function>
   <comment>
    Bien !
@@ -13843,9 +14059,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
@@ -13855,10 +14072,10 @@
 <word name="tu coupes">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PRO.2SG.SUJ_couper.IND.PRS-2SG
+   {1:SAC:=PRO.2SG.SUJ_couper.IND.PRS-2SG
   </function>
   <comment>
    Très bien !
@@ -13987,10 +14204,10 @@
  </answer>
  <answer id="12">
   <score>
-   tu coupes#Traitez les deux parties, TU et COUPES en les séparant d’un tiret du 8
+   0
   </score>
   <function>
-   oupes
+   tu coupes
   </function>
   <comment>
    Traitez les deux parties, TU et COUPES en les séparant d’un tiret du 8.
@@ -13998,9 +14215,10 @@
  </answer>
  <answer id="13">
   <score>
-   *#Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe couper ? Séparez les deux parties par un tiret du 8…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe couper ? Séparez les deux parties par un tiret du 8…}
@@ -14010,10 +14228,10 @@
 <word name="tu réussiras">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PRO.2SG.SUJ_réussir-IND.FUT-2SG
+   {2:SAC:=PRO.2SG.SUJ_réussir-IND.FUT-2SG
   </function>
   <comment>
    Très bien !
@@ -14186,10 +14404,10 @@
  </answer>
  <answer id="16">
   <score>
-   tu réussiras#Traitez les deux parties, TU et REUSSIRAS en les séparant par un tiret du 8
+   0
   </score>
   <function>
-   éussiras
+   tu réussiras
   </function>
   <comment>
    Traitez les deux parties, TU et REUSSIRAS en les séparant par un tiret du 8.
@@ -14197,9 +14415,10 @@
  </answer>
  <answer id="17">
   <score>
-   *#Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe réussir ? Séparez les deux parties par un tiret du 8…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe réussir ? Séparez les deux parties par un tiret du 8…}
@@ -14209,10 +14428,10 @@
 <word name="un">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=INDEF.M.SG
+   {1:SAC:=INDEF.M.SG
   </function>
   <comment>
    Correct, bien !
@@ -14264,9 +14483,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
@@ -14276,10 +14496,10 @@
 <word name="une">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=INDEF.SG-F
+   {1:SAC:=INDEF.SG-F
   </function>
   <comment>
    Correct, bien !
@@ -14397,9 +14617,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
@@ -14409,10 +14630,10 @@
 <word name="une ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=INDEF.SG-F
+   {1:SAC:=INDEF.SG-F
   </function>
   <comment>
    Correct, bien !
@@ -14519,9 +14740,10 @@
  </answer>
  <answer id="10">
   <score>
-   *#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
@@ -14531,10 +14753,10 @@
 <word name="utilisant">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=utiliser-PRS_P
+   {2:SAC:=utiliser-PRS_P
   </function>
   <comment>
    Bien !
@@ -14608,10 +14830,10 @@
  </answer>
  <answer id="7">
   <score>
-   utilisant*#Donnez la forme de citation. De quelle forme verbale s'agit-il
+   0
   </score>
   <function>
-   isant*
+   utilisant*
   </function>
   <comment>
    Donnez la forme de citation. De quelle forme verbale s'agit-il ?
@@ -14619,9 +14841,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas un participe ? Présent ou passé ? Regardez le suffixe…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un participe ? Présent ou passé ? Regardez le suffixe…}
@@ -14631,10 +14854,10 @@
 <word name="vacances">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=vacances.F.P
+   {2:SAC:=vacances.F.P
   </function>
   <comment>
    {2:SAC:=vacances.F.PL
@@ -14708,10 +14931,10 @@
  </answer>
  <answer id="7">
   <score>
-   vacance*#Etes-vous sûr que le lexème concerné est vacance comme vacance de poste ? Quel genre, quel nombre
+   0
   </score>
   <function>
-   nce*
+   vacance*
   </function>
   <comment>
    Etes-vous sûr que le lexème concerné est vacance comme vacance de poste ? Quel genre, quel nombre ?
@@ -14719,9 +14942,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -14731,10 +14955,10 @@
 <word name="vacances#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=vacances.F.P
+   {2:SAC:=vacances.F.P
   </function>
   <comment>
    {2:SAC:=vacances.F.PL
@@ -14808,10 +15032,10 @@
  </answer>
  <answer id="7">
   <score>
-   vacance*#Etes-vous sûr que le lexème concerné est vacance comme vacance de poste ? Quel genre, quel nombre
+   0
   </score>
   <function>
-   nce*
+   vacance*
   </function>
   <comment>
    Etes-vous sûr que le lexème concerné est vacance comme vacance de poste ? Quel genre, quel nombre ?
@@ -14819,9 +15043,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -14831,10 +15056,10 @@
 <word name="verts">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=vert.M-PL
+   {1:SAC:=vert.M-PL
   </function>
   <comment>
    Correct, bravo !
@@ -14886,10 +15111,10 @@
  </answer>
  <answer id="5">
   <score>
-   verts#Donnez la forme de citation. Quel genre, quel nombre
+   0
   </score>
   <function>
-   s
+   verts
   </function>
   <comment>
    Donnez la forme de citation. Quel genre, quel nombre ?
@@ -14919,9 +15144,10 @@
  </answer>
  <answer id="8">
   <score>
-   ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales
+   0
   </score>
   <function>
+   ADJ
   </function>
   <comment>
    La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.
@@ -14929,9 +15155,10 @@
  </answer>
  <answer id="9">
   <score>
-   *#Ce mot n’a-t-il pas un rôle de qualification ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’a-t-il pas un rôle de qualification ?}
@@ -14941,10 +15168,10 @@
 <word name="veulent">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=vouloir.IND.PRS-3PL
+   {1:SAC:=vouloir.IND.PRS-3PL
   </function>
   <comment>
    Bien !
@@ -15029,10 +15256,10 @@
  </answer>
  <answer id="8">
   <score>
-   veulent*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   ent*
+   veulent*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -15040,9 +15267,10 @@
  </answer>
  <answer id="9">
   <score>
-   *# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -15052,10 +15280,10 @@
 <word name="veut">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=vouloir.IND.PRS-3SG
+   {1:SAC:=vouloir.IND.PRS-3SG
   </function>
   <comment>
    Bien !
@@ -15140,10 +15368,10 @@
  </answer>
  <answer id="8">
   <score>
-   veut*#Donnez la forme de citation, le mode, le temps et la personne
+   0
   </score>
   <function>
-   *
+   veut*
   </function>
   <comment>
    Donnez la forme de citation, le mode, le temps et la personne.
@@ -15151,9 +15379,10 @@
  </answer>
  <answer id="9">
   <score>
-   *# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -15163,10 +15392,10 @@
 <word name="vite ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=vite
+   {1:SAC:=vite
   </function>
   <comment>
    Correct !
@@ -15174,9 +15403,10 @@
  </answer>
  <answer id="1">
   <score>
-   ADV#Donnez simplement le lexème
+   0
   </score>
   <function>
+   ADV
   </function>
   <comment>
    Donnez simplement le lexème.
@@ -15184,9 +15414,10 @@
  </answer>
  <answer id="2">
   <score>
-   *#Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…}
@@ -15196,10 +15427,10 @@
 <word name="vives">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=vif-F-PL
+   {1:SAC:=vif-F-PL
   </function>
   <comment>
    Bien !
@@ -15229,9 +15460,10 @@
  </answer>
  <answer id="3">
   <score>
-   ADJ# La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales
+   0
   </score>
   <function>
+   ADJ
   </function>
   <comment>
    La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.
@@ -15239,10 +15471,10 @@
  </answer>
  <answer id="4">
   <score>
-   vives*#Donnez la forme de citation et les propriétés de l’adjectif
+   0
   </score>
   <function>
-   s*
+   vives*
   </function>
   <comment>
    Donnez la forme de citation et les propriétés de l’adjectif.
@@ -15283,9 +15515,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ce mot n’a-t-il pas un rôle de qualification ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot n’a-t-il pas un rôle de qualification ?}
@@ -15295,10 +15528,10 @@
 <word name="voisins">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=voisin.M-PL
+   {1:SAC:=voisin.M-PL
   </function>
   <comment>
    C’est bien ça !
@@ -15372,10 +15605,10 @@
  </answer>
  <answer id="7">
   <score>
-   voisins*#Donnez la forme de citation et les propriétés du nom
+   0
   </score>
   <function>
-   ins*
+   voisins*
   </function>
   <comment>
    Donnez la forme de citation et les propriétés du nom.
@@ -15383,9 +15616,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -15395,10 +15629,10 @@
 <word name="voisins#">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=voisin.M-PL
+   {1:SAC:=voisin.M-PL
   </function>
   <comment>
    C’est bien ça !
@@ -15472,10 +15706,10 @@
  </answer>
  <answer id="7">
   <score>
-   voisins*#Donnez la forme de citation et les propriétés du nom
+   0
   </score>
   <function>
-   ins*
+   voisins*
   </function>
   <comment>
    Donnez la forme de citation et les propriétés du nom.
@@ -15483,9 +15717,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -15495,10 +15730,10 @@
 <word name="voudrait">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=vouloir-COND.PRS-3SG
+   {1:SAC:=vouloir-COND.PRS-3SG
   </function>
   <comment>
    Correct !
@@ -15616,10 +15851,10 @@
  </answer>
  <answer id="11">
   <score>
-   voudrait*#Donnez la forme de citation. Et quel mode, quel temps, quelle personne
+   0
   </score>
   <function>
-   rait*
+   voudrait*
   </function>
   <comment>
    Donnez la forme de citation. Et quel mode, quel temps, quelle personne ?
@@ -15627,9 +15862,10 @@
  </answer>
  <answer id="12">
   <score>
-   *#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
@@ -15639,10 +15875,10 @@
 <word name="vous devez ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PRO.2PL.SUJ_devoir.IND.PRS-2PL
+   {2:SAC:=PRO.2PL.SUJ_devoir.IND.PRS-2PL
   </function>
   <comment>
    Très bien !
@@ -15749,10 +15985,10 @@
  </answer>
  <answer id="10">
   <score>
-   vous devez#Traitez les deux parties, VOUS et DEVEZ en les séparant par un tiret du 8
+   0
   </score>
   <function>
-   devez
+   vous devez
   </function>
   <comment>
    Traitez les deux parties, VOUS et DEVEZ en les séparant par un tiret du 8.
@@ -15760,9 +15996,10 @@
  </answer>
  <answer id="11">
   <score>
-   *#Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe devoir ? Séparez les deux parties par un tiret du 8…}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe devoir ? Séparez les deux parties par un tiret du 8…}
@@ -15772,10 +16009,10 @@
 <word name="vu">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=voir-PST_P
+   {1:SAC:=voir-PST_P
   </function>
   <comment>
    Bien !
@@ -15849,9 +16086,10 @@
  </answer>
  <answer id="7">
   <score>
-   vu#Donnez la forme de citation. De quelle forme verbale s’agit-il
+   0
   </score>
   <function>
+   vu
   </function>
   <comment>
    Donnez la forme de citation. De quelle forme verbale s’agit-il ?
@@ -15859,9 +16097,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas un participe ? Présent ou passé ? Regardez le suffixe…s’il y en a un…
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas un participe ? Présent ou passé ? Regardez le suffixe…s’il y en a un…}
@@ -15871,10 +16110,10 @@
 <word name="yeux">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=oeil.M.PL
+   {1:SAC:=oeil.M.PL
   </function>
   <comment>
    Correct !
@@ -15882,10 +16121,10 @@
  </answer>
  <answer id="1">
   <score>
-   =œil.M.PL#Correct
+   0
   </score>
   <function>
-   .M.PL
+   =œil.M.PL
   </function>
   <comment>
    Correct !
@@ -16036,10 +16275,10 @@
  </answer>
  <answer id="15">
   <score>
-   yeux*#Donnez la forme de citation. Quel genre, quel nombre
+   0
   </score>
   <function>
-   *
+   yeux*
   </function>
   <comment>
    Donnez la forme de citation. Quel genre, quel nombre ?
@@ -16047,9 +16286,10 @@
  </answer>
  <answer id="16">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -16059,10 +16299,10 @@
 <word name="zoo">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=zoo.M.SG
+   {1:SAC:=zoo.M.SG
   </function>
   <comment>
    Correct !
@@ -16125,9 +16365,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -16137,10 +16378,10 @@
 <word name="à">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=PREP.A
+   {1:SAC:=PREP.A
   </function>
   <comment>
    C’est bien ça !
@@ -16148,10 +16389,10 @@
  </answer>
  <answer id="1">
   <score>
-   =PREP.À#C’est bien ça
+   0
   </score>
   <function>
-   P.À
+   =PREP.À
   </function>
   <comment>
    C’est bien ça !
@@ -16170,9 +16411,10 @@
  </answer>
  <answer id="3">
   <score>
-   ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est
+   0
   </score>
   <function>
+   ADV
   </function>
   <comment>
    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
@@ -16180,9 +16422,10 @@
  </answer>
  <answer id="4">
   <score>
-   CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases
+   0
   </score>
   <function>
+   CONJ
   </function>
   <comment>
    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
@@ -16190,9 +16433,10 @@
  </answer>
  <answer id="5">
   <score>
-   *#N’est-ce pas une préposition ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas une préposition ?}
@@ -16202,10 +16446,10 @@
 <word name="élèves">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=élève-P
+   {2:SAC:=élève-P
   </function>
   <comment>
    {2:SAC:=élève-PL
@@ -16279,10 +16523,10 @@
  </answer>
  <answer id="7">
   <score>
-   élèves*#Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom
+   0
   </score>
   <function>
-   es*
+   élèves*
   </function>
   <comment>
    Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom ?
@@ -16290,9 +16534,10 @@
  </answer>
  <answer id="8">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
@@ -16302,10 +16547,10 @@
 <word name="être">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=être.INF
+   {1:SAC:=être.INF
   </function>
   <comment>
    Bien ! Sachez que l'on accepte aussi -INF si l'on considère le r phonologique comme une marque de l'infinitif.
@@ -16313,10 +16558,10 @@
  </answer>
  <answer id="1">
   <score>
-   =être-INF#Bien ! Sachez que l'on accepte aussi .INF si l'on considère qu'il n'y a pas de marque d'infinitif aussi explicite que dans les verbes du premier groupe, par exemple
+   0
   </score>
   <function>
-   e-INF
+   =être-INF
   </function>
   <comment>
    Bien ! Sachez que l'on accepte aussi .INF si l'on considère qu'il n'y a pas de marque d'infinitif aussi explicite que dans les verbes du premier groupe, par exemple.
@@ -16346,9 +16591,10 @@
  </answer>
  <answer id="4">
   <score>
-   *#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
@@ -16358,10 +16604,10 @@
 <word name="œuvre ">
  <answer id="0">
   <score>
-   100
+   0
   </score>
   <function>
-   AC:=œuvre.F.SG
+   {1:SAC:=œuvre.F.SG
   </function>
   <comment>
    Correct !
@@ -16424,9 +16670,10 @@
  </answer>
  <answer id="6">
   <score>
-   *#Ne serait-ce pas tout simplement un substantif ?}
+   0
   </score>
   <function>
+   *
   </function>
   <comment>
    Ne serait-ce pas tout simplement un substantif ?}
