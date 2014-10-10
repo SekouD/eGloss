@@ -65,7 +65,7 @@
    PART-M.S
   </function>
   <comment>
-   {1:SAC:=PART-M.SG
+   Ce mot n’a-t-il pas un rôle de qualification ?}
   </comment>
  </answer>
  <answer id="1">
@@ -3626,7 +3626,7 @@
    camarade-P
   </function>
   <comment>
-   {1:SAC:=camarade-PL
+   Ce petit mot n’établit-il pas une relation de possession ?}
   </comment>
  </answer>
  <answer id="1">
@@ -4954,7 +4954,7 @@
    PART-F.S
   </function>
   <comment>
-   {2:SAC:=PART-F.SG
+   Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
   </comment>
  </answer>
  <answer id="1">
@@ -5079,7 +5079,7 @@
    PREP.DE_DET.P
   </function>
   <comment>
-   {2:SAC:=PREP.DE_DET.PL
+   Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
   </comment>
  </answer>
  <answer id="1">
@@ -5169,7 +5169,7 @@
    PREP.DE_DET.P
   </function>
   <comment>
-   {2:SAC:=PREP.DE_DET.PL
+   Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
   </comment>
  </answer>
  <answer id="1">
@@ -5753,7 +5753,7 @@
    PART-M.S
   </function>
   <comment>
-   {1:SAC:=PART-M.SG
+   Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
   </comment>
  </answer>
  <answer id="1">
@@ -6023,7 +6023,7 @@
    PART-M.S
   </function>
   <comment>
-   {1:SAC:=PART-M.SG
+   Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
   </comment>
  </answer>
  <answer id="1">
@@ -6282,7 +6282,7 @@
    enfant-P
   </function>
   <comment>
-   {1:SAC:=enfant-PL
+   Ce petit mot n’établit-il pas une relation de possession ?}
   </comment>
  </answer>
  <answer id="1">
@@ -6383,7 +6383,7 @@
    enfant-P
   </function>
   <comment>
-   {1:SAC:=enfant-PL
+   Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
   </comment>
  </answer>
  <answer id="1">
@@ -14860,7 +14860,7 @@
    vacances.F.P
   </function>
   <comment>
-   {2:SAC:=vacances.F.PL
+   Ne serait-ce pas une forme contractée de la préposition de et du déterminant les ?}
   </comment>
  </answer>
  <answer id="1">
@@ -14961,7 +14961,7 @@
    vacances.F.P
   </function>
   <comment>
-   {2:SAC:=vacances.F.PL
+   Ne serait-ce pas une forme contractée de la préposition de et du déterminant les ?}
   </comment>
  </answer>
  <answer id="1">
@@ -16452,7 +16452,7 @@
    élève-P
   </function>
   <comment>
-   {2:SAC:=élève-PL
+   Ce petit mot n’établit-il pas une relation de possession ?}
   </comment>
  </answer>
  <answer id="1">
