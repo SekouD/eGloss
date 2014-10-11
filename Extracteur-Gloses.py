@@ -143,11 +143,13 @@ def update_glose_dict(glose_dict, zip_mot_reponse):
 def parse_questiontext_tag(html_obj):
     """
 
+
+    :rtype : object
     :param html_obj:
     """
-    liste_mot = [td.string for td in parsed_html.tbody.tr.contents]
+    liste_mot = [td.string for td in html_obj.tbody.tr.contents]
     nettoyer_liste(liste_mot)
-    liste_raw_reponses = [tr for tr in parsed_html.tbody.contents[3].contents]
+    liste_raw_reponses = [tr for tr in html_obj.tbody.contents[3].contents]
     liste_reponses = generate_liste_reponse(liste_raw_reponses)
     return zip(liste_mot, liste_reponses)
 
@@ -165,7 +167,7 @@ for question in root.findall('question'):
         else:
             raw_html = question[1][0].text
             parsed_html = BS(raw_html)
-            liste_mot_reponse = parse_questiontext_tag(raw_html)
+            liste_mot_reponse = parse_questiontext_tag(parsed_html)
             update_glose_dict(gloses, liste_mot_reponse)
 
 gloses_xml = generate_gloses_xml(gloses)
