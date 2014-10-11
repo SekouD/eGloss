@@ -161,11 +161,10 @@ gloses = {}
 for question in root.findall('question'):
     if question.attrib['type'] == 'cloze':
         if "KALABA" in question[0][0].text:
-            kabala += 1
+            pass
         else:
             raw_html = question[1][0].text
             parsed_html = BS(raw_html)
-            #counter += 1
             liste_mot_reponse = parse_questiontext_tag(raw_html)
             update_glose_dict(gloses, liste_mot_reponse)
 
