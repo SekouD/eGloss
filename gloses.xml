@@ -6,7 +6,7 @@
     100
    </score>
    <function>
-    DEM.M.SG.LIAIS
+    =DEM.M.SG.LIAIS
    </function>
    <comment>
     Très bien !
@@ -63,7 +63,7 @@
     100
    </score>
    <function>
-    PART-M.S
+    =PART-M.S
    </function>
    <comment>
     None
@@ -131,7 +131,7 @@
     100
    </score>
    <function>
-    PRO.1SG.SUJ_avoir.IND.PRS.1SG
+    =PRO.1SG.SUJ_avoir.IND.PRS.1SG
    </function>
    <comment>
     Très bien !
@@ -364,7 +364,7 @@
     100
    </score>
    <function>
-    Jean.M.SG
+    =Jean.M.SG
    </function>
    <comment>
     Correct !
@@ -454,7 +454,7 @@
     100
    </score>
    <function>
-    Julie.F.SG
+    =Julie.F.SG
    </function>
    <comment>
     Correct !
@@ -544,7 +544,7 @@
     100
    </score>
    <function>
-    Justine.F.SG
+    =Justine.F.SG
    </function>
    <comment>
     Correct !
@@ -634,7 +634,7 @@
     100
    </score>
    <function>
-    DEF-F.SG
+    =DEF-F.SG
    </function>
    <comment>
     Correct, bien !
@@ -702,7 +702,7 @@
     100
    </score>
    <function>
-    DEF-F.SG
+    =DEF-F.SG
    </function>
    <comment>
     Correct, bien !
@@ -770,7 +770,7 @@
     100
    </score>
    <function>
-    DEF-F.SG
+    =DEF-F.SG
    </function>
    <comment>
     Correct, bien !
@@ -838,7 +838,7 @@
     100
    </score>
    <function>
-    DEF-M.SG
+    =DEF-M.SG
    </function>
    <comment>
     Correct, bien !
@@ -906,7 +906,7 @@
     100
    </score>
    <function>
-    temps.M.SG
+    =temps.M.SG
    </function>
    <comment>
     Bien !
@@ -968,81 +968,13 @@
    </comment>
   </answer>
  </word>
- <word name="Le#">
-  <answer id="0">
-   <score>
-    100
-   </score>
-   <function>
-    DEF-M.SG
-   </function>
-   <comment>
-    Correct, bien !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score>
-    50
-   </score>
-   <function>
-    DET-M.SG
-   </function>
-   <comment>
-    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.
-   </comment>
-  </answer>
-  <answer id="2">
-   <score>
-    10
-   </score>
-   <function>
-    INDEF-M.SG
-   </function>
-   <comment>
-    Est-ce un indéfini ?
-   </comment>
-  </answer>
-  <answer id="3">
-   <score>
-    10
-   </score>
-   <function>
-    DEF*
-   </function>
-   <comment>
-    Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score>
-    5
-   </score>
-   <function>
-    ET*
-   </function>
-   <comment>
-    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score>
-    0
-   </score>
-   <function>
-    *
-   </function>
-   <comment>
-    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
-   </comment>
-  </answer>
- </word>
  <word name="Les">
   <answer id="0">
    <score>
     100
    </score>
    <function>
-    DEF-PL
+    =DEF-PL
    </function>
    <comment>
     Bien !
@@ -1176,7 +1108,7 @@
     100
    </score>
    <function>
-    DEF-PL
+    =DEF-PL
    </function>
    <comment>
     Bien !
@@ -1310,7 +1242,7 @@
     100
    </score>
    <function>
-    DEF-PL
+    =DEF-PL
    </function>
    <comment>
     Bien !
@@ -1444,7 +1376,7 @@
     100
    </score>
    <function>
-    POSS.3PL-PL
+    =POSS.3PL-PL
    </function>
    <comment>
     Très bien !
@@ -1545,7 +1477,7 @@
     100
    </score>
    <function>
-    Marie.F.SG
+    =Marie.F.SG
    </function>
    <comment>
     Correct !
@@ -1646,7 +1578,7 @@
     100
    </score>
    <function>
-    Nathalie.F.SG
+    =Nathalie.F.SG
    </function>
    <comment>
     Correct !
@@ -1736,7 +1668,7 @@
     100
    </score>
    <function>
-    POSS.1PL-PL
+    =POSS.1PL-PL
    </function>
    <comment>
     Très bien !
@@ -1859,7 +1791,7 @@
     100
    </score>
    <function>
-    POSS.1PL.SG
+    =POSS.1PL.SG
    </function>
    <comment>
     Très bien !
@@ -1960,7 +1892,7 @@
     100
    </score>
    <function>
-    PRO.1PL.SUJ_PRO.2PL.ACC_entendre.IND.PRS-1PL
+    =PRO.1PL.SUJ_PRO.2PL.ACC_entendre.IND.PRS-1PL
    </function>
    <comment>
     Correct, bravo !
@@ -2105,7 +2037,7 @@
     100
    </score>
    <function>
-    Pierre.M.SG
+    =Pierre.M.SG
    </function>
    <comment>
     Correct !
@@ -2195,7 +2127,7 @@
     100
    </score>
    <function>
-    POSS.3SG-PL
+    =POSS.3SG-PL
    </function>
    <comment>
     Correct, bravo !
@@ -2225,17 +2157,6 @@
   </answer>
   <answer id="3">
    <score>
-    5
-   </score>
-   <function>
-    OSS.3PL-PL
-   </function>
-   <comment>
-    Sans rire, ses comme troisième personne du pluriel ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score>
     25
    </score>
    <function>
@@ -2245,7 +2166,7 @@
     Qui est le possesseur ?
    </comment>
   </answer>
-  <answer id="5">
+  <answer id="4">
    <score>
     20
    </score>
@@ -2254,6 +2175,17 @@
    </function>
    <comment>
     Qui est le possesseur ? Et le pluriel n'est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score>
+    0
+   </score>
+   <function>
+    POSS.1SG*
+   </function>
+   <comment>
+    Vraiment, ses pour une première personne du singulier ?
    </comment>
   </answer>
   <answer id="6">
@@ -2307,7 +2239,7 @@
     100
    </score>
    <function>
-    POSS.3SG-PL
+    =POSS.3SG-PL
    </function>
    <comment>
     Correct, bravo !
@@ -2419,7 +2351,7 @@
     100
    </score>
    <function>
-    Sophie.F.SG
+    =Sophie.F.SG
    </function>
    <comment>
     Correct !
@@ -2509,7 +2441,7 @@
     100
    </score>
    <function>
-    INDEF.SG-F
+    =INDEF.SG-F
    </function>
    <comment>
     Très bien !
@@ -2643,7 +2575,7 @@
     100
    </score>
    <function>
-    acheter-INF
+    =acheter-INF
    </function>
    <comment>
     Bien !
@@ -2700,7 +2632,7 @@
     100
    </score>
    <function>
-    amie.F.SG
+    =amie.F.SG
    </function>
    <comment>
     Correct !
@@ -2823,7 +2755,7 @@
     100
    </score>
    <function>
-    ananas.M.PL
+    =ananas.M.PL
    </function>
    <comment>
     Correct !
@@ -2924,7 +2856,7 @@
     100
    </score>
    <function>
-    arriver-INF
+    =arriver-INF
    </function>
    <comment>
     Bien !
@@ -2981,7 +2913,7 @@
     100
    </score>
    <function>
-    PREP.A_DET-M.SG
+    =PREP.A_DET-M.SG
    </function>
    <comment>
     C’est bien ça !
@@ -3071,7 +3003,7 @@
     100
    </score>
    <function>
-    PREP.A_DET-PL
+    =PREP.A_DET-PL
    </function>
    <comment>
     C’est bien ça !
@@ -3172,7 +3104,7 @@
     100
    </score>
    <function>
-    PREP.AVEC
+    =PREP.AVEC
    </function>
    <comment>
     C’est bien ça !
@@ -3229,7 +3161,7 @@
     100
    </score>
    <function>
-    PREP.AVEC
+    =PREP.AVEC
    </function>
    <comment>
     C’est bien ça !
@@ -3286,7 +3218,7 @@
     100
    </score>
    <function>
-    bien
+    =bien
    </function>
    <comment>
     Bien !
@@ -3321,7 +3253,7 @@
     100
    </score>
    <function>
-    boire.IND.PRS-3PL
+    =boire.IND.PRS-3PL
    </function>
    <comment>
     Bien !
@@ -3433,7 +3365,7 @@
     100
    </score>
    <function>
-    boire.IND.PRS-3PL
+    =boire.IND.PRS-3PL
    </function>
    <comment>
     Bien !
@@ -3545,7 +3477,7 @@
     100
    </score>
    <function>
-    café.M.SG
+    =café.M.SG
    </function>
    <comment>
     Correct !
@@ -3624,7 +3556,7 @@
     100
    </score>
    <function>
-    camarade-P
+    =camarade-P
    </function>
    <comment>
     None
@@ -3736,7 +3668,7 @@
     100
    </score>
    <function>
-    certitude.F.SG
+    =certitude.F.SG
    </function>
    <comment>
     Correct !
@@ -3815,7 +3747,7 @@
     100
    </score>
    <function>
-    chanter.SBJ.PRS.3SG
+    =chanter.SBJ.PRS.3SG
    </function>
    <comment>
     Correct, bravo !
@@ -3960,7 +3892,7 @@
     100
    </score>
    <function>
-    chat.M.SG
+    =chat.M.SG
    </function>
    <comment>
     Correct !
@@ -4039,7 +3971,7 @@
     100
    </score>
    <function>
-    chat.M.SG
+    =chat.M.SG
    </function>
    <comment>
     Correct !
@@ -4118,7 +4050,7 @@
     100
    </score>
    <function>
-    chat.M-PL
+    =chat.M-PL
    </function>
    <comment>
     C’est bien ça !
@@ -4219,7 +4151,7 @@
     100
    </score>
    <function>
-    collège.M.SG
+    =collège.M.SG
    </function>
    <comment>
     Correct !
@@ -4298,7 +4230,7 @@
     100
    </score>
    <function>
-    contrôlable.M.SG
+    =contrôlable.M.SG
    </function>
    <comment>
     Bien !
@@ -4377,7 +4309,7 @@
     100
    </score>
    <function>
-    couleur.F-PL
+    =couleur.F-PL
    </function>
    <comment>
     C’est bien ça !
@@ -4478,7 +4410,7 @@
     100
    </score>
    <function>
-    couloir.M-PL
+    =couloir.M-PL
    </function>
    <comment>
     C’est bien ça !
@@ -4579,7 +4511,7 @@
     100
    </score>
    <function>
-    couteau.M.SG
+    =couteau.M.SG
    </function>
    <comment>
     Correct !
@@ -4658,7 +4590,7 @@
     100
    </score>
    <function>
-    PREP.DE_INDEF.SG-F
+    =PREP.DE_INDEF.SG-F
    </function>
    <comment>
     Très bien !
@@ -4781,7 +4713,7 @@
     100
    </score>
    <function>
-    PREP.DANS
+    =PREP.DANS
    </function>
    <comment>
     C’est bien ça !
@@ -4838,7 +4770,7 @@
     100
    </score>
    <function>
-    PREP.DANS
+    =PREP.DANS
    </function>
    <comment>
     C’est bien ça !
@@ -4895,7 +4827,7 @@
     100
    </score>
    <function>
-    PREP.DE
+    =PREP.DE
    </function>
    <comment>
     C’est bien ça !
@@ -4906,13 +4838,24 @@
     60
    </score>
    <function>
-    PREP*
+    PREP
    </function>
    <comment>
     Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.
    </comment>
   </answer>
   <answer id="2">
+   <score>
+    35
+   </score>
+   <function>
+    PREP*
+   </function>
+   <comment>
+    Donnez l'abréviation PREP uivi dn point, suivi de la préposition elle-même.
+   </comment>
+  </answer>
+  <answer id="3">
    <score>
     0
    </score>
@@ -4923,7 +4866,7 @@
     Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
    </comment>
   </answer>
-  <answer id="3">
+  <answer id="4">
    <score>
     0
    </score>
@@ -4934,7 +4877,7 @@
     En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
    </comment>
   </answer>
-  <answer id="4">
+  <answer id="5">
    <score>
     0
    </score>
@@ -4942,7 +4885,7 @@
     *
    </function>
    <comment>
-    N’est-ce pas une préposition ?}
+    N’est-ce pas une préposition qui introduit un complément du nom ?}
    </comment>
   </answer>
  </word>
@@ -4952,7 +4895,7 @@
     100
    </score>
    <function>
-    PART-F.S
+    =PART-F.S
    </function>
    <comment>
     None
@@ -5020,7 +4963,64 @@
     100
    </score>
    <function>
-    PREP.DE
+    =PREP.DE
+   </function>
+   <comment>
+    C’est bien ça !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score>
+    60
+   </score>
+   <function>
+    PREP*
+   </function>
+   <comment>
+    Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score>
+    0
+   </score>
+   <function>
+    ADV
+   </function>
+   <comment>
+    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
+   </comment>
+  </answer>
+  <answer id="3">
+   <score>
+    0
+   </score>
+   <function>
+    CONJ
+   </function>
+   <comment>
+    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score>
+    0
+   </score>
+   <function>
+    *
+   </function>
+   <comment>
+    N’est-ce pas une préposition qui introduit un complément du nom ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="de##">
+  <answer id="0">
+   <score>
+    100
+   </score>
+   <function>
+    =PREP.DE
    </function>
    <comment>
     C’est bien ça !
@@ -5077,7 +5077,7 @@
     100
    </score>
    <function>
-    PREP.DE_DET.P
+    =INDEF.P
    </function>
    <comment>
     None
@@ -5085,13 +5085,13 @@
   </answer>
   <answer id="1">
    <score>
-    50
+    75
    </score>
    <function>
-    PREP.DE*
+    INDEF-PL
    </function>
    <comment>
-    Ok pour la préposition. Mais comment noter la deuxième partie ?
+    Existe-t-il un indéfini singulier qui n'aurait pas ce s ?
    </comment>
   </answer>
   <answer id="2">
@@ -5102,18 +5102,264 @@
     DET.PL
    </function>
    <comment>
-    Ok pour le déterminant, mais comment noter la première partie ? On discute qqch ou bien on discute de qqch ?
+    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.
    </comment>
   </answer>
   <answer id="3">
    <score>
+    50
+   </score>
+   <function>
+    INDEF.F.PL
+   </function>
+   <comment>
+    Le genre est-il connu ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score>
+    40
+   </score>
+   <function>
+    INDEF.F-PL
+   </function>
+   <comment>
+    Le genre est-il connu ? Et existe-t-il un indéfini singulier qui n’aurait pas ce s ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score>
+    30
+   </score>
+   <function>
+    IND.PL
+   </function>
+   <comment>
+    Utilisez INDEF plutôt que IND...
+   </comment>
+  </answer>
+  <answer id="6">
+   <score>
     0
    </score>
    <function>
-    INDEF.PL
+    PREP.DE
    </function>
    <comment>
-    On discute qqch ou bien on discute de qqch ?
+    Dans ce cas, on achète qqch, non ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score>
+    25
+   </score>
+   <function>
+    *DET*
+   </function>
+   <comment>
+    Utilisez INDEF pour les indéfinis. Quel nombre ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score>
+    0
+   </score>
+   <function>
+    *DEF*
+   </function>
+   <comment>
+    Un article défini ? Quel nombre ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score>
+    0
+   </score>
+   <function>
+    *F*
+   </function>
+   <comment>
+    Le genre est-il connu ?
+   </comment>
+  </answer>
+  <answer id="10">
+   <score>
+    0
+   </score>
+   <function>
+    *
+   </function>
+   <comment>
+    On achète qqch ? Ne serait-ce pas un déterminant ? Est-ce un défini ou bien un indéfini ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="des#">
+  <answer id="0">
+   <score>
+    100
+   </score>
+   <function>
+    =INDEF.P
+   </function>
+   <comment>
+    None
+   </comment>
+  </answer>
+  <answer id="1">
+   <score>
+    75
+   </score>
+   <function>
+    INDEF-PL
+   </function>
+   <comment>
+    Existe-t-il un indéfini singulier qui n'aurait pas ce s ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score>
+    50
+   </score>
+   <function>
+    DET.PL
+   </function>
+   <comment>
+    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.
+   </comment>
+  </answer>
+  <answer id="3">
+   <score>
+    50
+   </score>
+   <function>
+    INDEF.F.PL
+   </function>
+   <comment>
+    Le genre est-il visible localement ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score>
+    40
+   </score>
+   <function>
+    INDEF.F-PL
+   </function>
+   <comment>
+    Le genre est-il connu ? Et existe-t-il un indéfini singulier qui n’aurait pas ce s ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score>
+    30
+   </score>
+   <function>
+    IND.PL
+   </function>
+   <comment>
+    Utilisez INDEF plutôt que IND...
+   </comment>
+  </answer>
+  <answer id="6">
+   <score>
+    0
+   </score>
+   <function>
+    PREP.DE*
+   </function>
+   <comment>
+    Dans ce cas, on mange qqch, non ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score>
+    25
+   </score>
+   <function>
+    *DET*
+   </function>
+   <comment>
+    Utilisez INDEF pour les indéfinis. Quel nombre ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score>
+    0
+   </score>
+   <function>
+    *DEF*
+   </function>
+   <comment>
+    Un article défini ? Quel nombre ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score>
+    0
+   </score>
+   <function>
+    *F*
+   </function>
+   <comment>
+    Le genre est-il connu ?
+   </comment>
+  </answer>
+  <answer id="10">
+   <score>
+    0
+   </score>
+   <function>
+    *
+   </function>
+   <comment>
+    Voulez-vous manger qqch ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="des##">
+  <answer id="0">
+   <score>
+    100
+   </score>
+   <function>
+    =PREP.DE_DET.P
+   </function>
+   <comment>
+    None
+   </comment>
+  </answer>
+  <answer id="1">
+   <score>
+    75
+   </score>
+   <function>
+    PREP.DE_DEF*
+   </function>
+   <comment>
+    Ok pour la préposition. Mais la deuxième partie oppose-t-elle défini et indéfini ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score>
+    50
+   </score>
+   <function>
+    PREP.DE*
+   </function>
+   <comment>
+    Ok pour la préposition. Mais comment noter la deuxième partie ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score>
+    50
+   </score>
+   <function>
+    DET.PL
+   </function>
+   <comment>
+    Ok pour le déterminant, mais comment noter la première partie ? On parle qqch ou bien on parle de qqch ?
    </comment>
   </answer>
   <answer id="4">
@@ -5121,13 +5367,24 @@
     0
    </score>
    <function>
-    INDEF-PL
+    INDEF.PL
    </function>
    <comment>
-    On discute qqch ou bien on discute de qqch ?
+    On parle qqch ou bien on parle de qqch ?
    </comment>
   </answer>
   <answer id="5">
+   <score>
+    0
+   </score>
+   <function>
+    INDEF-PL
+   </function>
+   <comment>
+    On parle qqch ou bien on parle de qqch ?
+   </comment>
+  </answer>
+  <answer id="6">
    <score>
     0
    </score>
@@ -5138,7 +5395,7 @@
     Un article défini ?
    </comment>
   </answer>
-  <answer id="6">
+  <answer id="7">
    <score>
     0
    </score>
@@ -5149,7 +5406,7 @@
     Le genre est-il marqué ?
    </comment>
   </answer>
-  <answer id="7">
+  <answer id="8">
    <score>
     0
    </score>
@@ -5161,13 +5418,136 @@
    </comment>
   </answer>
  </word>
- <word name="des#">
+ <word name="des###">
   <answer id="0">
    <score>
     100
    </score>
    <function>
-    PREP.DE_DET.P
+    =INDEF.P
+   </function>
+   <comment>
+    None
+   </comment>
+  </answer>
+  <answer id="1">
+   <score>
+    75
+   </score>
+   <function>
+    INDEF-PL
+   </function>
+   <comment>
+    Existe-t-il un indéfini singulier qui n'aurait pas ce s ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score>
+    50
+   </score>
+   <function>
+    DET.PL
+   </function>
+   <comment>
+    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.
+   </comment>
+  </answer>
+  <answer id="3">
+   <score>
+    50
+   </score>
+   <function>
+    INDEF.F.PL
+   </function>
+   <comment>
+    Le genre est-il connu ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score>
+    40
+   </score>
+   <function>
+    INDEF.F-PL
+   </function>
+   <comment>
+    Le genre est-il connu ? Et existe-t-il un indéfini singulier qui n’aurait pas ce s ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score>
+    30
+   </score>
+   <function>
+    IND.PL
+   </function>
+   <comment>
+    Utilisez INDEF plutôt que IND...
+   </comment>
+  </answer>
+  <answer id="6">
+   <score>
+    0
+   </score>
+   <function>
+    PREP.DE
+   </function>
+   <comment>
+    Dans ce cas, on utilise qqch, non ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score>
+    25
+   </score>
+   <function>
+    *DET*
+   </function>
+   <comment>
+    Utilisez INDEF pour les indéfinis. Quel nombre ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score>
+    0
+   </score>
+   <function>
+    *DEF*
+   </function>
+   <comment>
+    Un article défini ? Quel nombre ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score>
+    0
+   </score>
+   <function>
+    *F*
+   </function>
+   <comment>
+    Le genre est-il connu ?
+   </comment>
+  </answer>
+  <answer id="10">
+   <score>
+    0
+   </score>
+   <function>
+    *
+   </function>
+   <comment>
+    On utilise qqch ? Est-ce un défini ou bien un indéfini ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="des####">
+  <answer id="0">
+   <score>
+    100
+   </score>
+   <function>
+    =PREP.DE_DET.P
    </function>
    <comment>
     None
@@ -5257,7 +5637,7 @@
     100
    </score>
    <function>
-    difficilement
+    =difficilement
    </function>
    <comment>
     Bien !
@@ -5292,7 +5672,7 @@
     100
    </score>
    <function>
-    discuter-IND.IMPF-3PL
+    =discuter-IND.IMPF-3PL
    </function>
    <comment>
     Bien !
@@ -5426,7 +5806,7 @@
     100
    </score>
    <function>
-    donner.IND.PRS.3SG
+    = donner.IND.PRS.3SG
    </function>
    <comment>
     Bien !
@@ -5560,7 +5940,7 @@
     100
    </score>
    <function>
-    REL.GEN[chat]
+    =REL.GEN[chat]
    </function>
    <comment>
     Bravo !
@@ -5672,7 +6052,7 @@
     100
    </score>
    <function>
-    dramaturge.F.SG
+    =dramaturge.F.SG
    </function>
    <comment>
     Correct !
@@ -5751,7 +6131,130 @@
     100
    </score>
    <function>
-    PART-M.S
+    =PREP.DE_DEF-M.SG
+   </function>
+   <comment>
+    C’est bien ça !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score>
+    0
+   </score>
+   <function>
+    =PREP.DE_DEF.M.SG
+   </function>
+   <comment>
+    On peut se demander si la partie variable ne concerne pas seulement le genre et le nombre.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score>
+    80
+   </score>
+   <function>
+    PREP.DE_DEF.M-SG
+   </function>
+   <comment>
+    Le genre et le nombre de la deuxième partie ne sont-ils pas marqués ensemble ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score>
+    75
+   </score>
+   <function>
+    PREP.DE_DET.M.SG
+   </function>
+   <comment>
+    Le nom qui suit pourrait-il ne pas être au défini ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score>
+    75
+   </score>
+   <function>
+    PREP.DE_DET-M.SG
+   </function>
+   <comment>
+    Le nom qui suit pourrait-il ne pas être au défini ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score>
+    40
+   </score>
+   <function>
+    PREP.DE*
+   </function>
+   <comment>
+    Ok pour la préposition. Mais comment noter la deuxième partie ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score>
+    40
+   </score>
+   <function>
+    *DEF-M.SG
+   </function>
+   <comment>
+    Ok pour le déterminant, mais comment noter la première partie ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score>
+    0
+   </score>
+   <function>
+    *INDEF*
+   </function>
+   <comment>
+    Un article indéfini ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score>
+    0
+   </score>
+   <function>
+    PART-M.SG
+   </function>
+   <comment>
+    On parle qqch ou bien on parle de qqch ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score>
+    0
+   </score>
+   <function>
+    *PART*
+   </function>
+   <comment>
+    On parle qqch ou bien on parle de qqch ?
+   </comment>
+  </answer>
+  <answer id="10">
+   <score>
+    0
+   </score>
+   <function>
+    *
+   </function>
+   <comment>
+    Ne serait-ce pas une forme contractée de la préposition DE et du déterminant LE ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="du ">
+  <answer id="0">
+   <score>
+    100
+   </score>
+   <function>
+    =PART-M.S
    </function>
    <comment>
     None
@@ -5787,7 +6290,7 @@
     ART*
    </function>
    <comment>
-    Quel genre, quel nombre ? (utilisez PART plutôt que PART.DE)
+    Quel genre, quel nombre ?
    </comment>
   </answer>
   <answer id="4">
@@ -5798,111 +6301,10 @@
     PREP.DE_DET-M.SG
    </function>
    <comment>
-    Hum…y a-t-il une préposition ici ?
+    Hum…on boit qqch, non ?
    </comment>
   </answer>
   <answer id="5">
-   <score>
-    0
-   </score>
-   <function>
-    PREP*
-   </function>
-   <comment>
-    Hum… y a-t-il une préposition ici ?}
-   </comment>
-  </answer>
- </word>
- <word name="du ">
-  <answer id="0">
-   <score>
-    100
-   </score>
-   <function>
-    PREP.DE_DEF-M.SG
-   </function>
-   <comment>
-    Bien !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score>
-    85
-   </score>
-   <function>
-    PREP.DE_DEF.M.SG
-   </function>
-   <comment>
-    N’y a-t-il pas de marque pour le masculin en ce qui concerne la deuxième partie ?
-   </comment>
-  </answer>
-  <answer id="2">
-   <score>
-    85
-   </score>
-   <function>
-    PREP.DE_DEF.M-SG
-   </function>
-   <comment>
-    Existe-t-il une marque pour le singulier en ce qui concerne la deuxième partie ?
-   </comment>
-  </answer>
-  <answer id="3">
-   <score>
-    70
-   </score>
-   <function>
-    PREP.DE_DET-M.SG
-   </function>
-   <comment>
-    Défini et indéfini ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score>
-    60
-   </score>
-   <function>
-    PREP.DE_DET.M.SG
-   </function>
-   <comment>
-    Défini et indéfini ? Le masculin n’est-il pas marqué ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score>
-    50
-   </score>
-   <function>
-    PREP.DE*
-   </function>
-   <comment>
-    Ok pour la préposition, mais comment noter la deuxième partie ?
-   </comment>
-  </answer>
-  <answer id="6">
-   <score>
-    50
-   </score>
-   <function>
-    DEF-M.SG
-   </function>
-   <comment>
-    Ok pour le déterminant défini, mais comment noter la première partie ?
-   </comment>
-  </answer>
-  <answer id="7">
-   <score>
-    0
-   </score>
-   <function>
-    PART*
-   </function>
-   <comment>
-    Dans ce cas, n’y a-t-il pas une préposition ?
-   </comment>
-  </answer>
-  <answer id="8">
    <score>
     0
    </score>
@@ -5910,7 +6312,7 @@
     *
    </function>
    <comment>
-    Ne serait-ce pas la forme contractée d’une préposition et d’un déterminant ?}
+    Hum…voulez-vous boire qqch ?}
    </comment>
   </answer>
  </word>
@@ -5920,7 +6322,7 @@
     100
    </score>
    <function>
-    PREP.DE_DEF-M.SG
+    =PREP.DE_DEF-M.SG
    </function>
    <comment>
     Bien !
@@ -6021,7 +6423,86 @@
     100
    </score>
    <function>
-    PART-M.S
+    =PART-M.S
+   </function>
+   <comment>
+    None
+   </comment>
+  </answer>
+  <answer id="1">
+   <score>
+    75
+   </score>
+   <function>
+    PART.M.SG
+   </function>
+   <comment>
+    Les différents partitifs ont-ils une base commune ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score>
+    75
+   </score>
+   <function>
+    PART.M-SG
+   </function>
+   <comment>
+    Les différents partitifs ont-ils une base commune ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score>
+    5
+   </score>
+   <function>
+    ART*
+   </function>
+   <comment>
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score>
+    5
+   </score>
+   <function>
+    NDEF*
+   </function>
+   <comment>
+    Une forme de l'article indéfini ? un/une/des ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score>
+    0
+   </score>
+   <function>
+    PREP.DE_DET-M.SG
+   </function>
+   <comment>
+    Hum…on mange qqch, non ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score>
+    0
+   </score>
+   <function>
+    *
+   </function>
+   <comment>
+    Hum…voulez-vous manger qqch ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="du##">
+  <answer id="0">
+   <score>
+    100
+   </score>
+   <function>
+    =PART-M.S
    </function>
    <comment>
     None
@@ -6089,7 +6570,7 @@
     100
    </score>
    <function>
-    REL.M.SG[homme]
+    =REL.M.SG[homme]
    </function>
    <comment>
     Bravo !
@@ -6234,7 +6715,7 @@
     100
    </score>
    <function>
-    PREP.EN
+    =PREP.EN
    </function>
    <comment>
     Bien !
@@ -6280,7 +6761,7 @@
     100
    </score>
    <function>
-    enfant-P
+    =enfant-P
    </function>
    <comment>
     None
@@ -6381,7 +6862,7 @@
     100
    </score>
    <function>
-    enfant-P
+    =enfant-P
    </function>
    <comment>
     None
@@ -6482,7 +6963,7 @@
     100
    </score>
    <function>
-    être.IND.PRS.3SG
+    =être.IND.PRS.3SG
    </function>
    <comment>
     Correct !
@@ -6540,7 +7021,7 @@
     être
    </function>
    <comment>
-    Quel mode, quel temps,quelle personne ?
+    Quel mode, quel temps, quelle personne ?
    </comment>
   </answer>
   <answer id="6">
@@ -6572,97 +7053,7 @@
     100
    </score>
    <function>
-    être.IND.PRS.3SG
-   </function>
-   <comment>
-    Correct !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score>
-    75
-   </score>
-   <function>
-    être.PRS.IND.3SG
-   </function>
-   <comment>
-    Pensez à l’ordre des marques !
-   </comment>
-  </answer>
-  <answer id="2">
-   <score>
-    75
-   </score>
-   <function>
-    est.IND.PRS.3SG
-   </function>
-   <comment>
-    Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…
-   </comment>
-  </answer>
-  <answer id="3">
-   <score>
-    60
-   </score>
-   <function>
-    être.*PRS.3SG
-   </function>
-   <comment>
-    Quel mode ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score>
-    5
-   </score>
-   <function>
-    tre*
-   </function>
-   <comment>
-    Quel mode, quel temps, quelle personne ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score>
-    10
-   </score>
-   <function>
-    être
-   </function>
-   <comment>
-    Quel mode, quel temps, quelle personne ?
-   </comment>
-  </answer>
-  <answer id="6">
-   <score>
-    0
-   </score>
-   <function>
-    est*
-   </function>
-   <comment>
-    Donnez la forme de citation, le mode, le temps et la personne.
-   </comment>
-  </answer>
-  <answer id="7">
-   <score>
-    0
-   </score>
-   <function>
-    *
-   </function>
-   <comment>
-    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
-   </comment>
-  </answer>
- </word>
- <word name="est #">
-  <answer id="0">
-   <score>
-    100
-   </score>
-   <function>
-    être.IND.PRS.3SG
+    =être.IND.PRS.3SG
    </function>
    <comment>
     Correct !
@@ -6752,7 +7143,7 @@
     100
    </score>
    <function>
-    être.IND.PRS.3SG
+    =être.IND.PRS.3SG
    </function>
    <comment>
     Correct !
@@ -6842,7 +7233,7 @@
     100
    </score>
    <function>
-    COORD.ET
+    =COORD.ET
    </function>
    <comment>
     Bien !
@@ -6899,7 +7290,7 @@
     100
    </score>
    <function>
-    fille.F.SG
+    =fille.F.SG
    </function>
    <comment>
     Correct !
@@ -6989,7 +7380,7 @@
     100
    </score>
    <function>
-    fils.M.PL
+    =fils.M.PL
    </function>
    <comment>
     Correct !
@@ -7057,7 +7448,7 @@
     100
    </score>
    <function>
-    fier-F.SG
+    =fier-F.SG
    </function>
    <comment>
     Bien !
@@ -7169,7 +7560,7 @@
     100
    </score>
    <function>
-    frère.M.SG
+    =frère.M.SG
    </function>
    <comment>
     Correct !
@@ -7248,7 +7639,7 @@
     100
    </score>
    <function>
-    grand.M.SG
+    =grand.M.SG
    </function>
    <comment>
     Bien !
@@ -7338,7 +7729,7 @@
     100
    </score>
    <function>
-    grand-F.SG
+    =grand-F.SG
    </function>
    <comment>
     Bien !
@@ -7450,7 +7841,7 @@
     100
    </score>
    <function>
-    gâteau.M.SG
+    =gâteau.M.SG
    </function>
    <comment>
     Correct !
@@ -7529,7 +7920,7 @@
     100
    </score>
    <function>
-    homme.M.SG
+    =homme.M.SG
    </function>
    <comment>
     Correct !
@@ -7608,7 +7999,7 @@
     100
    </score>
    <function>
-    honnête.M.SG
+    =honnête.M.SG
    </function>
    <comment>
     Bien !
@@ -7698,7 +8089,7 @@
     100
    </score>
    <function>
-    PRO.3PL.SUJ_détester.IND.PRS-3PL
+    =PRO.3PL.SUJ_détester.IND.PRS-3PL
    </function>
    <comment>
     Très bien !
@@ -7832,7 +8223,7 @@
     100
    </score>
    <function>
-    inonder.IND.PRS.3SG
+    =inonder.IND.PRS.3SG
    </function>
    <comment>
     Correct !
@@ -7955,7 +8346,7 @@
     100
    </score>
    <function>
-    PRO.1SG.SUJ_discuter.IND.PRS.1SG
+    =PRO.1SG.SUJ_discuter.IND.PRS.1SG
    </function>
    <comment>
     Très bien !
@@ -8078,7 +8469,7 @@
     100
    </score>
    <function>
-    PRO.1SG.SUJ_PRO.3SG.DAT_parler.IND.PRS.1SG
+    =PRO.1SG.SUJ_PRO.3SG.DAT_parler.IND.PRS.1SG
    </function>
    <comment>
     Correct, bravo !
@@ -8256,7 +8647,7 @@
     100
    </score>
    <function>
-    jouer-INF
+    =jouer-INF
    </function>
    <comment>
     Bien !
@@ -8313,7 +8704,7 @@
     100
    </score>
    <function>
-    DEF-F.SG
+    =DEF-F.SG
    </function>
    <comment>
     Correct, bien !
@@ -8381,7 +8772,7 @@
     100
    </score>
    <function>
-    DEF-F.SG
+    =DEF-F.SG
    </function>
    <comment>
     Correct, bien !
@@ -8449,7 +8840,7 @@
     100
    </score>
    <function>
-    lait.M.SG
+    =lait.M.SG
    </function>
    <comment>
     Correct !
@@ -8528,7 +8919,7 @@
     100
    </score>
    <function>
-    DEF-M.SG
+    =DEF-M.SG
    </function>
    <comment>
     Correct, bien !
@@ -8596,7 +8987,7 @@
     100
    </score>
    <function>
-    REL.M.SG[couteau]
+    =REL.M.SG[couteau]
    </function>
    <comment>
     Bravo !
@@ -8719,7 +9110,7 @@
     100
    </score>
    <function>
-    DEF-PL
+    =DEF-PL
    </function>
    <comment>
     Bien !
@@ -8853,7 +9244,7 @@
     100
    </score>
    <function>
-    DEF-PL
+    =DEF-PL
    </function>
    <comment>
     Bien !
@@ -8987,7 +9378,7 @@
     100
    </score>
    <function>
-    DEF-PL
+    =DEF-PL
    </function>
    <comment>
     Bien !
@@ -9121,7 +9512,7 @@
     100
    </score>
    <function>
-    POSS.3PL.SG
+    =POSS.3PL.SG
    </function>
    <comment>
     Correct, bravo !
@@ -9255,7 +9646,7 @@
     100
    </score>
    <function>
-    lire.INF
+    =lire.INF
    </function>
    <comment>
     Bien !Sachez que l'on accepte aussi -INF si l'on considère qu'un r phonologique est une marque de l'infinitif.
@@ -9312,7 +9703,7 @@
     100
    </score>
    <function>
-    COORD.MAIS
+    =COORD.MAIS
    </function>
    <comment>
     Bien !
@@ -9369,10 +9760,10 @@
     100
    </score>
    <function>
-    manger.IND.PRS.3SG
+    =manger.IND.PRS.3SG
    </function>
    <comment>
-    Bien !
+    Correct !
    </comment>
   </answer>
   <answer id="1">
@@ -9391,57 +9782,24 @@
     75
    </score>
    <function>
-    manger.IND.PRS-3SG
-   </function>
-   <comment>
-    Y a-t-il vraiment une marque de personne ici ?
-   </comment>
-  </answer>
-  <answer id="3">
-   <score>
-    75
-   </score>
-   <function>
     mange.IND.PRS.3SG
    </function>
    <comment>
     Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…
    </comment>
   </answer>
-  <answer id="4">
+  <answer id="3">
    <score>
     60
    </score>
    <function>
-    manger.IND.PRS.1SG
-   </function>
-   <comment>
-    Est-ce la bonne personne ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score>
-    60
-   </score>
-   <function>
-    manger.PRS.3SG
+    manger.*PRS.3SG
    </function>
    <comment>
     Quel mode ?
    </comment>
   </answer>
-  <answer id="6">
-   <score>
-    50
-   </score>
-   <function>
-    manger.PRS-3SG
-   </function>
-   <comment>
-    Quel mode ? Et la personne est-elle vraiment marquée ?
-   </comment>
-  </answer>
-  <answer id="7">
+  <answer id="4">
    <score>
     5
    </score>
@@ -9452,7 +9810,7 @@
     Quel mode, quel temps, quelle personne ?
    </comment>
   </answer>
-  <answer id="8">
+  <answer id="5">
    <score>
     10
    </score>
@@ -9463,18 +9821,18 @@
     Quel mode, quel temps, quelle personne ?
    </comment>
   </answer>
-  <answer id="9">
+  <answer id="6">
    <score>
     0
    </score>
    <function>
-    mange
+    mange*
    </function>
    <comment>
     Donnez la forme de citation, le mode, le temps et la personne.
    </comment>
   </answer>
-  <answer id="10">
+  <answer id="7">
    <score>
     0
    </score>
@@ -9492,7 +9850,7 @@
     100
    </score>
    <function>
-    manger.IND.PRS.3SG
+    = manger.IND.PRS.3SG
    </function>
    <comment>
     Bien !
@@ -9615,7 +9973,7 @@
     100
    </score>
    <function>
-    manger.IND.PRS-3PL
+    =manger.IND.PRS-3PL
    </function>
    <comment>
     Bien !
@@ -9727,7 +10085,7 @@
     100
    </score>
    <function>
-    marché.M.SG
+    =marché.M.SG
    </function>
    <comment>
     Correct !
@@ -9806,7 +10164,7 @@
     100
    </score>
    <function>
-    PRO.1SG.ACC_réjouir.IND.PRS-3SG
+    =PRO.1SG.ACC_réjouir.IND.PRS-3SG
    </function>
    <comment>
     Très bien !
@@ -9995,7 +10353,7 @@
     100
    </score>
    <function>
-    meilleur-F.SG
+    =meilleur-F.SG
    </function>
    <comment>
     Bien !
@@ -10107,7 +10465,7 @@
     100
    </score>
    <function>
-    PRO.1SG
+    =PRO.1SG
    </function>
    <comment>
     Très bien !
@@ -10175,7 +10533,7 @@
     100
    </score>
    <function>
-    noix.F.PL
+    =noix.F.PL
    </function>
    <comment>
     Correct !
@@ -10276,7 +10634,7 @@
     100
    </score>
    <function>
-    nourriture.F.SG
+    =nourriture.F.SG
    </function>
    <comment>
     Correct !
@@ -10355,7 +10713,7 @@
     100
    </score>
    <function>
-    COORD.OU
+    =COORD.OU
    </function>
    <comment>
     Bien !
@@ -10412,7 +10770,7 @@
     100
    </score>
    <function>
-    parler.IND.PRS-3PL
+    =parler.IND.PRS-3PL
    </function>
    <comment>
     Bien !
@@ -10524,7 +10882,7 @@
     100
    </score>
    <function>
-    parler.IND.PRS-3PL
+    =parler.IND.PRS-3PL
    </function>
    <comment>
     Bien !
@@ -10636,7 +10994,7 @@
     100
    </score>
    <function>
-    parler-INF
+    =parler-INF
    </function>
    <comment>
     Bien !
@@ -10693,7 +11051,7 @@
     100
    </score>
    <function>
-    partir-IND.PRF-3SG
+    =partir-IND.PRF-3SG
    </function>
    <comment>
     Bien !
@@ -10827,7 +11185,7 @@
     100
    </score>
    <function>
-    passer.IND.PRS.3SG
+    =passer.IND.PRS.3SG
    </function>
    <comment>
     Correct !
@@ -10917,7 +11275,7 @@
     100
    </score>
    <function>
-    peindre.IND.PRS-3PL
+    =peindre.IND.PRS-3PL
    </function>
    <comment>
     Correct !
@@ -11051,7 +11409,7 @@
     100
    </score>
    <function>
-    PREP.PENDANT
+    =PREP.PENDANT
    </function>
    <comment>
     C’est bien ça !
@@ -11108,7 +11466,7 @@
     100
    </score>
    <function>
-    personne.F.SG
+    =personne.F.SG
    </function>
    <comment>
     Correct !
@@ -11187,7 +11545,7 @@
     100
    </score>
    <function>
-    petit-F.SG
+    =petit-F.SG
    </function>
    <comment>
     Bien !
@@ -11299,7 +11657,7 @@
     100
    </score>
    <function>
-    pièce.F.SG
+    =pièce.F.SG
    </function>
    <comment>
     Correct !
@@ -11378,7 +11736,7 @@
     100
    </score>
    <function>
-    place.F.SG
+    =place.F.SG
    </function>
    <comment>
     Correct !
@@ -11457,7 +11815,7 @@
     100
    </score>
    <function>
-    poupée.F.SG
+    =poupée.F.SG
    </function>
    <comment>
     Correct !
@@ -11536,7 +11894,7 @@
     100
    </score>
    <function>
-    PREP.POUR
+    =PREP.POUR
    </function>
    <comment>
     C’est bien ça !
@@ -11593,7 +11951,7 @@
     100
    </score>
    <function>
-    pouvoir-IND.FUT-3SG
+    =pouvoir-IND.FUT-3SG
    </function>
    <comment>
     Correct !
@@ -11727,7 +12085,7 @@
     100
    </score>
    <function>
-    professeur.SG
+    =professeur.SG
    </function>
    <comment>
     C’est bien ça !
@@ -11828,7 +12186,7 @@
     100
    </score>
    <function>
-    pouvoir.SBJ.PRS.3SG
+    =pouvoir.SBJ.PRS.3SG
    </function>
    <comment>
     Correct, bravo !
@@ -11995,7 +12353,7 @@
     100
    </score>
    <function>
-    CONJ.QUE
+    =CONJ.QUE
    </function>
    <comment>
     Bien !
@@ -12003,18 +12361,7 @@
   </answer>
   <answer id="1">
    <score>
-    50
-   </score>
-   <function>
-    CONJ.REL
-   </function>
-   <comment>
-    Une relative ?
-   </comment>
-  </answer>
-  <answer id="2">
-   <score>
-    50
+    75
    </score>
    <function>
     CONJ*
@@ -12023,7 +12370,7 @@
     Oui, c’est bien une conjonction, mais pensez à rajouter un point puis la conjonction elle-même en majuscules.
    </comment>
   </answer>
-  <answer id="3">
+  <answer id="2">
    <score>
     0
    </score>
@@ -12034,7 +12381,7 @@
     Un pronom relatif ? Ne serait-ce pas plutôt une conjonction de subordination introduisant une complétive ?
    </comment>
   </answer>
-  <answer id="4">
+  <answer id="3">
    <score>
     0
    </score>
@@ -12052,7 +12399,7 @@
     100
    </score>
    <function>
-    REL.ACC[pièce]
+    =REL.ACC[pièce]
    </function>
    <comment>
     Bravo !
@@ -12131,7 +12478,53 @@
     100
    </score>
    <function>
-    CONJ.QUE
+    =CONJ.QUE
+   </function>
+   <comment>
+    Bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score>
+    75
+   </score>
+   <function>
+    CONJ*
+   </function>
+   <comment>
+    Oui, c’est bien une conjonction, mais pensez à rajouter un point puis la conjonction elle-même en majuscules.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score>
+    0
+   </score>
+   <function>
+    REL*
+   </function>
+   <comment>
+    Un pronom relatif ? Ce petit mot introduit-il ici une proposition subordonnée relative ou bien une complétive ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score>
+    0
+   </score>
+   <function>
+    *
+   </function>
+   <comment>
+    Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Une conjonction ou un pronom relatif ? Ici, ce petit mot introduit-il une proposition subordonnée relative ou bien une complétive ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="que##">
+  <answer id="0">
+   <score>
+    100
+   </score>
+   <function>
+    =CONJ.QUE
    </function>
    <comment>
     Bien !
@@ -12188,7 +12581,7 @@
     100
    </score>
    <function>
-    REL[personne]
+    =REL[personne]
    </function>
    <comment>
     Bravo !
@@ -12267,7 +12660,7 @@
     100
    </score>
    <function>
-    REL.SUJ[temps]
+    =REL.SUJ[temps]
    </function>
    <comment>
     Bravo !
@@ -12346,7 +12739,7 @@
     100
    </score>
    <function>
-    POSS.3SG-F.SG
+    =POSS.3SG-F.SG
    </function>
    <comment>
     Correct, bravo !
@@ -12480,7 +12873,7 @@
     100
    </score>
    <function>
-    scolaire.F-PL
+    =scolaire.F-PL
    </function>
    <comment>
     C’est bien ça !
@@ -12581,7 +12974,7 @@
     100
    </score>
    <function>
-    REFL.3SG_méfier.IND.PRS.3SG
+    =REFL.3SG_méfier.IND.PRS.3SG
    </function>
    <comment>
     Très bien !
@@ -12748,7 +13141,7 @@
     100
    </score>
    <function>
-    secours.M.PL
+    =secours.M.PL
    </function>
    <comment>
     Correct !
@@ -12849,7 +13242,7 @@
     100
    </score>
    <function>
-    sembler.IND.PRS.3SG
+    =sembler.IND.PRS.3SG
    </function>
    <comment>
     Correct !
@@ -12950,7 +13343,7 @@
     100
    </score>
    <function>
-    POSS.3SG-PL
+    =POSS.3SG-PL
    </function>
    <comment>
     Correct, bravo !
@@ -13051,7 +13444,7 @@
     100
    </score>
    <function>
-    singe.M-PL
+    =singe.M-PL
    </function>
    <comment>
     C’est bien ça !
@@ -13152,7 +13545,7 @@
     100
    </score>
    <function>
-    POSS.3SG-M.SG
+    =POSS.3SG-M.SG
    </function>
    <comment>
     Correct, bravo !
@@ -13286,7 +13679,7 @@
     100
    </score>
    <function>
-    être.IND.PRS.3PL
+    =être.IND.PRS.3PL
    </function>
    <comment>
     Correct !
@@ -13376,7 +13769,7 @@
     100
    </score>
    <function>
-    souris.F.SG
+    =souris.F.PL
    </function>
    <comment>
     Correct !
@@ -13384,13 +13777,13 @@
   </answer>
   <answer id="1">
    <score>
-    75
+    80
    </score>
    <function>
-    souris-F.SG
+    souris.PL.F
    </function>
    <comment>
-    Le féminin est-il marqué ?
+    Dans le cas où il n'y a pas d'indice clair pour l'ordre, on se conforme au cas général. En français, plutôt le genre avant le nombre... ?
    </comment>
   </answer>
   <answer id="2">
@@ -13398,24 +13791,57 @@
     75
    </score>
    <function>
-    souris.F-SG
+    souris.F-PL
    </function>
    <comment>
-    Où est la marque du singulier ?
+    Une souri, des souris ?
    </comment>
   </answer>
   <answer id="3">
    <score>
-    60
+    75
    </score>
    <function>
-    souris-F-SG
+    souris-F.PL
    </function>
    <comment>
-    Le féminin est-il marqué ? Montrez-moi la marque du singulier…
+    Quelle est la marque du féminin pluriel ?
    </comment>
   </answer>
   <answer id="4">
+   <score>
+    65
+   </score>
+   <function>
+    souris-PL.F
+   </function>
+   <comment>
+    Quelle est la marque du pluriel féminin ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score>
+    60
+   </score>
+   <function>
+    souris-F-PL
+   </function>
+   <comment>
+    Le genre et le nombre sont-ils vraiment marqués ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score>
+    50
+   </score>
+   <function>
+    souri.F-PL
+   </function>
+   <comment>
+    Une souri, des souris ?
+   </comment>
+  </answer>
+  <answer id="7">
    <score>
     5
    </score>
@@ -13426,7 +13852,7 @@
     Quel genre, quel nombre ?
    </comment>
   </answer>
-  <answer id="5">
+  <answer id="8">
    <score>
     10
    </score>
@@ -13437,7 +13863,18 @@
     Quel genre, quel nombre ?
    </comment>
   </answer>
-  <answer id="6">
+  <answer id="9">
+   <score>
+    0
+   </score>
+   <function>
+    souri
+   </function>
+   <comment>
+    Une souri, des souris ?
+   </comment>
+  </answer>
+  <answer id="10">
    <score>
     0
    </score>
@@ -13455,7 +13892,7 @@
     100
    </score>
    <function>
-    souris.F.SG
+    =souris.F.SG
    </function>
    <comment>
     Correct !
@@ -13534,7 +13971,7 @@
     100
    </score>
    <function>
-    sous+tasse.F.SG
+    =sous+tasse.F.SG
    </function>
    <comment>
     Correct !
@@ -13624,7 +14061,7 @@
     100
    </score>
    <function>
-    temps.M.SG
+    =temps.M.SG
    </function>
    <comment>
     Bien !
@@ -13692,7 +14129,7 @@
     100
    </score>
    <function>
-    thé.M.SG
+    =thé.M.SG
    </function>
    <comment>
     Correct !
@@ -13771,7 +14208,7 @@
     100
    </score>
    <function>
-    thé.M.SG
+    =thé.M.SG
    </function>
    <comment>
     Correct !
@@ -13850,7 +14287,7 @@
     100
    </score>
    <function>
-    thé.M.SG
+    =thé.M.SG
    </function>
    <comment>
     Correct !
@@ -13929,7 +14366,7 @@
     100
    </score>
    <function>
-    tranchant.M.SG
+    =tranchant.M.SG
    </function>
    <comment>
     Bien !
@@ -14019,7 +14456,7 @@
     100
    </score>
    <function>
-    travailler-INF
+    =travailler-INF
    </function>
    <comment>
     Bien !
@@ -14076,7 +14513,7 @@
     100
    </score>
    <function>
-    PRO.2SG.SUJ_couper.IND.PRS-2SG
+    =PRO.2SG.SUJ_couper.IND.PRS-2SG
    </function>
    <comment>
     Très bien !
@@ -14232,7 +14669,7 @@
     100
    </score>
    <function>
-    PRO.2SG.SUJ_réussir-IND.FUT-2SG
+    =PRO.2SG.SUJ_réussir-IND.FUT-2SG
    </function>
    <comment>
     Très bien !
@@ -14432,7 +14869,7 @@
     100
    </score>
    <function>
-    INDEF.M.SG
+    =INDEF.M.SG
    </function>
    <comment>
     Correct, bien !
@@ -14500,7 +14937,7 @@
     100
    </score>
    <function>
-    INDEF.SG-F
+    =INDEF.SG-F
    </function>
    <comment>
     Correct, bien !
@@ -14634,7 +15071,7 @@
     100
    </score>
    <function>
-    INDEF.SG-F
+    =INDEF.SG-F
    </function>
    <comment>
     Correct, bien !
@@ -14757,7 +15194,7 @@
     100
    </score>
    <function>
-    utiliser-PRS_P
+    =utiliser-PRS_P
    </function>
    <comment>
     Bien !
@@ -14858,7 +15295,7 @@
     100
    </score>
    <function>
-    vacances.F.P
+    =vacances.F.P
    </function>
    <comment>
     None
@@ -14921,27 +15358,16 @@
   </answer>
   <answer id="6">
    <score>
-    10
-   </score>
-   <function>
-    vacances
-   </function>
-   <comment>
-    Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="7">
-   <score>
     0
    </score>
    <function>
     vacance*
    </function>
    <comment>
-    Etes-vous sûr que le lexème concerné est vacance comme vacance de poste ? Quel genre, quel nombre ?
+    Etes-vous sûr que le lexème de vacances est au singulier ? Quel genre, quel nombre ?
    </comment>
   </answer>
-  <answer id="8">
+  <answer id="7">
    <score>
     0
    </score>
@@ -14959,7 +15385,7 @@
     100
    </score>
    <function>
-    vacances.F.P
+    =vacances.F.P
    </function>
    <comment>
     None
@@ -15060,7 +15486,7 @@
     100
    </score>
    <function>
-    vert.M-PL
+    =vert.M-PL
    </function>
    <comment>
     Correct, bravo !
@@ -15172,7 +15598,7 @@
     100
    </score>
    <function>
-    vouloir.IND.PRS-3PL
+    =vouloir.IND.PRS-3PL
    </function>
    <comment>
     Bien !
@@ -15284,7 +15710,7 @@
     100
    </score>
    <function>
-    vouloir.IND.PRS-3SG
+    =vouloir.IND.PRS-3SG
    </function>
    <comment>
     Bien !
@@ -15396,7 +15822,7 @@
     100
    </score>
    <function>
-    vite
+    =vite
    </function>
    <comment>
     Correct !
@@ -15431,7 +15857,7 @@
     100
    </score>
    <function>
-    vif-F-PL
+    =vif-F-PL
    </function>
    <comment>
     Bien !
@@ -15532,7 +15958,7 @@
     100
    </score>
    <function>
-    voisin.M-PL
+    =voisin.M-PL
    </function>
    <comment>
     C’est bien ça !
@@ -15601,7 +16027,7 @@
     voisin
    </function>
    <comment>
-    Quel genre,quel nombre ?
+    Quel genre, quel nombre ?
    </comment>
   </answer>
   <answer id="7">
@@ -15633,7 +16059,7 @@
     100
    </score>
    <function>
-    voisin.M-PL
+    =voisin.M-PL
    </function>
    <comment>
     C’est bien ça !
@@ -15734,7 +16160,7 @@
     100
    </score>
    <function>
-    vouloir-COND.PRS-3SG
+    =vouloir-COND.PRS-3SG
    </function>
    <comment>
     Correct !
@@ -15879,7 +16305,7 @@
     100
    </score>
    <function>
-    PRO.2PL.SUJ_devoir.IND.PRS-2PL
+    =PRO.2PL.SUJ_devoir.IND.PRS-2PL
    </function>
    <comment>
     Très bien !
@@ -16013,7 +16439,7 @@
     100
    </score>
    <function>
-    voir-PST_P
+    =voir-PST_P
    </function>
    <comment>
     Bien !
@@ -16114,7 +16540,7 @@
     100
    </score>
    <function>
-    oeil.M.PL
+    =oeil.M.PL
    </function>
    <comment>
     Correct !
@@ -16303,7 +16729,7 @@
     100
    </score>
    <function>
-    zoo.M.SG
+    =zoo.M.SG
    </function>
    <comment>
     Correct !
@@ -16382,7 +16808,7 @@
     100
    </score>
    <function>
-    PREP.A
+    =PREP.A
    </function>
    <comment>
     C’est bien ça !
@@ -16450,7 +16876,7 @@
     100
    </score>
    <function>
-    élève-P
+    =élève-P
    </function>
    <comment>
     None
@@ -16551,7 +16977,7 @@
     100
    </score>
    <function>
-    être.INF
+    =être.INF
    </function>
    <comment>
     Bien ! Sachez que l'on accepte aussi -INF si l'on considère le r phonologique comme une marque de l'infinitif.
@@ -16608,7 +17034,7 @@
     100
    </score>
    <function>
-    œuvre.F.SG
+    =œuvre.F.SG
    </function>
    <comment>
     Correct !
