@@ -29,15 +29,12 @@ def generate_xml(dict_list):
             answer = doc_xml.new_tag('answer')
             answer['id'] = reponse.index(dic)
             word.append(answer)
-            score = doc_xml.new_tag('score')
-            score.string = dic['score']
-            content = doc_xml.new_tag('content')
-            content.string = dic['content']
-            comment = doc_xml.new_tag('comment')
-            comment.string = dic['comment']
-            answer.append(score)
-            answer.append(content)
-            answer.append(comment)
+            tag_dict = {'score': 'num', 'content': 'text', 'comment': 'text'}
+            for tag_name, tag_type in tag_dict.items():
+                tag = doc_xml.new_tag(tag_name)
+                tag['type'] = tag_type
+                tag.string = dic[tag_name]
+                answer.append(tag)
     return doc_xml
 
 
