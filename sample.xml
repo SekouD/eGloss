@@ -1,18 +1,165 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<word name="syntagme">
-    <answer id="0">
-        <function>fonction</function>
-        <score>%</score>
-        <comment>"commentaire"</comment>
-    </answer>
-    <answer id="1">
-        <function>fonction</function>
-        <score>%</score>
-        <comment>"commentaire"</comment>
-    </answer>
-</word>
+<!--
+Sample xml document showing the record structure
 
-<word name="syntagme">
-    <answer id="0">answer</answer>
-    <answer id="1">answer</answer>
-</word>
+-->
+<gloses>
+ <word name="acheter">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =acheter-INF
+   </content>
+   <comment type="text">
+    Bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    acheter.INF
+   </content>
+   <comment type="text">
+    N�y a-t-il pas une marque qui permet d�identifier l�infinitif ici ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    INF
+   </content>
+   <comment type="text">
+    Bien, mais quel est le lex�me du verbe ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    acheter
+   </content>
+   <comment type="text">
+    De quelle forme verbale s�agit-il ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    N�est-ce pas d�j� la forme de citation du verbe ? Comment l�appelle-t-on ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="ba">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    arriver
+   </content>
+   <comment type="text">
+    Hum�ce lex�me est-il dans cette phrase-l� ?
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    DEF[fille]
+   </content>
+   <comment type="text">
+    Bien essay� ! C�est bien un d�terminant, mais pas un d�fini.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    DEF[lit]
+   </content>
+   <comment type="text">
+    Hum�ce lex�me est-il dans cette phrase-l� ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =DEM
+   </content>
+   <comment type="text">
+    Bien ! C�est �a !
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    fille
+   </content>
+   <comment type="text">
+    Non, �ba� n�est pas un nom.
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    In�s
+   </content>
+   <comment type="text">
+    Hum�ce lex�me est-il dans cette phrase-l� ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    Isabelle
+   </content>
+   <comment type="text">
+    Non, �ba� n�est pas un nom.
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    lit
+   </content>
+   <comment type="text">
+    Hum�vous �tes sur le bon GN, mais �ba� n�est pas un nom.
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    tomber
+   </content>
+   <comment type="text">
+    Non, le verbe n�occupe jamais cette position dans la phrase, sachant que ce syst�me linguistique repose sur une �criture et donc lecture de droite � gauche. Observez de plus pr�s le corpus�}
+   </comment>
+  </answer>
+ </word>
+</gloses>
