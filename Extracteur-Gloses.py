@@ -6,9 +6,7 @@ resultat dans un fichier gloses.xml pour les mots en francais et kalaba.xml pour
 
 __author__ = 'Sekou Diao'
 
-import re
 import xml.etree.ElementTree as ET
-# from xml.dom.minidom import parseString
 from bs4 import BeautifulSoup as BS
 
 
@@ -127,8 +125,10 @@ def update_dict(dict, zip_mot_reponse):
     :return:
     """
     for mot, raw_reponses in zip_mot_reponse:
-        reponses = raw_reponses.split(sep='~')
         answers = []
+        reponses = raw_reponses.split(sep='~')
+        if reponses[0] == '{1:MC:':
+            reponses[0:2] = [''.join(reponses[0:2])]
         for reponse in reponses:
             answers.append(generate_answer_dict(reponse))
         recursive_update(dict, mot, answers)
