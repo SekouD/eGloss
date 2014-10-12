@@ -10,7 +10,6 @@ import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup as BS
 
 
-
 def generate_xml(dict_list):
     """
 
@@ -26,18 +25,18 @@ def generate_xml(dict_list):
         word = doc_xml.new_tag('word')
         word['name'] = mot
         xml_root.append(word)
-        for dict in reponse:
+        for dic in reponse:
             answer = doc_xml.new_tag('answer')
-            answer['id'] = reponse.index(dict)
+            answer['id'] = reponse.index(dic)
             word.append(answer)
             score = doc_xml.new_tag('score')
-            score.string = dict['score']
-            function = doc_xml.new_tag('function')
-            function.string = dict['function']
+            score.string = dic['score']
+            content = doc_xml.new_tag('content')
+            content.string = dic['content']
             comment = doc_xml.new_tag('comment')
-            comment.string = dict['comment']
+            comment.string = dic['comment']
             answer.append(score)
-            answer.append(function)
+            answer.append(content)
             answer.append(comment)
     return doc_xml
 
@@ -64,7 +63,8 @@ def nettoyer_liste(liste_mot):
     :param liste_mot:
     :rtype : none
     """
-    while '\n' in liste_mot: liste_mot.remove('\n')
+    while '\n' in liste_mot:
+        liste_mot.remove('\n')
     for mot in liste_mot:
         if '\n' in mot:
             index = liste_mot.index(mot)
@@ -97,30 +97,33 @@ def generate_answer_dict(reponse):
     """
     if "%" in reponse:
         score = reponse[reponse.find('%') + 1:reponse.rfind('%')]
-        function = reponse[4:reponse.find('#')]
+        content = reponse[4:reponse.find('#')]
     elif "SAC" in reponse:
         score = '100'
-        function = reponse[7:reponse.find('#')]
+        content = reponse[7:reponse.find('#')]
     elif "MC" in reponse:
         score = '100'
-        function = reponse[6:reponse.find('#')]
+        content = reponse[6:reponse.find('#')]
+    elif reponse.startswith('='):
+        score = '100'
+        content = reponse[:reponse.find('#')]
     else:
         score = '0'
-        function = reponse[:reponse.find('#')]
+        content = reponse[:reponse.find('#')]
     if "#" in reponse:
         comment = reponse[reponse.find('#') + 1:]
     else:
         comment = 'None'
-    answer_dict = dict(zip(['score', 'function', 'comment'], [score, function, comment]))
+    answer_dict = dict(zip(['score', 'content', 'comment'], [score, content, comment]))
     return answer_dict
 
 
-def update_dict(dict, zip_mot_reponse):
+def update_dict(dic, zip_mot_reponse):
     """
 
 
 
-    :param dict:
+    :param dic:
     :param zip_mot_reponse:
     :return:
     """
@@ -131,25 +134,25 @@ def update_dict(dict, zip_mot_reponse):
             reponses[0:2] = [''.join(reponses[0:2])]
         for reponse in reponses:
             answers.append(generate_answer_dict(reponse))
-        recursive_update(dict, mot, answers)
+        recursive_update(dic, mot, answers)
     return
 
-def recursive_update(dict, key, value):
+
+def recursive_update(dic, key, value):
     """
 
 
-    :param dict:
+    :param dic:
     :param key:
     :param value:
     """
-    if key not in dict:
-        dict[key] = value
-    elif dict[key] == value:
+    if key not in dic:
+        dic[key] = value
+    elif dic[key] == value:
         return
     else:
-        recursive_update(dict, key + '#', value)
+        recursive_update(dic, key + '#', value)
     return
-
 
 
 def parse_questiontext_tag(html_obj, kalaba=False):
@@ -166,8 +169,11 @@ def parse_questiontext_tag(html_obj, kalaba=False):
         liste_mot = []
         liste_raw_reponses = []
         for table in test:
-            liste_mot.extend([td.strong.string for td in table.tbody.tr.contents if td.string != '\n' and td.string is None])
-            liste_raw_reponses.extend([tr if len(tr.contents) == 1 else tr.p.string for tr in table.tbody.contents[3].contents if not isinstance(tr, str) and tr.strong is None])
+            liste_mot.extend(
+                [td.strong.string for td in table.tbody.tr.contents if td.string != '\n' and td.string is None])
+            liste_raw_reponses.extend(
+                [tr if len(tr.contents) == 1 else tr.p.string for tr in table.tbody.contents[3].contents if
+                 not isinstance(tr, str) and tr.strong is None])
     else:
         liste_mot = [td.string for td in html_obj.tbody.tr.contents]
         liste_raw_reponses = [tr for tr in html_obj.tbody.contents[3].contents]
@@ -178,7 +184,7 @@ def parse_questiontext_tag(html_obj, kalaba=False):
 
 tree = ET.parse('quiz-L1-Grammaire-Gloses-20141004-0841.xml')
 root = tree.getroot()
-#root1 = BS('quiz-L1-Grammaire-Gloses-20141004-0841.xml')
+# root1 = BS('quiz-L1-Grammaire-Gloses-20141004-0841.xml')
 
 gloses_dict = {}
 kalaba_dict = {}
