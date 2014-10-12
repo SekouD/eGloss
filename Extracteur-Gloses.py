@@ -29,8 +29,8 @@ def generate_xml(dict_list):
             answer = doc_xml.new_tag('answer')
             answer['id'] = reponse.index(dic)
             word.append(answer)
-            tag_dict = {'score': 'num', 'content': 'text', 'comment': 'text'}
-            for tag_name, tag_type in tag_dict.items():
+            tag_list = [('score', 'num'), ('content', 'text'), ('comment', 'text')]
+            for tag_name, tag_type in tag_list:
                 tag = doc_xml.new_tag(tag_name)
                 tag['type'] = tag_type
                 tag.string = dic[tag_name]
