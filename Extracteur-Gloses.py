@@ -131,7 +131,7 @@ def update_dict(dic, zip_mot_reponse):
             reponses[0:2] = [''.join(reponses[0:2])]
         for reponse in reponses:
             answers.append(generate_answer_dict(reponse))
-        recursive_update(dic, mot, answers)
+        recursive_update(dic, mot.lower(), answers)
     return
 
 
