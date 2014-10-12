@@ -24,7 +24,7 @@ Sample xml document showing the record structure
     acheter.INF
    </content>
    <comment type="text">
-    N�y a-t-il pas une marque qui permet d�identifier l�infinitif ici ?
+    N’y a-t-il pas une marque qui permet d’identifier l’infinitif ici ?
    </comment>
   </answer>
   <answer id="2">
@@ -35,7 +35,7 @@ Sample xml document showing the record structure
     INF
    </content>
    <comment type="text">
-    Bien, mais quel est le lex�me du verbe ?
+    Bien, mais quel est le lexème du verbe ?
    </comment>
   </answer>
   <answer id="3">
@@ -46,7 +46,7 @@ Sample xml document showing the record structure
     acheter
    </content>
    <comment type="text">
-    De quelle forme verbale s�agit-il ?
+    De quelle forme verbale s’agit-il ?
    </comment>
   </answer>
   <answer id="4">
@@ -57,7 +57,7 @@ Sample xml document showing the record structure
     *
    </content>
    <comment type="text">
-    N�est-ce pas d�j� la forme de citation du verbe ? Comment l�appelle-t-on ?}
+    N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
    </comment>
   </answer>
  </word>
@@ -70,7 +70,7 @@ Sample xml document showing the record structure
     arriver
    </content>
    <comment type="text">
-    Hum�ce lex�me est-il dans cette phrase-l� ?
+    Hum…ce lexème est-il dans cette phrase-là ?
    </comment>
   </answer>
   <answer id="1">
@@ -81,7 +81,7 @@ Sample xml document showing the record structure
     DEF[fille]
    </content>
    <comment type="text">
-    Bien essay� ! C�est bien un d�terminant, mais pas un d�fini.
+    Bien essayé ! C’est bien un déterminant, mais pas un défini.
    </comment>
   </answer>
   <answer id="2">
@@ -92,7 +92,7 @@ Sample xml document showing the record structure
     DEF[lit]
    </content>
    <comment type="text">
-    Hum�ce lex�me est-il dans cette phrase-l� ?
+    Hum…ce lexème est-il dans cette phrase-là ?
    </comment>
   </answer>
   <answer id="3">
@@ -103,7 +103,7 @@ Sample xml document showing the record structure
     =DEM
    </content>
    <comment type="text">
-    Bien ! C�est �a !
+    Bien ! C’est ça !
    </comment>
   </answer>
   <answer id="4">
@@ -114,7 +114,7 @@ Sample xml document showing the record structure
     fille
    </content>
    <comment type="text">
-    Non, �ba� n�est pas un nom.
+    Non, ‘ba’ n’est pas un nom.
    </comment>
   </answer>
   <answer id="5">
@@ -122,10 +122,10 @@ Sample xml document showing the record structure
     0
    </score>
    <content type="text">
-    In�s
+    Inès
    </content>
    <comment type="text">
-    Hum�ce lex�me est-il dans cette phrase-l� ?
+    Hum…ce lexème est-il dans cette phrase-là ?
    </comment>
   </answer>
   <answer id="6">
@@ -136,7 +136,7 @@ Sample xml document showing the record structure
     Isabelle
    </content>
    <comment type="text">
-    Non, �ba� n�est pas un nom.
+    Non, ‘ba’ n’est pas un nom.
    </comment>
   </answer>
   <answer id="7">
@@ -147,7 +147,7 @@ Sample xml document showing the record structure
     lit
    </content>
    <comment type="text">
-    Hum�vous �tes sur le bon GN, mais �ba� n�est pas un nom.
+    Hum…vous êtes sur le bon GN, mais ‘ba’ n’est pas un nom.
    </comment>
   </answer>
   <answer id="8">
@@ -158,7 +158,7 @@ Sample xml document showing the record structure
     tomber
    </content>
    <comment type="text">
-    Non, le verbe n�occupe jamais cette position dans la phrase, sachant que ce syst�me linguistique repose sur une �criture et donc lecture de droite � gauche. Observez de plus pr�s le corpus�}
+    Non, le verbe n’occupe jamais cette position dans la phrase, sachant que ce système linguistique repose sur une écriture et donc lecture de droite à gauche. Observez de plus près le corpus…}
    </comment>
   </answer>
  </word>
