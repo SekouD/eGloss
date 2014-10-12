@@ -1,7 +1,7 @@
 """
 Extracteur de mots depuis quiz-L1-Grammaire-Gloses-20141004-0841.xml
 Le script lit le fichier et en extrait les mots ainsi que les questions associees a chaque mot puis enregistre le
-resultat dans un fichier gloses.xml
+resultat dans un fichier gloses.xml pour les mots en francais et kalaba.xml pour les mots Kalaba
 """
 
 __author__ = 'Sekou Diao'
