@@ -21,13 +21,13 @@ def generate_xml(dict_list):
     xml_root = doc_xml.new_tag('gloses')
     doc_xml.append(xml_root)
     for mot, reponse in sorted(dict_list.items()):
-        word = doc_xml.new_tag('word')
-        word['name'] = mot
-        xml_root.append(word)
+        lexeme = doc_xml.new_tag('lexeme')
+        lexeme['name'] = mot
+        xml_root.append(lexeme)
         for dic in reponse:
             answer = doc_xml.new_tag('answer')
             answer['id'] = reponse.index(dic)
-            word.append(answer)
+            lexeme.append(answer)
             tag_list = [('score', 'num'), ('content', 'text'), ('comment', 'text')]
             for tag_name, tag_type in tag_list:
                 tag = doc_xml.new_tag(tag_name)

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gloses>
- <word name="acheter">
+ <lexeme name="acheter">
   <answer id="0">
    <score type="num">
     100
@@ -56,8 +56,8 @@
     N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
    </comment>
   </answer>
- </word>
- <word name="amie">
+ </lexeme>
+ <lexeme name="amie">
   <answer id="0">
    <score type="num">
     100
@@ -179,8 +179,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="ananas">
+ </lexeme>
+ <lexeme name="ananas">
   <answer id="0">
    <score type="num">
     100
@@ -280,8 +280,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="arriver">
+ </lexeme>
+ <lexeme name="arriver">
   <answer id="0">
    <score type="num">
     100
@@ -337,8 +337,8 @@
     N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
    </comment>
   </answer>
- </word>
- <word name="au">
+ </lexeme>
+ <lexeme name="au">
   <answer id="0">
    <score type="num">
     100
@@ -427,8 +427,8 @@
     Ne serait-ce pas une forme contractée de la préposition A et du déterminant LE ?}
    </comment>
   </answer>
- </word>
- <word name="aux">
+ </lexeme>
+ <lexeme name="aux">
   <answer id="0">
    <score type="num">
     100
@@ -528,8 +528,8 @@
     Ne serait-ce pas une forme contractée de la préposition A et du déterminant LES ?}
    </comment>
   </answer>
- </word>
- <word name="avec">
+ </lexeme>
+ <lexeme name="avec">
   <answer id="0">
    <score type="num">
     100
@@ -585,8 +585,8 @@
     N’est-ce pas une préposition ?}
    </comment>
   </answer>
- </word>
- <word name="avec#">
+ </lexeme>
+ <lexeme name="avec#">
   <answer id="0">
    <score type="num">
     100
@@ -642,8 +642,8 @@
     N’est-ce pas une préposition ?}
    </comment>
   </answer>
- </word>
- <word name="bien">
+ </lexeme>
+ <lexeme name="bien">
   <answer id="0">
    <score type="num">
     100
@@ -677,8 +677,8 @@
     Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…}
    </comment>
   </answer>
- </word>
- <word name="boivent">
+ </lexeme>
+ <lexeme name="boivent">
   <answer id="0">
    <score type="num">
     100
@@ -789,8 +789,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="boivent ">
+ </lexeme>
+ <lexeme name="boivent ">
   <answer id="0">
    <score type="num">
     100
@@ -901,8 +901,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="caf� ">
+ </lexeme>
+ <lexeme name="caf� ">
   <answer id="0">
    <score type="num">
     100
@@ -980,8 +980,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="camarades">
+ </lexeme>
+ <lexeme name="camarades">
   <answer id="0">
    <score type="num">
     100
@@ -1092,8 +1092,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="certitude">
+ </lexeme>
+ <lexeme name="certitude">
   <answer id="0">
    <score type="num">
     100
@@ -1171,8 +1171,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="cet">
+ </lexeme>
+ <lexeme name="cet">
   <answer id="0">
    <score type="num">
     100
@@ -1228,8 +1228,8 @@
     Ne serait-ce pas un déterminant démonstratif de la série CE, CETTE, CES ? Pensez, par ailleurs, à traiter la consonne de liaison...}
    </comment>
   </answer>
- </word>
- <word name="chante">
+ </lexeme>
+ <lexeme name="chante">
   <answer id="0">
    <score type="num">
     100
@@ -1373,8 +1373,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="chat">
+ </lexeme>
+ <lexeme name="chat">
   <answer id="0">
    <score type="num">
     100
@@ -1452,8 +1452,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="chat#">
+ </lexeme>
+ <lexeme name="chat#">
   <answer id="0">
    <score type="num">
     100
@@ -1531,8 +1531,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="chats">
+ </lexeme>
+ <lexeme name="chats">
   <answer id="0">
    <score type="num">
     100
@@ -1632,8 +1632,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="coll�ge ">
+ </lexeme>
+ <lexeme name="coll�ge ">
   <answer id="0">
    <score type="num">
     100
@@ -1711,8 +1711,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="contr�lable ">
+ </lexeme>
+ <lexeme name="contr�lable ">
   <answer id="0">
    <score type="num">
     100
@@ -1790,8 +1790,8 @@
     Ce mot n’a-t-il pas un rôle de qualification ?}
    </comment>
   </answer>
- </word>
- <word name="couleurs">
+ </lexeme>
+ <lexeme name="couleurs">
   <answer id="0">
    <score type="num">
     100
@@ -1891,8 +1891,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="couloirs ">
+ </lexeme>
+ <lexeme name="couloirs ">
   <answer id="0">
    <score type="num">
     100
@@ -1992,8 +1992,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="couteau">
+ </lexeme>
+ <lexeme name="couteau">
   <answer id="0">
    <score type="num">
     100
@@ -2071,8 +2071,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="d'une ">
+ </lexeme>
+ <lexeme name="d'une ">
   <answer id="0">
    <score type="num">
     100
@@ -2194,8 +2194,8 @@
     Ne serait-ce pas la préposition DE suivie du déterminant UNE ?}
    </comment>
   </answer>
- </word>
- <word name="dans">
+ </lexeme>
+ <lexeme name="dans">
   <answer id="0">
    <score type="num">
     100
@@ -2251,8 +2251,8 @@
     N’est-ce pas une préposition ?}
    </comment>
   </answer>
- </word>
- <word name="dans ">
+ </lexeme>
+ <lexeme name="dans ">
   <answer id="0">
    <score type="num">
     100
@@ -2308,8 +2308,8 @@
     N’est-ce pas une préposition ?}
    </comment>
   </answer>
- </word>
- <word name="de">
+ </lexeme>
+ <lexeme name="de">
   <answer id="0">
    <score type="num">
     100
@@ -2376,8 +2376,8 @@
     N’est-ce pas une préposition qui introduit un complément du nom ?}
    </comment>
   </answer>
- </word>
- <word name="de la">
+ </lexeme>
+ <lexeme name="de la">
   <answer id="0">
    <score type="num">
     100
@@ -2444,8 +2444,8 @@
     Hum…on donne qqch, non ?}
    </comment>
   </answer>
- </word>
- <word name="de#">
+ </lexeme>
+ <lexeme name="de#">
   <answer id="0">
    <score type="num">
     100
@@ -2501,8 +2501,8 @@
     N’est-ce pas une préposition qui introduit un complément du nom ?}
    </comment>
   </answer>
- </word>
- <word name="de##">
+ </lexeme>
+ <lexeme name="de##">
   <answer id="0">
    <score type="num">
     100
@@ -2558,8 +2558,8 @@
     N’est-ce pas une préposition ?}
    </comment>
   </answer>
- </word>
- <word name="des">
+ </lexeme>
+ <lexeme name="des">
   <answer id="0">
    <score type="num">
     100
@@ -2681,8 +2681,8 @@
     On achète qqch ? Ne serait-ce pas un déterminant ? Est-ce un défini ou bien un indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="des#">
+ </lexeme>
+ <lexeme name="des#">
   <answer id="0">
    <score type="num">
     100
@@ -2804,8 +2804,8 @@
     Voulez-vous manger qqch ?}
    </comment>
   </answer>
- </word>
- <word name="des##">
+ </lexeme>
+ <lexeme name="des##">
   <answer id="0">
    <score type="num">
     100
@@ -2905,8 +2905,8 @@
     Ne serait-ce pas une forme contractée de la préposition de et du déterminant les ?}
    </comment>
   </answer>
- </word>
- <word name="des###">
+ </lexeme>
+ <lexeme name="des###">
   <answer id="0">
    <score type="num">
     100
@@ -3028,8 +3028,8 @@
     On utilise qqch ? Est-ce un défini ou bien un indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="des####">
+ </lexeme>
+ <lexeme name="des####">
   <answer id="0">
    <score type="num">
     100
@@ -3118,8 +3118,8 @@
     Ne serait-ce pas une forme contractée de la préposition de et du déterminant les ?}
    </comment>
   </answer>
- </word>
- <word name="difficilement ">
+ </lexeme>
+ <lexeme name="difficilement ">
   <answer id="0">
    <score type="num">
     100
@@ -3153,8 +3153,8 @@
     Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…}
    </comment>
   </answer>
- </word>
- <word name="discutaient">
+ </lexeme>
+ <lexeme name="discutaient">
   <answer id="0">
    <score type="num">
     100
@@ -3287,8 +3287,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="donne">
+ </lexeme>
+ <lexeme name="donne">
   <answer id="0">
    <score type="num">
     100
@@ -3421,8 +3421,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="dont">
+ </lexeme>
+ <lexeme name="dont">
   <answer id="0">
    <score type="num">
     100
@@ -3533,8 +3533,8 @@
     Ce mot n’introduit-il pas une proposition subordonnée relative ?}
    </comment>
   </answer>
- </word>
- <word name="dramaturge ">
+ </lexeme>
+ <lexeme name="dramaturge ">
   <answer id="0">
    <score type="num">
     100
@@ -3612,8 +3612,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="du">
+ </lexeme>
+ <lexeme name="du">
   <answer id="0">
    <score type="num">
     100
@@ -3680,8 +3680,8 @@
     Hum… y a-t-il une préposition ici ?}
    </comment>
   </answer>
- </word>
- <word name="du ">
+ </lexeme>
+ <lexeme name="du ">
   <answer id="0">
    <score type="num">
     100
@@ -3748,8 +3748,8 @@
     Hum…voulez-vous boire qqch ?}
    </comment>
   </answer>
- </word>
- <word name="du #">
+ </lexeme>
+ <lexeme name="du #">
   <answer id="0">
    <score type="num">
     100
@@ -3849,8 +3849,8 @@
     Ne serait-ce pas la forme contractée d’une préposition et d’un déterminant ?}
    </comment>
   </answer>
- </word>
- <word name="du#">
+ </lexeme>
+ <lexeme name="du#">
   <answer id="0">
    <score type="num">
     100
@@ -3972,8 +3972,8 @@
     Ne serait-ce pas une forme contractée de la préposition DE et du déterminant LE ?}
    </comment>
   </answer>
- </word>
- <word name="du##">
+ </lexeme>
+ <lexeme name="du##">
   <answer id="0">
    <score type="num">
     100
@@ -4051,8 +4051,8 @@
     Hum…voulez-vous manger qqch ?}
    </comment>
   </answer>
- </word>
- <word name="du###">
+ </lexeme>
+ <lexeme name="du###">
   <answer id="0">
    <score type="num">
     100
@@ -4119,8 +4119,8 @@
     Hum… y a-t-il une préposition ici ?}
    </comment>
   </answer>
- </word>
- <word name="duquel">
+ </lexeme>
+ <lexeme name="duquel">
   <answer id="0">
    <score type="num">
     100
@@ -4264,8 +4264,8 @@
     Ce mot n’introduit-il pas une proposition subordonnée relative ?}
    </comment>
   </answer>
- </word>
- <word name="en">
+ </lexeme>
+ <lexeme name="en">
   <answer id="0">
    <score type="num">
     100
@@ -4310,8 +4310,8 @@
     N’est-ce pas une préposition ? Ce mot sert ici à former un gérondif…}
    </comment>
   </answer>
- </word>
- <word name="enfants">
+ </lexeme>
+ <lexeme name="enfants">
   <answer id="0">
    <score type="num">
     100
@@ -4411,8 +4411,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="enfants ">
+ </lexeme>
+ <lexeme name="enfants ">
   <answer id="0">
    <score type="num">
     100
@@ -4512,8 +4512,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="est">
+ </lexeme>
+ <lexeme name="est">
   <answer id="0">
    <score type="num">
     100
@@ -4602,8 +4602,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="est ">
+ </lexeme>
+ <lexeme name="est ">
   <answer id="0">
    <score type="num">
     100
@@ -4692,8 +4692,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="est#">
+ </lexeme>
+ <lexeme name="est#">
   <answer id="0">
    <score type="num">
     100
@@ -4782,8 +4782,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="et">
+ </lexeme>
+ <lexeme name="et">
   <answer id="0">
    <score type="num">
     100
@@ -4839,8 +4839,8 @@
     Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}
    </comment>
   </answer>
- </word>
- <word name="fille">
+ </lexeme>
+ <lexeme name="fille">
   <answer id="0">
    <score type="num">
     100
@@ -4929,8 +4929,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="fils">
+ </lexeme>
+ <lexeme name="fils">
   <answer id="0">
    <score type="num">
     100
@@ -4997,8 +4997,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="fi�re">
+ </lexeme>
+ <lexeme name="fi�re">
   <answer id="0">
    <score type="num">
     100
@@ -5109,8 +5109,8 @@
     Ce mot n’a-t-il pas un rôle de qualification ?}
    </comment>
   </answer>
- </word>
- <word name="fr�re">
+ </lexeme>
+ <lexeme name="fr�re">
   <answer id="0">
    <score type="num">
     100
@@ -5188,8 +5188,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="grand">
+ </lexeme>
+ <lexeme name="grand">
   <answer id="0">
    <score type="num">
     100
@@ -5278,8 +5278,8 @@
     Ce mot n’a-t-il pas un rôle de qualification ?}
    </comment>
   </answer>
- </word>
- <word name="grande ">
+ </lexeme>
+ <lexeme name="grande ">
   <answer id="0">
    <score type="num">
     100
@@ -5390,8 +5390,8 @@
     Ce mot n’a-t-il pas un rôle de qualification ?}
    </comment>
   </answer>
- </word>
- <word name="g�teau">
+ </lexeme>
+ <lexeme name="g�teau">
   <answer id="0">
    <score type="num">
     100
@@ -5469,8 +5469,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="homme">
+ </lexeme>
+ <lexeme name="homme">
   <answer id="0">
    <score type="num">
     100
@@ -5548,8 +5548,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="honn�te">
+ </lexeme>
+ <lexeme name="honn�te">
   <answer id="0">
    <score type="num">
     100
@@ -5638,8 +5638,8 @@
     Ce mot n’a-t-il pas un rôle de qualification ?}
    </comment>
   </answer>
- </word>
- <word name="ils d�testent ">
+ </lexeme>
+ <lexeme name="ils d�testent ">
   <answer id="0">
    <score type="num">
     100
@@ -5772,8 +5772,8 @@
     Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe détester ? Séparez les deux parties par un tiret du 8…}
    </comment>
   </answer>
- </word>
- <word name="inonde">
+ </lexeme>
+ <lexeme name="inonde">
   <answer id="0">
    <score type="num">
     100
@@ -5895,8 +5895,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="j'ai">
+ </lexeme>
+ <lexeme name="j'ai">
   <answer id="0">
    <score type="num">
     100
@@ -6128,8 +6128,8 @@
     Ne serait-ce pas un pronom personnel sujet suivi du verbe avoir ? Séparez les deux parties par un tiret du 8…}
    </comment>
   </answer>
- </word>
- <word name="je discute">
+ </lexeme>
+ <lexeme name="je discute">
   <answer id="0">
    <score type="num">
     100
@@ -6251,8 +6251,8 @@
     Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe discuter ? Séparez les deux parties par un tiret du 8…}
    </comment>
   </answer>
- </word>
- <word name="je lui parle">
+ </lexeme>
+ <lexeme name="je lui parle">
   <answer id="0">
    <score type="num">
     100
@@ -6429,8 +6429,8 @@
     Ne serait-ce pas un pronom personnel sujet suivi d’un pronom personnel datif, suivi du verbe parler ? Séparez les trois parties par un tiret du 8…}
    </comment>
   </answer>
- </word>
- <word name="jean">
+ </lexeme>
+ <lexeme name="jean">
   <answer id="0">
    <score type="num">
     100
@@ -6519,8 +6519,8 @@
     La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
    </comment>
   </answer>
- </word>
- <word name="jouer">
+ </lexeme>
+ <lexeme name="jouer">
   <answer id="0">
    <score type="num">
     100
@@ -6576,8 +6576,8 @@
     N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
    </comment>
   </answer>
- </word>
- <word name="julie">
+ </lexeme>
+ <lexeme name="julie">
   <answer id="0">
    <score type="num">
     100
@@ -6666,8 +6666,8 @@
     La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
    </comment>
   </answer>
- </word>
- <word name="justine">
+ </lexeme>
+ <lexeme name="justine">
   <answer id="0">
    <score type="num">
     100
@@ -6756,8 +6756,8 @@
     La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
    </comment>
   </answer>
- </word>
- <word name="la">
+ </lexeme>
+ <lexeme name="la">
   <answer id="0">
    <score type="num">
     100
@@ -6824,8 +6824,8 @@
     Ne serait-ce pas un déterminant ? défini ou indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="la ">
+ </lexeme>
+ <lexeme name="la ">
   <answer id="0">
    <score type="num">
     100
@@ -6892,8 +6892,8 @@
     Ne serait-ce pas un déterminant ? défini ou indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="la#">
+ </lexeme>
+ <lexeme name="la#">
   <answer id="0">
    <score type="num">
     100
@@ -6960,8 +6960,8 @@
     Ne serait-ce pas un déterminant ? défini ou indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="la##">
+ </lexeme>
+ <lexeme name="la##">
   <answer id="0">
    <score type="num">
     100
@@ -7028,8 +7028,8 @@
     Ne serait-ce pas un déterminant ? défini ou indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="lait ">
+ </lexeme>
+ <lexeme name="lait ">
   <answer id="0">
    <score type="num">
     100
@@ -7107,8 +7107,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="le">
+ </lexeme>
+ <lexeme name="le">
   <answer id="0">
    <score type="num">
     100
@@ -7175,8 +7175,8 @@
     Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="le ">
+ </lexeme>
+ <lexeme name="le ">
   <answer id="0">
    <score type="num">
     100
@@ -7243,8 +7243,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="le #">
+ </lexeme>
+ <lexeme name="le #">
   <answer id="0">
    <score type="num">
     100
@@ -7311,8 +7311,8 @@
     Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="lequel">
+ </lexeme>
+ <lexeme name="lequel">
   <answer id="0">
    <score type="num">
     100
@@ -7434,8 +7434,8 @@
     Ce mot n’introduit-il pas une proposition subordonnée relative ?}
    </comment>
   </answer>
- </word>
- <word name="les">
+ </lexeme>
+ <lexeme name="les">
   <answer id="0">
    <score type="num">
     100
@@ -7568,8 +7568,8 @@
     Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="les ">
+ </lexeme>
+ <lexeme name="les ">
   <answer id="0">
    <score type="num">
     100
@@ -7702,8 +7702,8 @@
     Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="les #">
+ </lexeme>
+ <lexeme name="les #">
   <answer id="0">
    <score type="num">
     100
@@ -7836,8 +7836,8 @@
     Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="les#">
+ </lexeme>
+ <lexeme name="les#">
   <answer id="0">
    <score type="num">
     100
@@ -7970,8 +7970,8 @@
     Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="les##">
+ </lexeme>
+ <lexeme name="les##">
   <answer id="0">
    <score type="num">
     100
@@ -8104,8 +8104,8 @@
     Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="leur">
+ </lexeme>
+ <lexeme name="leur">
   <answer id="0">
    <score type="num">
     100
@@ -8238,8 +8238,8 @@
     Ce petit mot n’établit-il pas une relation de possession ?}
    </comment>
   </answer>
- </word>
- <word name="leurs">
+ </lexeme>
+ <lexeme name="leurs">
   <answer id="0">
    <score type="num">
     100
@@ -8339,8 +8339,8 @@
     Ce petit mot n’établit-il pas une relation de possession ?}
    </comment>
   </answer>
- </word>
- <word name="lire ">
+ </lexeme>
+ <lexeme name="lire ">
   <answer id="0">
    <score type="num">
     100
@@ -8396,8 +8396,8 @@
     N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
    </comment>
   </answer>
- </word>
- <word name="mais ">
+ </lexeme>
+ <lexeme name="mais ">
   <answer id="0">
    <score type="num">
     100
@@ -8453,8 +8453,8 @@
     Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}
    </comment>
   </answer>
- </word>
- <word name="mange">
+ </lexeme>
+ <lexeme name="mange">
   <answer id="0">
    <score type="num">
     100
@@ -8543,8 +8543,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="mange#">
+ </lexeme>
+ <lexeme name="mange#">
   <answer id="0">
    <score type="num">
     100
@@ -8666,8 +8666,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="mangent">
+ </lexeme>
+ <lexeme name="mangent">
   <answer id="0">
    <score type="num">
     100
@@ -8778,8 +8778,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="march�">
+ </lexeme>
+ <lexeme name="march�">
   <answer id="0">
    <score type="num">
     100
@@ -8857,8 +8857,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="marie">
+ </lexeme>
+ <lexeme name="marie">
   <answer id="0">
    <score type="num">
     100
@@ -8958,8 +8958,8 @@
     La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
    </comment>
   </answer>
- </word>
- <word name="me r�jouit">
+ </lexeme>
+ <lexeme name="me r�jouit">
   <answer id="0">
    <score type="num">
     100
@@ -9147,8 +9147,8 @@
     Ne serait-ce pas un pronom personnel accusatif (clitique) suivi du verbe réjouir ? Séparez les deux parties par un tiret du 8…}
    </comment>
   </answer>
- </word>
- <word name="meilleure">
+ </lexeme>
+ <lexeme name="meilleure">
   <answer id="0">
    <score type="num">
     100
@@ -9259,8 +9259,8 @@
     Ce mot n’a-t-il pas un rôle de qualification ?}
    </comment>
   </answer>
- </word>
- <word name="moi">
+ </lexeme>
+ <lexeme name="moi">
   <answer id="0">
    <score type="num">
     100
@@ -9327,8 +9327,8 @@
     Ce mot ne remplace-t-il pas quelque chose ou plutôt quelqu’un ?}
    </comment>
   </answer>
- </word>
- <word name="nathalie">
+ </lexeme>
+ <lexeme name="nathalie">
   <answer id="0">
    <score type="num">
     100
@@ -9417,8 +9417,8 @@
     La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
    </comment>
   </answer>
- </word>
- <word name="noix">
+ </lexeme>
+ <lexeme name="noix">
   <answer id="0">
    <score type="num">
     100
@@ -9518,8 +9518,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="nos">
+ </lexeme>
+ <lexeme name="nos">
   <answer id="0">
    <score type="num">
     100
@@ -9641,8 +9641,8 @@
     Ce petit mot n’établit-il pas une relation de possession ?}
    </comment>
   </answer>
- </word>
- <word name="notre">
+ </lexeme>
+ <lexeme name="notre">
   <answer id="0">
    <score type="num">
     100
@@ -9742,8 +9742,8 @@
     Ce petit mot n’établit-il pas une relation de possession ?}
    </comment>
   </answer>
- </word>
- <word name="nourriture">
+ </lexeme>
+ <lexeme name="nourriture">
   <answer id="0">
    <score type="num">
     100
@@ -9821,8 +9821,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="nous vous entendons ">
+ </lexeme>
+ <lexeme name="nous vous entendons ">
   <answer id="0">
    <score type="num">
     100
@@ -9966,8 +9966,8 @@
     Ne serait-ce pas un pronom personnel sujet suivi d’un pronom personnel accusatif, suivi du verbe entendre ? Séparez les trois parties par un tiret du 8…}
    </comment>
   </answer>
- </word>
- <word name="ou ">
+ </lexeme>
+ <lexeme name="ou ">
   <answer id="0">
    <score type="num">
     100
@@ -10023,8 +10023,8 @@
     Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}
    </comment>
   </answer>
- </word>
- <word name="parlent">
+ </lexeme>
+ <lexeme name="parlent">
   <answer id="0">
    <score type="num">
     100
@@ -10135,8 +10135,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="parlent#">
+ </lexeme>
+ <lexeme name="parlent#">
   <answer id="0">
    <score type="num">
     100
@@ -10247,8 +10247,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="parler ">
+ </lexeme>
+ <lexeme name="parler ">
   <answer id="0">
    <score type="num">
     100
@@ -10304,8 +10304,8 @@
     N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
    </comment>
   </answer>
- </word>
- <word name="partit">
+ </lexeme>
+ <lexeme name="partit">
   <answer id="0">
    <score type="num">
     100
@@ -10438,8 +10438,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit... Sachez que l’abréviation standard choisie pour le passé simple en français est PRF (parfait)…}
    </comment>
   </answer>
- </word>
- <word name="passe ">
+ </lexeme>
+ <lexeme name="passe ">
   <answer id="0">
    <score type="num">
     100
@@ -10528,8 +10528,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="peignent">
+ </lexeme>
+ <lexeme name="peignent">
   <answer id="0">
    <score type="num">
     100
@@ -10662,8 +10662,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="pendant">
+ </lexeme>
+ <lexeme name="pendant">
   <answer id="0">
    <score type="num">
     100
@@ -10719,8 +10719,8 @@
     N’est-ce pas une préposition ?}
    </comment>
   </answer>
- </word>
- <word name="personne">
+ </lexeme>
+ <lexeme name="personne">
   <answer id="0">
    <score type="num">
     100
@@ -10798,8 +10798,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="petite">
+ </lexeme>
+ <lexeme name="petite">
   <answer id="0">
    <score type="num">
     100
@@ -10910,8 +10910,8 @@
     Ce mot n’a-t-il pas un rôle de qualification ?}
    </comment>
   </answer>
- </word>
- <word name="pierre">
+ </lexeme>
+ <lexeme name="pierre">
   <answer id="0">
    <score type="num">
     100
@@ -11000,8 +11000,8 @@
     La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
    </comment>
   </answer>
- </word>
- <word name="pi�ce ">
+ </lexeme>
+ <lexeme name="pi�ce ">
   <answer id="0">
    <score type="num">
     100
@@ -11079,8 +11079,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="place">
+ </lexeme>
+ <lexeme name="place">
   <answer id="0">
    <score type="num">
     100
@@ -11158,8 +11158,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="poup�e">
+ </lexeme>
+ <lexeme name="poup�e">
   <answer id="0">
    <score type="num">
     100
@@ -11237,8 +11237,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="pour">
+ </lexeme>
+ <lexeme name="pour">
   <answer id="0">
    <score type="num">
     100
@@ -11294,8 +11294,8 @@
     N’est-ce pas une préposition ?}
    </comment>
   </answer>
- </word>
- <word name="pourra">
+ </lexeme>
+ <lexeme name="pourra">
   <answer id="0">
    <score type="num">
     100
@@ -11428,8 +11428,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="professeur">
+ </lexeme>
+ <lexeme name="professeur">
   <answer id="0">
    <score type="num">
     100
@@ -11529,8 +11529,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="puisse">
+ </lexeme>
+ <lexeme name="puisse">
   <answer id="0">
    <score type="num">
     100
@@ -11696,8 +11696,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="que">
+ </lexeme>
+ <lexeme name="que">
   <answer id="0">
    <score type="num">
     100
@@ -11742,8 +11742,8 @@
     Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}
    </comment>
   </answer>
- </word>
- <word name="que ">
+ </lexeme>
+ <lexeme name="que ">
   <answer id="0">
    <score type="num">
     100
@@ -11821,8 +11821,8 @@
     Ce mot n’introduit-il pas une proposition subordonnée ? Une relative ou bien une complétive ?}
    </comment>
   </answer>
- </word>
- <word name="que#">
+ </lexeme>
+ <lexeme name="que#">
   <answer id="0">
    <score type="num">
     100
@@ -11867,8 +11867,8 @@
     Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Une conjonction ou un pronom relatif ? Ici, ce petit mot introduit-il une proposition subordonnée relative ou bien une complétive ?}
    </comment>
   </answer>
- </word>
- <word name="que##">
+ </lexeme>
+ <lexeme name="que##">
   <answer id="0">
    <score type="num">
     100
@@ -11924,8 +11924,8 @@
     Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}
    </comment>
   </answer>
- </word>
- <word name="qui">
+ </lexeme>
+ <lexeme name="qui">
   <answer id="0">
    <score type="num">
     100
@@ -12003,8 +12003,8 @@
     Ce mot n’introduit-il pas une proposition subordonnée relative ?}
    </comment>
   </answer>
- </word>
- <word name="qui ">
+ </lexeme>
+ <lexeme name="qui ">
   <answer id="0">
    <score type="num">
     100
@@ -12082,8 +12082,8 @@
     Ce mot n’introduit-il pas une proposition subordonnée relative ?}
    </comment>
   </answer>
- </word>
- <word name="sa">
+ </lexeme>
+ <lexeme name="sa">
   <answer id="0">
    <score type="num">
     100
@@ -12216,8 +12216,8 @@
     Ce petit mot n’établit-il pas une relation de possession ?}
    </comment>
   </answer>
- </word>
- <word name="scolaires">
+ </lexeme>
+ <lexeme name="scolaires">
   <answer id="0">
    <score type="num">
     100
@@ -12317,8 +12317,8 @@
     Ce mot n’a-t-il pas un rôle de qualification ?}
    </comment>
   </answer>
- </word>
- <word name="se m�fie">
+ </lexeme>
+ <lexeme name="se m�fie">
   <answer id="0">
    <score type="num">
     100
@@ -12484,8 +12484,8 @@
     Ne serait-ce pas un pronom réfléchi suivi du verbe méfier ? Séparez les deux parties par un tiret du 8…}
    </comment>
   </answer>
- </word>
- <word name="secours">
+ </lexeme>
+ <lexeme name="secours">
   <answer id="0">
    <score type="num">
     100
@@ -12585,8 +12585,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="semble">
+ </lexeme>
+ <lexeme name="semble">
   <answer id="0">
    <score type="num">
     100
@@ -12686,8 +12686,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="ses">
+ </lexeme>
+ <lexeme name="ses">
   <answer id="0">
    <score type="num">
     100
@@ -12787,8 +12787,8 @@
     Ce petit mot n’établit-il pas une relation de possession ?}
    </comment>
   </answer>
- </word>
- <word name="ses#">
+ </lexeme>
+ <lexeme name="ses#">
   <answer id="0">
    <score type="num">
     100
@@ -12899,8 +12899,8 @@
     Ce petit mot n’établit-il pas une relation de possession ?}
    </comment>
   </answer>
- </word>
- <word name="ses##">
+ </lexeme>
+ <lexeme name="ses##">
   <answer id="0">
    <score type="num">
     100
@@ -13011,8 +13011,8 @@
     Ce petit mot n’établit-il pas une relation de possession ?}
    </comment>
   </answer>
- </word>
- <word name="singes">
+ </lexeme>
+ <lexeme name="singes">
   <answer id="0">
    <score type="num">
     100
@@ -13112,8 +13112,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="son">
+ </lexeme>
+ <lexeme name="son">
   <answer id="0">
    <score type="num">
     100
@@ -13246,8 +13246,8 @@
     Ce petit mot n’établit-il pas une relation de possession ?}
    </comment>
   </answer>
- </word>
- <word name="sont">
+ </lexeme>
+ <lexeme name="sont">
   <answer id="0">
    <score type="num">
     100
@@ -13336,8 +13336,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="sophie">
+ </lexeme>
+ <lexeme name="sophie">
   <answer id="0">
    <score type="num">
     100
@@ -13426,8 +13426,8 @@
     La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}
    </comment>
   </answer>
- </word>
- <word name="souris">
+ </lexeme>
+ <lexeme name="souris">
   <answer id="0">
    <score type="num">
     100
@@ -13549,8 +13549,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="souris#">
+ </lexeme>
+ <lexeme name="souris#">
   <answer id="0">
    <score type="num">
     100
@@ -13628,8 +13628,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="sous-tasse">
+ </lexeme>
+ <lexeme name="sous-tasse">
   <answer id="0">
    <score type="num">
     100
@@ -13718,8 +13718,8 @@
     Ne serait-ce pas tout simplement un substantif ? Pensez que c'est un composé : la notation avec le signe +...}
    </comment>
   </answer>
- </word>
- <word name="temps ">
+ </lexeme>
+ <lexeme name="temps ">
   <answer id="0">
    <score type="num">
     100
@@ -13786,8 +13786,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="th�">
+ </lexeme>
+ <lexeme name="th�">
   <answer id="0">
    <score type="num">
     100
@@ -13865,8 +13865,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="th� ">
+ </lexeme>
+ <lexeme name="th� ">
   <answer id="0">
    <score type="num">
     100
@@ -13944,8 +13944,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="th�#">
+ </lexeme>
+ <lexeme name="th�#">
   <answer id="0">
    <score type="num">
     100
@@ -14023,8 +14023,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="tranchant">
+ </lexeme>
+ <lexeme name="tranchant">
   <answer id="0">
    <score type="num">
     100
@@ -14113,8 +14113,8 @@
     Ce mot n’a-t-il pas un rôle de qualification ?}
    </comment>
   </answer>
- </word>
- <word name="travailler">
+ </lexeme>
+ <lexeme name="travailler">
   <answer id="0">
    <score type="num">
     100
@@ -14170,8 +14170,8 @@
     N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
    </comment>
   </answer>
- </word>
- <word name="tu coupes">
+ </lexeme>
+ <lexeme name="tu coupes">
   <answer id="0">
    <score type="num">
     100
@@ -14326,8 +14326,8 @@
     Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe couper ? Séparez les deux parties par un tiret du 8…}
    </comment>
   </answer>
- </word>
- <word name="tu r�ussiras">
+ </lexeme>
+ <lexeme name="tu r�ussiras">
   <answer id="0">
    <score type="num">
     100
@@ -14526,8 +14526,8 @@
     Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe réussir ? Séparez les deux parties par un tiret du 8…}
    </comment>
   </answer>
- </word>
- <word name="un">
+ </lexeme>
+ <lexeme name="un">
   <answer id="0">
    <score type="num">
     100
@@ -14594,8 +14594,8 @@
     Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="une">
+ </lexeme>
+ <lexeme name="une">
   <answer id="0">
    <score type="num">
     100
@@ -14728,8 +14728,8 @@
     Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="une ">
+ </lexeme>
+ <lexeme name="une ">
   <answer id="0">
    <score type="num">
     100
@@ -14851,8 +14851,8 @@
     Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="une#">
+ </lexeme>
+ <lexeme name="une#">
   <answer id="0">
    <score type="num">
     100
@@ -14985,8 +14985,8 @@
     Est-ce un défini ou bien un indéfini ?}
    </comment>
   </answer>
- </word>
- <word name="utilisant">
+ </lexeme>
+ <lexeme name="utilisant">
   <answer id="0">
    <score type="num">
     100
@@ -15086,8 +15086,8 @@
     Ne serait-ce pas un participe ? Présent ou passé ? Regardez le suffixe…}
    </comment>
   </answer>
- </word>
- <word name="vacances">
+ </lexeme>
+ <lexeme name="vacances">
   <answer id="0">
    <score type="num">
     100
@@ -15176,8 +15176,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="vacances#">
+ </lexeme>
+ <lexeme name="vacances#">
   <answer id="0">
    <score type="num">
     100
@@ -15277,8 +15277,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="verts">
+ </lexeme>
+ <lexeme name="verts">
   <answer id="0">
    <score type="num">
     100
@@ -15389,8 +15389,8 @@
     Ce mot n’a-t-il pas un rôle de qualification ?}
    </comment>
   </answer>
- </word>
- <word name="veulent">
+ </lexeme>
+ <lexeme name="veulent">
   <answer id="0">
    <score type="num">
     100
@@ -15501,8 +15501,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="veut">
+ </lexeme>
+ <lexeme name="veut">
   <answer id="0">
    <score type="num">
     100
@@ -15613,8 +15613,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="vite ">
+ </lexeme>
+ <lexeme name="vite ">
   <answer id="0">
    <score type="num">
     100
@@ -15648,8 +15648,8 @@
     Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…}
    </comment>
   </answer>
- </word>
- <word name="vives">
+ </lexeme>
+ <lexeme name="vives">
   <answer id="0">
    <score type="num">
     100
@@ -15749,8 +15749,8 @@
     Ce mot n’a-t-il pas un rôle de qualification ?}
    </comment>
   </answer>
- </word>
- <word name="voisins">
+ </lexeme>
+ <lexeme name="voisins">
   <answer id="0">
    <score type="num">
     100
@@ -15850,8 +15850,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="voisins#">
+ </lexeme>
+ <lexeme name="voisins#">
   <answer id="0">
    <score type="num">
     100
@@ -15951,8 +15951,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="voudrait">
+ </lexeme>
+ <lexeme name="voudrait">
   <answer id="0">
    <score type="num">
     100
@@ -16096,8 +16096,8 @@
     Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
    </comment>
   </answer>
- </word>
- <word name="vous devez ">
+ </lexeme>
+ <lexeme name="vous devez ">
   <answer id="0">
    <score type="num">
     100
@@ -16230,8 +16230,8 @@
     Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe devoir ? Séparez les deux parties par un tiret du 8…}
    </comment>
   </answer>
- </word>
- <word name="vu">
+ </lexeme>
+ <lexeme name="vu">
   <answer id="0">
    <score type="num">
     100
@@ -16331,8 +16331,8 @@
     Ne serait-ce pas un participe ? Présent ou passé ? Regardez le suffixe…s’il y en a un…}
    </comment>
   </answer>
- </word>
- <word name="yeux">
+ </lexeme>
+ <lexeme name="yeux">
   <answer id="0">
    <score type="num">
     100
@@ -16520,8 +16520,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="zoo">
+ </lexeme>
+ <lexeme name="zoo">
   <answer id="0">
    <score type="num">
     100
@@ -16599,8 +16599,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="�">
+ </lexeme>
+ <lexeme name="�">
   <answer id="0">
    <score type="num">
     100
@@ -16667,8 +16667,8 @@
     N’est-ce pas une préposition ?}
    </comment>
   </answer>
- </word>
- <word name="�l�ves">
+ </lexeme>
+ <lexeme name="�l�ves">
   <answer id="0">
    <score type="num">
     100
@@ -16768,8 +16768,8 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
- <word name="�tre">
+ </lexeme>
+ <lexeme name="�tre">
   <answer id="0">
    <score type="num">
     100
@@ -16825,8 +16825,8 @@
     N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
    </comment>
   </answer>
- </word>
- <word name="�uvre ">
+ </lexeme>
+ <lexeme name="�uvre ">
   <answer id="0">
    <score type="num">
     100
@@ -16904,5 +16904,5 @@
     Ne serait-ce pas tout simplement un substantif ?}
    </comment>
   </answer>
- </word>
+ </lexeme>
 </gloses>
