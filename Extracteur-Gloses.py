@@ -6,7 +6,6 @@ resultat dans un fichier gloses.xml pour les mots en francais et kalaba.xml pour
 
 __author__ = 'Sekou Diao'
 
-import xml.etree.ElementTree as ET
 from bs4 import BeautifulSoup as BS
 
 
@@ -179,18 +178,17 @@ def parse_questiontext_tag(html_obj, kalaba=False):
     return zip(liste_mot, liste_reponses)
 
 
-tree = ET.parse('quiz-L1-Grammaire-Gloses-20141004-0841.xml')
-root = tree.getroot()
-# root1 = BS('quiz-L1-Grammaire-Gloses-20141004-0841.xml')
-
 gloses_dict = {}
 kalaba_dict = {}
 
-for question in root.findall('question'):
-    if question.attrib['type'] == 'cloze':
-        raw_html = question[1][0].text
+root = BS(open('quiz-L1-Grammaire-Gloses-20141004-0841.xml', 'r'))
+
+for question in root.find_all('question'):
+    if question['type'] == 'cloze':
+        name_tag = question.find('name')
+        raw_html = question.questiontext.text
         parsed_html = BS(raw_html)
-        if "KALABA" in question[0][0].text:
+        if "KALABA" in name_tag.text:
             liste_mot_reponse = parse_questiontext_tag(parsed_html, kalaba=True)
             update_dict(kalaba_dict, liste_mot_reponse)
         else:
