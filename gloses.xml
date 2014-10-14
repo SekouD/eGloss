@@ -7182,54 +7182,54 @@
     100
    </score>
    <content type="text">
-    =temps.M.SG
+    =DEF-M.SG
    </content>
    <comment type="text">
-    Bien !
+    Correct, bien !
    </comment>
   </answer>
   <answer id="1">
    <score type="num">
-    75
+    50
    </score>
    <content type="text">
-    temps.M
+    DET-M.SG
    </content>
    <comment type="text">
-    En effet, le nombre n’est pas marqué si le mot est pris isolément. Mais ici le contexte ne nous permet-il pas de déduire le nombre ?
+    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.
    </comment>
   </answer>
   <answer id="2">
    <score type="num">
-    0
+    10
    </score>
    <content type="text">
-    temp
+    INDEF-M.SG
    </content>
    <comment type="text">
-    Quel est le singulier de ce nom ?
+    Est-ce un indéfini ?
    </comment>
   </answer>
   <answer id="3">
    <score type="num">
-    5
+    10
    </score>
    <content type="text">
-    emps*
+    DEF*
    </content>
    <comment type="text">
-    Etes-vous sûr de ne rien oublier ? Pensez aux propriétés du nom…
+    Quel genre, quel nombre ?
    </comment>
   </answer>
   <answer id="4">
    <score type="num">
-    10
+    5
    </score>
    <content type="text">
-    temps
+    ET*
    </content>
    <comment type="text">
-    Quel genre, quel nombre ?
+    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
    </comment>
   </answer>
   <answer id="5">
@@ -7240,7 +7240,7 @@
     *
    </content>
    <comment type="text">
-    Ne serait-ce pas tout simplement un substantif ?}
+    Ne serait-ce pas un déterminant ?Est-ce un défini ou bien un indéfini ?}
    </comment>
   </answer>
  </lexeme>
