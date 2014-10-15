@@ -216,7 +216,7 @@ def save_xml(xml_obj, filename):
     :param filename:
     :rtype :
     """
-    with codecs.open('{}.xml'.format(filename), 'w') as xml_file:
+    with codecs.open('{}.xml'.format(filename), 'w', encoding='utf8') as xml_file:
         xml_file.write(xml_obj.prettify())
         xml_file.close()
     return
@@ -229,12 +229,15 @@ if __name__ == "__main__":
 
     # Creates parser object to hold arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument('file', type=argparse.FileType('r'))
+    # parser.add_argument('file', type=argparse.FileType('r'))
+    parser.add_argument('file_name')
     args = parser.parse_args()
 
-    # file_name = args.file_name
-    file_obj = args.file
-    extract_gloses(file_obj)
+    file_name = args.file_name
+    with codecs.open(file_name, 'r', encoding='utf8') as file_obj:
+        extract_gloses(file_obj)
+    # file_obj = args.file
+    # extract_gloses(file_obj)
 
     gloses_francais_xml = generate_xml(gloses_francais_dict)
     save_xml(gloses_francais_xml, 'gloses_francais')
