@@ -6,6 +6,7 @@ resultat dans un fichier gloses.xml pour les mots en francais et kalaba.xml pour
 
 __author__ = 'Sekou Diao'
 
+import argparse
 from bs4 import BeautifulSoup as BS
 
 def clean_raw_html(raw_html):
@@ -81,17 +82,17 @@ def generate_answer_dict(reponse):
     return answer_dict
 
 
-def update_dict(dic, zip_mot_reponse):
+def update_dict(dic, zip_mot_reponses):
     """
     Updates dict with the entries in zip_mot_reponse.
 
     Calls recursive_update to update the dictionary.
 
     :param dic:
-    :param zip_mot_reponse:
+    :param zip_mot_reponses:
     :return:
     """
-    for mot, raw_reponses in zip_mot_reponse:
+    for mot, raw_reponses in zip_mot_reponses:
         answers = []
         reponses = raw_reponses.split(sep='~')
         if reponses[0] == '{1:MC:':
@@ -192,26 +193,43 @@ def save_xml(xml_obj, filename):
     return
 
 
-# Creates the 2 dictionary objects that will hold the results of the words/answers extraction process
-gloses_dict = {}
-kalaba_dict = {}
+def extract_gloses(filename):
+    """
+    Reads the specified file and extracts glose information.
 
-root = BS(open('quiz-L1-Grammaire-Gloses-20141004-0841.xml', 'r'))
+    It incrementally updates gloses_francais_dict and gloses_kalaba_dict
+    :param filename:
+    :return:
+    """
+    xml_doc = BS(open(filename, 'r'))
 
-for question in root.find_all('question'):
-    if question['type'] == 'cloze':
-        name_tag = question.find('name')
-        raw_html = question.questiontext.text
-        clean_html = clean_raw_html(raw_html)
-        parsed_html = BS(clean_html)
-        if "KALABA" in name_tag.text:
-            liste_mot_reponse = parse_questiontext_tag(parsed_html, kalaba=True)
-            update_dict(kalaba_dict, liste_mot_reponse)
-        else:
-            liste_mot_reponse = parse_questiontext_tag(parsed_html)
-            update_dict(gloses_dict, liste_mot_reponse)
+    for question in xml_doc.find_all('question'):
+        if question['type'] == 'cloze':
+            name_tag = question.find('name')
+            raw_html = question.questiontext.text
+            clean_html = clean_raw_html(raw_html)
+            parsed_html = BS(clean_html)
+            if "KALABA" in name_tag.text:
+                liste_mot_reponse = parse_questiontext_tag(parsed_html, kalaba=True)
+                update_dict(gloses_kalaba_dict, liste_mot_reponse)
+            else:
+                liste_mot_reponse = parse_questiontext_tag(parsed_html)
+                update_dict(gloses_francais_dict, liste_mot_reponse)
+    return
 
-gloses_xml = generate_xml(gloses_dict)
-save_xml(gloses_xml, 'gloses')
-kalaba_xml = generate_xml(kalaba_dict)
-save_xml(kalaba_xml, 'kalaba')
+if __name__ == "__main__":
+    # Creates the 2 dictionary objects that will hold the results of the words/answers extraction process
+    gloses_francais_dict = {}
+    gloses_kalaba_dict = {}
+
+    parser = argparse.ArgumentParser()
+    parser.add_argument('file_name')
+    args = parser.parse_args()
+
+    file_name = args.file_name
+    extract_gloses(file_name)
+
+    gloses_francais_xml = generate_xml(gloses_francais_dict)
+    save_xml(gloses_francais_xml, 'gloses_francais')
+    gloses_kalaba_xml = generate_xml(gloses_kalaba_dict)
+    save_xml(gloses_kalaba_xml, 'gloses_kalaba')
