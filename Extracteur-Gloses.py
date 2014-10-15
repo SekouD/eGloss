@@ -183,7 +183,7 @@ def generate_xml(dict_list):
     """
     Takes a list of dictionaries and returns a bs4 xml object.
 
-    Each entry of the list is a dictionary of the form {lexeme: answer list}.
+    Each entry of the list is a dictionary of the form {syntagm: answer list}.
 
     :param dict_list:
     :rtype : bs4 xml object
@@ -192,13 +192,13 @@ def generate_xml(dict_list):
     xml_root = doc_xml.new_tag('gloses')
     doc_xml.append(xml_root)
     for mot, reponses in sorted(dict_list.items()):
-        lexeme = doc_xml.new_tag('lexeme')
-        lexeme['name'] = mot
-        xml_root.append(lexeme)
+        syntagm = doc_xml.new_tag('syntagm')
+        syntagm['name'] = mot
+        xml_root.append(syntagm)
         for dic in reponses:
             answer = doc_xml.new_tag('answer')
             answer['id'] = reponses.index(dic)
-            lexeme.append(answer)
+            syntagm.append(answer)
             tag_list = [('score', 'num'), ('content', 'text'), ('comment', 'text')]
             for tag_name, tag_type in tag_list:
                 tag = doc_xml.new_tag(tag_name)
