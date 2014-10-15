@@ -790,7 +790,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="boivent ">
+ <syntagm name="boivent#">
   <answer id="0">
    <score type="num">
     100
@@ -902,7 +902,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="caf� ">
+ <syntagm name="café">
   <answer id="0">
    <score type="num">
     100
@@ -1633,7 +1633,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="coll�ge ">
+ <syntagm name="collège">
   <answer id="0">
    <score type="num">
     100
@@ -1712,7 +1712,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="contr�lable ">
+ <syntagm name="contrôlable">
   <answer id="0">
    <score type="num">
     100
@@ -1892,7 +1892,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="couloirs ">
+ <syntagm name="couloirs">
   <answer id="0">
    <score type="num">
     100
@@ -2072,7 +2072,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="d'une ">
+ <syntagm name="d'une">
   <answer id="0">
    <score type="num">
     100
@@ -2252,7 +2252,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="dans ">
+ <syntagm name="dans#">
   <answer id="0">
    <score type="num">
     100
@@ -3119,7 +3119,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="difficilement ">
+ <syntagm name="difficilement">
   <answer id="0">
    <score type="num">
     100
@@ -3534,7 +3534,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="dramaturge ">
+ <syntagm name="dramaturge">
   <answer id="0">
    <score type="num">
     100
@@ -3681,7 +3681,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="du ">
+ <syntagm name="du#">
   <answer id="0">
    <score type="num">
     100
@@ -3749,108 +3749,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="du #">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =PREP.DE_DEF-M.SG
-   </content>
-   <comment type="text">
-    Bien !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    85
-   </score>
-   <content type="text">
-    PREP.DE_DEF.M.SG
-   </content>
-   <comment type="text">
-    N’y a-t-il pas de marque pour le masculin en ce qui concerne la deuxième partie ?
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    85
-   </score>
-   <content type="text">
-    PREP.DE_DEF.M-SG
-   </content>
-   <comment type="text">
-    Existe-t-il une marque pour le singulier en ce qui concerne la deuxième partie ?
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    70
-   </score>
-   <content type="text">
-    PREP.DE_DET-M.SG
-   </content>
-   <comment type="text">
-    Défini et indéfini ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score type="num">
-    60
-   </score>
-   <content type="text">
-    PREP.DE_DET.M.SG
-   </content>
-   <comment type="text">
-    Défini et indéfini ? Le masculin n’est-il pas marqué ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score type="num">
-    50
-   </score>
-   <content type="text">
-    PREP.DE*
-   </content>
-   <comment type="text">
-    Ok pour la préposition, mais comment noter la deuxième partie ?
-   </comment>
-  </answer>
-  <answer id="6">
-   <score type="num">
-    50
-   </score>
-   <content type="text">
-    DEF-M.SG
-   </content>
-   <comment type="text">
-    Ok pour le déterminant défini, mais comment noter la première partie ?
-   </comment>
-  </answer>
-  <answer id="7">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    PART*
-   </content>
-   <comment type="text">
-    Dans ce cas, n’y a-t-il pas une préposition ?
-   </comment>
-  </answer>
-  <answer id="8">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *
-   </content>
-   <comment type="text">
-    Ne serait-ce pas la forme contractée d’une préposition et d’un déterminant ?}
-   </comment>
-  </answer>
- </syntagm>
- <syntagm name="du#">
+ <syntagm name="du##">
   <answer id="0">
    <score type="num">
     100
@@ -3973,7 +3872,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="du##">
+ <syntagm name="du###">
   <answer id="0">
    <score type="num">
     100
@@ -4052,7 +3951,108 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="du###">
+ <syntagm name="du####">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =PREP.DE_DEF-M.SG
+   </content>
+   <comment type="text">
+    Bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    85
+   </score>
+   <content type="text">
+    PREP.DE_DEF.M.SG
+   </content>
+   <comment type="text">
+    N’y a-t-il pas de marque pour le masculin en ce qui concerne la deuxième partie ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    85
+   </score>
+   <content type="text">
+    PREP.DE_DEF.M-SG
+   </content>
+   <comment type="text">
+    Existe-t-il une marque pour le singulier en ce qui concerne la deuxième partie ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    70
+   </score>
+   <content type="text">
+    PREP.DE_DET-M.SG
+   </content>
+   <comment type="text">
+    Défini et indéfini ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    60
+   </score>
+   <content type="text">
+    PREP.DE_DET.M.SG
+   </content>
+   <comment type="text">
+    Défini et indéfini ? Le masculin n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    PREP.DE*
+   </content>
+   <comment type="text">
+    Ok pour la préposition, mais comment noter la deuxième partie ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DEF-M.SG
+   </content>
+   <comment type="text">
+    Ok pour le déterminant défini, mais comment noter la première partie ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    PART*
+   </content>
+   <comment type="text">
+    Dans ce cas, n’y a-t-il pas une préposition ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas la forme contractée d’une préposition et d’un déterminant ?}
+   </comment>
+  </answer>
+ </syntagm>
+ <syntagm name="du#####">
   <answer id="0">
    <score type="num">
     100
@@ -4331,7 +4331,7 @@
     enfant.M-PL
    </content>
    <comment type="text">
-    Le genre est-il connu ? Une enfant, un enfant ?
+    Le genre est-il connu ?
    </comment>
   </answer>
   <answer id="2">
@@ -4412,7 +4412,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="enfants ">
+ <syntagm name="enfants#">
   <answer id="0">
    <score type="num">
     100
@@ -4432,7 +4432,7 @@
     enfant.M-PL
    </content>
    <comment type="text">
-    Le genre est-il connu ?
+    Le genre est-il connu ? Une enfant, un enfant ?
    </comment>
   </answer>
   <answer id="2">
@@ -4563,97 +4563,7 @@
     5
    </score>
    <content type="text">
-    �tre*
-   </content>
-   <comment type="text">
-    Quel mode, quel temps, quelle personne ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    être
-   </content>
-   <comment type="text">
-    Quel mode, quel temps, quelle personne ?
-   </comment>
-  </answer>
-  <answer id="6">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    est*
-   </content>
-   <comment type="text">
-    Donnez la forme de citation, le mode, le temps et la personne.
-   </comment>
-  </answer>
-  <answer id="7">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *
-   </content>
-   <comment type="text">
-    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
-   </comment>
-  </answer>
- </syntagm>
- <syntagm name="est ">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =être.IND.PRS.3SG
-   </content>
-   <comment type="text">
-    Correct !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    être.PRS.IND.3SG
-   </content>
-   <comment type="text">
-    Pensez à l’ordre des marques !
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    est.IND.PRS.3SG
-   </content>
-   <comment type="text">
-    Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    60
-   </score>
-   <content type="text">
-    être.*PRS.3SG
-   </content>
-   <comment type="text">
-    Quel mode ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score type="num">
-    5
-   </score>
-   <content type="text">
-    �tre*
+    tre*
    </content>
    <comment type="text">
     Quel mode, quel temps, quelle personne ?
@@ -4743,7 +4653,97 @@
     5
    </score>
    <content type="text">
-    �tre*
+    tre*
+   </content>
+   <comment type="text">
+    Quel mode, quel temps, quelle personne ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    être
+   </content>
+   <comment type="text">
+    Quel mode, quel temps, quelle personne ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    est*
+   </content>
+   <comment type="text">
+    Donnez la forme de citation, le mode, le temps et la personne.
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   </comment>
+  </answer>
+ </syntagm>
+ <syntagm name="est##">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =être.IND.PRS.3SG
+   </content>
+   <comment type="text">
+    Correct !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    être.PRS.IND.3SG
+   </content>
+   <comment type="text">
+    Pensez à l’ordre des marques !
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    est.IND.PRS.3SG
+   </content>
+   <comment type="text">
+    Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    60
+   </score>
+   <content type="text">
+    être.*PRS.3SG
+   </content>
+   <comment type="text">
+    Quel mode ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    tre*
    </content>
    <comment type="text">
     Quel mode, quel temps, quelle personne ?
@@ -4998,7 +4998,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="fi�re">
+ <syntagm name="fière">
   <answer id="0">
    <score type="num">
     100
@@ -5110,7 +5110,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="fr�re">
+ <syntagm name="frère">
   <answer id="0">
    <score type="num">
     100
@@ -5279,7 +5279,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="grande ">
+ <syntagm name="grande">
   <answer id="0">
    <score type="num">
     100
@@ -5391,7 +5391,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="g�teau">
+ <syntagm name="gâteau">
   <answer id="0">
    <score type="num">
     100
@@ -5549,7 +5549,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="honn�te">
+ <syntagm name="honnête">
   <answer id="0">
    <score type="num">
     100
@@ -5639,7 +5639,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="ils d�testent ">
+ <syntagm name="ils détestent">
   <answer id="0">
    <score type="num">
     100
@@ -6825,74 +6825,6 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="la ">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =DEF-F.SG
-   </content>
-   <comment type="text">
-    Correct, bien !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    50
-   </score>
-   <content type="text">
-    DET-F.SG
-   </content>
-   <comment type="text">
-    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    INDEF-F.SG
-   </content>
-   <comment type="text">
-    Est-ce un indéfini ?
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    DEF*
-   </content>
-   <comment type="text">
-    Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score type="num">
-    5
-   </score>
-   <content type="text">
-    ET*
-   </content>
-   <comment type="text">
-    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *
-   </content>
-   <comment type="text">
-    Ne serait-ce pas un déterminant ? défini ou indéfini ?}
-   </comment>
-  </answer>
- </syntagm>
  <syntagm name="la#">
   <answer id="0">
    <score type="num">
@@ -7029,7 +6961,75 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="lait ">
+ <syntagm name="la###">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =DEF-F.SG
+   </content>
+   <comment type="text">
+    Correct, bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DET-F.SG
+   </content>
+   <comment type="text">
+    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    INDEF-F.SG
+   </content>
+   <comment type="text">
+    Est-ce un indéfini ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ET*
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas un déterminant ? défini ou indéfini ?}
+   </comment>
+  </answer>
+ </syntagm>
+ <syntagm name="lait">
   <answer id="0">
    <score type="num">
     100
@@ -7176,7 +7176,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="le ">
+ <syntagm name="le#">
   <answer id="0">
    <score type="num">
     100
@@ -7244,7 +7244,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="le #">
+ <syntagm name="le##">
   <answer id="0">
    <score type="num">
     100
@@ -7436,274 +7436,6 @@
   </answer>
  </syntagm>
  <syntagm name="les">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =DEF-PL
-   </content>
-   <comment type="text">
-    Bien !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    DEF.PL
-   </content>
-   <comment type="text">
-    Le nombre n’est-il pas marqué ?
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    50
-   </score>
-   <content type="text">
-    DET-PL
-   </content>
-   <comment type="text">
-    Préférez l’abréviation DEF pour les déterminants définis.
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    35
-   </score>
-   <content type="text">
-    DET.PL
-   </content>
-   <comment type="text">
-    Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score type="num">
-    25
-   </score>
-   <content type="text">
-    DEF.M-PL
-   </content>
-   <comment type="text">
-    Le genre est-il connu ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    DEF.M.PL
-   </content>
-   <comment type="text">
-    Le genre est-il connu, le nombre est-il marqué ?
-   </comment>
-  </answer>
-  <answer id="6">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    INDEF-PL
-   </content>
-   <comment type="text">
-    Est-ce un indéfini ?
-   </comment>
-  </answer>
-  <answer id="7">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    DEF*
-   </content>
-   <comment type="text">
-    Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="8">
-   <score type="num">
-    5
-   </score>
-   <content type="text">
-    NDEF.PL
-   </content>
-   <comment type="text">
-    Est-ce un indéfini ? Le nombre n’est-il pas marqué ?
-   </comment>
-  </answer>
-  <answer id="9">
-   <score type="num">
-    5
-   </score>
-   <content type="text">
-    ET*
-   </content>
-   <comment type="text">
-    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="10">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *M*
-   </content>
-   <comment type="text">
-    Le genre est-il connu?
-   </comment>
-  </answer>
-  <answer id="11">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *
-   </content>
-   <comment type="text">
-    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
-   </comment>
-  </answer>
- </syntagm>
- <syntagm name="les ">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =DEF-PL
-   </content>
-   <comment type="text">
-    Bien !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    DEF.PL
-   </content>
-   <comment type="text">
-    Le nombre n’est-il pas marqué ?
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    50
-   </score>
-   <content type="text">
-    DET-PL
-   </content>
-   <comment type="text">
-    Préférez l’abréviation DEF pour les déterminants définis.
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    35
-   </score>
-   <content type="text">
-    DET.PL
-   </content>
-   <comment type="text">
-    Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score type="num">
-    25
-   </score>
-   <content type="text">
-    DEF.M-PL
-   </content>
-   <comment type="text">
-    Le genre est-il connu ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    DEF.M.PL
-   </content>
-   <comment type="text">
-    Le genre est-il connu, le nombre est-il marqué ?
-   </comment>
-  </answer>
-  <answer id="6">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    INDEF-PL
-   </content>
-   <comment type="text">
-    Est-ce un indéfini ?
-   </comment>
-  </answer>
-  <answer id="7">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    DEF*
-   </content>
-   <comment type="text">
-    Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="8">
-   <score type="num">
-    5
-   </score>
-   <content type="text">
-    NDEF.PL
-   </content>
-   <comment type="text">
-    Est-ce un indéfini ? Le nombre n’est-il pas marqué ?
-   </comment>
-  </answer>
-  <answer id="9">
-   <score type="num">
-    5
-   </score>
-   <content type="text">
-    ET*
-   </content>
-   <comment type="text">
-    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="10">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *M*
-   </content>
-   <comment type="text">
-    Le genre est-il connu?
-   </comment>
-  </answer>
-  <answer id="11">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *
-   </content>
-   <comment type="text">
-    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
-   </comment>
-  </answer>
- </syntagm>
- <syntagm name="les #">
   <answer id="0">
    <score type="num">
     100
@@ -8105,6 +7837,274 @@
    </comment>
   </answer>
  </syntagm>
+ <syntagm name="les###">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =DEF-PL
+   </content>
+   <comment type="text">
+    Bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    DEF.PL
+   </content>
+   <comment type="text">
+    Le nombre n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DET-PL
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis.
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    35
+   </score>
+   <content type="text">
+    DET.PL
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    25
+   </score>
+   <content type="text">
+    DEF.M-PL
+   </content>
+   <comment type="text">
+    Le genre est-il connu ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF.M.PL
+   </content>
+   <comment type="text">
+    Le genre est-il connu, le nombre est-il marqué ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    INDEF-PL
+   </content>
+   <comment type="text">
+    Est-ce un indéfini ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    NDEF.PL
+   </content>
+   <comment type="text">
+    Est-ce un indéfini ? Le nombre n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ET*
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="10">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *M*
+   </content>
+   <comment type="text">
+    Le genre est-il connu?
+   </comment>
+  </answer>
+  <answer id="11">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   </comment>
+  </answer>
+ </syntagm>
+ <syntagm name="les####">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =DEF-PL
+   </content>
+   <comment type="text">
+    Bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    DEF.PL
+   </content>
+   <comment type="text">
+    Le nombre n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DET-PL
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis.
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    35
+   </score>
+   <content type="text">
+    DET.PL
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    25
+   </score>
+   <content type="text">
+    DEF.M-PL
+   </content>
+   <comment type="text">
+    Le genre est-il connu ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF.M.PL
+   </content>
+   <comment type="text">
+    Le genre est-il connu, le nombre est-il marqué ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    INDEF-PL
+   </content>
+   <comment type="text">
+    Est-ce un indéfini ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    NDEF.PL
+   </content>
+   <comment type="text">
+    Est-ce un indéfini ? Le nombre n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ET*
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="10">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *M*
+   </content>
+   <comment type="text">
+    Le genre est-il connu?
+   </comment>
+  </answer>
+  <answer id="11">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   </comment>
+  </answer>
+ </syntagm>
  <syntagm name="leur">
   <answer id="0">
    <score type="num">
@@ -8340,7 +8340,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="lire ">
+ <syntagm name="lire">
   <answer id="0">
    <score type="num">
     100
@@ -8397,7 +8397,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="mais ">
+ <syntagm name="mais">
   <answer id="0">
    <score type="num">
     100
@@ -8779,7 +8779,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="march�">
+ <syntagm name="marché">
   <answer id="0">
    <score type="num">
     100
@@ -8959,7 +8959,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="me r�jouit">
+ <syntagm name="me réjouit">
   <answer id="0">
    <score type="num">
     100
@@ -9822,7 +9822,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="nous vous entendons ">
+ <syntagm name="nous vous entendons">
   <answer id="0">
    <score type="num">
     100
@@ -9967,7 +9967,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="ou ">
+ <syntagm name="ou">
   <answer id="0">
    <score type="num">
     100
@@ -10248,7 +10248,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="parler ">
+ <syntagm name="parler">
   <answer id="0">
    <score type="num">
     100
@@ -10439,7 +10439,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="passe ">
+ <syntagm name="passe">
   <answer id="0">
    <score type="num">
     100
@@ -11001,7 +11001,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="pi�ce ">
+ <syntagm name="pièce">
   <answer id="0">
    <score type="num">
     100
@@ -11159,7 +11159,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="poup�e">
+ <syntagm name="poupée">
   <answer id="0">
    <score type="num">
     100
@@ -11743,7 +11743,53 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="que ">
+ <syntagm name="que#">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =CONJ.QUE
+   </content>
+   <comment type="text">
+    Bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    CONJ*
+   </content>
+   <comment type="text">
+    Oui, c’est bien une conjonction, mais pensez à rajouter un point puis la conjonction elle-même en majuscules.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    REL*
+   </content>
+   <comment type="text">
+    Un pronom relatif ? Ce petit mot introduit-il ici une proposition subordonnée relative ou bien une complétive ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Une conjonction ou un pronom relatif ? Ici, ce petit mot introduit-il une proposition subordonnée relative ou bien une complétive ?}
+   </comment>
+  </answer>
+ </syntagm>
+ <syntagm name="que##">
   <answer id="0">
    <score type="num">
     100
@@ -11822,53 +11868,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="que#">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =CONJ.QUE
-   </content>
-   <comment type="text">
-    Bien !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    CONJ*
-   </content>
-   <comment type="text">
-    Oui, c’est bien une conjonction, mais pensez à rajouter un point puis la conjonction elle-même en majuscules.
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    REL*
-   </content>
-   <comment type="text">
-    Un pronom relatif ? Ce petit mot introduit-il ici une proposition subordonnée relative ou bien une complétive ?
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *
-   </content>
-   <comment type="text">
-    Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Une conjonction ou un pronom relatif ? Ici, ce petit mot introduit-il une proposition subordonnée relative ou bien une complétive ?}
-   </comment>
-  </answer>
- </syntagm>
- <syntagm name="que##">
+ <syntagm name="que###">
   <answer id="0">
    <score type="num">
     100
@@ -12004,7 +12004,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="qui ">
+ <syntagm name="qui#">
   <answer id="0">
    <score type="num">
     100
@@ -12318,7 +12318,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="se m�fie">
+ <syntagm name="se méfie">
   <answer id="0">
    <score type="num">
     100
@@ -13297,7 +13297,7 @@
     5
    </score>
    <content type="text">
-    �tre*
+    tre*
    </content>
    <comment type="text">
     Quel mode, quel temps, quelle personne ?
@@ -13719,7 +13719,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="temps ">
+ <syntagm name="temps">
   <answer id="0">
    <score type="num">
     100
@@ -13787,7 +13787,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="th�">
+ <syntagm name="thé">
   <answer id="0">
    <score type="num">
     100
@@ -13866,7 +13866,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="th� ">
+ <syntagm name="thé#">
   <answer id="0">
    <score type="num">
     100
@@ -13945,7 +13945,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="th�#">
+ <syntagm name="thé##">
   <answer id="0">
    <score type="num">
     100
@@ -14327,7 +14327,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="tu r�ussiras">
+ <syntagm name="tu réussiras">
   <answer id="0">
    <score type="num">
     100
@@ -14631,6 +14631,129 @@
   </answer>
   <answer id="3">
    <score type="num">
+    50
+   </score>
+   <content type="text">
+    DET-F.SG
+   </content>
+   <comment type="text">
+    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    35
+   </score>
+   <content type="text">
+    DET-F.SG
+   </content>
+   <comment type="text">
+    Préférez l’abréviation INDEF pour les déterminants indéfinis. Et pensez aussi à l’ordre des marques.
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    25
+   </score>
+   <content type="text">
+    DET.F.SG
+   </content>
+   <comment type="text">
+    Préférez l’abréviation INDEF pour les déterminants indéfinis. Pensez aussi à l’ordre et à l’indépendance des marques.
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    15
+   </score>
+   <content type="text">
+    DEF.SG-F
+   </content>
+   <comment type="text">
+    Est-ce un défini ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF-F.SG
+   </content>
+   <comment type="text">
+    Est-ce un défini ? Pensez aussi à l’ordre des marques.
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    INDEF*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ET*
+   </content>
+   <comment type="text">
+    Préférez l’abréviation INDEF pour les déterminants indéfinis. Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="10">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   </comment>
+  </answer>
+ </syntagm>
+ <syntagm name="une#">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =INDEF.SG-F
+   </content>
+   <comment type="text">
+    Correct, bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    INDEF-F.SG
+   </content>
+   <comment type="text">
+    Pensez à l’ordre des marques.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    INDEF.SG.F
+   </content>
+   <comment type="text">
+    Pensez à l’indépendance des marques.
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
     60
    </score>
    <content type="text">
@@ -14729,130 +14852,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="une ">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =INDEF.SG-F
-   </content>
-   <comment type="text">
-    Correct, bien !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    INDEF-F.SG
-   </content>
-   <comment type="text">
-    Pensez à l’ordre des marques.
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    INDEF.SG.F
-   </content>
-   <comment type="text">
-    Pensez à l’indépendance des marques.
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    50
-   </score>
-   <content type="text">
-    DET-F.SG
-   </content>
-   <comment type="text">
-    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.
-   </comment>
-  </answer>
-  <answer id="4">
-   <score type="num">
-    35
-   </score>
-   <content type="text">
-    DET-F.SG
-   </content>
-   <comment type="text">
-    Préférez l’abréviation INDEF pour les déterminants indéfinis. Et pensez aussi à l’ordre des marques.
-   </comment>
-  </answer>
-  <answer id="5">
-   <score type="num">
-    25
-   </score>
-   <content type="text">
-    DET.F.SG
-   </content>
-   <comment type="text">
-    Préférez l’abréviation INDEF pour les déterminants indéfinis. Pensez aussi à l’ordre et à l’indépendance des marques.
-   </comment>
-  </answer>
-  <answer id="6">
-   <score type="num">
-    15
-   </score>
-   <content type="text">
-    DEF.SG-F
-   </content>
-   <comment type="text">
-    Est-ce un défini ?
-   </comment>
-  </answer>
-  <answer id="7">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    DEF-F.SG
-   </content>
-   <comment type="text">
-    Est-ce un défini ? Pensez aussi à l’ordre des marques.
-   </comment>
-  </answer>
-  <answer id="8">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    INDEF*
-   </content>
-   <comment type="text">
-    Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="9">
-   <score type="num">
-    5
-   </score>
-   <content type="text">
-    ET*
-   </content>
-   <comment type="text">
-    Préférez l’abréviation INDEF pour les déterminants indéfinis. Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="10">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *
-   </content>
-   <comment type="text">
-    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
-   </comment>
-  </answer>
- </syntagm>
- <syntagm name="une#">
+ <syntagm name="une##">
   <answer id="0">
    <score type="num">
     100
@@ -15614,7 +15614,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="vite ">
+ <syntagm name="vite">
   <answer id="0">
    <score type="num">
     100
@@ -16097,7 +16097,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="vous devez ">
+ <syntagm name="vous devez">
   <answer id="0">
    <score type="num">
     100
@@ -16492,7 +16492,7 @@
     5
    </score>
    <content type="text">
-    �il*
+    il*
    </content>
    <comment type="text">
     Quel genre, quel nombre ?
@@ -16600,7 +16600,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="�">
+ <syntagm name="à">
   <answer id="0">
    <score type="num">
     100
@@ -16668,7 +16668,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="�l�ves">
+ <syntagm name="élèves">
   <answer id="0">
    <score type="num">
     100
@@ -16729,7 +16729,7 @@
     5
    </score>
    <content type="text">
-    �lève*
+    lève*
    </content>
    <comment type="text">
     Etes-vous sûr de ne rien oublier ? Quelles sont les propriétés grammaticales du nom ?
@@ -16769,7 +16769,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="�tre">
+ <syntagm name="être">
   <answer id="0">
    <score type="num">
     100
@@ -16826,7 +16826,7 @@
    </comment>
   </answer>
  </syntagm>
- <syntagm name="�uvre ">
+ <syntagm name="œuvre">
   <answer id="0">
    <score type="num">
     100
@@ -16876,7 +16876,7 @@
     5
    </score>
    <content type="text">
-    �uvre*
+    uvre*
    </content>
    <comment type="text">
     Quel genre, quel nombre ?
