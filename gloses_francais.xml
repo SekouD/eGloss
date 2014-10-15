@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <gloses>
- <lexeme name="acheter">
+ <lexeme name="acheter">
   <answer id="0">
    <score type="num">
     100
@@ -338,7 +338,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="au">
+ <lexeme name="au">
   <answer id="0">
    <score type="num">
     100
@@ -586,7 +586,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="avec">
+ <lexeme name="avec#">
   <answer id="0">
    <score type="num">
     100
@@ -678,7 +678,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="boivent">
+ <lexeme name="boivent">
   <answer id="0">
    <score type="num">
     100
@@ -790,7 +790,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="boivent ">
+ <lexeme name="boivent ">
   <answer id="0">
    <score type="num">
     100
@@ -902,7 +902,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="café ">
+ <lexeme name="caf� ">
   <answer id="0">
    <score type="num">
     100
@@ -1453,7 +1453,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="chat">
+ <lexeme name="chat#">
   <answer id="0">
    <score type="num">
     100
@@ -1633,7 +1633,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="collège ">
+ <lexeme name="coll�ge ">
   <answer id="0">
    <score type="num">
     100
@@ -1712,7 +1712,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="contrôlable ">
+ <lexeme name="contr�lable ">
   <answer id="0">
    <score type="num">
     100
@@ -1892,7 +1892,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="couloirs ">
+ <lexeme name="couloirs ">
   <answer id="0">
    <score type="num">
     100
@@ -2072,7 +2072,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="d'une ">
+ <lexeme name="d'une ">
   <answer id="0">
    <score type="num">
     100
@@ -2252,7 +2252,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="dans ">
+ <lexeme name="dans ">
   <answer id="0">
    <score type="num">
     100
@@ -2310,63 +2310,6 @@
   </answer>
  </lexeme>
  <lexeme name="de">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =PREP.DE
-   </content>
-   <comment type="text">
-    C’est bien ça !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    60
-   </score>
-   <content type="text">
-    PREP*
-   </content>
-   <comment type="text">
-    Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    ADV
-   </content>
-   <comment type="text">
-    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    CONJ
-   </content>
-   <comment type="text">
-    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *
-   </content>
-   <comment type="text">
-    N’est-ce pas une préposition qui introduit un complément du nom ?}
-   </comment>
-  </answer>
- </lexeme>
- <lexeme name="de">
   <answer id="0">
    <score type="num">
     100
@@ -2555,122 +2498,56 @@
     *
    </content>
    <comment type="text">
-    N’est-ce pas une préposition ?}
+    N’est-ce pas une préposition qui introduit un complément du nom ?}
    </comment>
   </answer>
  </lexeme>
- <lexeme name="des">
+ <lexeme name="de##">
   <answer id="0">
    <score type="num">
     100
    </score>
    <content type="text">
-    =INDEF.P
+    =PREP.DE
    </content>
    <comment type="text">
-    None
+    C’est bien ça !
    </comment>
   </answer>
   <answer id="1">
    <score type="num">
-    75
+    60
    </score>
    <content type="text">
-    INDEF-PL
+    PREP*
    </content>
    <comment type="text">
-    Existe-t-il un indéfini singulier qui n'aurait pas ce s ?
+    Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.
    </comment>
   </answer>
   <answer id="2">
    <score type="num">
-    50
+    0
    </score>
    <content type="text">
-    DET.PL
+    ADV
    </content>
    <comment type="text">
-    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.
+    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
    </comment>
   </answer>
   <answer id="3">
    <score type="num">
-    50
+    0
    </score>
    <content type="text">
-    INDEF.F.PL
+    CONJ
    </content>
    <comment type="text">
-    Le genre est-il visible localement ?
+    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
    </comment>
   </answer>
   <answer id="4">
-   <score type="num">
-    40
-   </score>
-   <content type="text">
-    INDEF.F-PL
-   </content>
-   <comment type="text">
-    Le genre est-il connu ? Et existe-t-il un indéfini singulier qui n’aurait pas ce s ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score type="num">
-    30
-   </score>
-   <content type="text">
-    IND.PL
-   </content>
-   <comment type="text">
-    Utilisez INDEF plutôt que IND...
-   </comment>
-  </answer>
-  <answer id="6">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    PREP.DE*
-   </content>
-   <comment type="text">
-    Dans ce cas, on mange qqch, non ?
-   </comment>
-  </answer>
-  <answer id="7">
-   <score type="num">
-    25
-   </score>
-   <content type="text">
-    *DET*
-   </content>
-   <comment type="text">
-    Utilisez INDEF pour les indéfinis. Quel nombre ?
-   </comment>
-  </answer>
-  <answer id="8">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *DEF*
-   </content>
-   <comment type="text">
-    Un article défini ? Quel nombre ?
-   </comment>
-  </answer>
-  <answer id="9">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *F*
-   </content>
-   <comment type="text">
-    Le genre est-il connu ?
-   </comment>
-  </answer>
-  <answer id="10">
    <score type="num">
     0
    </score>
@@ -2678,11 +2555,11 @@
     *
    </content>
    <comment type="text">
-    Voulez-vous manger qqch ?}
+    N’est-ce pas une préposition ?}
    </comment>
   </answer>
  </lexeme>
- <lexeme name="des">
+ <lexeme name="des">
   <answer id="0">
    <score type="num">
     100
@@ -2805,13 +2682,13 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="des#">
+ <lexeme name="des#">
   <answer id="0">
    <score type="num">
     100
    </score>
    <content type="text">
-    =PREP.DE_DET.P
+    =INDEF.P
    </content>
    <comment type="text">
     None
@@ -2819,13 +2696,13 @@
   </answer>
   <answer id="1">
    <score type="num">
-    50
+    75
    </score>
    <content type="text">
-    PREP.DE*
+    INDEF-PL
    </content>
    <comment type="text">
-    Ok pour la préposition. Mais comment noter la deuxième partie ?
+    Existe-t-il un indéfini singulier qui n'aurait pas ce s ?
    </comment>
   </answer>
   <answer id="2">
@@ -2836,40 +2713,40 @@
     DET.PL
    </content>
    <comment type="text">
-    Ok pour le déterminant, mais comment noter la première partie ? On discute qqch ou bien on discute de qqch ?
+    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.
    </comment>
   </answer>
   <answer id="3">
    <score type="num">
-    0
+    50
    </score>
    <content type="text">
-    INDEF.PL
+    INDEF.F.PL
    </content>
    <comment type="text">
-    On discute qqch ou bien on discute de qqch ?
+    Le genre est-il visible localement ?
    </comment>
   </answer>
   <answer id="4">
    <score type="num">
-    0
+    40
    </score>
    <content type="text">
-    INDEF-PL
+    INDEF.F-PL
    </content>
    <comment type="text">
-    On discute qqch ou bien on discute de qqch ?
+    Le genre est-il connu ? Et existe-t-il un indéfini singulier qui n’aurait pas ce s ?
    </comment>
   </answer>
   <answer id="5">
    <score type="num">
-    0
+    30
    </score>
    <content type="text">
-    *DEF*
+    IND.PL
    </content>
    <comment type="text">
-    Un article défini ?
+    Utilisez INDEF plutôt que IND...
    </comment>
   </answer>
   <answer id="6">
@@ -2877,13 +2754,46 @@
     0
    </score>
    <content type="text">
-    *F*
+    PREP.DE*
    </content>
    <comment type="text">
-    Le genre est-il marqué ?
+    Dans ce cas, on mange qqch, non ?
    </comment>
   </answer>
   <answer id="7">
+   <score type="num">
+    25
+   </score>
+   <content type="text">
+    *DET*
+   </content>
+   <comment type="text">
+    Utilisez INDEF pour les indéfinis. Quel nombre ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *DEF*
+   </content>
+   <comment type="text">
+    Un article défini ? Quel nombre ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *F*
+   </content>
+   <comment type="text">
+    Le genre est-il connu ?
+   </comment>
+  </answer>
+  <answer id="10">
    <score type="num">
     0
    </score>
@@ -2891,11 +2801,11 @@
     *
    </content>
    <comment type="text">
-    Ne serait-ce pas une forme contractée de la préposition de et du déterminant les ?}
+    Voulez-vous manger qqch ?}
    </comment>
   </answer>
  </lexeme>
- <lexeme name="des#">
+ <lexeme name="des##">
   <answer id="0">
    <score type="num">
     100
@@ -2996,7 +2906,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="des##">
+ <lexeme name="des###">
   <answer id="0">
    <score type="num">
     100
@@ -3119,7 +3029,97 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="difficilement ">
+ <lexeme name="des####">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =PREP.DE_DET.P
+   </content>
+   <comment type="text">
+    None
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    PREP.DE*
+   </content>
+   <comment type="text">
+    Ok pour la préposition. Mais comment noter la deuxième partie ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DET.PL
+   </content>
+   <comment type="text">
+    Ok pour le déterminant, mais comment noter la première partie ? On discute qqch ou bien on discute de qqch ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    INDEF.PL
+   </content>
+   <comment type="text">
+    On discute qqch ou bien on discute de qqch ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    INDEF-PL
+   </content>
+   <comment type="text">
+    On discute qqch ou bien on discute de qqch ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *DEF*
+   </content>
+   <comment type="text">
+    Un article défini ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *F*
+   </content>
+   <comment type="text">
+    Le genre est-il marqué ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas une forme contractée de la préposition de et du déterminant les ?}
+   </comment>
+  </answer>
+ </lexeme>
+ <lexeme name="difficilement ">
   <answer id="0">
    <score type="num">
     100
@@ -3154,7 +3154,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="discutaient">
+ <lexeme name="discutaient">
   <answer id="0">
    <score type="num">
     100
@@ -3534,7 +3534,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="dramaturge ">
+ <lexeme name="dramaturge ">
   <answer id="0">
    <score type="num">
     100
@@ -3681,7 +3681,176 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="du">
+ <lexeme name="du ">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =PART-M.S
+   </content>
+   <comment type="text">
+    None
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    PART.M.SG
+   </content>
+   <comment type="text">
+    Les différents partitifs ont-ils une base commune ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    PART.M-SG
+   </content>
+   <comment type="text">
+    Les différents partitifs ont-ils une base commune ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ART*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    PREP.DE_DET-M.SG
+   </content>
+   <comment type="text">
+    Hum…on boit qqch, non ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Hum…voulez-vous boire qqch ?}
+   </comment>
+  </answer>
+ </lexeme>
+ <lexeme name="du #">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =PREP.DE_DEF-M.SG
+   </content>
+   <comment type="text">
+    Bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    85
+   </score>
+   <content type="text">
+    PREP.DE_DEF.M.SG
+   </content>
+   <comment type="text">
+    N’y a-t-il pas de marque pour le masculin en ce qui concerne la deuxième partie ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    85
+   </score>
+   <content type="text">
+    PREP.DE_DEF.M-SG
+   </content>
+   <comment type="text">
+    Existe-t-il une marque pour le singulier en ce qui concerne la deuxième partie ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    70
+   </score>
+   <content type="text">
+    PREP.DE_DET-M.SG
+   </content>
+   <comment type="text">
+    Défini et indéfini ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    60
+   </score>
+   <content type="text">
+    PREP.DE_DET.M.SG
+   </content>
+   <comment type="text">
+    Défini et indéfini ? Le masculin n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    PREP.DE*
+   </content>
+   <comment type="text">
+    Ok pour la préposition, mais comment noter la deuxième partie ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DEF-M.SG
+   </content>
+   <comment type="text">
+    Ok pour le déterminant défini, mais comment noter la première partie ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    PART*
+   </content>
+   <comment type="text">
+    Dans ce cas, n’y a-t-il pas une préposition ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas la forme contractée d’une préposition et d’un déterminant ?}
+   </comment>
+  </answer>
+ </lexeme>
+ <lexeme name="du#">
   <answer id="0">
    <score type="num">
     100
@@ -3804,244 +3973,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="du#">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =PART-M.S
-   </content>
-   <comment type="text">
-    None
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    PART.M.SG
-   </content>
-   <comment type="text">
-    Les différents partitifs ont-ils une base commune ?
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    PART.M-SG
-   </content>
-   <comment type="text">
-    Les différents partitifs ont-ils une base commune ?
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    5
-   </score>
-   <content type="text">
-    ART*
-   </content>
-   <comment type="text">
-    Quel genre, quel nombre ? (utilisez PART plutôt que PART.DE)
-   </comment>
-  </answer>
-  <answer id="4">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    PREP.DE_DET-M.SG
-   </content>
-   <comment type="text">
-    Hum…y a-t-il une préposition ici ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    PREP*
-   </content>
-   <comment type="text">
-    Hum… y a-t-il une préposition ici ?}
-   </comment>
-  </answer>
- </lexeme>
- <lexeme name="du ">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =PART-M.S
-   </content>
-   <comment type="text">
-    None
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    PART.M.SG
-   </content>
-   <comment type="text">
-    Les différents partitifs ont-ils une base commune ?
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    PART.M-SG
-   </content>
-   <comment type="text">
-    Les différents partitifs ont-ils une base commune ?
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    5
-   </score>
-   <content type="text">
-    ART*
-   </content>
-   <comment type="text">
-    Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    PREP.DE_DET-M.SG
-   </content>
-   <comment type="text">
-    Hum…on boit qqch, non ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *
-   </content>
-   <comment type="text">
-    Hum…voulez-vous boire qqch ?}
-   </comment>
-  </answer>
- </lexeme>
- <lexeme name="du #">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =PREP.DE_DEF-M.SG
-   </content>
-   <comment type="text">
-    Bien !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    85
-   </score>
-   <content type="text">
-    PREP.DE_DEF.M.SG
-   </content>
-   <comment type="text">
-    N’y a-t-il pas de marque pour le masculin en ce qui concerne la deuxième partie ?
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    85
-   </score>
-   <content type="text">
-    PREP.DE_DEF.M-SG
-   </content>
-   <comment type="text">
-    Existe-t-il une marque pour le singulier en ce qui concerne la deuxième partie ?
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    70
-   </score>
-   <content type="text">
-    PREP.DE_DET-M.SG
-   </content>
-   <comment type="text">
-    Défini et indéfini ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score type="num">
-    60
-   </score>
-   <content type="text">
-    PREP.DE_DET.M.SG
-   </content>
-   <comment type="text">
-    Défini et indéfini ? Le masculin n’est-il pas marqué ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score type="num">
-    50
-   </score>
-   <content type="text">
-    PREP.DE*
-   </content>
-   <comment type="text">
-    Ok pour la préposition, mais comment noter la deuxième partie ?
-   </comment>
-  </answer>
-  <answer id="6">
-   <score type="num">
-    50
-   </score>
-   <content type="text">
-    DEF-M.SG
-   </content>
-   <comment type="text">
-    Ok pour le déterminant défini, mais comment noter la première partie ?
-   </comment>
-  </answer>
-  <answer id="7">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    PART*
-   </content>
-   <comment type="text">
-    Dans ce cas, n’y a-t-il pas une préposition ?
-   </comment>
-  </answer>
-  <answer id="8">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *
-   </content>
-   <comment type="text">
-    Ne serait-ce pas la forme contractée d’une préposition et d’un déterminant ?}
-   </comment>
-  </answer>
- </lexeme>
- <lexeme name="du#">
+ <lexeme name="du##">
   <answer id="0">
    <score type="num">
     100
@@ -4117,6 +4049,74 @@
    </content>
    <comment type="text">
     Hum…voulez-vous manger qqch ?}
+   </comment>
+  </answer>
+ </lexeme>
+ <lexeme name="du###">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =PART-M.S
+   </content>
+   <comment type="text">
+    None
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    PART.M.SG
+   </content>
+   <comment type="text">
+    Les différents partitifs ont-ils une base commune ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    PART.M-SG
+   </content>
+   <comment type="text">
+    Les différents partitifs ont-ils une base commune ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ART*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ? (utilisez PART plutôt que PART.DE)
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    PREP.DE_DET-M.SG
+   </content>
+   <comment type="text">
+    Hum…y a-t-il une préposition ici ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    PREP*
+   </content>
+   <comment type="text">
+    Hum… y a-t-il une préposition ici ?}
    </comment>
   </answer>
  </lexeme>
@@ -4311,7 +4311,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="enfants">
+ <lexeme name="enfants">
   <answer id="0">
    <score type="num">
     100
@@ -4412,7 +4412,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="enfants ">
+ <lexeme name="enfants ">
   <answer id="0">
    <score type="num">
     100
@@ -4563,7 +4563,7 @@
     5
    </score>
    <content type="text">
-    tre*
+    �tre*
    </content>
    <comment type="text">
     Quel mode, quel temps, quelle personne ?
@@ -4603,7 +4603,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="est ">
+ <lexeme name="est ">
   <answer id="0">
    <score type="num">
     100
@@ -4653,7 +4653,7 @@
     5
    </score>
    <content type="text">
-    tre*
+    �tre*
    </content>
    <comment type="text">
     Quel mode, quel temps, quelle personne ?
@@ -4743,7 +4743,7 @@
     5
    </score>
    <content type="text">
-    tre*
+    �tre*
    </content>
    <comment type="text">
     Quel mode, quel temps, quelle personne ?
@@ -4840,7 +4840,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="fille">
+ <lexeme name="fille">
   <answer id="0">
    <score type="num">
     100
@@ -4998,7 +4998,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="fière">
+ <lexeme name="fi�re">
   <answer id="0">
    <score type="num">
     100
@@ -5110,7 +5110,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="frère">
+ <lexeme name="fr�re">
   <answer id="0">
    <score type="num">
     100
@@ -5279,7 +5279,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="grande ">
+ <lexeme name="grande ">
   <answer id="0">
    <score type="num">
     100
@@ -5391,7 +5391,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="gâteau">
+ <lexeme name="g�teau">
   <answer id="0">
    <score type="num">
     100
@@ -5549,7 +5549,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="honnête">
+ <lexeme name="honn�te">
   <answer id="0">
    <score type="num">
     100
@@ -5639,7 +5639,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="ils détestent ">
+ <lexeme name="ils d�testent ">
   <answer id="0">
    <score type="num">
     100
@@ -6430,7 +6430,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="jean">
+ <lexeme name="jean">
   <answer id="0">
    <score type="num">
     100
@@ -6520,7 +6520,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="jouer">
+ <lexeme name="jouer">
   <answer id="0">
    <score type="num">
     100
@@ -6825,75 +6825,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="la">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =DEF-F.SG
-   </content>
-   <comment type="text">
-    Correct, bien !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    50
-   </score>
-   <content type="text">
-    DET-F.SG
-   </content>
-   <comment type="text">
-    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    INDEF-F.SG
-   </content>
-   <comment type="text">
-    Est-ce un indéfini ?
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    DEF*
-   </content>
-   <comment type="text">
-    Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score type="num">
-    5
-   </score>
-   <content type="text">
-    ET*
-   </content>
-   <comment type="text">
-    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *
-   </content>
-   <comment type="text">
-    Ne serait-ce pas un déterminant ? défini ou indéfini ?}
-   </comment>
-  </answer>
- </lexeme>
- <lexeme name="la ">
+ <lexeme name="la ">
   <answer id="0">
    <score type="num">
     100
@@ -7029,7 +6961,75 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="lait ">
+ <lexeme name="la##">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =DEF-F.SG
+   </content>
+   <comment type="text">
+    Correct, bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DET-F.SG
+   </content>
+   <comment type="text">
+    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    INDEF-F.SG
+   </content>
+   <comment type="text">
+    Est-ce un indéfini ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ET*
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas un déterminant ? défini ou indéfini ?}
+   </comment>
+  </answer>
+ </lexeme>
+ <lexeme name="lait ">
   <answer id="0">
    <score type="num">
     100
@@ -7176,7 +7176,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="le ">
+ <lexeme name="le ">
   <answer id="0">
    <score type="num">
     100
@@ -7244,7 +7244,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="le #">
+ <lexeme name="le #">
   <answer id="0">
    <score type="num">
     100
@@ -7569,7 +7569,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="les">
+ <lexeme name="les ">
   <answer id="0">
    <score type="num">
     100
@@ -7703,141 +7703,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="les ">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =DEF-PL
-   </content>
-   <comment type="text">
-    Bien !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    DEF.PL
-   </content>
-   <comment type="text">
-    Le nombre n’est-il pas marqué ?
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    50
-   </score>
-   <content type="text">
-    DET-PL
-   </content>
-   <comment type="text">
-    Préférez l’abréviation DEF pour les déterminants définis.
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    35
-   </score>
-   <content type="text">
-    DET.PL
-   </content>
-   <comment type="text">
-    Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?
-   </comment>
-  </answer>
-  <answer id="4">
-   <score type="num">
-    25
-   </score>
-   <content type="text">
-    DEF.M-PL
-   </content>
-   <comment type="text">
-    Le genre est-il connu ?
-   </comment>
-  </answer>
-  <answer id="5">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    DEF.M.PL
-   </content>
-   <comment type="text">
-    Le genre est-il connu, le nombre est-il marqué ?
-   </comment>
-  </answer>
-  <answer id="6">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    INDEF-PL
-   </content>
-   <comment type="text">
-    Est-ce un indéfini ?
-   </comment>
-  </answer>
-  <answer id="7">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    DEF*
-   </content>
-   <comment type="text">
-    Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="8">
-   <score type="num">
-    5
-   </score>
-   <content type="text">
-    NDEF.PL
-   </content>
-   <comment type="text">
-    Est-ce un indéfini ? Le nombre n’est-il pas marqué ?
-   </comment>
-  </answer>
-  <answer id="9">
-   <score type="num">
-    5
-   </score>
-   <content type="text">
-    ET*
-   </content>
-   <comment type="text">
-    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="10">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *M*
-   </content>
-   <comment type="text">
-    Le genre est-il connu?
-   </comment>
-  </answer>
-  <answer id="11">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *
-   </content>
-   <comment type="text">
-    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
-   </comment>
-  </answer>
- </lexeme>
- <lexeme name="les #">
+ <lexeme name="les #">
   <answer id="0">
    <score type="num">
     100
@@ -7972,6 +7838,140 @@
   </answer>
  </lexeme>
  <lexeme name="les#">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =DEF-PL
+   </content>
+   <comment type="text">
+    Bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    DEF.PL
+   </content>
+   <comment type="text">
+    Le nombre n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DET-PL
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis.
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    35
+   </score>
+   <content type="text">
+    DET.PL
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    25
+   </score>
+   <content type="text">
+    DEF.M-PL
+   </content>
+   <comment type="text">
+    Le genre est-il connu ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF.M.PL
+   </content>
+   <comment type="text">
+    Le genre est-il connu, le nombre est-il marqué ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    INDEF-PL
+   </content>
+   <comment type="text">
+    Est-ce un indéfini ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    NDEF.PL
+   </content>
+   <comment type="text">
+    Est-ce un indéfini ? Le nombre n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ET*
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="10">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *M*
+   </content>
+   <comment type="text">
+    Le genre est-il connu?
+   </comment>
+  </answer>
+  <answer id="11">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   </comment>
+  </answer>
+ </lexeme>
+ <lexeme name="les##">
   <answer id="0">
    <score type="num">
     100
@@ -8340,7 +8340,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="lire ">
+ <lexeme name="lire ">
   <answer id="0">
    <score type="num">
     100
@@ -8397,7 +8397,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="mais ">
+ <lexeme name="mais ">
   <answer id="0">
    <score type="num">
     100
@@ -8544,7 +8544,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="mange">
+ <lexeme name="mange#">
   <answer id="0">
    <score type="num">
     100
@@ -8779,7 +8779,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="marché">
+ <lexeme name="march�">
   <answer id="0">
    <score type="num">
     100
@@ -8959,7 +8959,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="me réjouit">
+ <lexeme name="me r�jouit">
   <answer id="0">
    <score type="num">
     100
@@ -9418,7 +9418,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="noix">
+ <lexeme name="noix">
   <answer id="0">
    <score type="num">
     100
@@ -9642,7 +9642,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="notre">
+ <lexeme name="notre">
   <answer id="0">
    <score type="num">
     100
@@ -9822,7 +9822,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="nous vous entendons ">
+ <lexeme name="nous vous entendons ">
   <answer id="0">
    <score type="num">
     100
@@ -9967,7 +9967,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="ou ">
+ <lexeme name="ou ">
   <answer id="0">
    <score type="num">
     100
@@ -10136,7 +10136,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="parlent">
+ <lexeme name="parlent#">
   <answer id="0">
    <score type="num">
     100
@@ -10248,7 +10248,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="parler ">
+ <lexeme name="parler ">
   <answer id="0">
    <score type="num">
     100
@@ -10439,7 +10439,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="passe ">
+ <lexeme name="passe ">
   <answer id="0">
    <score type="num">
     100
@@ -10799,7 +10799,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="petite">
+ <lexeme name="petite">
   <answer id="0">
    <score type="num">
     100
@@ -11001,7 +11001,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="pièce ">
+ <lexeme name="pi�ce ">
   <answer id="0">
    <score type="num">
     100
@@ -11080,7 +11080,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="place">
+ <lexeme name="place">
   <answer id="0">
    <score type="num">
     100
@@ -11159,7 +11159,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="poupée">
+ <lexeme name="poup�e">
   <answer id="0">
    <score type="num">
     100
@@ -11743,7 +11743,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="que ">
+ <lexeme name="que ">
   <answer id="0">
    <score type="num">
     100
@@ -12004,7 +12004,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="qui ">
+ <lexeme name="qui ">
   <answer id="0">
    <score type="num">
     100
@@ -12083,7 +12083,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="sa">
+ <lexeme name="sa">
   <answer id="0">
    <score type="num">
     100
@@ -12217,7 +12217,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="scolaires">
+ <lexeme name="scolaires">
   <answer id="0">
    <score type="num">
     100
@@ -12318,7 +12318,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="se méfie">
+ <lexeme name="se m�fie">
   <answer id="0">
    <score type="num">
     100
@@ -12788,7 +12788,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="ses">
+ <lexeme name="ses#">
   <answer id="0">
    <score type="num">
     100
@@ -12900,7 +12900,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="ses#">
+ <lexeme name="ses##">
   <answer id="0">
    <score type="num">
     100
@@ -13297,7 +13297,7 @@
     5
    </score>
    <content type="text">
-    tre*
+    �tre*
    </content>
    <comment type="text">
     Quel mode, quel temps, quelle personne ?
@@ -13550,7 +13550,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="souris">
+ <lexeme name="souris#">
   <answer id="0">
    <score type="num">
     100
@@ -13719,7 +13719,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="temps ">
+ <lexeme name="temps ">
   <answer id="0">
    <score type="num">
     100
@@ -13787,7 +13787,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="thé">
+ <lexeme name="th�">
   <answer id="0">
    <score type="num">
     100
@@ -13866,7 +13866,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="thé">
+ <lexeme name="th� ">
   <answer id="0">
    <score type="num">
     100
@@ -13945,7 +13945,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="thé ">
+ <lexeme name="th�#">
   <answer id="0">
    <score type="num">
     100
@@ -14327,7 +14327,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="tu réussiras">
+ <lexeme name="tu r�ussiras">
   <answer id="0">
    <score type="num">
     100
@@ -14595,7 +14595,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="une">
+ <lexeme name="une">
   <answer id="0">
    <score type="num">
     100
@@ -14729,7 +14729,130 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="une#">
+ <lexeme name="une ">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =INDEF.SG-F
+   </content>
+   <comment type="text">
+    Correct, bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    INDEF-F.SG
+   </content>
+   <comment type="text">
+    Pensez à l’ordre des marques.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    INDEF.SG.F
+   </content>
+   <comment type="text">
+    Pensez à l’indépendance des marques.
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DET-F.SG
+   </content>
+   <comment type="text">
+    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    35
+   </score>
+   <content type="text">
+    DET-F.SG
+   </content>
+   <comment type="text">
+    Préférez l’abréviation INDEF pour les déterminants indéfinis. Et pensez aussi à l’ordre des marques.
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    25
+   </score>
+   <content type="text">
+    DET.F.SG
+   </content>
+   <comment type="text">
+    Préférez l’abréviation INDEF pour les déterminants indéfinis. Pensez aussi à l’ordre et à l’indépendance des marques.
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    15
+   </score>
+   <content type="text">
+    DEF.SG-F
+   </content>
+   <comment type="text">
+    Est-ce un défini ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF-F.SG
+   </content>
+   <comment type="text">
+    Est-ce un défini ? Pensez aussi à l’ordre des marques.
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    INDEF*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ET*
+   </content>
+   <comment type="text">
+    Préférez l’abréviation INDEF pour les déterminants indéfinis. Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="10">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   </comment>
+  </answer>
+ </lexeme>
+ <lexeme name="une#">
   <answer id="0">
    <score type="num">
     100
@@ -14860,129 +14983,6 @@
    </content>
    <comment type="text">
     Est-ce un défini ou bien un indéfini ?}
-   </comment>
-  </answer>
- </lexeme>
- <lexeme name="une ">
-  <answer id="0">
-   <score type="num">
-    100
-   </score>
-   <content type="text">
-    =INDEF.SG-F
-   </content>
-   <comment type="text">
-    Correct, bien !
-   </comment>
-  </answer>
-  <answer id="1">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    INDEF-F.SG
-   </content>
-   <comment type="text">
-    Pensez à l’ordre des marques.
-   </comment>
-  </answer>
-  <answer id="2">
-   <score type="num">
-    75
-   </score>
-   <content type="text">
-    INDEF.SG.F
-   </content>
-   <comment type="text">
-    Pensez à l’indépendance des marques.
-   </comment>
-  </answer>
-  <answer id="3">
-   <score type="num">
-    50
-   </score>
-   <content type="text">
-    DET-F.SG
-   </content>
-   <comment type="text">
-    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.
-   </comment>
-  </answer>
-  <answer id="4">
-   <score type="num">
-    35
-   </score>
-   <content type="text">
-    DET-F.SG
-   </content>
-   <comment type="text">
-    Préférez l’abréviation INDEF pour les déterminants indéfinis. Et pensez aussi à l’ordre des marques.
-   </comment>
-  </answer>
-  <answer id="5">
-   <score type="num">
-    25
-   </score>
-   <content type="text">
-    DET.F.SG
-   </content>
-   <comment type="text">
-    Préférez l’abréviation INDEF pour les déterminants indéfinis. Pensez aussi à l’ordre et à l’indépendance des marques.
-   </comment>
-  </answer>
-  <answer id="6">
-   <score type="num">
-    15
-   </score>
-   <content type="text">
-    DEF.SG-F
-   </content>
-   <comment type="text">
-    Est-ce un défini ?
-   </comment>
-  </answer>
-  <answer id="7">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    DEF-F.SG
-   </content>
-   <comment type="text">
-    Est-ce un défini ? Pensez aussi à l’ordre des marques.
-   </comment>
-  </answer>
-  <answer id="8">
-   <score type="num">
-    10
-   </score>
-   <content type="text">
-    INDEF*
-   </content>
-   <comment type="text">
-    Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="9">
-   <score type="num">
-    5
-   </score>
-   <content type="text">
-    ET*
-   </content>
-   <comment type="text">
-    Préférez l’abréviation INDEF pour les déterminants indéfinis. Quel genre, quel nombre ?
-   </comment>
-  </answer>
-  <answer id="10">
-   <score type="num">
-    0
-   </score>
-   <content type="text">
-    *
-   </content>
-   <comment type="text">
-    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
    </comment>
   </answer>
  </lexeme>
@@ -15177,7 +15177,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="vacances">
+ <lexeme name="vacances#">
   <answer id="0">
    <score type="num">
     100
@@ -15502,7 +15502,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="veut">
+ <lexeme name="veut">
   <answer id="0">
    <score type="num">
     100
@@ -15614,7 +15614,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="vite ">
+ <lexeme name="vite ">
   <answer id="0">
    <score type="num">
     100
@@ -15825,7 +15825,7 @@
     voisin
    </content>
    <comment type="text">
-    Quel genre,quel nombre ?
+    Quel genre, quel nombre ?
    </comment>
   </answer>
   <answer id="7">
@@ -15851,7 +15851,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="voisins">
+ <lexeme name="voisins#">
   <answer id="0">
    <score type="num">
     100
@@ -15926,7 +15926,7 @@
     voisin
    </content>
    <comment type="text">
-    Quel genre, quel nombre ?
+    Quel genre,quel nombre ?
    </comment>
   </answer>
   <answer id="7">
@@ -15952,7 +15952,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="voudrait">
+ <lexeme name="voudrait">
   <answer id="0">
    <score type="num">
     100
@@ -16097,7 +16097,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="vous devez ">
+ <lexeme name="vous devez ">
   <answer id="0">
    <score type="num">
     100
@@ -16492,7 +16492,7 @@
     5
    </score>
    <content type="text">
-    il*
+    �il*
    </content>
    <comment type="text">
     Quel genre, quel nombre ?
@@ -16600,7 +16600,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="à">
+ <lexeme name="�">
   <answer id="0">
    <score type="num">
     100
@@ -16668,7 +16668,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="élèves">
+ <lexeme name="�l�ves">
   <answer id="0">
    <score type="num">
     100
@@ -16729,7 +16729,7 @@
     5
    </score>
    <content type="text">
-    lève*
+    �lève*
    </content>
    <comment type="text">
     Etes-vous sûr de ne rien oublier ? Quelles sont les propriétés grammaticales du nom ?
@@ -16769,7 +16769,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="être">
+ <lexeme name="�tre">
   <answer id="0">
    <score type="num">
     100
@@ -16826,7 +16826,7 @@
    </comment>
   </answer>
  </lexeme>
- <lexeme name="œuvre ">
+ <lexeme name="�uvre ">
   <answer id="0">
    <score type="num">
     100
@@ -16876,7 +16876,7 @@
     5
    </score>
    <content type="text">
-    uvre*
+    �uvre*
    </content>
    <comment type="text">
     Quel genre, quel nombre ?

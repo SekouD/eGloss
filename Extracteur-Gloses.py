@@ -216,7 +216,7 @@ def save_xml(xml_obj, filename):
     :param filename:
     :rtype :
     """
-    with codecs.open('{}.xml'.format(filename), 'w', encoding='utf8') as xml_file:
+    with codecs.open('{}.xml'.format(filename), 'w') as xml_file:
         xml_file.write(xml_obj.prettify())
         xml_file.close()
     return
@@ -234,7 +234,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     file_name = args.file_name
-    with codecs.open(file_name, 'r', encoding='utf8') as file_obj:
+    with codecs.open(file_name, 'r') as file_obj:
         extract_gloses(file_obj)
     # file_obj = args.file
     # extract_gloses(file_obj)
