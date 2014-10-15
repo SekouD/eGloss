@@ -1,60 +1,28 @@
 """
 Extracteur de mots depuis quiz-L1-Grammaire-Gloses-20141004-0841.xml
 Le script lit le fichier et en extrait les mots ainsi que les questions associees a chaque mot puis enregistre le
-resultat dans un fichier gloses.xml pour les mots en francais et kalaba.xml pour les mots Kalaba
+resultat dans un fichier gloses.xml pour les mots en francais et kalaba.xml pour les mots Kalaba.
 """
 
 __author__ = 'Sekou Diao'
 
 from bs4 import BeautifulSoup as BS
 
-
-def generate_xml(dict_list):
+def clean_raw_html(raw_html):
     """
+    Takes a raw html string and removes <span> and <br /> tags.
 
-
-
-    :param dict_list:
-    :rtype : bs4 xml object
+    :param raw_html: str
+    :return: str
     """
-    doc_xml = BS('<?xml version="1.0" encoding="UTF-8"?>')
-    xml_root = doc_xml.new_tag('gloses')
-    doc_xml.append(xml_root)
-    for mot, reponse in sorted(dict_list.items()):
-        lexeme = doc_xml.new_tag('lexeme')
-        lexeme['name'] = mot
-        xml_root.append(lexeme)
-        for dic in reponse:
-            answer = doc_xml.new_tag('answer')
-            answer['id'] = reponse.index(dic)
-            lexeme.append(answer)
-            tag_list = [('score', 'num'), ('content', 'text'), ('comment', 'text')]
-            for tag_name, tag_type in tag_list:
-                tag = doc_xml.new_tag(tag_name)
-                tag['type'] = tag_type
-                tag.string = dic[tag_name]
-                answer.append(tag)
-    return doc_xml
-
-
-def save_xml(xml_obj, filename):
-    """
-
-
-
-    :param xml_obj:
-    :param filename:
-    :rtype :
-    """
-    xml_file = open('{}.xml'.format(filename), 'w')
-    xml_file.write(xml_obj.prettify())
-    xml_file.close()
-    return
+    for tag in ('<br />', '<span>', '</span>'):
+        raw_html = raw_html.replace(tag, '')
+    return raw_html
 
 
 def nettoyer_liste(liste_mot):
     """
-
+    Cleans a list of words by removing '\n' entries.
 
     :param liste_mot:
     :rtype : none
@@ -71,6 +39,7 @@ def nettoyer_liste(liste_mot):
 
 def generate_liste_reponse(liste_html):
     """
+    Generates a list of raw answers from the parsed Html.
 
     :param liste_html:
     :return liste_reponses:
@@ -84,9 +53,7 @@ def generate_liste_reponse(liste_html):
 
 def generate_answer_dict(reponse):
     """
-
-
-
+    Generates a dictionary with keys 'score', 'content', 'comment'.
 
     :param reponse:
     :rtype : dict
@@ -116,8 +83,9 @@ def generate_answer_dict(reponse):
 
 def update_dict(dic, zip_mot_reponse):
     """
+    Updates dict with the entries in zip_mot_reponse.
 
-
+    Calls recursive_update to update the dictionary.
 
     :param dic:
     :param zip_mot_reponse:
@@ -136,7 +104,10 @@ def update_dict(dic, zip_mot_reponse):
 
 def recursive_update(dic, key, value):
     """
+    Recursively Checks if key is in dic.
 
+    If key is not in dic, it updates the dic with {key : value}.
+    If key is in dic, it appends '#' to the key and recursively try to update dic.
 
     :param dic:
     :param key:
@@ -153,18 +124,19 @@ def recursive_update(dic, key, value):
 
 def parse_questiontext_tag(html_obj, kalaba=False):
     """
+    Parses an a html object containing the exercice and extracts a list of words and a list of unprocessed answers.
 
-
+    The parsing part had to be tweaked to handle the many variations in question structure.
 
     :param kalaba:
-    :rtype : object
+    :rtype zip: object
     :param html_obj:
     """
     if kalaba:
-        test = html_obj.find_all('table')
+        table_list = html_obj.find_all('table')
         liste_mot = []
         liste_raw_reponses = []
-        for table in test:
+        for table in table_list:
             liste_mot.extend(
                 [td.strong.string for td in table.tbody.tr.contents if td.string != '\n' and td.string is None])
             liste_raw_reponses.extend(
@@ -178,6 +150,49 @@ def parse_questiontext_tag(html_obj, kalaba=False):
     return zip(liste_mot, liste_reponses)
 
 
+def generate_xml(dict_list):
+    """
+    Takes a list of dictionaries and returns a bs4 xml object.
+
+    Each entry of the list is a dictionary of the form {lexeme: answer list}
+    :param dict_list:
+    :rtype : bs4 xml object
+    """
+    doc_xml = BS('<?xml version="1.0" encoding="UTF-8"?>')
+    xml_root = doc_xml.new_tag('gloses')
+    doc_xml.append(xml_root)
+    for mot, reponses in sorted(dict_list.items()):
+        lexeme = doc_xml.new_tag('lexeme')
+        lexeme['name'] = mot
+        xml_root.append(lexeme)
+        for dic in reponses:
+            answer = doc_xml.new_tag('answer')
+            answer['id'] = reponses.index(dic)
+            lexeme.append(answer)
+            tag_list = [('score', 'num'), ('content', 'text'), ('comment', 'text')]
+            for tag_name, tag_type in tag_list:
+                tag = doc_xml.new_tag(tag_name)
+                tag['type'] = tag_type
+                tag.string = dic[tag_name]
+                answer.append(tag)
+    return doc_xml
+
+
+def save_xml(xml_obj, filename):
+    """
+    Takes a bs4 xml object and saves it to a file called 'filename'.
+
+    :param xml_obj:
+    :param filename:
+    :rtype :
+    """
+    xml_file = open('{}.xml'.format(filename), 'w')
+    xml_file.write(xml_obj.prettify())
+    xml_file.close()
+    return
+
+
+# Creates the 2 dictionary objects that will hold the results of the words/answers extraction process
 gloses_dict = {}
 kalaba_dict = {}
 
@@ -187,7 +202,8 @@ for question in root.find_all('question'):
     if question['type'] == 'cloze':
         name_tag = question.find('name')
         raw_html = question.questiontext.text
-        parsed_html = BS(raw_html)
+        clean_html = clean_raw_html(raw_html)
+        parsed_html = BS(clean_html)
         if "KALABA" in name_tag.text:
             liste_mot_reponse = parse_questiontext_tag(parsed_html, kalaba=True)
             update_dict(kalaba_dict, liste_mot_reponse)
