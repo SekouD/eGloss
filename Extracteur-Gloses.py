@@ -1,13 +1,15 @@
 """
-Extracteur de mots depuis quiz-L1-Grammaire-Gloses-20141004-0841.xml
+Extracteur de mots depuis un fichier xml moodle quiz.
 Le script lit le fichier et en extrait les mots ainsi que les questions associees a chaque mot puis enregistre le
-resultat dans un fichier gloses.xml pour les mots en francais et kalaba.xml pour les mots Kalaba.
+resultat dans un fichier gloses_francais.xml pour les mots en francais et gloses_kalaba.xml pour les mots Kalaba.
 """
 
 __author__ = 'Sekou Diao'
 
 import argparse
+import codecs
 from bs4 import BeautifulSoup as BS
+
 
 def clean_raw_html(raw_html):
     """
@@ -105,7 +107,7 @@ def update_dict(dic, zip_mot_reponses):
 
 def recursive_update(dic, key, value):
     """
-    Recursively Checks if key is in dic.
+    Recursively checks if key is in dic.
 
     If key is not in dic, it updates the dic with {key : value}.
     If key is in dic, it appends '#' to the key and recursively try to update dic.
@@ -151,11 +153,38 @@ def parse_questiontext_tag(html_obj, kalaba=False):
     return zip(liste_mot, liste_reponses)
 
 
+def extract_gloses(xml_file):
+    """
+    Reads the specified file and extracts glose information.
+
+    It incrementally updates gloses_francais_dict and gloses_kalaba_dict.
+
+    :param xml_file:
+    :return:
+    """
+    xml_doc = BS(xml_file)
+
+    for question in xml_doc.find_all('question'):
+        if question['type'] == 'cloze':
+            name_tag = question.find('name')
+            raw_html = question.questiontext.text
+            clean_html = clean_raw_html(raw_html)
+            parsed_html = BS(clean_html)
+            if "KALABA" in name_tag.text:
+                liste_mot_reponse = parse_questiontext_tag(parsed_html, kalaba=True)
+                update_dict(gloses_kalaba_dict, liste_mot_reponse)
+            else:
+                liste_mot_reponse = parse_questiontext_tag(parsed_html)
+                update_dict(gloses_francais_dict, liste_mot_reponse)
+    return
+
+
 def generate_xml(dict_list):
     """
     Takes a list of dictionaries and returns a bs4 xml object.
 
-    Each entry of the list is a dictionary of the form {lexeme: answer list}
+    Each entry of the list is a dictionary of the form {lexeme: answer list}.
+
     :param dict_list:
     :rtype : bs4 xml object
     """
@@ -187,47 +216,25 @@ def save_xml(xml_obj, filename):
     :param filename:
     :rtype :
     """
-    xml_file = open('{}.xml'.format(filename), 'w')
-    xml_file.write(xml_obj.prettify())
-    xml_file.close()
+    with codecs.open('{}.xml'.format(filename), 'w') as xml_file:
+        xml_file.write(xml_obj.prettify())
+        xml_file.close()
     return
 
-
-def extract_gloses(filename):
-    """
-    Reads the specified file and extracts glose information.
-
-    It incrementally updates gloses_francais_dict and gloses_kalaba_dict
-    :param filename:
-    :return:
-    """
-    xml_doc = BS(open(filename, 'r'))
-
-    for question in xml_doc.find_all('question'):
-        if question['type'] == 'cloze':
-            name_tag = question.find('name')
-            raw_html = question.questiontext.text
-            clean_html = clean_raw_html(raw_html)
-            parsed_html = BS(clean_html)
-            if "KALABA" in name_tag.text:
-                liste_mot_reponse = parse_questiontext_tag(parsed_html, kalaba=True)
-                update_dict(gloses_kalaba_dict, liste_mot_reponse)
-            else:
-                liste_mot_reponse = parse_questiontext_tag(parsed_html)
-                update_dict(gloses_francais_dict, liste_mot_reponse)
-    return
 
 if __name__ == "__main__":
     # Creates the 2 dictionary objects that will hold the results of the words/answers extraction process
     gloses_francais_dict = {}
     gloses_kalaba_dict = {}
 
+    # Creates parser object to hold arguments
     parser = argparse.ArgumentParser()
-    parser.add_argument('file_name')
+    parser.add_argument('file', type=argparse.FileType('r'))
     args = parser.parse_args()
 
-    file_name = args.file_name
-    extract_gloses(file_name)
+    # file_name = args.file_name
+    file_obj = args.file
+    extract_gloses(file_obj)
 
     gloses_francais_xml = generate_xml(gloses_francais_dict)
     save_xml(gloses_francais_xml, 'gloses_francais')
