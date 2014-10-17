@@ -3,7 +3,7 @@
 Sample xml document showing the record structure
 
 -->
-<gloses>
+<glosses>
  <syntagm name="acheter">
   <answer id="0">
    <score type="num">
@@ -162,4 +162,4 @@ Sample xml document showing the record structure
    </comment>
   </answer>
  </syntagm>
-</gloses>
+</glosses>
