@@ -4,7 +4,7 @@ Sample xml document showing the record structure
 
 -->
 <gloses>
- <word name="acheter">
+ <syntagm name="acheter">
   <answer id="0">
    <score type="num">
     100
@@ -60,8 +60,8 @@ Sample xml document showing the record structure
     N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
    </comment>
   </answer>
- </word>
- <word name="ba">
+ </syntagm>
+ <syntagm name="ba">
   <answer id="0">
    <score type="num">
     100
@@ -161,5 +161,5 @@ Sample xml document showing the record structure
     Non, le verbe n’occupe jamais cette position dans la phrase, sachant que ce système linguistique repose sur une écriture et donc lecture de droite à gauche. Observez de plus près le corpus…}
    </comment>
   </answer>
- </word>
+ </syntagm>
 </gloses>

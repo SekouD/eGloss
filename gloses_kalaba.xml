@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<gloses>
+<glosses>
  <syntagm name="ba">
   <answer id="0">
    <score type="num">
@@ -25642,4 +25642,4 @@
    </comment>
   </answer>
  </syntagm>
-</gloses>
+</glosses>
