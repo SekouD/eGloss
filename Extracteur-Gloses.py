@@ -99,10 +99,13 @@ def generate_liste_reponse(liste_html):
     :param liste_html: list
     :return liste_reponses:
     """
-    if liste_html[1].string is None:
-        liste_reponses = [td.table.tbody.tr.td.p.string for td in liste_html if td.string != '\n']
-    else:
-        liste_reponses = [td.p.string if td.string is None else td.string for td in liste_html if td.string != '\n']
+    # if liste_html[1].string is None:
+    #     liste_reponses = [td.table.tbody.tr.td.p.string for td in liste_html if td.string != '\n']
+    # else:
+    #     liste_reponses = [td.p.string if td.string is None else td.string for td in liste_html if td.string != '\n']
+    while '\n' in liste_html:
+        liste_html.remove('\n')
+    liste_reponses = [td.text.replace('\n','') if td.table is None else td.table.tbody.tr.td.text.replace('\n','') for td in liste_html]
     return liste_reponses
 
 
