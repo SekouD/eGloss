@@ -3,9 +3,11 @@
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses difficiles</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses difficiles</text>
+
     </category>
   </question>
+
 <!-- question: 36999  -->
   <question type="cloze">
     <name>
@@ -25,25 +27,81 @@
 </tr>
 <tr>
 <td valign="top" width="14%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{2:SAC:=DEM.M.SG.LIAIS#Très bien !~=DEM-M.SG.LIAIS#Très bien !~%85%DEM.M.SG#Oui, c’est bien un démonstratif masculin singulier, mais indiquez aussi la liaison dans ce cas précis, devant un nom commençant par une voyelle phonétiquement…~%50%DET.M.SG#Quel type de déterminant est-ce ? Un possessif, un défini, un démonstratif, un indéfini … ?~*#Ne serait-ce pas un déterminant démonstratif de la série CE, CETTE, CES ? Pensez, par ailleurs, à traiter la consonne de liaison...}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="14%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=homme.M.SG#Correct !~%75%homme-M.SG#Le genre est-il marqué ici ?~%75%homme.M-SG#Où est la marque du singulier ?~%60%homme-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%homme*#Quel genre, quel nombre ?~%10%homme#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="14%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{2:SAC:=REL.M.SG[homme]#Bravo !~=REL.COMP.M.SG[homme]#TB. Dans ce cas, on préfère ne pas noter la fonction du relatif...~%85%REL-M.SG[homme]#Bien, mais le genre est-il marqué à la fin ?~%85%REL.M-SG[homme]#Bien, mais le nombre est-il marqué ?~%75%REL-M-SG[homme]#Bien, mais le genre et le nombre sont-ils marqués à la fin ?<span>~%75%REL*.DAT[homme]#La fonction est-elle vraiment datif ?</span>~%75%REL[homme]#Quel genre, quel nombre pour le relatif ?~%65%REL*[homme]#Quel genre, quel nombre pour le relatif ?~%60%REL.M.SG#Bien, mais il manque l’antécédent…~%50%REL*#Et quel est son antécédent ?~%25%PRO#Pouvez-vous préciser la nature de ce pronom ?~CONJ#Ne serait-ce pas plutôt un pronom ?~*#Ce mot n’introduit-il pas une proposition subordonnée relative ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="14%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=Sophie.F.SG#Correct !~%75%Sophie-F.SG#Le féminin est-il vraiment marqué ?~%75%Sophie.F-SG#Où est la marque du singulier ?~%60%Sophie-F-SG#Le féminin est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%Sophie*#Quel genre, quel nombre ?~%10%Sophie#Que genre, quel nombre ?~NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.~*#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="14%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{2:SAC:=REFL.3SG_méfier.IND.PRS.3SG#Très bien !~%85%REFL.3SG _méfier-IND.PRS.3SG#Existe-t-il une marque de présent de l’indicatif ?~%85%REFL.3SG _méfier.IND.PRS-3SG#Peut-on vraiment détacher une marque spécifique de troisième personne du singulier ici ?~%75%PRO.3SG_méfier.IND.PRS.3SG#Préférez l’abréviation REFL pour les pronoms réfléchis.~%75%REFL.3SG_méfier.PRS.3SG#Quel mode pour la deuxième partie ?~%60%PRO.3SG_méfier.3SG#Préférez l’abréviation REFL pour le pronom réfléchi SE. Quel mode, quel temps pour la deuxième partie ?~%55%REFL.3SG_*#Oui, bien pour le pronom réfléchi SE, mais comment noter la deuxième partie, MEFIE ?~%50%REFL.3SG*#Oui, bien pour le pronom réfléchi SE, mais comment noter la deuxième partie, MEFIE ?~%50%méfier.IND.PRS.3SG#Oui, bien pour la forme verbale, mais comment noter la première partie, SE ?~%35%méfier.PRS.3SG#Quel mode ? et n’oubliez pas la première partie, le pronom réfléchi…~%25%méfier.PRS#Quel mode et quelle personne ? et pensez à noter la première partie, le pronom réfléchi…~%35%PRO.3SG_méfier.3SG#Préférez l’abréviation REFL pour les pronoms réfléchis. Quel mode et quel temps pour le verbe ?~%5%se méfier#Traitez les deux parties en les séparant par un tiret du 8.~se méfie#Traitez les deux parties, SE et MEFIE en les séparant par un tiret du 8.~*#Ne serait-ce pas un pronom réfléchi suivi du verbe méfier ? Séparez les deux parties par un tiret du 8…}</p>
 </td>
-<td valign="top" width="14%">
-<p>{1:SAC:=sembler.IND.PRS.3SG#Correct !~%75%sembler.PRS.IND.3SG#Pensez à l’ordre des marques !~%75%semble.IND.PRS.3SG#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%10%sembler.IND.PST*#N’est-ce pas au présent ?~%10%sembler.SBJ.PRS.3SG# N’est-ce pas une affirmation ?~%5%sembler*#Quel mode, quel temps, quelle personne ?~%10%sembler#Quel mode, quel temps, quelle personne ?~semble*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}</p>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="14%">
+<table>
+<tbody>
+<tr>
+<td>
+<p>{1:SAC:=sembler.IND.PRS.3SG#Correct !~%75%sembler.PRS.IND.3SG#Pensez à l’ordre des marques !~%75%semble.IND.PRS.3SG#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%10%sembler.IND.PST*#N’est-ce pas au présent ?~%10%sembler.SBJ.PRS.3SG# N’est-ce pas une affirmation ?~%5%sembler*#Quel mode, quel temps, quelle personne ?~%10%sembler#Quel mode, quel temps, quelle personne ?~semble*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign="top" width="14%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=honnête.M.SG#Bien !~%75%honnête-M.SG#Pensez à l’indépendance des marques.~%75%honnête.M-SG#Quelle est la marque du singulier ?~%60%honnête-M-SG#Le masculin est-il marqué ? Et quelle est la marque du singulier ?~%5%honnête*#Quel genre, quel nombre ?~%10%honnête#Quel genre, quel nombre ?~ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.~*#Ce mot n’a-t-il pas un rôle de qualification ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 </tr>
 </tbody>
@@ -55,12 +113,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses moyennes</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses moyennes</text>
+
     </category>
   </question>
+
 <!-- question: 37922  -->
   <question type="cloze">
     <name>
@@ -92,12 +153,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses faciles</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses faciles</text>
+
     </category>
   </question>
+
 <!-- question: 39159  -->
   <question type="cloze">
     <name>
@@ -115,19 +179,59 @@
 </tr>
 <tr>
 <td valign="top" width="20%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=PRO.1SG.SUJ_avoir.IND.PRS.1SG#Très bien !~%90%PRO.1SG.SUJ_avoir.IND.PRS-1SG#Y-a-t-il vraiment deux parties identifiables pour le verbe ?~%80%PRO.1SG.SUJ_avoir.IND.PRS.*#Quelle personne pour le verbe ?~%80%PRO.1SG.*_avoir.IND.PRS.1SG#Quelle fonction pour le pronom ?~%80%PRO.*.SUJ_avoir.IND.PRS.1SG#Quelle fonction pour le pronom ?~%75%PRO.1SG_avoir.IND.PRS.1SG#Quelle est la fonction du pronom clitique ?~%75%PRO.1SG.SUJ_avoir.PRS.1SG#Quel mode pour la deuxième partie ?~%60%PRO.1SG_avoir.1SG#Quelle est la fonction du pronom clitique pour la première partie ? Quel mode, quel temps pour la deuxième partie ?~%50%PRO.1SG.SUJ#Oui, bien pour le pronom personnel sujet JE, mais comment noter la deuxième partie, AI ?~%50%avoir.IND.PRS.1SG#Oui, bien pour la forme verbale AI, mais comment noter la première partie, JE ?~%35%PRO.1SG#Quelle fonction ? et n’oubliez pas la deuxième partie, la forme verbale…~%35%avoir.PRS.1SG#Quel mode ? et n’oubliez pas la première partie, le pronom clitique…~%40%PRO.*_avoir.IND.PRS*#Pour le pronom, il vous faut la personne et la fonction ; pour le verbe, le mode, le temps et la personne…~%40%PRO.*_avoir.*1SG#Pour le pronom, il vous faut la personne et la fonction ; pour le verbe, le mode, le temps et la personne…~%40%PRO.1SG*_avoir*#Pour le pronom, il vous faut la personne et la fonction ; pour le verbe, le mode, le temps et la personne…~%40%PRO.*SUJ_avoir*#Pour le pronom, il vous faut la personne et la fonction ; pour le verbe, le mode, le temps et la personne…~%20%PRO*_avoir*#Pour le pronom, il vous faut la personne et la fonction ; pour le verbe, le mode, le temps et la personne…~%25%avoir.PRS#Quel mode et quelle personne ? et pensez à noter la première partie, le pronom clitique…~%5%avoir#Traitez les deux parties en les séparant par un tiret du 8.~j’ai#Traitez les deux parties, JE et AI en les séparant par un tiret du 8.~*#Ne serait-ce pas un pronom personnel sujet suivi du verbe avoir ? Séparez les deux parties par un tiret du 8…}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="20%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=voir-PST_P#Bien !~%75%voir.PST_P#N’y a-t-il pas une marque qui permet d’identifier le participe passé ?~%65%vu-PST_P#Bien, mais donnez la forme de citation. De quel verbe s’agit-il ?~%60%vu.PST_P#Donnez la forme de citation. N’y a-y-il pas de marque de participe passé ?~%60%PST_P#Bien, mais quel est le lexème du verbe ?~%5%voir*#De quelle forme verbale s’agit-il ?~%10%voir#De quelle forme verbale s'agit-il ?~vu#Donnez la forme de citation. De quelle forme verbale s’agit-il ?~*#Ne serait-ce pas un participe ? Présent ou passé ? Regardez le suffixe…s’il y en a un…}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="20%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=DEF-PL# Bien !~%75%DEF.PL#Le nombre n’est-il pas marqué ?~%50%DET-PL#Préférez l’abréviation DEF pour les déterminants définis.~%35%DET.PL#Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?~%25%DEF.M-PL#Le genre est-il connu ?~%10%DEF.M.PL#Le genre est-il connu, le nombre est-il marqué ?~%10%INDEF-PL#Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%INDEF.PL#Est-ce un indéfini ? Le nombre n’est-il pas marqué ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*M*#Le genre est-il connu?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}</p>
 </td>
-<td valign="top" width="20%">
-<p>{1:SAC:=secours.M.PL#Correct !~%75%secours.M-PL#Un secour, des secours ?~%75%secours-M.PL#Quelle est la marque du masculin ?~%60%secours-M-PL#Le genre et le nombre sont-ils vraiment marqués ?~%50%secour.M-PL#Un secour, des secours ?~%5%secours*#Quel genre, quel nombre ?~%10%secours#Quel genre, qul nombre ?~secour#Un secour, des secours ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="20%">
+<table>
+<tbody>
+<tr>
+<td>
+<p>{1:SAC:=secours.M.PL#Correct !~%75%secours.M-PL#Un secour, des secours ?~%75%secours-M.PL#Quelle est la marque du masculin ?~%60%secours-M-PL#Le genre et le nombre sont-ils vraiment marqués ?~%50%secour.M-PL#Un secour, des secours ?~%5%secours*#Quel genre, quel nombre ?~%10%secours#Quel genre, qul nombre ?~secour#Un secour, des secours ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign="top" width="20%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=arriver-INF#Bien !~%75% arriver.INF#N’y a-t-il pas une marque qui permet d’identifier l’infinitif ici ?~%50%INF#Bien, mais quel est le lexème du verbe ?~%50%arriver#De quelle forme verbale s’agit-il ?~*#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 </tr>
 </tbody>
@@ -139,12 +243,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses moyennes</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses moyennes</text>
+
     </category>
   </question>
+
 <!-- question: 39257  -->
   <question type="cloze">
     <name>
@@ -176,34 +283,94 @@
   </tr>
   <tr>
     <td width="10%" valign="top">
-           <p>{1:SAC:=Jean.M.SG#Correct !~%75%Jean-M.SG#Le masculin est-il vraiment marqué ?~%75%Jean.M-SG#Où est la marque du singulier ?~%60%Jean-M-SG#Le masculin est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%Jean*#Quel genre, quel nombre ?~%10%Jean#Quel genre, quel nombre ?~NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.~*#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.} </p>
+      <table> <tbody>
+        <tr>
+          <td>
+            <p>{1:SAC:=Jean.M.SG#Correct !~%75%Jean-M.SG#Le masculin est-il vraiment marqué ?~%75%Jean.M-SG#Où est la marque du singulier ?~%60%Jean-M-SG#Le masculin est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%Jean*#Quel genre, quel nombre ?~%10%Jean#Quel genre, quel nombre ?~NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.~*#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.} </p>
+          </td>
+        </tr></tbody>
+      </table>
     </td>
     <td width="10%" valign="top">
+      <table> <tbody>
+        <tr>
+          <td>
             <p>{1:SAC:=vouloir.IND.PRS-3SG#Bien !~%75%vouloir.PRS.IND-3SG#Pensez à l’ordre des marques !~%75%vouloir.IND.PRS.3SG#N’y a-t-il pas une marque de personne ?~%75%veut.IND.PRS-3SG# Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%60%vouloir.*PRS-3SG#Quel mode ? ~%50%vouloir.*PRS.3SG#Quel mode ? Et la personne n’est-elle pas marquée ?~%5%vouloir*#Quel mode, quel temps, quelle personne ?~%10%vouloir#Quel mode, quel temps, quelle personne ?~veut*#Donnez la forme de citation, le mode, le temps et la personne.~*# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…} </p>
+          </td>
+        </tr></tbody>
+      </table>
     </td>
     <td width="10%" valign="top">
+      <table> <tbody>
+        <tr>
+          <td>
             <p>{1:SAC:=acheter-INF#Bien !~%75%acheter.INF#N’y a-t-il pas une marque qui permet d’identifier l’infinitif ici ?~%50%INF#Bien, mais quel est le lexème du verbe ?~%50%acheter#De quelle forme verbale s’agit-il ?~*#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?} </p>
+          </td>
+        </tr></tbody>
+      </table>
     </td>
     <td width="10%" valign="top">
+      <table> <tbody>
+        <tr>
+          <td>
             <p>{1:SAC:=INDEF.PL~%75%INDEF-PL#Existe-t-il un indéfini singulier qui n'aurait pas ce s ?~%50%DET.PL# Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.~%50%INDEF.F.PL#Le genre est-il connu ?~%40%INDEF.F-PL#Le genre est-il connu ? Et existe-t-il un indéfini singulier qui n’aurait pas ce s ?~%30%IND.PL#Utilisez INDEF plutôt que IND...~PREP.DE#Dans ce cas, on achète qqch, non ?~%25%*DET*#Utilisez INDEF pour les indéfinis. Quel nombre ?~*DEF*#Un article défini ? Quel nombre ?~*F*#Le genre est-il connu ?~*#On achète qqch ? Ne serait-ce pas un déterminant ? Est-ce un défini ou bien un indéfini ?} </p>
+          </td>
+        </tr></tbody>
+      </table>
     </td>
     <td width="10%" valign="top">
+      <table> <tbody>
+        <tr>
+          <td>
             <p>{1:SAC:=noix.F.PL#Correct !~%75%noix.F-PL#Une noi, des noix ?~%75%noix-F.PL#Quelle est la marque du féminin ?~%60%noix-F-PL#Le genre et le nombre sont-ils vraiment marqués ?~%50%noi.F-PL#Une noi, des noix ?~%5%noix*#Quel genre, quel nombre ?~%10%noix#Quel genre, quel nombre ?~noi#Une noi, des noix ?~*#Ne serait-ce pas tout simplement un substantif ?} </p>
+          </td>
+        </tr></tbody>
+      </table>
     </td>
     <td width="10%" valign="top">
+      <table> <tbody>
+        <tr>
+          <td>
             <p>{1:SAC:=PREP.A_DET-M.SG#C’est bien ça !~%85%PREP.A_DET.M.SG#Le genre n’est-il pas marqué pour la deuxième partie ?~%50%PREP.A*#Ok pour la préposition. Mais comment noter la deuxième partie ?~%50%DET-M.SG#Ok pour le déterminant, mais comment noter la première partie ?~%25%DEF-M.SG #Dans le cas des formes contractées, préférez l’abréviation DET.~%15%DEF.M.SG#Dans le cas des formes contractées, préférez l’abréviation DET. Et pensez à l’indépendance des marques.~*INDEF*#Un article indéfini ?~*#Ne serait-ce pas une forme contractée de la préposition A et du déterminant LE ?} </p>
+          </td>
+        </tr></tbody>
+      </table>
     </td>
     <td width="10%" valign="top">
+      <table> <tbody>
+        <tr>
+          <td>
             <p>{1:SAC:=marché.M.SG#Correct !~%75%marché-M.SG#Le genre est-il marqué ici ?~%75% marché.M-SG#Où est la marque du singulier ?~%60%marché-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%marché*#Quel genre, quel nombre ?~%10%marché#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p>
+          </td>
+        </tr></tbody>
+      </table>
     </td>
     <td width="10%" valign="top">
+      <table> <tbody>
+        <tr>
+          <td>
             <p>{1:SAC:=PREP.DE#C’est bien ça !~%60%PREP#Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.~%35%PREP*#Donnez l'abréviation PREP uivi dn point, suivi de la préposition elle-même.~ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…~CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ? ~*#N’est-ce pas une préposition qui introduit un complément du nom ?} </p>
+          </td>
+        </tr></tbody>
+      </table>
     </td>
     <td width="10%" valign="top">
+      <table> <tbody>
+        <tr>
+          <td>
             <p>{1:SAC:=DEF-F.SG#Correct, bien !~%50%DET-F.SG#Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.~%10%INDEF-F.SG#Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ? défini ou indéfini ?} </p>
+          </td>
+        </tr></tbody>
+      </table>
     </td>
     <td width="10%" valign="top">
+      <table> <tbody>
+        <tr>
+          <td>
             <p>{1:SAC:=place.F.SG#Correct !~%75%place-F.SG#Le féminin est-il marqué ?~%75%place.F-SG#Où est la marque du singulier ?~%60%place-F-SG#Le féminin est-il marqué ? Montrez-moi la marque du singulier…~%5%place*#Quel genre, quel nombre ?~%10%place#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p>
+          </td>
+        </tr></tbody>
+      </table>
     </td>
   </tr></tbody>
 </table>]]></text>
@@ -214,12 +381,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses difficiles</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses difficiles</text>
+
     </category>
   </question>
+
 <!-- question: 39500  -->
   <question type="cloze">
     <name>
@@ -241,31 +411,103 @@
 </tr>
 <tr>
 <td valign="top" width="11%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=Julie.F.SG#Correct !~%75%Julie-F.SG#Le féminin est-il vraiment marqué ?~%75%Julie.F-SG#Où est la marque du singulier ?~%60%Julie-F-SG#Le féminin est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%Julie*#Quel genre, quel nombre ?~%10%Julie#Quel genre,quel nombre ?~NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.~*#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="11%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=COORD.ET#Bien !~%75%CONJ.ET#Oui, c’est une conjonction, mais préférez l’abréviation COORD pour les conjonctions de coordination…~%75%COORD*#Oui, c’est bien une conjonction de coordination. Mais séparez cette abréviation de la conjonction elle-même en majuscules par un point.~%50%CONJ*#Oui, c’est une conjonction, mais préférez l’abréviation COORD pour les conjonctions de coordination, et séparez cette abréviation de la conjonction elle-même par un point.~*#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="11%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=POSS.3SG-PL#Correct, bravo !~%75%POSS.3SG.PL#N'y a-t-il pas de marque du pluriel ?~%50%POSS.3SG#Quelles sont les propriétés du possédé ?~%25%POSS-PL#Qui est le possesseur ?~%20%POSS.PL#Qui est le possesseur ? Et le pluriel n'est-il pas marqué ?~%10%*POSS*#Qui est le possesseur, il possède quoi ?~%5%POSS#Qui est le possesseur, il possède quoi ?~*M*#Le genre est-il marqué ?~*# Ce petit mot n’établit-il pas une relation de possession ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="11%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=camarade-PL~%50%camarade.M-PL#Le genre est-il connu ?~%50%camarade.F-PL# Le genre est-il connu ?~%40%camarade.M.PL#Le genre est-il connu, le nombre est-il marqué ?~%25%camarades-PL#Quelle est la forme de citation pour ce mot ? ~camarades*#Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom ?~camarades#Donnez la forme de citation, le genre et le nombre.~%5%camarade*#Etes-vous sûr de ne rien oublier ? Quelles sont les propriétés grammaticales du nom ?~%10%camarade#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="11%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=vouloir.IND.PRS-3PL#Bien !~%75%vouloir.PRS.IND-3PL#Pensez à l’ordre des marques !~%75%vouloir.IND.PRS.3PL#N’y a-t-il pas une marque de personne ?~%75%veulent.IND.PRS-3PL# Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%60%vouloir.*PRS-3PL#Quel mode ? ~%50%vouloir.*PRS.3PL#Quel mode ? Et la personne n’est-elle pas marquée ?~%5%vouloir*#Quel mode, quel temps, quelle personne ?~%10%vouloir#Quel mode, quel temps, quelle personne ?~veulent*#Donnez la forme de citation, le mode, le temps et la personne.~*# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="11%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=CONJ.QUE#Bien !~%75%CONJ*#Oui, c’est bien une conjonction, mais pensez à rajouter un point puis la conjonction elle-même en majuscules.~REL*#Un pronom relatif ? Ne serait-ce pas plutôt une conjonction de subordination introduisant une complétive ?~*#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="11%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{2:SAC:=POSS.3PL.SG #Correct, bravo !~%75%POSS.3PL-SG#Pensez à l’indépendance des marques. Existe-t-il une marque du singulier ?~%60%POSS.3PL.M.SG#Le genre est-il marqué ?~%60%POSS.3PL.F.SG#Le genre est-il marqué ?~%55%POSS.3PL-M.SG#Le genre est-il marqué ?~%50%POSS.3PL#Quelles sont les propriétés du possédé ?~%25%POSS.SG#Qui est le possesseur ?~%20%POSS-SG#Qui est le possesseur ? Et existe-t-il une marque de singulier ?~%10%*POSS*#Qui est le possesseur, il possède quoi ?~%5%POSS#Qui est le possesseur, il possède quoi ?~*M*#Le genre est-il marqué ?~*# Ce petit mot n’établit-il pas une relation de possession ?}</p>
 </td>
-<td valign="top" width="11%">
-<p>{1:SAC:=professeur.SG#C’est bien ça !~%75%professeur-SG#Montrez-moi la marque du singulier…~%50%professeur.M.SG#Le genre est-il connu ?~%50%professeur.F.SG# Le genre est-il connu ?~%40%professeur.M-SG#Le genre est-il connu, le nombre est-il marqué ?~%40%professeur.F-SG#Le genre est-il connu ? Montrez-moi la marque du singulier…~%5%professeur*#Etes-vous sûr de ne rien oublier ? Quelles sont les propriétés grammaticales du nom ?~%10%professeur#Quelles sont les propriétés grammaticales du nom ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="11%">
+<table>
+<tbody>
+<tr>
+<td>
+<p>{1:SAC:=professeur.SG#C’est bien ça !~%75%professeur-SG#Montrez-moi la marque du singulier…~%50%professeur.M.SG#Le genre est-il connu ?~%50%professeur.F.SG# Le genre est-il connu ?~%40%professeur.M-SG#Le genre est-il connu, le nombre est-il marqué ?~%40%professeur.F-SG#Le genre est-il connu ? Montrez-moi la marque du singulier…~%5%professeur*#Etes-vous sûr de ne rien oublier ? Quelles sont les propriétés grammaticales du nom ?~%10%professeur#Quelles sont les propriétés grammaticales du nom ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign="top" width="11%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=chanter.SBJ.PRS.3SG#Correct, bravo !~%75%chanter.PRS.SBJ.3SG#Pensez à l’ordre des marques !~%75%chanter-SBJ.PRS.3SG#Y a-t-il vraiment une marque de subjonctif présent ?~%75%chanter.SBJ.PRS-3SG#La personne est-elle marquée ?~%75%chante.SBJ.PRS.3SG#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%60%chanter.IND.PRS.3SG#Est-ce le bon mode ?~%60%chanter.*PRS.3SG#Quel mode ?~%60%chanter-SBJ.PRS-3SG#Le subjonctif présent et la personne sont-ils vraiment marqués ?~%50%chante.IND.PRS.3SG#Donnez la forme de citation. Est-ce le bon mode ?~%5%chanter*#Quel mode, quel temps, quelle personne ?~%10%chanter#Quel mode, quel temps, quelle personne ?~chante*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 </tr>
 </tbody>
@@ -277,6 +519,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 39860  -->
   <question type="cloze">
     <name>
@@ -294,19 +537,59 @@
 </tr>
 <tr>
 <td valign="top" width="20%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{2:SAC:=DEF-F.SG#Correct, bien !~%50%DET-F.SG# Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.~%10%INDEF-F.SG# Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ? défini ou indéfini ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="20%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{2:SAC:=certitude.F.SG#Correct !~%75%certitude-F.SG#Le féminin est-il marqué ?~%75% certitude.F-SG#Où est la marque du singulier ?~%60% certitude-F-SG#Le féminin est-il marqué ? Montrez-moi la marque du singulier…~%5%certitude*#Quel genre, quel nombre ?~%10%certitude#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="20%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{2:SAC:=CONJ.QUE#Bien !~%75%CONJ*#Oui, c’est bien une conjonction, mais pensez à rajouter un point puis la conjonction elle-même en majuscules.~REL*#Un pronom relatif ? Ce petit mot introduit-il ici une proposition subordonnée relative ou bien une complétive ?~*#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Une conjonction ou un pronom relatif ? Ici, ce petit mot introduit-il une proposition subordonnée relative ou bien une complétive ?}</p>
 </td>
-<td valign="top" width="20%">
-<p>{2:SAC:=PRO.2SG.SUJ_réussir-IND.FUT-2SG#Très bien !~%85%PRO.2SG.SUJ_réussir-IND.FUT.2SG#Ne peut-on pas détacher une marque spécifique de deuxième personne du singulier ?~%85%PRO.2SG.SUJ_réussir.IND.FUT-2SG#Ne peut-on pas détacher une marque spécifique pour le futur de l’indicatif ?~%75%PRO.2SG.SUJ_réussir.IND.FUT.2SG#Le futur de l’indicatif et la personne ne sont-ils pas marqués ?~%75%PRO.2SG_réussir-IND.FUT-2SG #Quelle est la fonction du pronom clitique ?~%75%PRO.2SG.SUJ_réussir-FUT-2SG#Quel mode pour la deuxième partie ?~%65%PRO.2SG.SUJ_réussir-IND.FUT*#Quelle personne ?~%65%PRO.2SG.SUJ_réussir-IND*#Le futur de l’indicatif et la personne ne sont-ils pas marqués ?~%65%PRO.2SG.SUJ_réussir.IND*#Le futur de l’indicatif et la personne ne sont-ils pas marqués ?~%60%PRO.2SG_réussir.2SG#Quelle est la fonction du pronom clitique pour la première partie ? Quel mode, quel temps pour la deuxième partie ?~%55%PRO.2SG.SUJ_*#Oui, bien pour le pronom personnel sujet TU, mais comment noter la deuxième partie, REUSSIRAS ?~%50%PRO.2SG.SUJ#Oui, bien pour le pronom personnel sujet TU, mais comment noter la deuxième partie, REUSSIRAS ?~%50%réussir-IND.FUT-2SG#Oui, bien pour la forme verbale, mais comment noter la première partie, TU ?~%35%PRO.2SG#Quelle fonction ? et n’oubliez pas la deuxième partie, la forme verbale…~%35%réussir-FUT-2SG#Quel mode ? et n’oubliez pas la première partie, le pronom clitique…~%25%réussir-FUT#Quel mode et quelle personne ? et pensez à noter la première partie, le pronom clitique…~tu réussiras#Traitez les deux parties, TU et REUSSIRAS en les séparant par un tiret du 8.~*#Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe réussir ? Séparez les deux parties par un tiret du 8…}</p>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="20%">
+<table>
+<tbody>
+<tr>
+<td>
+<p>{2:SAC:=PRO.2SG.SUJ_réussir-IND.FUT-2SG#Très bien !~%85%PRO.2SG.SUJ_réussir-IND.FUT.2SG#Ne peut-on pas détacher une marque spécifique de deuxième personne du singulier ?~%85%PRO.2SG.SUJ_réussir.IND.FUT-2SG#Ne peut-on pas détacher une marque spécifique pour le futur de l’indicatif ?~%75%PRO.2SG.SUJ_réussir.IND.FUT.2SG#Le futur de l’indicatif et la personne ne sont-ils pas marqués ?~%75%PRO.2SG_réussir-IND.FUT-2SG #Quelle est la fonction du pronom clitique ?~%75%PRO.2SG.SUJ_réussir-FUT-2SG#Quel mode pour la deuxième partie ?~%65%PRO.2SG.SUJ_réussir-IND.FUT*#Quelle personne ?~%65%PRO.2SG.SUJ_réussir-IND*#Le futur de l’indicatif et la personne ne sont-ils pas marqués ?~%65%PRO.2SG.SUJ_réussir.IND*#Le futur de l’indicatif et la personne ne sont-ils pas marqués ?~%60%PRO.2SG_réussir.2SG#Quelle est la fonction du pronom clitique pour la première partie ? Quel mode, quel temps pour la deuxième partie ?~%55%PRO.2SG.SUJ_*#Oui, bien pour le pronom personnel sujet TU, mais comment noter la deuxième partie, REUSSIRAS ?~%50%PRO.2SG.SUJ#Oui, bien pour le pronom personnel sujet TU, mais comment noter la deuxième partie, REUSSIRAS ?~%50%réussir-IND.FUT-2SG#Oui, bien pour la forme verbale, mais comment noter la première partie, TU ?~%35%PRO.2SG#Quelle fonction ? et n’oubliez pas la deuxième partie, la forme verbale…~%35%réussir-FUT-2SG#Quel mode ? et n’oubliez pas la première partie, le pronom clitique…~%25%réussir-FUT#Quel mode et quelle personne ? et pensez à noter la première partie, le pronom clitique…~tu réussiras#Traitez les deux parties, TU et REUSSIRAS en les séparant par un tiret du 8.~*#Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe réussir ? Séparez les deux parties par un tiret du 8…}</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign="top" width="20%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{2:SAC:=PRO.1SG.ACC_réjouir.IND.PRS-3SG#Très bien !~%85%PRO.1SG.ACC_réjouir-IND.PRS-3SG#Existe-t-il une marque de présent de l’indicatif ?~%85%PRO.1SG.ACC_réjouir.IND.PRS.3SG#Ne peut-on pas détacher une marque spécifique de troisième personne du singulier ?~%75%PRO.1SG.SUJ_réjouir.IND.PRS-3SG#Avez-vous choisi la bonne fonction pour la première partie ? ME est sujet ?~%75%PRO.1SG.ACC_réjouir.IND.PRS-1SG#Le verbe est à la première personne du singulier ?~%75%PRO.1SG_réjouir.IND.PRS-3SG #Quelle est la fonction du pronom clitique ?~%75%PRO.1SG.ACC_réjouir.PRS-3SG#Quel mode pour la deuxième partie ?~%60%PRO.1SG_réjouir-3SG#Quelle est la fonction du pronom clitique pour la première partie ? Quel mode, quel temps pour la deuxième partie ?~%50%PRO.1SG.ACC#Oui, bien pour le pronom personnel accusatif ME, mais comment noter la deuxième partie, REJOUIT ?~%50%réjouir.IND.PRS-3SG#Oui, bien pour la forme verbale, mais comment noter la première partie, ME ?~%35%PRO.1SG#Quelle fonction ? et n’oubliez pas la deuxième partie, la forme verbale…~%35%réjouir.PRS-3SG#Quel mode ? et n’oubliez pas la première partie, le pronom clitique…~%25%réjouir.PRS#Quel mode et quelle personne ? et pensez à noter la première partie, le pronom clitique…~%25%PRO.1SG_réjouir-1SG#Quelle est la fonction du pronom clitique ? Quel mode et quel temps pour le verbe ; est-ce la bonne personne ?~me réjouit#Traitez les deux parties, ME et REJOUIT en les séparant par un tiret du 8.~%5%REFL*#S'agit-il d'un réfléchi dans ce cas ?~*#Ne serait-ce pas un pronom personnel accusatif (clitique) suivi du verbe réjouir ? Séparez les deux parties par un tiret du 8…}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 </tr>
 </tbody>
@@ -318,6 +601,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 39885  -->
   <question type="cloze">
     <name>
@@ -341,37 +625,125 @@
 </tr>
 <tr>
 <td valign="top" width="9%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{2:SAC:=DEF-F.SG#Correct, bien !~%50%DET-F.SG#Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.~%10%INDEF-F.SG#Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ? défini ou indéfini ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="9%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=meilleur-F.SG#Bien !~%75%meilleur.F.SG#Pensez à l’indépendance des marques.~%75%meilleur-F-SG#Quelle est la marque du singulier ?~%75%meilleure-F.SG#Donnez la forme de citation.~%60%meilleur.F-SG#Le féminin n’est pas marqué ? Et quelle est la marque du singulier ?~meilleure*#Donnez la forme de citation. Et quel genre, quel nombre ?~%5%meilleur*#Quel genre, quel nombre ?~%10%meilleur#Quel genre, quel nombre ?~ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.~*#Ce mot n’a-t-il pas un rôle de qualification ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="9%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=amie.F.SG#Correct !~%75%amie-F.SG#Pensez à l'indépendance des marques.~%75%amie.F-SG#Où est la marque du singulier ?~%60%amie-F-SG#Le féminin est-il marqué ? Montrez-moi la marque du singulier…~%50%ami-F.SG#Pour les noms, on passe du singulier au pluriel, et non pas du masculin au féminin...Revoyez votre forme de citation.~%5%amie*#Quel genre, quel nombre ?~%10%amie#Quel genre, quel nombre ?~%5%ami.*#Pour les noms, on passe du singulier au pluriel, et non pas du masculin au féminin...~%5%ami-*#Pour les noms, on passe du singulier au pluriel, et non pas du masculin au féminin...~ami#Pour les noms, on passe du singulier au pluriel, et non pas du masculin au féminin...~*#Ne serait-ce pas tout simplement un substantif ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="9%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=PREP.DE#C’est bien ça !~%60%PREP*#Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.~ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…~CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ? ~*#N’est-ce pas une préposition qui introduit un complément du nom ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="9%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=Justine.F.SG#Correct !~%75%Justine-F.SG#Le féminin est-il vraiment marqué ?~%75%Justine.F-SG#Où est la marque du singulier ?~%60% Justine-F-SG#Le féminin est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%Justine*#Quel genre, quel nombre ?~%10%Justine#Quel genre, quel nombre ?~NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.~*#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="9%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{2:SAC:=partir-IND.PRF-3SG#Bien !~%75%partir-IND.PS-3SG#Bien, mais nous avons choisi l’abréviation standard PRF (parfait) pour le passé simple en français.~%75%partir.IND.PRF-3SG#N’y a-t-il pas de marque pour le passé simple de l'indicatif ?~%75%partir-IND.PRF.3SG#N’y a-t-il pas de marque de personne ?~%75%partit-IND.PRF-3SG#Donnez la forme de citation. De quel verbe s’agit-il ?~%60%partir-*PRF-3SG#Quel mode ?~%60%partit.IND.PRF-3SG#Donnez la forme de citation. N’y a-t-il pas de marque pour le passé simple ?~%60%partir.IND.PRF.3SG#N’y a-t-il pas de marque pour le passé simple ? Et pour la personne ?~%5%partir*#Quel mode, quel temps, quelle personne ?~%10%partir#Quel mode, quel temps, quelle personne ?~partit*#Donnez la forme de citation et pensez au mode, au temps et à la personne…~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit... Sachez que l’abréviation standard choisie pour le passé simple en français est PRF (parfait)…}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="9%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{2:SAC:=PREP.POUR#C’est bien ça !~%60%PREP*#Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.~ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…~CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ? ~*#N’est-ce pas une préposition ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="9%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=CONJ.QUE#Bien !~%75%CONJ*#Oui, c’est bien une conjonction, mais pensez à rajouter un point puis la conjonction elle-même en majuscules.~REL*#Un pronom relatif ? Ne serait-ce pas plutôt une conjonction de subordination introduisant une complétive ?~*#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="9%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=Pierre.M.SG#Correct !~%75%Pierre-M.SG#Le masculin est-il vraiment marqué ?~%75%Pierre.M-SG#Où est la marque du singulier ?~%60%Pierre-M-SG#Le masculin est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%Pierre*#Quel genre, quel nombre ?~%10%Pierre#Quel genre, quel nombre ?~NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.~*#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}</p>
 </td>
-<td valign="top" width="9%">
-<p>{2:SAC:=pouvoir.SBJ.PRS.3SG#Correct, bravo !~%75%pouvoir.PRS.SBJ.3SG#Pensez à l’ordre des marques !~%75%pouvoir-SBJ.PRS.3SG#Y a-t-il vraiment une marque de subjonctif présent ?~%75%pouvoir.SBJ.PRS-3SG#La personne est-elle marquée ?~%75%puisse.SBJ.PRS.3SG#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%60%pouvoir.IND.PRS.3SG#Est-ce le bon mode ?~%60%pouvoir.*PRS.3SG#Quel mode ?~%60% pouvoir-SBJ.PRS-3SG#Le subjonctif présent et la personne sont-ils vraiment marqués ?~%50%puisse.IND.PRS.3SG#Donnez la forme de citation. Est-ce le bon mode ?~%15%pouvoir.SUBJ*#Pour le subjonctif, on préfère la notation SBJ.~%10%pouvoir-SUBJ*#Pour le subjonctif, on préfère la notation SBJ.~%5%pouvoir*#Quel mode, quel temps, quelle personne ?~%10%pouvoir#Quel mode, quel temps, quelle personne?~puisse*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}</p>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="9%">
+<table>
+<tbody>
+<tr>
+<td>
+<p>{2:SAC:=pouvoir.SBJ.PRS.3SG#Correct, bravo !~%75%pouvoir.PRS.SBJ.3SG#Pensez à l’ordre des marques !~%75%pouvoir-SBJ.PRS.3SG#Y a-t-il vraiment une marque de subjonctif présent ?~%75%pouvoir.SBJ.PRS-3SG#La personne est-elle marquée ?~%75%puisse.SBJ.PRS.3SG#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%60%pouvoir.IND.PRS.3SG#Est-ce le bon mode ?~%60%pouvoir.*PRS.3SG#Quel mode ?~%60% pouvoir-SBJ.PRS-3SG#Le subjonctif présent et la personne sont-ils vraiment marqués ?~%50%puisse.IND.PRS.3SG#Donnez la forme de citation. Est-ce le bon mode ?~%15%pouvoir.SUBJ*#Pour le subjonctif, on préfère la notation SBJ.~%10%pouvoir-SUBJ*#Pour le subjonctif, on préfère la notation SBJ.~%5%pouvoir*#Quel mode, quel temps, quelle personne ?~%10%pouvoir#Quel mode, quel temps, quelle personne?~puisse*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign="top" width="9%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=travailler-INF#Bien !~%75%travailler.INF#N’y a-t-il pas une marque qui permet d’identifier l’infinitif ici ?~%50%INF#Bien, mais quel est le lexème du verbe ?~%50%travailler#De quelle forme verbale s’agit-il ?~*#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 </tr>
 </tbody>
@@ -383,6 +755,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 39897  -->
   <question type="cloze">
     <name>
@@ -408,43 +781,147 @@
 </tr>
 <tr>
 <td valign="top" width="8%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=DEF-F.SG#Correct, bien !~%50%DET-F.SG# Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.~%10%INDEF-F.SG# Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ? défini ou indéfini ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="8%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=personne.F.SG#Correct !~%75%personne-F.SG#Le féminin est-il marqué ?~%75% personne.F-SG#Où est la marque du singulier ?~%60% personne-F-SG#Le féminin est-il marqué ? Montrez-moi la marque du singulier…~%5%personne*#Quel genre, quel nombre ?~%10%personne#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="8%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=PREP.AVEC#C’est bien ça !~%60%PREP*#Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.~ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…~CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ? ~*#N’est-ce pas une préposition ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="8%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=REL[personne]#Bravo !~%75%REL*[personne]#La fonction de QUI ici est d'être le complément de la préposition AVEC. Dans ce cas, on préfère ne pas noter la fonction.~%50%REL*#Et quel est son antécédent ?~%25%PRO#Pouvez-vous préciser la nature de ce pronom ?~%10%REL[personne].M.SG#Le genre et le nombre sont-ils vraiment marqués pour le relatif ?~CONJ#Ne serait-ce pas plutôt un pronom ?~*#Ce mot n’introduit-il pas une proposition subordonnée relative ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="8%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=PRO.1SG.SUJ_discuter.IND.PRS.1SG#Très bien !~%75%PRO.1SG_discuter.IND.PRS.1SG#Quelle est la fonction du pronom clitique ?~%75%PRO.1SG.SUJ_discuter.PRS.1SG#Quel mode pour la deuxième partie ?~%60%PRO.1SG_discuter.1SG#Quelle est la fonction du pronom clitique pour la première partie ? Quel mode, quel temps pour la deuxième partie ?~%50%PRO.1SG.SUJ#Oui, bien pour le pronom personnel sujet JE, mais comment noter la deuxième partie, DISCUTE ?~%50%discuter.IND.PRS.1SG#Oui, bien pour la forme verbale DISCUTE, mais comment noter la première partie, JE ?~%35%PRO.1SG#Quelle fonction ? et n’oubliez pas la deuxième partie, la forme verbale…~%35%discuter.PRS.1SG#Quel mode ? et n’oubliez pas la première partie, le pronom clitique…~%25%discuter.PRS#Quel mode et quelle personne ? et pensez à noter la première partie, le pronom clitique…~je discute#Traitez les deux parties, JE et DISCUTE en les séparant par un tiret du 8.~*#Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe discuter ? Séparez les deux parties par un tiret du 8…}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="8%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:= donner.IND.PRS.3SG#Bien !~%75%donner.PRS.IND.3SG#Pensez à l’ordre des marques !~%75%donner.IND.PRS-3SG#Y a-t-il vraiment une marque de personne ici ?~%75%donne.IND.PRS.3SG# Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%60%donner.IND.PRS.1SG#Est-ce la bonne personne ?~%60%donner.IND.PRS.*#Quelle personne ?~%60%donner.*PRS.3SG#Quel mode ? ~%50%donner.*PRS-3SG#Quel mode ? Et la personne est-elle vraiment marquée ?~%5%donner*#Quel mode, quel temps, quelle personne ?~%10%donner#Quel mode, quel temps, quelle personne ?~donne*#Donnez la forme de citation, le mode, le temps et la personne.~*# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="8%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{2:SAC:=PART-F.SG~%75%PART.F.SG#Les différents partitifs ont-ils une base commune ?~%75%PART.F-SG#Les différents partitifs ont-ils une base commune ?~%5%PART*#Quel genre, quel nombre ?~PREP.DE_DET-F.SG#Hum…on donne qqch, non ?~*#Hum…on donne qqch, non ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="8%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=nourriture.F.SG#Correct !~%75%nourriture-F.SG#Le féminin est-il marqué ?~%75%nourriture.F-SG#Où est la marque du singulier ?~%60%nourriture-F-SG#Le féminin est-il marqué ? Montrez-moi la marque du singulier…~%5%nourriture*#Quel genre, quel nombre ?~%10%nourriture#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="8%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{2:SAC:=PREP.A_DET-PL#C’est bien ça !~%85%PREP.A_DEF-PL#Bien, mais dans le cas de formes contractées, préférez l’abréviation DET pour les déterminants.~%85%PREP.A_DET.PL#Le nombre n’est-il pas marqué pour la deuxième partie ?~%50%PREP.A*#Ok pour la préposition. Mais comment noter la deuxième partie ?~%50%DET-PL#Ok pour le déterminant, mais comment noter la première partie ?~%25%DEF-PL #Dans le cas des formes contractées, préférez l’abréviation DET.~%15%DEF.PL#Dans le cas des formes contractées, préférez l’abréviation DET. Et pensez à l’indépendance des marques.~*INDEF*#Un article indéfini ?~*#Ne serait-ce pas une forme contractée de la préposition A et du déterminant LES ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="8%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=singe.M-PL#C’est bien ça !~%75%singe.M.PL#Le pluriel n’est-il pas marqué ?~%75%singe-M-PL#Y a-t-il une marque du masculin ici ?~%50%singe-M.PL# Y a-t-il une marque du masculin ? N’y a-t-il pas une marque du pluriel ?~%10%singes.M*#Ce mot est invariable en nombre ?~%5%singe*#Etes-vous sûr de ne rien oublier ? Pensez aux propriétés du nom…~%10%singe#Quel genre,quel nombre ?~singes*#Donnez la forme de citation et les propriétés du nom.~*#Ne serait-ce pas tout simplement un substantif ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="8%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=PREP.DANS#C’est bien ça !~%60%PREP*#Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.~ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…~CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ? ~*#N’est-ce pas une préposition ?}</p>
 </td>
-<td valign="top" width="8%">
-<p>{1:SAC:=INDEF.M.SG#Correct, bien !~%50%DET.M.SG#Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.~%10%DEF.M.SG# Est-ce un défini ?~%10%INDEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation INDEF pour les déterminants indéfinis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}</p>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="8%">
+<table>
+<tbody>
+<tr>
+<td>
+<p>{1:SAC:=INDEF.M.SG#Correct, bien !~%50%DET.M.SG#Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.~%10%DEF.M.SG# Est-ce un défini ?~%10%INDEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation INDEF pour les déterminants indéfinis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
+</td>
+<td valign="top" width="8%">
+<table>
+<tbody>
+<tr>
+<td>
 <p>{1:SAC:=zoo.M.SG#Correct !~%75%zoo-M.SG#Le genre est-il marqué ici ?~%75% zoo.M-SG#Où est la marque du singulier ?~%60% zoo-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%zoo*#Quel genre, quel nombre ?~%10%zoo#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 </tr>
 </tbody>
@@ -456,6 +933,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 39911  -->
   <question type="cloze">
     <name>
@@ -489,38 +967,104 @@
   </tr> 
   <tr> 
     <td width="9%" valign="top"> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
             <p>{2:SAC:=DEF-F.SG#Correct, bien !~%50%DET-F.SG# Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.~%10%INDEF-F.SG# Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ? défini ou indéfini ?} </p> 
+          </td> 
+        </tr></tbody> 
+      </table> 
     </td> 
     <td width="9%" valign="top"> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
             <p>{1:SAC:=pièce.F.SG#Correct !~%75%pièce-F.SG#Le féminin est-il marqué ?~%75%pièce.F-SG#Où est la marque du singulier ?~%60%pièce-F-SG#Le féminin est-il marqué ? Montrez-moi la marque du singulier…~%5%pièce*#Quel genre, quel nombre ?~%10%pièce#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
+          </td> 
+        </tr></tbody> 
+      </table> 
     </td> 
     <td width="9%" valign="top"> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
             <p>{2:SAC:=REL.ACC[pièce]#Bravo !~%75%REL[pièce]#Bien, mais quelle est la fonction du pronom relatif QUE ?~%50%REL*#Et quel est son antécédent ?~%25%PRO#Pouvez-vous préciser la nature de ce pronom ?~%10%REL.[pièce].M.SG#Le genre et le nombre sont-ils vraiment marqués pour le relatif ? Quelle fonction a le pronom relatif QUE ?~CONJ#Ne serait-ce pas plutôt un pronom ? Et quel type de pronom ?~*#Ce mot n’introduit-il pas une proposition subordonnée ? Une relative ou bien une complétive ?} </p> 
+          </td> 
+        </tr></tbody> 
+      </table> 
     </td> 
     <td width="9%" valign="top"> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
             <p>{2:SAC:=PRO.2PL.SUJ_devoir.IND.PRS-2PL#Très bien !~%85%PRO.2PL.SUJ_devoir.IND.PRS.2PL#Bien, mais n’y a-t-il pas de marque de personne pour la forme verbale ici ?~%75%PRO.2PL_devoir.IND.PRS-2PL#Quelle est la fonction du pronom clitique ?~%75%PRO.2PL.SUJ_devoir.PRS-2PL #Quel mode pour la deuxième partie ?~%60%PRO.2PL_devoir-2PL#Quelle est la fonction du pronom clitique pour la première partie ? Quel mode, quel temps pour la deuxième partie ?~%50%PRO.2PL.SUJ#Oui, bien pour le pronom personnel sujet VOUS, mais comment noter la deuxième partie, DEVEZ ?~%50%devoir.IND.PRS-2PL#Oui, bien pour la forme verbale DEVEZ, mais comment noter la première partie, VOUS ?~%35%PRO.2PL#Quelle fonction ? et n’oubliez pas la deuxième partie, la forme verbale…~%35%devoir.PRS-2PL#Quel mode ? et n’oubliez pas la première partie, le pronom clitique…~%25%devoir.PRS#Quel mode et quelle personne ? et pensez à noter la première partie, le pronom clitique…~vous devez#Traitez les deux parties, VOUS et DEVEZ en les séparant par un tiret du 8.~*#Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe devoir ? Séparez les deux parties par un tiret du 8…} </p> 
+          </td> 
+        </tr></tbody> 
+      </table> 
     </td> 
     <td width="9%" valign="top"> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
             <p>{1:SAC:=lire.INF#Bien !Sachez que l'on accepte aussi -INF si l'on considère qu'un r phonologique est une marque de l'infinitif.~=lire-INF#Bien ! Sachez que l'on accepte aussi .INF si l'on considère qu'il n'y a pas de marque d'infinitif aussi explicite que dans les verbes du premier groupe, par exemple.~%50%INF#Bien, mais quel est le lexème du verbe ?~%50%lire#De quelle forme verbale s’agit-il ?~*#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?} </p> 
+          </td> 
+        </tr></tbody> 
+      </table> 
     </td> 
     <td width="9%" valign="top"> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
             <p>{1:SAC:=être.IND.PRS.3SG#Correct !~%75%être.PRS.IND.3SG#Pensez à l’ordre des marques !~%75%est.IND.PRS.3SG#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase… ~%60%être.*PRS.3SG#Quel mode ?~%5%être*#Quel mode, quel temps, quelle personne ?~%10%être#Quel mode, quel temps, quelle personne ?~est*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…} </p> 
+          </td> 
+        </tr></tbody> 
+      </table> 
     </td> 
     <td width="9%" valign="top"> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
             <p>{1:SAC:=INDEF.SG-F#Correct, bien !~%75%INDEF-F.SG#Pensez à l’ordre des marques.~%75%INDEF.SG.F#Pensez à l’indépendance des marques.~%50%DET-F.SG#Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.~%35%DET-F.SG#Préférez l’abréviation INDEF pour les déterminants indéfinis. Et pensez aussi à l’ordre des marques.~%25%DET.F.SG#Préférez l’abréviation INDEF pour les déterminants indéfinis. Pensez aussi à l’ordre et à l’indépendance des marques.~%15%DEF.SG-F# Est-ce un défini ?~%10%DEF-F.SG#Est-ce un défini ? Pensez aussi à l’ordre des marques.~%10%INDEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation INDEF pour les déterminants indéfinis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?} </p> 
+          </td> 
+        </tr></tbody> 
+      </table> 
     </td> 
     <td width="9%" valign="top"> 
-                  <p>{1:SAC:=œuvre.F.SG#Correct !~%75%œuvre-F.SG#Le féminin est-il marqué ?~%75%œuvre.F-SG#Où est la marque du singulier ?~%60%œuvre-F-SG#Le féminin est-il marqué ? Montrez-moi la marque du singulier…~%5%œuvre*#Quel genre, quel nombre ?~%10%œuvre#Quel genre, quel nombre~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=œuvre.F.SG#Correct !~%75%œuvre-F.SG#Le féminin est-il marqué ?~%75%œuvre.F-SG#Où est la marque du singulier ?~%60%œuvre-F-SG#Le féminin est-il marqué ? Montrez-moi la marque du singulier…~%5%œuvre*#Quel genre, quel nombre ?~%10%œuvre#Quel genre, quel nombre~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
           </td> 
-    <td width="9%" valign="top"> 
-                  <p>{2:SAC:=PREP.DE_INDEF.SG-F#Très bien !~%85%PREP.DE_INDEF.SG.F#Le genre n’est-il pas marqué pour la deuxième partie ?~%75%PREP.DE_INDEF-F.SG#Pensez à l’ordre des marques pour la deuxième partie.~%60%PREP.DE_INDEF.F.SG#Pensez à l’ordre et l’indépendance des marques pour la deuxième partie.~%50%PREP.DE*#Ok pour la préposition. Mais comment noter la deuxième partie ?~%50%INDEF.SG-F#Ok pour le déterminant, mais comment noter la première partie ?~%25%DET.SG-F #Préférez l’abréviation INDEF pour les déterminants indéfinis.~%15%INDEF-F.SG#Préférez l’abréviation INDEF pour les déterminants indéfinis, et pensez à l’ordre des marques.~%5%INDEF#Quel genre, quel nombre, et comment noter la première partie D’ ?~*DEF*#Un article défini ?~*#Ne serait-ce pas la préposition DE suivie du déterminant UNE ?} </p> 
+        </tr></tbody> 
+      </table> 
     </td> 
     <td width="9%" valign="top"> 
-                  <p>{1:SAC:=grand-F.SG#Bien !~%75%grand.F.SG#Pensez à l’indépendance des marques.~%75%grand-F-SG#Quelle est la marque du singulier ?~%75%grande-F.SG#Donnez la forme de citation.~%60%grand.F-SG#Le féminin n’est pas marqué ? Et quelle est la marque du singulier ?~grande*#Donnez la forme de citation. Et quel genre, quel nombre ?~%5%grand*#Quel genre, quel nombre ?~%10%grand#Quel genre, quel nombre ?~ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.~*#Ce mot n’a-t-il pas un rôle de qualification ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{2:SAC:=PREP.DE_INDEF.SG-F#Très bien !~%85%PREP.DE_INDEF.SG.F#Le genre n’est-il pas marqué pour la deuxième partie ?~%75%PREP.DE_INDEF-F.SG#Pensez à l’ordre des marques pour la deuxième partie.~%60%PREP.DE_INDEF.F.SG#Pensez à l’ordre et l’indépendance des marques pour la deuxième partie.~%50%PREP.DE*#Ok pour la préposition. Mais comment noter la deuxième partie ?~%50%INDEF.SG-F#Ok pour le déterminant, mais comment noter la première partie ?~%25%DET.SG-F #Préférez l’abréviation INDEF pour les déterminants indéfinis.~%15%INDEF-F.SG#Préférez l’abréviation INDEF pour les déterminants indéfinis, et pensez à l’ordre des marques.~%5%INDEF#Quel genre, quel nombre, et comment noter la première partie D’ ?~*DEF*#Un article défini ?~*#Ne serait-ce pas la préposition DE suivie du déterminant UNE ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="9%" valign="top"> 
-                  <p>{1:SAC:=dramaturge.F.SG#Correct !~%75%dramaturge-F.SG#Le féminin est-il marqué ?~%75%dramaturge.F-SG#Où est la marque du singulier ?~%60%dramaturge-F-SG#Le féminin est-il marqué ? Montrez-moi la marque du singulier…~%5%dramaturge*#Quel genre, quel nombre ?~%10%dramaturge#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=grand-F.SG#Bien !~%75%grand.F.SG#Pensez à l’indépendance des marques.~%75%grand-F-SG#Quelle est la marque du singulier ?~%75%grande-F.SG#Donnez la forme de citation.~%60%grand.F-SG#Le féminin n’est pas marqué ? Et quelle est la marque du singulier ?~grande*#Donnez la forme de citation. Et quel genre, quel nombre ?~%5%grand*#Quel genre, quel nombre ?~%10%grand#Quel genre, quel nombre ?~ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.~*#Ce mot n’a-t-il pas un rôle de qualification ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
+    <td width="9%" valign="top"> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=dramaturge.F.SG#Correct !~%75%dramaturge-F.SG#Le féminin est-il marqué ?~%75%dramaturge.F-SG#Où est la marque du singulier ?~%60%dramaturge-F-SG#Le féminin est-il marqué ? Montrez-moi la marque du singulier…~%5%dramaturge*#Quel genre, quel nombre ?~%10%dramaturge#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
+          </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
   </tr></tbody> 
 </table>]]></text>
     </questiontext>
@@ -530,12 +1074,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses moyennes</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses moyennes</text>
+
     </category>
   </question>
+
 <!-- question: 40069  -->
   <question type="cloze">
     <name>
@@ -564,12 +1111,20 @@
 <td>
 <p>{1:SAC:=DEF-M.SG#Correct, bien !~%50%DET-M.SG#Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.~%10%INDEF-M.SG# Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="10%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=chat.M.SG#Correct !~%75%chat-M.SG#Le genre est-il marqué ici ?~%75% chat.M-SG#Où est la marque du singulier ?~%60% chat-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%chat*#Quel genre, quel nombre ?~%10%chat#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="10%">
 <table>
@@ -578,12 +1133,20 @@
 <td>
 <p>{1:SAC:=REL.GEN[chat]#Bravo !~%75%REL.SUJ[chat]#Bien, mais quelle est réellement la fonction du pronom relatif DONT ?~%75%REL[chat]#Bien, mais quelle est la fonction du pronom relatif DONT ?~%60%REL*[chat]#Et quelle est la fonction de DONT dans la relative ?~%55%REL*[*]#Et quel est son antécédent ?~%50%REL*#Et quel est son antécédent ?~%25%PRO#Pouvez-vous préciser la nature de ce pronom ?~%10%REL.[chat].M.SG#Le genre et le nombre sont-ils vraiment marqués pour le relatif ? Quelle fonction a le pronom relatif DONT ?~CONJ#Ne serait-ce pas plutôt un pronom ?~*#Ce mot n’introduit-il pas une proposition subordonnée relative ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="10%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=DEF-PL# Bien !~%75%DEF.PL#Le nombre n’est-il pas marqué ?~%50%DET-PL#Préférez l’abréviation DEF pour les déterminants définis.~%35%DET.PL#Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?~%25%DEF.M-PL#Le genre est-il connu ?~%10%DEF.M.PL#Le genre est-il connu, le nombre est-il marqué ?~%10%INDEF-PL#Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%INDEF.PL#Est-ce un indéfini ? Le nombre n’est-il pas marqué ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*M*#Le genre est-il connu?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="10%">
 <table>
@@ -592,12 +1155,20 @@
 <td>
 <p>{1:SAC:=oeil.M.PL#Correct !~=œil.M.PL#Correct !~%75%yeux.M.PL#Donnez la forme de citation.~%75%oeil.M-PL#Où est la marque du pluriel ?~%75% œil.M-PL#Où est la marque du pluriel ?~%70%oeil-M.PL#Le genre est-il marqué ici ?~%70%œil-M.PL#Le genre est-il marqué ici ?~%60%oeil-M-PL#Le genre et le nombre sont-ils vraiment marqués ici ?~%60%œil-M-PL#Le genre et le nombre sont-ils vraiment marqués ici ?~%60%oeil-M.PL#Le genre et le nombre sont-ils vraiment marqués ici ?~%60%œil-M.PL#Le genre et le nombre sont-ils vraiment marqués ici ?~%10%oeil#Quel genre, quel nombre ?~%10%œil#Quel genre, quel nombre ?~%5%oeil*#Quel genre, quel nombre ?~%5%œil*#Quel genre, quel nombre ?~yeux*#Donnez la forme de citation. Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="10%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=être.IND.PRS.3PL#Correct !~%75%être.PRS.IND.3PL#Pensez à l’ordre des marques !~%75%sont.IND.PRS.3PL#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase… ~%60%être.*PRS.3PL#Quel mode ?~%5%être*#Quel mode, quel temps, quelle personne ?~%10%être#Quel mode, quel temps, quelle personne ?~sont*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="10%">
 <table>
@@ -606,12 +1177,20 @@
 <td>
 <p>{1:SAC:=vert.M-PL#Correct, bravo !~%75%vert-M-PL#Voyez-vous une marque du masculin ?~%75%vert.M.PL#Le nombre n’est-il pas marqué ?~%75%verts.M-PL#Donnez la forme de citation.~%60%vert-M.PL#Y a-t-il une marque du masculin ? Et le nombre n’est-il pas marqué ?~verts#Donnez la forme de citation. Quel genre, quel nombre ?~%5%vert*#Quel genre, quel nombre ?~%10%vert#Quel genre, quel nombre ?~ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.~*#Ce mot n’a-t-il pas un rôle de qualification ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="10%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=être.IND.PRS.3SG#Correct !~%75%être.PRS.IND.3SG#Pensez à l’ordre des marques !~%75%est.IND.PRS.3SG#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase… ~%60%être.*PRS.3SG#Quel mode ?~%5%être*#Quel mode, quel temps, quelle personne ?~%10%être#Quel mode, quel temps, quelle personne ?~est*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="10%">
 <table>
@@ -620,12 +1199,20 @@
 <td>
 <p>{1:SAC:=PREP.A#C’est bien ça !~=PREP.À#C’est bien ça !~%60%PREP*#Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.~ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…~CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?~*#N’est-ce pas une préposition ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="10%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=PRO.1SG#Très bien !~%75%1SG.PRO#Bien, mais préférez l’ordre inverse, standard, soit PRO.1SG~%50%PRO#Oui, c’est un pronom, mais quelle est la personne ?~%50%1SG#Oui, mais de quelle catégorie de mot s’agit-il ici ?~moi#Donnez sa catégorie et la personne, en les séparant par un point.~*#Ce mot ne remplace-t-il pas quelque chose ou plutôt quelqu’un ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 </tr>
 </tbody>
@@ -637,12 +1224,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses difficiles</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses difficiles</text>
+
     </category>
   </question>
+
 <!-- question: 40080  -->
   <question type="cloze">
     <name>
@@ -671,12 +1261,20 @@
 <td>
 <p>{1:SAC:=DEF-M.SG#Correct, bien !~%50%DET-M.SG#Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.~%10%INDEF-M.SG# Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="10%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=couteau.M.SG#Correct !~%75%couteau-M.SG#Le genre est-il marqué ici ?~%75%couteau.M-SG#Où est la marque du singulier ?~%60%couteau-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%couteau*#Quel genre, quel nombre ?~%10%couteau#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="10%">
 <table>
@@ -685,12 +1283,20 @@
 <td>
 <p>{1:SAC:=PREP.AVEC#C’est bien ça !~%60%PREP*#Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.~ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…~CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ? ~*#N’est-ce pas une préposition ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="10%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=REL.M.SG[couteau]#Bravo !~%85%REL-M.SG[couteau]#Bien, mais le genre est-il marqué ?~%85%REL.M-SG[couteau]#Bien, mais le nombre est-il marqué ?~%75%REL-M-SG[couteau]#Bien, mais le genre et le nombre sont-ils marqués ?~%75%REL[couteau]#Quel genre, quel nombre pour le relatif ?~%75%REL.*[couteau]#Quel genre, quel nombre pour le relatif ?~%60%REL.M.SG#Bien, mais il manque l’antécédent…~%50%REL*#Et quel est son antécédent ?~%25%PRO#Pouvez-vous préciser la nature de ce pronom ?~CONJ#Ne serait-ce pas plutôt un pronom ?~*#Ce mot n’introduit-il pas une proposition subordonnée relative ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="10%">
 <table>
@@ -699,12 +1305,20 @@
 <td>
 <p>{1:SAC:=PRO.2SG.SUJ_couper.IND.PRS-2SG#Très bien !~%85%PRO.2SG.SUJ_couper.IND.PRS.2SG#Ne peut-on pas détacher une marque spécifique de deuxième personne du singulier ?~%85%PRO.2SG.SUJ_couper-IND.PRS-2SG#Peut-on réellement détacher une marque spécifique pour le présent de l’indicatif ?~%75%PRO.2SG.SUJ_couper-IND.PRS.2SG#Le présent de l’indicatif est-il marqué ? La personne ne l’est pas ?~%75%PRO.2SG_couper.IND.PRS-2SG #Quelle est la fonction du pronom clitique ?~%75%PRO.2SG.SUJ_couper.PRS-2SG#Quel mode pour la deuxième partie ?~%60%PRO.2SG_couper.2SG#Quelle est la fonction du pronom clitique pour la première partie ? Quel mode, quel temps pour la deuxième partie ?~%50%PRO.2SG.SUJ#Oui, bien pour le pronom personnel sujet TU, mais comment noter la deuxième partie, COUPES ?~%50%couper.IND.PRS-2SG#Oui, bien pour la forme verbale, mais comment noter la première partie, TU ?~%35%PRO.2SG#Quelle fonction ? et n’oubliez pas la deuxième partie, la forme verbale…~%35%couper.PRS-2SG#Quel mode ? et n’oubliez pas la première partie, le pronom clitique…~%25%couper.PRS#Quel mode et quelle personne ? et pensez à noter la première partie, le pronom clitique…~tu coupes#Traitez les deux parties, TU et COUPES en les séparant d’un tiret du 8.~*#Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe couper ? Séparez les deux parties par un tiret du 8…}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="10%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=DEF-PL#Bien !~%75%DEF.PL#Le nombre n’est-il pas marqué ?~%50%DET-PL#Préférez l’abréviation DEF pour les déterminants définis.~%35%DET.PL#Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?~%25%DEF.M-PL#Le genre est-il connu ?~%10%DEF.M.PL#Le genre est-il connu, le nombre est-il marqué ?~%10%INDEF-PL#Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%INDEF.PL#Est-ce un indéfini ? Le nombre n’est-il pas marqué ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*M*#Le genre est-il connu?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="10%">
 <table>
@@ -713,12 +1327,20 @@
 <td>
 <p>{1:SAC:=ananas.M.PL#Correct !~%75%ananas.M-PL#Un anana, des ananas ?~%75%ananas-M.PL#Quelle est la marque du masculin ?~%60%ananas-M-PL#Le genre et le nombre sont-ils vraiment marqués ?~%50%anana.M-PL#Un anana, des ananas ?~%5%ananas*#Quel genre, quel nombre ?~%10%ananas#Quel genre, quel nombre ?~anana#Un anana, des ananas ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="10%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=être.IND.PRS.3SG#Correct !~%75%être.PRS.IND.3SG#Pensez à l’ordre des marques !~%75%est.IND.PRS.3SG#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase… ~%60%être.*PRS.3SG#Quel mode ?~%5%être*#Quel mode, quel temps, quelle personne ?~%10%être#Quel mode, quel temps,quelle personne ?~est*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="10%">
 <table>
@@ -727,12 +1349,20 @@
 <td>
 <p>{1:SAC:=bien#Bien !~ADV#Donnez simplement le lexème.~*#Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="10%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=tranchant.M.SG#Bien !~%75%tranchant-M.SG#Pensez à l’indépendance des marques.~%75%tranchant.M-SG#Quelle est la marque du singulier ?~%60%tranchant-M-SG#Le masculin est-il marqué ? Et quelle est la marque du singulier ?~%5%tranchant*#Quel genre, quel nombre ?~%10%tranchant#Quel genre, quel nombre ?~ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.~*#Ce mot n’a-t-il pas un rôle de qualification ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 </tr>
 </tbody>
@@ -744,12 +1374,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses moyennes</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses moyennes</text>
+
     </category>
   </question>
+
 <!-- question: 40167  -->
   <question type="cloze">
     <name>
@@ -779,26 +1412,68 @@
     <td width="13%" valign="top">{1:SAC:=DEF-M.SG#Correct, bien !~%50%DET-M.SG#Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.~%10%INDEF-M.SG# Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ?Est-ce un défini ou bien un indéfini ?} 
     </td> 
     <td width="13%" valign="top"> 
-                  <p>{2:SAC:=temps.M.SG#Bien !~%75%temps.M#En effet, le nombre n’est pas marqué si le mot est pris isolément. Mais ici le contexte ne nous permet-il pas de déduire le nombre ?~temp#Quel est le singulier de ce nom ?~%5%temps*#Etes-vous sûr de ne rien oublier ? Pensez aux propriétés du nom…~%10%temps#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{2:SAC:=temps.M.SG#Bien !~%75%temps.M#En effet, le nombre n’est pas marqué si le mot est pris isolément. Mais ici le contexte ne nous permet-il pas de déduire le nombre ?~temp#Quel est le singulier de ce nom ?~%5%temps*#Etes-vous sûr de ne rien oublier ? Pensez aux propriétés du nom…~%10%temps#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="13%" valign="top"> 
-                  <p>{2:SAC:=REL.SUJ[temps]#Bravo !~%75%REL[temps]#Quelle est la fonction du pronom relatif QUI ici ?~%50%REL*#Et quel est son antécédent ?~%25%PRO#Pouvez-vous préciser la nature de ce pronom ?~%10%REL[temps].M.SG#Le genre et le nombre sont-ils vraiment marqués pour le relatif ? Quelle est la fonction du relatif QUI ici ?~CONJ#Ne serait-ce pas plutôt un pronom ?~*#Ce mot n’introduit-il pas une proposition subordonnée relative ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{2:SAC:=REL.SUJ[temps]#Bravo !~%75%REL[temps]#Quelle est la fonction du pronom relatif QUI ici ?~%50%REL*#Et quel est son antécédent ?~%25%PRO#Pouvez-vous préciser la nature de ce pronom ?~%10%REL[temps].M.SG#Le genre et le nombre sont-ils vraiment marqués pour le relatif ? Quelle est la fonction du relatif QUI ici ?~CONJ#Ne serait-ce pas plutôt un pronom ?~*#Ce mot n’introduit-il pas une proposition subordonnée relative ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="13%" valign="top"> 
-                  <p>{1:SAC:=passer.IND.PRS.3SG#Correct !~%75%passer.PRS.IND.3SG#Pensez à l’ordre des marques !~%75%passe.IND.PRS.3SG#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%10%passer.SBJ.PRS.3SG# N’est-ce pas une affirmation ?~%5%passer*#Quel mode, quel temps, quelle personne ?~%10%passer#Quel mode, quel temps, quelle personne ?~passe*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=passer.IND.PRS.3SG#Correct !~%75%passer.PRS.IND.3SG#Pensez à l’ordre des marques !~%75%passe.IND.PRS.3SG#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%10%passer.SBJ.PRS.3SG# N’est-ce pas une affirmation ?~%5%passer*#Quel mode, quel temps, quelle personne ?~%10%passer#Quel mode, quel temps, quelle personne ?~passe*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="13%" valign="top"> 
-                  <p>{1:SAC:=vite#Correct !~ADV#Donnez simplement le lexème.~*#Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=vite#Correct !~ADV#Donnez simplement le lexème.~*#Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="13%" valign="top"> 
-                  <p>{1:SAC:=être.IND.PRS.3SG#Correct !~%75%être.PRS.IND.3SG#Pensez à l’ordre des marques !~%75%est.IND.PRS.3SG#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase… ~%60%être.*PRS.3SG#Quel mode ?~%5%être*#Quel mode, quel temps, quelle personne ?~%10%être#Quel mode, quel temps, quelle personne ?~est*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=être.IND.PRS.3SG#Correct !~%75%être.PRS.IND.3SG#Pensez à l’ordre des marques !~%75%est.IND.PRS.3SG#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase… ~%60%être.*PRS.3SG#Quel mode ?~%5%être*#Quel mode, quel temps, quelle personne ?~%10%être#Quel mode, quel temps, quelle personne ?~est*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="13%" valign="top"> 
-                  <p>{1:SAC:=difficilement#Bien !~ADV#Donnez simplement le lexème.~*#Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=difficilement#Bien !~ADV#Donnez simplement le lexème.~*#Invariable, ce type de mot nuance le sens, souvent d’un verbe, d’où son nom…} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="13%" valign="top"> 
-                  <p>{1:SAC:=contrôlable.M.SG#Bien !~%75%contrôlable-M.SG#Peut-on détacher une marque du masculin ici ?~%60%contrôlable.SG#Le genre n’est-il pas déductible grâce au contexte ?~%5%contrôlable*#Quel genre, quel nombre ?~%10%contrôlable#Quel genre, quel nombre ?~ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.~*#Ce mot n’a-t-il pas un rôle de qualification ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=contrôlable.M.SG#Bien !~%75%contrôlable-M.SG#Peut-on détacher une marque du masculin ici ?~%60%contrôlable.SG#Le genre n’est-il pas déductible grâce au contexte ?~%5%contrôlable*#Quel genre, quel nombre ?~%10%contrôlable#Quel genre, quel nombre ?~ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.~*#Ce mot n’a-t-il pas un rôle de qualification ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
   </tr></tbody> 
 </table>]]></text>
     </questiontext>
@@ -808,12 +1483,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses faciles</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses faciles</text>
+
     </category>
   </question>
+
 <!-- question: 40176  -->
   <question type="cloze">
     <name>
@@ -845,12 +1523,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses difficiles</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses difficiles</text>
+
     </category>
   </question>
+
 <!-- question: 40182  -->
   <question type="cloze">
     <name>
@@ -886,41 +1567,113 @@
   </tr> 
   <tr> 
     <td width="8%" valign="top"> 
-                  <p>{1:SAC:=DEF-PL# Bien !~%75%DEF.PL#Le nombre n’est-il pas marqué ?~%50%DET-PL#Préférez l’abréviation DEF pour les déterminants définis.~%35%DET.PL#Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?~%25%DEF.M-PL#Le genre est-il connu ?~%10%DEF.M.PL#Le genre est-il connu, le nombre est-il marqué ?~%10%INDEF-PL#Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%INDEF.PL#Est-ce un indéfini ? Le nombre n’est-il pas marqué ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*M*#Le genre est-il connu?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=DEF-PL# Bien !~%75%DEF.PL#Le nombre n’est-il pas marqué ?~%50%DET-PL#Préférez l’abréviation DEF pour les déterminants définis.~%35%DET.PL#Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?~%25%DEF.M-PL#Le genre est-il connu ?~%10%DEF.M.PL#Le genre est-il connu, le nombre est-il marqué ?~%10%INDEF-PL#Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%INDEF.PL#Est-ce un indéfini ? Le nombre n’est-il pas marqué ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*M*#Le genre est-il connu?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="8%" valign="top"> 
-                  <p>{1:SAC:=enfant-PL~%50%enfant.M-PL#Le genre est-il connu ?~%50%enfant.F-PL# Le genre est-il connu ?~%40%enfant.M.PL#Le genre est-il connu, le nombre est-il marqué ?~%25%enfants-PL#Quelle est la forme de citation pour ce mot ? ~enfants*#Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom ?~%5%enfant*#Etes-vous sûr de ne rien oublier ? Quelles sont les propriétés grammaticales du nom ?~%10%enfant#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=enfant-PL~%50%enfant.M-PL#Le genre est-il connu ?~%50%enfant.F-PL# Le genre est-il connu ?~%40%enfant.M.PL#Le genre est-il connu, le nombre est-il marqué ?~%25%enfants-PL#Quelle est la forme de citation pour ce mot ? ~enfants*#Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom ?~%5%enfant*#Etes-vous sûr de ne rien oublier ? Quelles sont les propriétés grammaticales du nom ?~%10%enfant#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="8%" valign="top"> 
-                  <p>{1:SAC:=boire.IND.PRS-3PL#Bien !~%75%boire.PRS.IND-3PL#Pensez à l’ordre des marques !~%75%boire.IND.PRS.3PL#N’y a-t-il pas une marque de personne ?~%75%boivent.IND.PRS-3PL# Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%60%boire.*PRS-3PL#Quel mode ? ~%50%boire.*PRS.3PL#Quel mode ? Et la personne n’est-elle pas marquée ?~%5%boire*#Quel mode, quel temps, quelle personne ?~%10%boire#Quel mode, quel temps, quelle personne ?~boivent*#Donnez la forme de citation, le mode, le temps et la personne.~*# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=boire.IND.PRS-3PL#Bien !~%75%boire.PRS.IND-3PL#Pensez à l’ordre des marques !~%75%boire.IND.PRS.3PL#N’y a-t-il pas une marque de personne ?~%75%boivent.IND.PRS-3PL# Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%60%boire.*PRS-3PL#Quel mode ? ~%50%boire.*PRS.3PL#Quel mode ? Et la personne n’est-elle pas marquée ?~%5%boire*#Quel mode, quel temps, quelle personne ?~%10%boire#Quel mode, quel temps, quelle personne ?~boivent*#Donnez la forme de citation, le mode, le temps et la personne.~*# Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="8%" valign="top"> 
-                  <p>{2:SAC:=PART-M.SG~%75%PART.M.SG#Les différents partitifs ont-ils une base commune ?~%75%PART.M-SG#Les différents partitifs ont-ils une base commune ?~%5%PART*#Quel genre, quel nombre ?~PREP.DE_DET-M.SG#Hum…on boit qqch, non ?~*#Hum…voulez-vous boire qqch ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{2:SAC:=PART-M.SG~%75%PART.M.SG#Les différents partitifs ont-ils une base commune ?~%75%PART.M-SG#Les différents partitifs ont-ils une base commune ?~%5%PART*#Quel genre, quel nombre ?~PREP.DE_DET-M.SG#Hum…on boit qqch, non ?~*#Hum…voulez-vous boire qqch ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="8%" valign="top"> 
-                  <p>{1:SAC:=lait.M.SG#Correct !~%75%lait-M.SG#Le genre est-il marqué ici ?~%75% lait.M-SG#Où est la marque du singulier ?~%60% lait-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%lait*#Quel genre, quel nombre ?~%10%lait#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=lait.M.SG#Correct !~%75%lait-M.SG#Le genre est-il marqué ici ?~%75% lait.M-SG#Où est la marque du singulier ?~%60% lait-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%lait*#Quel genre, quel nombre ?~%10%lait#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="8%" valign="top"> 
-                  <p>{1:SAC:=COORD.OU#Bien !~%75%CONJ.OU#Oui, c’est une conjonction, mais préférez l’abréviation COORD pour les conjonctions de coordination…~%75%COORD*#Oui, c’est bien une conjonction de coordination. Mais séparez cette abréviation de la conjonction elle-même en majuscules par un point.~%50%CONJ*#Oui, c’est une conjonction, mais préférez l’abréviation COORD pour les conjonctions de coordination, et séparez cette abréviation de la conjonction elle-même par un point.~*#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=COORD.OU#Bien !~%75%CONJ.OU#Oui, c’est une conjonction, mais préférez l’abréviation COORD pour les conjonctions de coordination…~%75%COORD*#Oui, c’est bien une conjonction de coordination. Mais séparez cette abréviation de la conjonction elle-même en majuscules par un point.~%50%CONJ*#Oui, c’est une conjonction, mais préférez l’abréviation COORD pour les conjonctions de coordination, et séparez cette abréviation de la conjonction elle-même par un point.~*#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="8%" valign="top"> 
-                  <p>{2:SAC:=PART-M.SG~%75%PART.M.SG#Les différents partitifs ont-ils une base commune ?~%75%PART.M-SG#Les différents partitifs ont-ils une base commune ?~%5%PART*#Quel genre, quel nombre ?~PREP.DE_DET-M.SG#Hum…on boit qqch, non ?~*#Hum…voulez-vous boire qqch ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{2:SAC:=PART-M.SG~%75%PART.M.SG#Les différents partitifs ont-ils une base commune ?~%75%PART.M-SG#Les différents partitifs ont-ils une base commune ?~%5%PART*#Quel genre, quel nombre ?~PREP.DE_DET-M.SG#Hum…on boit qqch, non ?~*#Hum…voulez-vous boire qqch ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="8%" valign="top"> 
-                  <p>{1:SAC:=thé.M.SG#Correct !~%75%thé-M.SG#Le genre est-il marqué ici ?~%75% thé.M-SG#Où est la marque du singulier ?~%60% thé-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%thé*#Quel genre, quel nombre ?~%10%thé#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=thé.M.SG#Correct !~%75%thé-M.SG#Le genre est-il marqué ici ?~%75% thé.M-SG#Où est la marque du singulier ?~%60% thé-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%thé*#Quel genre, quel nombre ?~%10%thé#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="8%" valign="top"> 
-                  <p>{1:SAC:=COORD.MAIS#Bien !~%75%CONJ.MAIS#Oui, c’est une conjonction, mais préférez l’abréviation COORD pour les conjonctions de coordination…~%75%COORD*#Oui, c’est bien une conjonction de coordination. Mais séparez cette abréviation de la conjonction elle-même en majuscules par un point.~%50%CONJ*#Oui, c’est une conjonction, mais préférez l’abréviation COORD pour les conjonctions de coordination, et séparez cette abréviation de la conjonction elle-même par un point.~*#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=COORD.MAIS#Bien !~%75%CONJ.MAIS#Oui, c’est une conjonction, mais préférez l’abréviation COORD pour les conjonctions de coordination…~%75%COORD*#Oui, c’est bien une conjonction de coordination. Mais séparez cette abréviation de la conjonction elle-même en majuscules par un point.~%50%CONJ*#Oui, c’est une conjonction, mais préférez l’abréviation COORD pour les conjonctions de coordination, et séparez cette abréviation de la conjonction elle-même par un point.~*#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="8%" valign="top"> 
-                  <p>{2:SAC:=PRO.3PL.SUJ_détester.IND.PRS-3PL#Très bien !~%85%PRO.3PL.SUJ_détester.IND.PRS.3PL#Bien, mais n’y a-t-il pas de marque de personne pour la forme verbale ici ?~%75%PRO.3PL_détester.IND.PRS-3PL#Quelle est la fonction du pronom clitique ?~%75%PRO.3PL.SUJ_détester.PRS-3PL #Quel mode pour la deuxième partie ?~%60%PRO.3PL_détester-3PL#Quelle est la fonction du pronom clitique pour la première partie ? Quel mode, quel temps pour la deuxième partie ?~%50%PRO.3PL.SUJ#Oui, bien pour le pronom personnel sujet ILS, mais comment noter la deuxième partie, DETESTENT ?~%50%détester.IND.PRS-3PL#Oui, bien pour la forme verbale DETESTENT, mais comment noter la première partie, ILS ?~%35%PRO.3PL#Quelle fonction ? et n’oubliez pas la deuxième partie, la forme verbale…~%35%détester.PRS-3PL#Quel mode ? et n’oubliez pas la première partie, le pronom clitique…~%25%détester.PRS#Quel mode et quelle personne ? et pensez à noter la première partie, le pronom clitique…~ils détestent#Traitez les deux parties, ILS et DETESTENT en les séparant par un tiret du 8.~*#Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe détester ? Séparez les deux parties par un tiret du 8…} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{2:SAC:=PRO.3PL.SUJ_détester.IND.PRS-3PL#Très bien !~%85%PRO.3PL.SUJ_détester.IND.PRS.3PL#Bien, mais n’y a-t-il pas de marque de personne pour la forme verbale ici ?~%75%PRO.3PL_détester.IND.PRS-3PL#Quelle est la fonction du pronom clitique ?~%75%PRO.3PL.SUJ_détester.PRS-3PL #Quel mode pour la deuxième partie ?~%60%PRO.3PL_détester-3PL#Quelle est la fonction du pronom clitique pour la première partie ? Quel mode, quel temps pour la deuxième partie ?~%50%PRO.3PL.SUJ#Oui, bien pour le pronom personnel sujet ILS, mais comment noter la deuxième partie, DETESTENT ?~%50%détester.IND.PRS-3PL#Oui, bien pour la forme verbale DETESTENT, mais comment noter la première partie, ILS ?~%35%PRO.3PL#Quelle fonction ? et n’oubliez pas la deuxième partie, la forme verbale…~%35%détester.PRS-3PL#Quel mode ? et n’oubliez pas la première partie, le pronom clitique…~%25%détester.PRS#Quel mode et quelle personne ? et pensez à noter la première partie, le pronom clitique…~ils détestent#Traitez les deux parties, ILS et DETESTENT en les séparant par un tiret du 8.~*#Ne serait-ce pas un pronom personnel sujet (clitique) suivi du verbe détester ? Séparez les deux parties par un tiret du 8…} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="8%" valign="top"> 
-                  <p>{1:SAC:=DEF-M.SG#Correct, bien !~%50%DET-M.SG#Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.~%10%INDEF-M.SG# Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=DEF-M.SG#Correct, bien !~%50%DET-M.SG#Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.~%10%INDEF-M.SG# Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="8%" valign="top"> 
-                  <p>{1:SAC:=café.M.SG#Correct !~%75%café-M.SG#Le genre est-il marqué ici ?~%75% café.M-SG#Où est la marque du singulier ?~%60% café-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%café*#Quel genre, quel nombre ?~%10%café#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=café.M.SG#Correct !~%75%café-M.SG#Le genre est-il marqué ici ?~%75% café.M-SG#Où est la marque du singulier ?~%60% café-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%café*#Quel genre, quel nombre ?~%10%café#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
   </tr></tbody> 
 </table>]]></text>
     </questiontext>
@@ -930,12 +1683,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses faciles</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses faciles</text>
+
     </category>
   </question>
+
 <!-- question: 40195  -->
   <question type="cloze">
     <name>
@@ -975,12 +1731,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses moyennes</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses moyennes</text>
+
     </category>
   </question>
+
 <!-- question: 40201  -->
   <question type="cloze">
     <name>
@@ -1012,6 +1771,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 40207  -->
   <question type="cloze">
     <name>
@@ -1037,12 +1797,20 @@
 <td>
 <p>{1:SAC:=Marie.F.SG#Correct !~%75%Marie-F.SG#Le féminin est-il vraiment marqué ?~%75%Marie.F-SG#Où est la marque du singulier ?~%60%Marie-F-SG#Le féminin est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%Marie*#Quel genre, quel nombre ?~%10%Marie#Quel genre, quel nombre ?~NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.~%5%marie*#Pour les noms propres, on utilise la majuscule dans la forme de citation...~*#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="14%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=manger.IND.PRS.3SG#Correct !~%75%manger.PRS.IND.3SG#Pensez à l’ordre des marques !~%75%mange.IND.PRS.3SG#Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase… ~%60%manger.*PRS.3SG#Quel mode ?~%5%manger*#Quel mode, quel temps, quelle personne ?~%10%manger#Quel mode, quel temps, quelle personne ?~mange*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="14%">
 <table>
@@ -1059,12 +1827,20 @@
 </tbody>
 </table>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="14%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=gâteau.M.SG#Correct !~%75%gâteau-M.SG#Le genre est-il marqué ici ?~%75%gâteau.M-SG#Où est la marque du singulier ?~%60%gâteau-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%gâteau*#Quel genre, quel nombre ?~%10%gâteau#Quel enre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="14%">
 <table>
@@ -1073,6 +1849,10 @@
 <td>
 <p>{1:SAC:=PREP.PENDANT#C’est bien ça !~%60%PREP*#Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.~ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…~CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ? ~*#N’est-ce pas une préposition ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="14%">
 <table>
 <tbody>
@@ -1080,12 +1860,20 @@
 <td>
 <p>{1:SAC:=CONJ.QUE#Bien !~%50%CONJ.REL#Une relative ?~%50%CONJ*#Oui, c’est bien une conjonction, mais pensez à rajouter un point puis la conjonction elle-même en majuscules.~REL*#Un pronom relatif ? Ne serait-ce pas plutôt une conjonction de subordination introduisant une complétive ?~*#Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="14%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{3:SAC:=PRO.1SG.SUJ_PRO.3SG.DAT_parler.IND.PRS.1SG#Correct, bravo !~%80%PRO.1SG.SUJ_PRO.3SG.DAT_parler.IND.PRS.*#Quelle personne pour le verbe ?~%75%PRO.1SG_PRO.3SG_parler.IND.PRS.1SG#Vous oubliez la fonction de chaque pronom…~%75%PRO.1SG.SUJ_PRO.3SG.DAT_parler-IND.PRS.1SG#Bien, mais existe-t-il vraiment une marque de présent de l’indicatif ?~%75%PRO.1SG.SUJ_PRO.3SG.DAT_parler.IND.PRS-1SG#Bien, mais existe-t-il vraiment une marque de première personne ?~%65%PRO.1SG_PRO.3SG_parler.1SG#Quelle est la fonction de chaque pronom ? Quel mode et quel temps pour le verbe ?~%50%PRO.1SG.SUJ_PRO.3SG.DAT*#Et la forme verbale ?~%50%PRO.1SG.SUJ_PRO.3SG-DAT_*#Pour ce type de clitique on préfère noter un seul morceau PRO.3SG.DAT...~%50%parler.IND.PRS.1SG#Bien pour la forme verbale mais comment noter les deux premières parties, soit JE et LUI ?~%40%PRO.1SG.SUJ_PRO.3SG*#Quelle est la fonction du deuxième pronom ? Et comment noter la forme verbale ?~%35%PRO.1SG_PRO.3SG#Quelle est la fonction de chaque pronom ? Et comment noter la forme verbale ?~%35%parler.PRS.1SG#Quel mode ? Et n’oubliez pas les deux premières parties, soit les deux pronoms clitiques JE et LUI…~%25%parler.PRS#Quel mode et quelle personne ? Et n’oubliez pas de traiter les deux pronoms clitiques…~je lui parle#Traitez les trois parties, JE, LUI, et PARLE, en les séparant par un tiret du 8.~%5%PERS*#Pour les pronoms, on utilise la notation PRO~*#Ne serait-ce pas un pronom personnel sujet suivi d’un pronom personnel datif, suivi du verbe parler ? Séparez les trois parties par un tiret du 8…}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 </tr>
 </tbody>
@@ -1097,6 +1885,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 40437  -->
   <question type="cloze">
     <name>
@@ -1123,12 +1912,20 @@
 <td>
 <p>{1:SAC:=Nathalie.F.SG#Correct !~%75%Nathalie-F.SG#Le féminin est-il vraiment marqué ?~%75%Nathalie.F-SG#Où est la marque du singulier ?~%60%Nathalie-F-SG#Le féminin est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%Nathalie*#Quel genre, quel nombre ?~%10%Nathalie#Quel genre, quel nombre ?~NPR*#Oui c’est un nom propre, mais donnez le lexème, le genre et le nombre.~*#La majuscule devrait vous mettre sur la voie… Traitez-le comme un substantif.}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="13%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{2:SAC:=pouvoir-IND.FUT-3SG#Correct !~%75%pouvoir-FUT.IND-3SG#Pensez à l’ordre des marques !~%75%pouvoir.IND.FUT-3SG#N’y a-t-il pas de marque de futur de l’indicatif ?~%75%pouvoir-IND.FUT.3SG#N’y a-t-il pas de marque de personne ?~%75%pourra-IND.FUT-3SG#Donnez la forme de citation. De quel verbe s’agit-il ?~%60%pouvoir.IND.FUT.3SG#N’y a-t-il pas de marque pour le futur de l’indicatif ? Et pour la personne ?~%60%pouvoir.*FUT-3SG#Quel mode ?~%60%pourra.IND.FUT-3SG#Donnez la forme de citation. N’y a-t-il pas de marque pour le futur de l’indicatif ?~%5%pouvoir*#Quel mode, quel temps, quelle personne ?~%10%pouvoir#Quel mode, quel temps, quelle personne ?~pourra*#Donnez la forme de citation. Et quel mode, quel temps, quelle personne ?~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="13%">
 <table>
@@ -1137,12 +1934,20 @@
 <td>
 <p>{1:SAC:=être.INF#Bien ! Sachez que l'on accepte aussi -INF si l'on considère le r phonologique comme une marque de l'infinitif.~=être-INF#Bien ! Sachez que l'on accepte aussi .INF si l'on considère qu'il n'y a pas de marque d'infinitif aussi explicite que dans les verbes du premier groupe, par exemple.~%50%INF#Bien, mais quel est le lexème du verbe ?~%50%être#De quelle forme verbale s’agit-il ?~*#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="13%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=fier-F.SG#Bien !~%75% fier.F.SG#Pensez à l’indépendance des marques.~%75% fier -F-SG#Quelle est la marque du singulier ?~%75%fière-F.SG#Donnez la forme de citation.~%60% fier.F-SG#Le féminin n’est pas marqué ? Et quelle est la marque du singulier ?~fière*#Donnez la forme de citation. Pour les adjectifs en français, il s'agit du masculin singulier... Et quel genre, quel nombre ?~%5% fier *#Quel genre, quel nombre ?~%10%fier#Quel genre, quel nombre ?~ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.~*# Ce mot n’a-t-il pas un rôle de qualification ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="13%">
 <table>
@@ -1151,12 +1956,20 @@
 <td>
 <p>{1:SAC:=PREP.DE#C’est bien ça !~%60%PREP*#Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.~ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…~CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ? ~*#N’est-ce pas une préposition ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="13%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{2:SAC:=POSS.3SG-M.SG #Correct, bravo !~%75%POSS.3SG-M-SG#Le nombre est-il marqué ?~%75%POSS.3SG.M.SG#Le genre n’est-il pas marqué ?~%60%POSS.3SG.M-SG#Le genre n’est pas marqué ? Le nombre est-il marqué ?~%55%POSS.3SG.SG#Le genre et le nombre ne sont-ils pas marqués ?~%50%POSS.3SG#Quelles sont les propriétés du possédé ?~%25%POSS-M.SG#Qui est le possesseur ?~%25%POSS.SG#Qui est le possesseur ? Quel est le genre du possédé ?~%10%*POSS*#Qui est le possesseur, il possède quoi ?~POSS#Qui est le possesseur, il possède quoi ?~%5%*M*#Est-ce un possessif ? Qui est le possesseur ? Quel est le nombre du possédé ?~*#Ce petit mot n’établit-il pas une relation de possession ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="13%">
 <table>
@@ -1165,12 +1978,20 @@
 <td>
 <p>{1:SAC:=grand.M.SG#Bien !~%75%grand-M.SG#Pensez à l’indépendance des marques.~%75%grand.M-SG#Quelle est la marque du singulier ?~%60%grand-M-SG#Le masculin est-il marqué ? Et quelle est la marque du singulier ?~%5%grand*#Quel genre, quel nombre ?~%10%grand#Quel enre, quel nombre ?~ADJ*#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.~*#Ce mot n’a-t-il pas un rôle de qualification ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="13%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=frère.M.SG#Correct !~%75%frère-M.SG#Le genre est-il marqué ici ?~%75% frère.M-SG#Où est la marque du singulier ?~%60% frère-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%frère*#Quel genre, quel nombre ?~%10%frère#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 </tr>
 </tbody>
@@ -1182,6 +2003,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 40446  -->
   <question type="cloze">
     <name>
@@ -1208,12 +2030,20 @@
 <td>
 <p>{2:SAC:=POSS.1PL-PL#Très bien !~%75%POSS.1PL.PL#Le nombre n’est-il pas marqué ?~%50%POSS.1PL#Quelles sont les propriétés du possédé ?~%25%POSS-PL#Qui est le possesseur?~%20%POSS.PL#Qui est le possesseur et le nombre du possédé n’est-il pas marqué ?~%15%POSSPL*#Il faut un point pour séparer POSS des autres propriétés du possessif.~%15%POSS1PL*#Il faut un point pour séparer POSS des autres propriétés du possessif.~%10%*POSS*#Qui est le possesseur, il possède quoi ?~%5%POSS#Qui est le possesseur, il possède quoi ?~*M*#Le genre est-il marqué ?~*#Ce petit mot n’établit-il pas une relation de possession ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="13%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=fils.M.PL#Correct !~%75%fils.M-PL#Le nombre est-il vraiment marqué ?~%5%fils*#Etes-vous sûr de ne rien oublier ?~%10%fils#Quel genre, quel nombre ?~%5%fil.M-PL#Pensez-vous aux mêmes fils que moi ?~*#Ne serait-ce pas tout simplement un substantif ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="13%">
 <table>
@@ -1222,12 +2052,20 @@
 <td>
 <p>{1:SAC:=peindre.IND.PRS-3PL#Correct !~%75%peindre.PRS.IND-3PL#Pensez à l’ordre des marques !~%75%peindre.IND.PRS.3PL#N’y a-t-il pas une marque de personne ?~%75%peignent.IND.PRS-3PL# Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…~%60%peindre.*PRS-3PL#Quel mode ? ~%50%peindre.*PRS.3PL#Quel mode ? Et la personne n’est-elle pas marquée ?~%25%*peigner.IND.PRS-3PL#Relisez la phrase, ils peignent ou bien ils peignent ? Pensez au sens…~%5%peindre*#Quel mode, quel temps, quelle personne ?~%10%peindre#Quel mode, quel temps, quelle personne ?~peigner#Relisez la phrase, ils peignent ou ils peignent ?~peignent*#Donnez la forme de citation, le mode, le temps et la personne.~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="13%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=PREP.EN#Bien !~%60%PREP*#Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.~ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est …~*#N’est-ce pas une préposition ? Ce mot sert ici à former un gérondif…}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="13%">
 <table>
@@ -1236,12 +2074,20 @@
 <td>
 <p>{2:SAC:=utiliser-PRS_P#Bien !~%75%utiliser.PRS_P#N’y a-t-il pas une marque qui permet d’identifier le participe présent ?~%65%utilisant-PRS_P#Bien, mais donnez la forme de citation. De quel verbe s’agit-il ?~%60%utilisant.PRS_P#Donnez la forme de citation. N’y a-y-il pas de marque de participe présent ?~%60%*PRS_P#Bien, mais quel est le lexème du verbe ?~%5%utiliser*#De quelle forme verbale s’agit-il ?~%10%utiliser#De quelle forme verbale s'agit-il ?~utilisant*#Donnez la forme de citation. De quelle forme verbale s'agit-il ?~*#Ne serait-ce pas un participe ? Présent ou passé ? Regardez le suffixe…}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="13%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=INDEF.PL~%75%INDEF-PL#Existe-t-il un indéfini singulier qui n'aurait pas ce s ?~%50%DET.PL# Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.~%50%INDEF.F.PL#Le genre est-il connu ?~%40%INDEF.F-PL#Le genre est-il connu ? Et existe-t-il un indéfini singulier qui n’aurait pas ce s ?~%30%IND.PL#Utilisez INDEF plutôt que IND...~PREP.DE#Dans ce cas, on utilise qqch, non ?~%25%*DET*#Utilisez INDEF pour les indéfinis. Quel nombre ?~*DEF*#Un article défini ? Quel nombre ?~*F*#Le genre est-il connu ?~*#On utilise qqch ? Est-ce un défini ou bien un indéfini ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 <td valign="top" width="13%">
 <table>
@@ -1250,12 +2096,20 @@
 <td>
 <p>{1:SAC:=couleur.F-PL#C’est bien ça !~%75%couleur.F.PL#Le pluriel n’est-il pas marqué ?~%75%couleur-F-PL#Y a-t-il une marque du féminin ici ?~%50%couleur-F.PL# Y a-t-il une marque du féminin ? N’y a-t-il pas une marque du pluriel ?~%10%couleurs.F#Ce mot est invariable en nombre ?~couleur*#Etes-vous sûr de ne rien oublier ? Pensez aux propriétés du nom…~%10%couleur#Quel genre, quel nombre ?~couleurs*#Donnez la forme de citation et les propriétés du nom.~*#Ne serait-ce pas tout simplement un substantif ?}</p>
 </td>
+</tr>
+</tbody>
+</table>
+</td>
 <td valign="top" width="13%">
 <table>
 <tbody>
 <tr>
 <td>
 <p>{1:SAC:=vif-F-PL#Bien !~%75%vif.F-PL#N’y a-t-il pas de marque du féminin ?~%60%vif.F.PL#Le genre et le nombre ne sont pas marqués ?~ADJ# La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.~vives*#Donnez la forme de citation et les propriétés de l’adjectif.~%5%vif*#Etes-vous sûr de ne rien oublier ? Pensez aux propriétés grammaticales…~%10%vif#Quel genre, quel nombre ?~%5%vive*#Pour les adjectifs, on utilise la forme de citation, en français, c'est le masculin singulier...~*#Ce mot n’a-t-il pas un rôle de qualification ?}</p>
+</td>
+</tr>
+</tbody>
+</table>
 </td>
 </tr>
 </tbody>
@@ -1267,12 +2121,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses faciles</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses faciles</text>
+
     </category>
   </question>
+
 <!-- question: 40455  -->
   <question type="cloze">
     <name>
@@ -1312,12 +2169,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses difficiles</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses difficiles</text>
+
     </category>
   </question>
+
 <!-- question: 40461  -->
   <question type="cloze">
     <name>
@@ -1343,26 +2203,68 @@
   </tr> 
   <tr> 
     <td width="14%" valign="top"> 
-                  <p>{3:SAC:=PRO.1PL.SUJ_PRO.2PL.ACC_entendre.IND.PRS-1PL#Correct, bravo !~%75%PRO.1PL_PRO.2PL_entendre.IND.PRS-1PL#Vous oubliez la fonction de chaque pronom…~%75%PRO.1PL.SUJ_PRO.2PL.ACC_entendre-IND.PRS-1PL#Bien, mais existe-t-il vraiment une marque de présent de l’indicatif ?~%75%PRO.1PL.SUJ_PRO.2PL.ACC_entendre.IND.PRS.1PL#Bien, mais n’existe-t-il pas une marque de première personne du pluriel pour la forme verbale ?~%65%PRO.1PL_PRO.2PL_entendre-1PL#Quelle est la fonction de chaque pronom ? Quel mode et quel temps pour le verbe ?~%65%PRO.1PL.SUJ_PRO.2PL.DAT_entendre.IND.PRS-1PL#Entendre qqn ou entendre à qqn ?~%50%PRO.1PL.SUJ_PRO.2PL.ACC#Et la forme verbale ?~%50%entendre.IND.PRS-1PL #Bien pour la forme verbale mais comment noter les deux premières parties, soit NOUS et VOUS ?~%35%PRO.1PL_PRO.2PL#Quelle est la fonction de chaque pronom ? Et comment noter la forme verbale ?~%35%entendre.PRS-1PL#Quel mode ? Et n’oubliez pas les deux premières parties, soit les deux pronoms clitiques NOUS et VOUS…~%25%entendre.PRS#Quel mode et quelle personne ? Et n’oubliez pas de traiter les deux pronoms clitiques…~nous vous entendons#Traitez les trois parties, NOUS, VOUS, et ENTENDONS, en les séparant par un tiret du 8.~*#Ne serait-ce pas un pronom personnel sujet suivi d’un pronom personnel accusatif, suivi du verbe entendre ? Séparez les trois parties par un tiret du 8…} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{3:SAC:=PRO.1PL.SUJ_PRO.2PL.ACC_entendre.IND.PRS-1PL#Correct, bravo !~%75%PRO.1PL_PRO.2PL_entendre.IND.PRS-1PL#Vous oubliez la fonction de chaque pronom…~%75%PRO.1PL.SUJ_PRO.2PL.ACC_entendre-IND.PRS-1PL#Bien, mais existe-t-il vraiment une marque de présent de l’indicatif ?~%75%PRO.1PL.SUJ_PRO.2PL.ACC_entendre.IND.PRS.1PL#Bien, mais n’existe-t-il pas une marque de première personne du pluriel pour la forme verbale ?~%65%PRO.1PL_PRO.2PL_entendre-1PL#Quelle est la fonction de chaque pronom ? Quel mode et quel temps pour le verbe ?~%65%PRO.1PL.SUJ_PRO.2PL.DAT_entendre.IND.PRS-1PL#Entendre qqn ou entendre à qqn ?~%50%PRO.1PL.SUJ_PRO.2PL.ACC#Et la forme verbale ?~%50%entendre.IND.PRS-1PL #Bien pour la forme verbale mais comment noter les deux premières parties, soit NOUS et VOUS ?~%35%PRO.1PL_PRO.2PL#Quelle est la fonction de chaque pronom ? Et comment noter la forme verbale ?~%35%entendre.PRS-1PL#Quel mode ? Et n’oubliez pas les deux premières parties, soit les deux pronoms clitiques NOUS et VOUS…~%25%entendre.PRS#Quel mode et quelle personne ? Et n’oubliez pas de traiter les deux pronoms clitiques…~nous vous entendons#Traitez les trois parties, NOUS, VOUS, et ENTENDONS, en les séparant par un tiret du 8.~*#Ne serait-ce pas un pronom personnel sujet suivi d’un pronom personnel accusatif, suivi du verbe entendre ? Séparez les trois parties par un tiret du 8…} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="14%" valign="top"> 
-                  <p>{1:SAC:=parler-INF#Bien !~%75%parler.INF#N’y a-t-il pas une marque qui permet d’identifier l’infinitif ici ?~%50%INF#Bien, mais quel est le lexème du verbe ?~%50%parler#De quelle forme verbale s’agit-il ?~*#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=parler-INF#Bien !~%75%parler.INF#N’y a-t-il pas une marque qui permet d’identifier l’infinitif ici ?~%50%INF#Bien, mais quel est le lexème du verbe ?~%50%parler#De quelle forme verbale s’agit-il ?~*#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="14%" valign="top"> 
-                  <p>{1:SAC:=PREP.DANS#C’est bien ça !~%60%PREP*#Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.~ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…~CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ? ~*#N’est-ce pas une préposition ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=PREP.DANS#C’est bien ça !~%60%PREP*#Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.~ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…~CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ? ~*#N’est-ce pas une préposition ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="14%" valign="top"> 
-                  <p>{1:SAC:=DEF-PL#Bien !~%75%DEF.PL#Le nombre n’est-il pas marqué ?~%50%DET-PL#Préférez l’abréviation DEF pour les déterminants définis.~%35%DET.PL#Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?~%25%DEF.M-PL#Le genre est-il connu ?~%10%DEF.M.PL#Le genre est-il connu, le nombre est-il marqué ?~%10%INDEF-PL#Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%INDEF.PL#Est-ce un indéfini ? Le nombre n’est-il pas marqué ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*M*#Le genre est-il connu?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=DEF-PL#Bien !~%75%DEF.PL#Le nombre n’est-il pas marqué ?~%50%DET-PL#Préférez l’abréviation DEF pour les déterminants définis.~%35%DET.PL#Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?~%25%DEF.M-PL#Le genre est-il connu ?~%10%DEF.M.PL#Le genre est-il connu, le nombre est-il marqué ?~%10%INDEF-PL#Est-ce un indéfini ?~%10%DEF*#Quel genre, quel nombre ?~%5%INDEF.PL#Est-ce un indéfini ? Le nombre n’est-il pas marqué ?~%5%DET*#Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?~*M*#Le genre est-il connu?~*#Ne serait-ce pas un déterminant ? défini ou bien indéfini ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="14%" valign="top"> 
-                  <p>{1:SAC:=couloir.M-PL#C’est bien ça !~%75%couloir.M.PL#Le pluriel n’est-il pas marqué ?~%75%couloir-M-PL#Y a-t-il une marque du masculin ici ?~%50%couloir-M.PL# Y a-t-il une marque du masculin ? N’y a-t-il pas une marque du pluriel ?~%10%couloirs.M*#Ce mot est invariable en nombre ?~%5%couloir*#Etes-vous sûr de ne rien oublier ? Pensez aux propriétés du nom...~%10%couloir#Quel genre, quel nombre ?~couloirs*#Donnez la forme de citation et les propriétés du nom.~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=couloir.M-PL#C’est bien ça !~%75%couloir.M.PL#Le pluriel n’est-il pas marqué ?~%75%couloir-M-PL#Y a-t-il une marque du masculin ici ?~%50%couloir-M.PL# Y a-t-il une marque du masculin ? N’y a-t-il pas une marque du pluriel ?~%10%couloirs.M*#Ce mot est invariable en nombre ?~%5%couloir*#Etes-vous sûr de ne rien oublier ? Pensez aux propriétés du nom...~%10%couloir#Quel genre, quel nombre ?~couloirs*#Donnez la forme de citation et les propriétés du nom.~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="14%" valign="top"> 
-                  <p>{2:SAC:=PREP.DE_DEF-M.SG#Bien !~%85%PREP.DE_DEF.M.SG#N’y a-t-il pas de marque pour le masculin en ce qui concerne la deuxième partie ?~%85%PREP.DE_DEF.M-SG#Existe-t-il une marque pour le singulier en ce qui concerne la deuxième partie ?~%70%PREP.DE_DET-M.SG#Défini et indéfini ?~%60%PREP.DE_DET.M.SG#Défini et indéfini ? Le masculin n’est-il pas marqué ?~%50%PREP.DE*#Ok pour la préposition, mais comment noter la deuxième partie ?~%50%DEF-M.SG#Ok pour le déterminant défini, mais comment noter la première partie ?~PART*#Dans ce cas, n’y a-t-il pas une préposition ?~*#Ne serait-ce pas la forme contractée d’une préposition et d’un déterminant ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{2:SAC:=PREP.DE_DEF-M.SG#Bien !~%85%PREP.DE_DEF.M.SG#N’y a-t-il pas de marque pour le masculin en ce qui concerne la deuxième partie ?~%85%PREP.DE_DEF.M-SG#Existe-t-il une marque pour le singulier en ce qui concerne la deuxième partie ?~%70%PREP.DE_DET-M.SG#Défini et indéfini ?~%60%PREP.DE_DET.M.SG#Défini et indéfini ? Le masculin n’est-il pas marqué ?~%50%PREP.DE*#Ok pour la préposition, mais comment noter la deuxième partie ?~%50%DEF-M.SG#Ok pour le déterminant défini, mais comment noter la première partie ?~PART*#Dans ce cas, n’y a-t-il pas une préposition ?~*#Ne serait-ce pas la forme contractée d’une préposition et d’un déterminant ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
     <td width="14%" valign="top"> 
-                  <p>{1:SAC:=collège.M.SG#Correct !~%75%collège-M.SG#Le genre est-il marqué ici ?~%75%collège.M-SG#Où est la marque du singulier ?~%60%collège-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%collège*#Quel genre, quel nombre ?~%10%collège#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
+      <table> <tbody> 
+        <tr> 
+          <td> 
+            <p>{1:SAC:=collège.M.SG#Correct !~%75%collège-M.SG#Le genre est-il marqué ici ?~%75%collège.M-SG#Où est la marque du singulier ?~%60%collège-M-SG#Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%collège*#Quel genre, quel nombre ?~%10%collège#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p> 
           </td> 
+        </tr></tbody> 
+      </table> 
+    </td> 
   </tr></tbody> 
 </table>]]></text>
     </questiontext>
@@ -1372,12 +2274,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Hypothèses globales</text>
+
     </category>
   </question>
+
 <!-- question: 40553  -->
   <question type="cloze">
     <name>
@@ -1469,12 +2374,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Déductions locales</text>
+
     </category>
   </question>
+
 <!-- question: 40570  -->
   <question type="cloze">
     <name>
@@ -1578,12 +2486,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Hypothèses globales</text>
+
     </category>
   </question>
+
 <!-- question: 40583  -->
   <question type="cloze">
     <name>
@@ -1671,12 +2582,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Déductions locales</text>
+
     </category>
   </question>
+
 <!-- question: 40596  -->
   <question type="cloze">
     <name>
@@ -1760,12 +2674,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Hypothèses globales</text>
+
     </category>
   </question>
+
 <!-- question: 40611  -->
   <question type="cloze">
     <name>
@@ -1863,6 +2780,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 40626  -->
   <question type="cloze">
     <name>
@@ -1940,6 +2858,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 40637  -->
   <question type="cloze">
     <name>
@@ -2035,6 +2954,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 40652  -->
   <question type="cloze">
     <name>
@@ -2138,12 +3058,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Déductions locales</text>
+
     </category>
   </question>
+
 <!-- question: 40669  -->
   <question type="cloze">
     <name>
@@ -2235,12 +3158,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Hypothèses globales</text>
+
     </category>
   </question>
+
 <!-- question: 40682  -->
   <question type="cloze">
     <name>
@@ -2328,12 +3254,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Déductions locales</text>
+
     </category>
   </question>
+
 <!-- question: 40695  -->
   <question type="cloze">
     <name>
@@ -2409,12 +3338,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Hypothèses globales</text>
+
     </category>
   </question>
+
 <!-- question: 40706  -->
   <question type="cloze">
     <name>
@@ -2500,6 +3432,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 40719  -->
   <question type="cloze">
     <name>
@@ -2590,6 +3523,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 40733  -->
   <question type="cloze">
     <name>
@@ -2665,12 +3599,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Déductions locales</text>
+
     </category>
   </question>
+
 <!-- question: 40744  -->
   <question type="cloze">
     <name>
@@ -2750,12 +3687,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Hypothèses globales</text>
+
     </category>
   </question>
+
 <!-- question: 40756  -->
   <question type="cloze">
     <name>
@@ -2846,6 +3786,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 40770  -->
   <question type="cloze">
     <name>
@@ -2951,6 +3892,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 40787  -->
   <question type="cloze">
     <name>
@@ -3038,6 +3980,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 40800  -->
   <question type="cloze">
     <name>
@@ -3125,12 +4068,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Déductions locales</text>
+
     </category>
   </question>
+
 <!-- question: 40813  -->
   <question type="cloze">
     <name>
@@ -3214,12 +4160,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Hypothèses globales</text>
+
     </category>
   </question>
+
 <!-- question: 40826  -->
   <question type="cloze">
     <name>
@@ -3315,12 +4264,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses moyennes</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses moyennes</text>
+
     </category>
   </question>
+
 <!-- question: 41045  -->
   <question type="cloze">
     <name>
@@ -3349,36 +4301,54 @@
           <td>
             <p>{2:SAC:=POSS.3SG-PL#Correct, bravo !~%75%POSS.3SG.PL#N'y a-t-il pas de marque du pluriel ?~%50%POSS.3SG#Quelles sont les propriétés du possédé ?~%25%POSS-PL#Qui est le possesseur ?~%20%POSS.PL#Qui est le possesseur ? Et le pluriel n'est-il pas marqué ?~POSS.1SG*#Vraiment, ses pour une première personne du singulier ?~%10%*POSS*#Qui est le possesseur, il possède quoi ?~%5%POSS#Qui est le possesseur, il possède quoi ?~*M*#Le genre est-il marqué ?~*# Ce petit mot n’établit-il pas une relation de possession ?} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
     <td width="17%" valign="top">
       <table> <tbody>
         <tr>
           <td>
             <p>{2:SAC:=élève-PL~%50%élève.M-PL#Le genre est-il connu ?~%50%élève.F-PL# Le genre est-il connu ?~%40%élève.M.PL#Le genre est-il connu, le nombre est-il marqué ?~%25%élèves-PL#Quelle est la forme de citation pour ce mot ?~%5%élève*#Etes-vous sûr de ne rien oublier ? Quelles sont les propriétés grammaticales du nom ?~%10%élève#Quel genre, quel nombre ?~élèves*#Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom ?~*#Ne serait-ce pas tout simplement un substantif ?} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
     <td width="17%" valign="top">
       <table> <tbody>
         <tr>
           <td>
             <p>{1:SAC:=discuter-IND.IMPF-3PL#Bien !~=discuter.IND-IMPF-3PL#Pourquoi pas -IND.IMPF-3PL ?~%75%discuter.IND.IMPF-3PL#N’y a-t-il pas de marque pour l’imparfait de l'indicatif ?~%75%discuter-IND.IMPF.3PL#N’y a-t-il pas de marque de personne ?~%75%discutaient-IND.IMPF-3PL#Donnez la forme de citation. De quel verbe s’agit-il ?~%60%discuter-*IMPF-3PL#Quel mode ?~%60%discutaient.IND.IMPF-3PL#Donnez la forme de citation. N’y a-t-il pas de marque pour l’imparfait ?~%60%discuter.IND.IMPF.3PL#N’y a-t-il pas de marque pour l’imparfait ? Et pour la personne ?~%5%discuter*#Quel mode, quel temps, quelle personne ?~%10%discuter#Quel mode, quel temps, quelle personne ?~discutaient*#Donnez la forme de citation et pensez au mode, au temps et à la personne…~* #Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
     <td width="17%" valign="top">
       <table> <tbody>
         <tr>
           <td>
             <p>{2:SAC:=PREP.DE_DET.PL~%50%PREP.DE*#Ok pour la préposition. Mais comment noter la deuxième partie ?~%50%DET.PL#Ok pour le déterminant, mais comment noter la première partie ? On discute qqch ou bien on discute de qqch ?~INDEF.PL#On discute qqch ou bien on discute de qqch ?~INDEF-PL# On discute qqch ou bien on discute de qqch ?~*DEF*#Un article défini ?~*F*#Le genre est-il marqué ?~*#Ne serait-ce pas une forme contractée de la préposition de et du déterminant les ?} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
     <td width="17%" valign="top">
       <table> <tbody>
         <tr>
           <td>
             <p>{2:SAC:=vacances.F.PL~%50%vacance.F-PL#Le pluriel de vacance, comme dans vacance de poste ? ?~%50%vacances-PL#Quel est le genre ? ~%50%vacances.F#Quel est le nombre ~%25%vacance-PL#Le pluriel de vacance, comme dans vacance de poste ?~%5%vacances*#Quel genre, quel nombre ?~%10%vacances#Quel genre, quel nombre ?~vacance*#Etes-vous sûr que le lexème concerné est vacance comme vacance de poste ? Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
     <td width="17%" valign="top">
       <table> <tbody>
         <tr>
           <td>
             <p>{1:SAC:=scolaire.F-PL#C’est bien ça !~%75%scolaire-F-PL#Peut-on détacher une marque du féminin ici ?~%75%scolaires.F-PL#Donnez la forme de citation.~%60%scolaire-PL#Le genre n’est-il pas déductible grâce au contexte ?~scolaires*#Donnez la forme de citation. Et quel genre, quel nombre ?~%5%scolaire*#Quel genre, quel nombre ?~%10%scolaire#Quel genre, quel nombre ?~ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.~*#Ce mot n’a-t-il pas un rôle de qualification ?} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
   </tr></tbody>
 </table>]]></text>
     </questiontext>
@@ -3388,6 +4358,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 41052  -->
   <question type="cloze">
     <name>
@@ -3427,12 +4398,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
         <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Kalaba/Gloses complètes</text>
+
     </category>
   </question>
+
 <!-- question: 41917  -->
   <question type="cloze">
     <name>
@@ -3497,6 +4471,7 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 41959  -->
   <question type="cloze">
     <name>
@@ -3548,12 +4523,15 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 <!-- question: 0  -->
   <question type="category">
     <category>
-        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/3lignes/Gloses faciles</text>
+        <text>$course$/Défaut pour L1-Grammaire/Grammaire/Gloses/Gloses faciles</text>
+
     </category>
   </question>
+
 <!-- question: 41993  -->
   <question type="cloze">
     <name>
@@ -3586,48 +4564,72 @@
           <td>
             <p>{2:SAC:=INDEF.SG-F#Très bien !~%75%INDEF-F.SG#Pensez à l'ordre des marques.~%75%INDEF.SG.F#Pensez à l'indépendance des marques. ~%50%INDEF-SG-F#Pensez à l'indépendance des marques.~%50%DET.SG-F# Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.~%40%INDEF.F.SG#Pensez à l'ordre et à l'indépendance des marques~%35%INDEF-F-SG#Pensez à l'ordre et à l'indépendance des marques.~DET-F.SG#Oui c’est un déterminant, mais utilisez plutôt INDEF pour les indéfinis. Pensez à l’ordre des marques.~%5%INDEF*#Quel genre, quel nombre ?~IND*#Utilisez INDEF plutôt que IND. Quel genre, quel nombre ?~DET*#Utilisez INDEF plutôt que DET pour les déterminants indéfinis. Quel genre, quel nombre ?~*#Est-ce un défini ou bien un indéfini ?} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
     <td width="13%" valign="top">
       <table> <tbody>
         <tr>
           <td>
             <p>{1:SAC:=petit-F.SG#Bien !~%75%petit.F.SG#Pensez à l’indépendance des marques.~%75%petit-F-SG#Quelle est la marque du singulier ?~%75%petite-F.SG#Donnez la forme de citation.~%60%petit.F-SG#Le féminin n’est pas marqué ? Et quelle est la marque du singulier ?~petite*#Donnez la forme de citation. Et quel genre, quel nombre ?~%5%petit*#Quel genre, quel nombre ?~%10%petit#Quel genre, quel nombre ?~ADJ#La catégorie n’est pas demandée ici, donnez le lexème et les propriétés grammaticales.~*# Ce mot n’a-t-il pas un rôle de qualification ?} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
     <td width="13%" valign="top">
       <table> <tbody>
         <tr>
           <td>
             <p>{1:SAC:=fille.F.SG#Correct !~%75%fille-F.SG#Le féminin est-il vraiment marqué ?~%75%fille.F-SG#Où est la marque du singulier que vous croyez voir ?~%60%fille-F-SG#Le féminin est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%fille*#Quel genre, quel nombre ?~%10%fille#Quel genre, quel nombre ?~fils*#Vous chercheriez fille dans le dictionnaire à fils ?~*#Ne serait-ce pas tout simplement un substantif ?} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
     <td width="13%" valign="top">
       <table> <tbody>
         <tr>
           <td>
             <p>{1:SAC:=vouloir-COND.PRS-3SG#Correct !~%75%vouloir.PRS-COND-3SG#Pensez à l’ordre des marques !~%75%vouloir.COND.PRS-3SG#N’y a-t-il pas de marque pour le conditionnel présent ?~%75%vouloir-COND.PRS.3SG#N’y a-t-il pas de marque de personne ?~%75%voudrait-COND.PRS-3SG#Donnez la forme de citation. De quel verbe s’agit-il ?~%60%vouloir.COND.PRS.3SG#N’y a-t-il pas de marque pour le conditionnel ? Et pour la personne ?~%60%vouloir.*PRS-3SG#Quel mode ?~%60%voudrait.COND.PRS-3SG#Donnez la forme de citation. N’y a-t-il pas de marque pour le conditionnel ?~%10%vouloir.IND.IMPF*#Vraiment indicatif imparfait ?~%10%vouloir#Quel mode, quel temps, quelle personne ?~%5%vouloir*#Quel mode, quel temps, quelle personne ?~voudrait*#Donnez la forme de citation. Et quel mode, quel temps, quelle personne ?~*#Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
     <td width="13%" valign="top">
       <table> <tbody>
         <tr>
           <td>
             <p>{1:SAC:=jouer-INF#Bien !~%75%jouer.INF#N’y a-t-il pas une marque qui permet d’identifier l’infinitif ici ?~%50%INF#Bien, mais quel est le lexème du verbe ?~%50%jouer#De quelle forme verbale s’agit-il ?~*#N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
     <td width="13%" valign="top">
       <table> <tbody>
         <tr>
           <td>
             <p>{1:SAC:=PREP.AVEC#C’est bien ça !~%60%PREP*#Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.~ADV#Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…~CONJ#En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ? ~*#N’est-ce pas une préposition ?} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
     <td width="13%" valign="top">
       <table> <tbody>
         <tr>
           <td>
             <p>{2:SAC:=POSS.3SG-F.SG #Correct, bravo !~%75%POSS.3SG-F-SG#Le nombre est-il marqué ?~%75%POSS.3SG.F.SG#Le genre n’est-il pas marqué ?~%60%POSS.3SG.F-SG#Le genre n’est pas marqué ? Le nombre est-il marqué ?~%50%POSS.3SG-SG#Il n'y a pas d'accord en genre ?~%50%POSS.3SG#Quelles sont les propriétés du possédé ?~%25%POSS-F.SG#Qui est le possesseur ?~%25%POSS.SG#Qui est le possesseur ? Quel est le genre du possédé ?~%10%*POSS*#Qui est le possesseur, il possède quoi ?~%5%POSS#Qui est le possesseur, il possède quoi ?~%5%*F*#Est-ce un possessif ? Qui est le possesseur ? Quel est le nombre du possédé ?~*#Ce petit mot n’établit-il pas une relation de possession ?} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
     <td width="13%" valign="top">
       <table> <tbody>
         <tr>
           <td>
             <p>{1:SAC:=poupée.F.SG#Correct !~%75%poupée-F.SG#Le féminin est-il vraiment marqué ?~%75%poupée.F-SG#Où est la marque du singulier que vous semblez voir ?~%60%poupée-F-SG#Le féminin est-il vraiment marqué ? Montrez-moi la marque du singulier…~%5%poupée*#Quel genre, quel nombre ?~%10%poupée#Quel genre, quel nombre ?~*#Ne serait-ce pas tout simplement un substantif ?} </p>
           </td>
+        </tr></tbody>
+      </table>
+    </td>
   </tr></tbody>
 </table>]]></text>
     </questiontext>
@@ -3637,4 +4639,5 @@
     <penalty>0.3333333</penalty>
     <hidden>0</hidden>
   </question>
+
 </quiz>

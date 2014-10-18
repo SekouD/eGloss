@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+Sample xml document showing the record structure
+
+-->
+<glosses>
+ <syntagm name="acheter">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =acheter-INF
+   </content>
+   <comment type="text">
+    Bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    acheter.INF
+   </content>
+   <comment type="text">
+    N’y a-t-il pas une marque qui permet d’identifier l’infinitif ici ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    INF
+   </content>
+   <comment type="text">
+    Bien, mais quel est le lexème du verbe ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    acheter
+   </content>
+   <comment type="text">
+    De quelle forme verbale s’agit-il ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    N’est-ce pas déjà la forme de citation du verbe ? Comment l’appelle-t-on ?}
+   </comment>
+  </answer>
+ </syntagm>
+ <syntagm name="ba">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    arriver
+   </content>
+   <comment type="text">
+    Hum…ce lexème est-il dans cette phrase-là ?
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    DEF[fille]
+   </content>
+   <comment type="text">
+    Bien essayé ! C’est bien un déterminant, mais pas un défini.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    DEF[lit]
+   </content>
+   <comment type="text">
+    Hum…ce lexème est-il dans cette phrase-là ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =DEM
+   </content>
+   <comment type="text">
+    Bien ! C’est ça !
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    fille
+   </content>
+   <comment type="text">
+    Non, ‘ba’ n’est pas un nom.
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    Inès
+   </content>
+   <comment type="text">
+    Hum…ce lexème est-il dans cette phrase-là ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    Isabelle
+   </content>
+   <comment type="text">
+    Non, ‘ba’ n’est pas un nom.
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    lit
+   </content>
+   <comment type="text">
+    Hum…vous êtes sur le bon GN, mais ‘ba’ n’est pas un nom.
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    tomber
+   </content>
+   <comment type="text">
+    Non, le verbe n’occupe jamais cette position dans la phrase, sachant que ce système linguistique repose sur une écriture et donc lecture de droite à gauche. Observez de plus près le corpus…}
+   </comment>
+  </answer>
+ </syntagm>
+</glosses>
