@@ -8,7 +8,7 @@ __author__ = 'Sekou Diao'
 
 import argparse
 import codecs
-from bs4 import BeautifulSoup as BS
+from bs4 import BeautifulSoup as BS, NavigableString
 
 
 def extract_gloses(xml_file):
@@ -99,13 +99,9 @@ def generate_liste_reponse(liste_html):
     :param liste_html: list
     :return liste_reponses:
     """
-    # if liste_html[1].string is None:
-    #     liste_reponses = [td.table.tbody.tr.td.p.string for td in liste_html if td.string != '\n']
-    # else:
-    #     liste_reponses = [td.p.string if td.string is None else td.string for td in liste_html if td.string != '\n']
     while '\n' in liste_html:
         liste_html.remove('\n')
-    liste_reponses = [td.text.replace('\n','') if td.table is None else td.table.tbody.tr.td.text.replace('\n','') for td in liste_html]
+    liste_reponses = [td if isinstance(td, NavigableString) else td.text.replace('\n','') for td in liste_html]
     return liste_reponses
 
 
@@ -121,7 +117,7 @@ def generate_answer_dict(reponse):
         content = reponse[4:reponse.find('#')]
     elif "SAC" in reponse:
         score = '100'
-        content = reponse[7:reponse.find('#')]
+        content = reponse[8:reponse.find('#')]
     elif "MC" in reponse:
         score = '100'
         content = reponse[6:reponse.find('#')]
