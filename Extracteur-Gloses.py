@@ -13,7 +13,7 @@ from bs4 import BeautifulSoup as BS, NavigableString
 
 def extract_gloses(xml_file):
     """
-    Reads the specified file and extracts glose information.
+    Reads the specified file and extracts gloss information.
 
     It incrementally updates gloses_francais_dict and gloses_kalaba_dict.
 
@@ -34,6 +34,13 @@ def extract_gloses(xml_file):
             else:
                 liste_mot_reponse = parse_questiontext_tag(parsed_html)
                 update_dict(gloses_francais_dict, liste_mot_reponse)
+    liste_doublons = []
+    for key, values in gloses_francais_dict['unique'].items():
+        if key in gloses_francais_dict['duplicates']:
+            gloses_francais_dict['duplicates'][key + "$"] = values
+            liste_doublons.append(key)
+    for elt in liste_doublons:
+        gloses_francais_dict['unique'].pop(elt)
     return
 
 
@@ -101,7 +108,7 @@ def generate_liste_reponse(liste_html):
     """
     while '\n' in liste_html:
         liste_html.remove('\n')
-    liste_reponses = [td if isinstance(td, NavigableString) else td.text.replace('\n','') for td in liste_html]
+    liste_reponses = [td if isinstance(td, NavigableString) else td.text.replace('\n', '') for td in liste_html]
     return liste_reponses
 
 
@@ -117,7 +124,7 @@ def generate_answer_dict(reponse):
         content = reponse[4:reponse.find('#')]
     elif "SAC" in reponse:
         score = '100'
-        content = reponse[8:reponse.find('#')]
+        content = reponse[7:reponse.find('#')]
     elif "MC" in reponse:
         score = '100'
         content = reponse[6:reponse.find('#')]
@@ -167,12 +174,20 @@ def recursive_update(dic, key, value):
     :param key: str
     :param value: list
     """
-    if key not in dic:
-        dic[key] = value
-    elif dic[key] == value:
+
+    if "#" not in key and key not in dic['unique']:
+        dic['unique'][key] = value
+        return
+    elif "#" not in key and dic['unique'][key] == value:
+        return
+    if key not in dic['duplicates']:
+        dic['duplicates'][key] = value
+    elif dic['duplicates'][key] == value:
         return
     else:
-        recursive_update(dic, key + '#', value)
+        key = key + "#"
+        recursive_update(dic, key, value)
+
     return
 
 
@@ -189,7 +204,7 @@ def generate_xml(dict_list):
     xml_root = doc_xml.new_tag('glosses')
     doc_xml.append(xml_root)
     for mot, reponses in sorted(dict_list.items()):
-        syntagm = doc_xml.new_tag('syntagm')
+        syntagm = doc_xml.new_tag('word')
         syntagm['name'] = mot
         xml_root.append(syntagm)
         for dic in reponses:
@@ -221,8 +236,8 @@ def save_xml(xml_obj, filename):
 
 if __name__ == "__main__":
     # Creates the 2 dictionary objects that will hold the results of the words/answers extraction process
-    gloses_francais_dict = {}
-    gloses_kalaba_dict = {}
+    gloses_francais_dict = {'unique': {}, 'duplicates': {}}
+    gloses_kalaba_dict = {'unique': {}, 'duplicates': {}}
 
     # Creates parser object to hold arguments
     parser = argparse.ArgumentParser()
@@ -236,9 +251,33 @@ if __name__ == "__main__":
     with codecs.open(file_name, 'r', encoding='utf8') as file_obj:
         extract_gloses(file_obj)
 
+    # gloses_francais_xml = generate_xml(gloses_francais_dict['unique'])
+    # save_xml(gloses_francais_xml, 'gloses_francais_unique-v2')
+    #
+    # gloses_francais_xml = generate_xml(gloses_francais_dict['duplicates'])
+    # save_xml(gloses_francais_xml, 'gloses_francais_duplicates-v2')
+    #
+    # gloses_kalaba_xml = generate_xml(gloses_kalaba_dict['unique'])
+    # save_xml(gloses_kalaba_xml, 'gloses_kalaba_unique-v2')
+    #
+    # gloses_kalaba_xml = generate_xml(gloses_kalaba_dict['duplicates'])
+    # save_xml(gloses_kalaba_xml, 'gloses_kalaba_duplicates-v2')
 
-    gloses_francais_xml = generate_xml(gloses_francais_dict)
-    save_xml(gloses_francais_xml, 'gloses_francais')
+    # [(key, key + "$") for key in gloses_francais_dict['duplicates'] if (key + "$") in gloses_francais_dict['duplicates']]
+    #
+    # [(elt[0], gloses_francais_dict['duplicates'][elt[0]][i], elt[1], gloses_francais_dict['duplicates'][elt[1]][i]) if
+    # gloses_francais_dict['duplicates'][elt[0]][i] != gloses_francais_dict['duplicates'][elt[1]][i] for elt in
+    #  liste_doublons for i in range(len(gloses_francais_dict['duplicates'][key]))]
 
-    gloses_kalaba_xml = generate_xml(gloses_kalaba_dict)
-    save_xml(gloses_kalaba_xml, 'gloses_kalaba')
+liste_doublons = [(key, key + "$") for key in gloses_francais_dict['duplicates'] if
+                  (key + "$") in gloses_francais_dict['duplicates'] and len(gloses_francais_dict['duplicates'][key]) == len(gloses_francais_dict['duplicates'][key + "$"])]
+champsdifferents = {}
+for elt in liste_doublons:
+    champsdifferents[elt] = []
+    if elt[0] in gloses_francais_dict['duplicates']:
+        for i in range(len(gloses_francais_dict['duplicates'][elt[0]])):
+            if gloses_francais_dict['duplicates'][elt[0]][i] != gloses_francais_dict['duplicates'][elt[1]][i]:
+                champsdifferents[elt].append((
+                    gloses_francais_dict['duplicates'][elt[0]][i], gloses_francais_dict['duplicates'][elt[1]][i]))
+
+print(champsdifferents)
