@@ -57,6 +57,63 @@
    </comment>
   </answer>
  </word>
+ <word name="avec$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =PREP.AVEC
+   </content>
+   <comment type="text">
+    C’est bien ça !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    60
+   </score>
+   <content type="text">
+    PREP*
+   </content>
+   <comment type="text">
+    Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    ADV
+   </content>
+   <comment type="text">
+    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    CONJ
+   </content>
+   <comment type="text">
+    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    N’est-ce pas une préposition ?}
+   </comment>
+  </answer>
+ </word>
  <word name="boivent">
   <answer id="0">
    <score type="num">
@@ -64,6 +121,118 @@
    </score>
    <content type="text">
     =boire.IND.PRS-3PL
+   </content>
+   <comment type="text">
+    Bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    boire.PRS.IND-3PL
+   </content>
+   <comment type="text">
+    Pensez à l’ordre des marques !
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    boire.IND.PRS.3PL
+   </content>
+   <comment type="text">
+    N’y a-t-il pas une marque de personne ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    boivent.IND.PRS-3PL
+   </content>
+   <comment type="text">
+    Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    60
+   </score>
+   <content type="text">
+    boire.*PRS-3PL
+   </content>
+   <comment type="text">
+    Quel mode ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    boire.*PRS.3PL
+   </content>
+   <comment type="text">
+    Quel mode ? Et la personne n’est-elle pas marquée ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    oire*
+   </content>
+   <comment type="text">
+    Quel mode, quel temps, quelle personne ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    boire
+   </content>
+   <comment type="text">
+    Quel mode, quel temps, quelle personne ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    boivent*
+   </content>
+   <comment type="text">
+    Donnez la forme de citation, le mode, le temps et la personne.
+   </comment>
+  </answer>
+  <answer id="9">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   </comment>
+  </answer>
+ </word>
+ <word name="boivent$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    :=boire.IND.PRS-3PL
    </content>
    <comment type="text">
     Bien !
@@ -248,6 +417,85 @@
    </comment>
   </answer>
  </word>
+ <word name="chat$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =chat.M.SG
+   </content>
+   <comment type="text">
+    Correct !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    chat-M.SG
+   </content>
+   <comment type="text">
+    Le genre est-il marqué ici ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    chat.M-SG
+   </content>
+   <comment type="text">
+    Où est la marque du singulier ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    60
+   </score>
+   <content type="text">
+    chat-M-SG
+   </content>
+   <comment type="text">
+    Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    hat*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    chat
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas tout simplement un substantif ?}
+   </comment>
+  </answer>
+ </word>
  <word name="dans">
   <answer id="0">
    <score type="num">
@@ -255,6 +503,63 @@
    </score>
    <content type="text">
     :=PREP.DANS
+   </content>
+   <comment type="text">
+    C’est bien ça !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    60
+   </score>
+   <content type="text">
+    PREP*
+   </content>
+   <comment type="text">
+    Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    ADV
+   </content>
+   <comment type="text">
+    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    CONJ
+   </content>
+   <comment type="text">
+    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    N’est-ce pas une préposition ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="dans$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =PREP.DANS
    </content>
    <comment type="text">
     C’est bien ça !
@@ -416,6 +721,74 @@
    </content>
    <comment type="text">
     N’est-ce pas une préposition ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="de$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    :=PREP.DE
+   </content>
+   <comment type="text">
+    C’est bien ça !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    60
+   </score>
+   <content type="text">
+    PREP
+   </content>
+   <comment type="text">
+    Donnez aussi la préposition elle-même en majuscules, en la séparant de PREP par un point.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    35
+   </score>
+   <content type="text">
+    PREP*
+   </content>
+   <comment type="text">
+    Donnez l'abréviation PREP uivi dn point, suivi de la préposition elle-même.
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    ADV
+   </content>
+   <comment type="text">
+    Ce petit mot est invariable, mais ce n’est pas un adverbe, donc c’est…
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    CONJ
+   </content>
+   <comment type="text">
+    En êtes-vous sûr ? Ce mot relie-t-il ici deux mots ou deux propositions ou deux phrases ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    N’est-ce pas une préposition qui introduit un complément du nom ?}
    </comment>
   </answer>
  </word>
@@ -853,6 +1226,129 @@
    </content>
    <comment type="text">
     Ne serait-ce pas une forme contractée de la préposition de et du déterminant les ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="des$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    :=INDEF.P
+   </content>
+   <comment type="text">
+    None
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    INDEF-PL
+   </content>
+   <comment type="text">
+    Existe-t-il un indéfini singulier qui n'aurait pas ce s ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DET.PL
+   </content>
+   <comment type="text">
+    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    INDEF.F.PL
+   </content>
+   <comment type="text">
+    Le genre est-il connu ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    40
+   </score>
+   <content type="text">
+    INDEF.F-PL
+   </content>
+   <comment type="text">
+    Le genre est-il connu ? Et existe-t-il un indéfini singulier qui n’aurait pas ce s ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    30
+   </score>
+   <content type="text">
+    IND.PL
+   </content>
+   <comment type="text">
+    Utilisez INDEF plutôt que IND...
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    PREP.DE
+   </content>
+   <comment type="text">
+    Dans ce cas, on achète qqch, non ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    25
+   </score>
+   <content type="text">
+    *DET*
+   </content>
+   <comment type="text">
+    Utilisez INDEF pour les indéfinis. Quel nombre ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *DEF*
+   </content>
+   <comment type="text">
+    Un article défini ? Quel nombre ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *F*
+   </content>
+   <comment type="text">
+    Le genre est-il connu ?
+   </comment>
+  </answer>
+  <answer id="10">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    On achète qqch ? Ne serait-ce pas un déterminant ? Est-ce un défini ou bien un indéfini ?}
    </comment>
   </answer>
  </word>
@@ -1295,6 +1791,74 @@
    </comment>
   </answer>
  </word>
+ <word name="du$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =PART-M.S
+   </content>
+   <comment type="text">
+    None
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    PART.M.SG
+   </content>
+   <comment type="text">
+    Les différents partitifs ont-ils une base commune ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    PART.M-SG
+   </content>
+   <comment type="text">
+    Les différents partitifs ont-ils une base commune ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ART*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ? (utilisez PART plutôt que PART.DE)
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    PREP.DE_DET-M.SG
+   </content>
+   <comment type="text">
+    Hum…y a-t-il une préposition ici ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    PREP*
+   </content>
+   <comment type="text">
+    Hum… y a-t-il une préposition ici ?}
+   </comment>
+  </answer>
+ </word>
  <word name="enfants">
   <answer id="0">
    <score type="num">
@@ -1316,6 +1880,107 @@
    </content>
    <comment type="text">
     Le genre est-il connu ? Une enfant, un enfant ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    enfant.F-PL
+   </content>
+   <comment type="text">
+    Le genre est-il connu ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    40
+   </score>
+   <content type="text">
+    enfant.M.PL
+   </content>
+   <comment type="text">
+    Le genre est-il connu, le nombre est-il marqué ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    25
+   </score>
+   <content type="text">
+    enfants-PL
+   </content>
+   <comment type="text">
+    Quelle est la forme de citation pour ce mot ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    enfants*
+   </content>
+   <comment type="text">
+    Donnez la forme de citation. Quelles sont les propriétés grammaticales du nom ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    nfant*
+   </content>
+   <comment type="text">
+    Etes-vous sûr de ne rien oublier ? Quelles sont les propriétés grammaticales du nom ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    enfant
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas tout simplement un substantif ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="enfants$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    :=enfant-P
+   </content>
+   <comment type="text">
+    None
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    enfant.M-PL
+   </content>
+   <comment type="text">
+    Le genre est-il connu ?
    </comment>
   </answer>
   <answer id="2">
@@ -1576,6 +2241,96 @@
    </comment>
   </answer>
  </word>
+ <word name="est$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    :=être.IND.PRS.3SG
+   </content>
+   <comment type="text">
+    Correct !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    être.PRS.IND.3SG
+   </content>
+   <comment type="text">
+    Pensez à l’ordre des marques !
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    est.IND.PRS.3SG
+   </content>
+   <comment type="text">
+    Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    60
+   </score>
+   <content type="text">
+    être.*PRS.3SG
+   </content>
+   <comment type="text">
+    Quel mode ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    tre*
+   </content>
+   <comment type="text">
+    Quel mode, quel temps, quelle personne ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    être
+   </content>
+   <comment type="text">
+    Quel mode, quel temps, quelle personne ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    est*
+   </content>
+   <comment type="text">
+    Donnez la forme de citation, le mode, le temps et la personne.
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   </comment>
+  </answer>
+ </word>
  <word name="la">
   <answer id="0">
    <score type="num">
@@ -1780,6 +2535,74 @@
    </comment>
   </answer>
  </word>
+ <word name="la$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =DEF-F.SG
+   </content>
+   <comment type="text">
+    Correct, bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DET-F.SG
+   </content>
+   <comment type="text">
+    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    INDEF-F.SG
+   </content>
+   <comment type="text">
+    Est-ce un indéfini ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ET*
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas un déterminant ? défini ou indéfini ?}
+   </comment>
+  </answer>
+ </word>
  <word name="le">
   <answer id="0">
    <score type="num">
@@ -1855,6 +2678,74 @@
    </score>
    <content type="text">
     :=DEF-M.SG
+   </content>
+   <comment type="text">
+    Correct, bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DET-M.SG
+   </content>
+   <comment type="text">
+    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation DEF pour les déterminants définis.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    INDEF-M.SG
+   </content>
+   <comment type="text">
+    Est-ce un indéfini ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ET*
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="le$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =DEF-M.SG
    </content>
    <comment type="text">
     Correct, bien !
@@ -2452,6 +3343,140 @@
    </comment>
   </answer>
  </word>
+ <word name="les$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =DEF-PL
+   </content>
+   <comment type="text">
+    Bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    DEF.PL
+   </content>
+   <comment type="text">
+    Le nombre n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DET-PL
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis.
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    35
+   </score>
+   <content type="text">
+    DET.PL
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis. Et le nombre n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    25
+   </score>
+   <content type="text">
+    DEF.M-PL
+   </content>
+   <comment type="text">
+    Le genre est-il connu ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF.M.PL
+   </content>
+   <comment type="text">
+    Le genre est-il connu, le nombre est-il marqué ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    INDEF-PL
+   </content>
+   <comment type="text">
+    Est-ce un indéfini ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    NDEF.PL
+   </content>
+   <comment type="text">
+    Est-ce un indéfini ? Le nombre n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ET*
+   </content>
+   <comment type="text">
+    Préférez l’abréviation DEF pour les déterminants définis. Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="10">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *M*
+   </content>
+   <comment type="text">
+    Le genre est-il connu?
+   </comment>
+  </answer>
+  <answer id="11">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   </comment>
+  </answer>
+ </word>
  <word name="mange">
   <answer id="0">
    <score type="num">
@@ -2575,7 +3600,209 @@
    </comment>
   </answer>
  </word>
+ <word name="mange$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =manger.IND.PRS.3SG
+   </content>
+   <comment type="text">
+    Correct !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    manger.PRS.IND.3SG
+   </content>
+   <comment type="text">
+    Pensez à l’ordre des marques !
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    mange.IND.PRS.3SG
+   </content>
+   <comment type="text">
+    Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    60
+   </score>
+   <content type="text">
+    manger.*PRS.3SG
+   </content>
+   <comment type="text">
+    Quel mode ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    anger*
+   </content>
+   <comment type="text">
+    Quel mode, quel temps, quelle personne ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    manger
+   </content>
+   <comment type="text">
+    Quel mode, quel temps, quelle personne ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    mange*
+   </content>
+   <comment type="text">
+    Donnez la forme de citation, le mode, le temps et la personne.
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   </comment>
+  </answer>
+ </word>
  <word name="parlent">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =parler.IND.PRS-3PL
+   </content>
+   <comment type="text">
+    Bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    parler.PRS.IND-3PL
+   </content>
+   <comment type="text">
+    Pensez à l’ordre des marques !
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    parler.IND.PRS.3PL
+   </content>
+   <comment type="text">
+    N’y a-t-il pas une marque de personne ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    parlent.IND.PRS-3PL
+   </content>
+   <comment type="text">
+    Donnez la forme de citation du verbe, non pas la forme conjuguée dans la phrase…
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    60
+   </score>
+   <content type="text">
+    parler.*PRS-3PL
+   </content>
+   <comment type="text">
+    Quel mode ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    parler.*PRS.3PL
+   </content>
+   <comment type="text">
+    Quel mode ? Et la personne n’est-elle pas marquée ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    arler*
+   </content>
+   <comment type="text">
+    Quel mode, quel temps, quelle personne ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    parler
+   </content>
+   <comment type="text">
+    Quel mode, quel temps, quelle personne ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    parlent*
+   </content>
+   <comment type="text">
+    Donnez la forme de citation, le mode, le temps et la personne.
+   </comment>
+  </answer>
+  <answer id="9">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ce mot ne se conjugue-t-il pas ? Qui dit conjugaison dit…}
+   </comment>
+  </answer>
+ </word>
+ <word name="parlent$">
   <answer id="0">
    <score type="num">
     100
@@ -2869,6 +4096,52 @@
    </comment>
   </answer>
  </word>
+ <word name="que$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =CONJ.QUE
+   </content>
+   <comment type="text">
+    Bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    CONJ*
+   </content>
+   <comment type="text">
+    Oui, c’est bien une conjonction, mais pensez à rajouter un point puis la conjonction elle-même en majuscules.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    REL*
+   </content>
+   <comment type="text">
+    Un pronom relatif ? Ne serait-ce pas plutôt une conjonction de subordination introduisant une complétive ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Petit mot invariable, ce n’est pas un adverbe, ni une préposition… Ne serait-ce pas une conjonction ?}
+   </comment>
+  </answer>
+ </word>
  <word name="qui">
   <answer id="0">
    <score type="num">
@@ -2923,6 +4196,85 @@
    </content>
    <comment type="text">
     Le genre et le nombre sont-ils vraiment marqués pour le relatif ? Quelle est la fonction du relatif QUI ici ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    CONJ
+   </content>
+   <comment type="text">
+    Ne serait-ce pas plutôt un pronom ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ce mot n’introduit-il pas une proposition subordonnée relative ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="qui$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =REL[personne]
+   </content>
+   <comment type="text">
+    Bravo !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    REL*[personne]
+   </content>
+   <comment type="text">
+    La fonction de QUI ici est d'être le complément de la préposition AVEC. Dans ce cas, on préfère ne pas noter la fonction.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    REL*
+   </content>
+   <comment type="text">
+    Et quel est son antécédent ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    25
+   </score>
+   <content type="text">
+    PRO
+   </content>
+   <comment type="text">
+    Pouvez-vous préciser la nature de ce pronom ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    REL[personne].M.SG
+   </content>
+   <comment type="text">
+    Le genre et le nombre sont-ils vraiment marqués pour le relatif ?
    </comment>
   </answer>
   <answer id="5">
@@ -3172,6 +4524,107 @@
    </comment>
   </answer>
  </word>
+ <word name="ses$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =POSS.3SG-PL
+   </content>
+   <comment type="text">
+    Correct, bravo !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    POSS.3SG.PL
+   </content>
+   <comment type="text">
+    N'y a-t-il pas de marque du pluriel ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    POSS.3SG
+   </content>
+   <comment type="text">
+    Quelles sont les propriétés du possédé ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    25
+   </score>
+   <content type="text">
+    POSS-PL
+   </content>
+   <comment type="text">
+    Qui est le possesseur ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    20
+   </score>
+   <content type="text">
+    POSS.PL
+   </content>
+   <comment type="text">
+    Qui est le possesseur ? Et le pluriel n'est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    *POSS*
+   </content>
+   <comment type="text">
+    Qui est le possesseur, il possède quoi ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    OSS
+   </content>
+   <comment type="text">
+    Qui est le possesseur, il possède quoi ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *M*
+   </content>
+   <comment type="text">
+    Le genre est-il marqué ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ce petit mot n’établit-il pas une relation de possession ?}
+   </comment>
+  </answer>
+ </word>
  <word name="souris">
   <answer id="0">
    <score type="num">
@@ -3240,6 +4693,129 @@
    </comment>
   </answer>
   <answer id="6">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas tout simplement un substantif ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="souris$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =souris.F.PL
+   </content>
+   <comment type="text">
+    Correct !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    80
+   </score>
+   <content type="text">
+    souris.PL.F
+   </content>
+   <comment type="text">
+    Dans le cas où il n'y a pas d'indice clair pour l'ordre, on se conforme au cas général. En français, plutôt le genre avant le nombre... ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    souris.F-PL
+   </content>
+   <comment type="text">
+    Une souri, des souris ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    souris-F.PL
+   </content>
+   <comment type="text">
+    Quelle est la marque du féminin pluriel ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    65
+   </score>
+   <content type="text">
+    souris-PL.F
+   </content>
+   <comment type="text">
+    Quelle est la marque du pluriel féminin ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    60
+   </score>
+   <content type="text">
+    souris-F-PL
+   </content>
+   <comment type="text">
+    Le genre et le nombre sont-ils vraiment marqués ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    souri.F-PL
+   </content>
+   <comment type="text">
+    Une souri, des souris ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ouris*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    souris
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    souri
+   </content>
+   <comment type="text">
+    Une souri, des souris ?
+   </comment>
+  </answer>
+  <answer id="10">
    <score type="num">
     0
    </score>
@@ -3331,6 +4907,85 @@
   </answer>
  </word>
  <word name="thé#">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =thé.M.SG
+   </content>
+   <comment type="text">
+    Correct !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    thé-M.SG
+   </content>
+   <comment type="text">
+    Le genre est-il marqué ici ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    thé.M-SG
+   </content>
+   <comment type="text">
+    Où est la marque du singulier ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    60
+   </score>
+   <content type="text">
+    thé-M-SG
+   </content>
+   <comment type="text">
+    Le genre est-il vraiment marqué ? Montrez-moi la marque du singulier…
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    hé*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    thé
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas tout simplement un substantif ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="thé$">
   <answer id="0">
    <score type="num">
     100
@@ -3677,6 +5332,129 @@
    </comment>
   </answer>
  </word>
+ <word name="une$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    :=INDEF.SG-F
+   </content>
+   <comment type="text">
+    Correct, bien !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    INDEF-F.SG
+   </content>
+   <comment type="text">
+    Pensez à l’ordre des marques.
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    INDEF.SG.F
+   </content>
+   <comment type="text">
+    Pensez à l’indépendance des marques.
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    DET-F.SG
+   </content>
+   <comment type="text">
+    Oui, c’est un déterminant, mais optez plutôt pour l’abréviation INDEF pour les déterminants indéfinis.
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    35
+   </score>
+   <content type="text">
+    DET-F.SG
+   </content>
+   <comment type="text">
+    Préférez l’abréviation INDEF pour les déterminants indéfinis. Et pensez aussi à l’ordre des marques.
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    25
+   </score>
+   <content type="text">
+    DET.F.SG
+   </content>
+   <comment type="text">
+    Préférez l’abréviation INDEF pour les déterminants indéfinis. Pensez aussi à l’ordre et à l’indépendance des marques.
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    15
+   </score>
+   <content type="text">
+    DEF.SG-F
+   </content>
+   <comment type="text">
+    Est-ce un défini ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    DEF-F.SG
+   </content>
+   <comment type="text">
+    Est-ce un défini ? Pensez aussi à l’ordre des marques.
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    INDEF*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="9">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    ET*
+   </content>
+   <comment type="text">
+    Préférez l’abréviation INDEF pour les déterminants indéfinis. Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="10">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas un déterminant ? défini ou bien indéfini ?}
+   </comment>
+  </answer>
+ </word>
  <word name="vacances">
   <answer id="0">
    <score type="num">
@@ -3778,6 +5556,96 @@
    </comment>
   </answer>
  </word>
+ <word name="vacances$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =vacances.F.P
+   </content>
+   <comment type="text">
+    None
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    vacance.F-PL
+   </content>
+   <comment type="text">
+    Le pluriel de vacance, comme dans vacance de poste ? ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    vacances-PL
+   </content>
+   <comment type="text">
+    Quel est le genre ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    vacances.F
+   </content>
+   <comment type="text">
+    Quel est le nombre
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    25
+   </score>
+   <content type="text">
+    vacance-PL
+   </content>
+   <comment type="text">
+    Le pluriel de vacance, comme dans vacance de poste ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    acances*
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    vacance*
+   </content>
+   <comment type="text">
+    Etes-vous sûr que le lexème de vacances est au singulier ? Quel genre, quel nombre ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas tout simplement un substantif ?}
+   </comment>
+  </answer>
+ </word>
  <word name="voisins">
   <answer id="0">
    <score type="num">
@@ -3854,6 +5722,107 @@
    </content>
    <comment type="text">
     Quel genre,quel nombre ?
+   </comment>
+  </answer>
+  <answer id="7">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    voisins*
+   </content>
+   <comment type="text">
+    Donnez la forme de citation et les propriétés du nom.
+   </comment>
+  </answer>
+  <answer id="8">
+   <score type="num">
+    0
+   </score>
+   <content type="text">
+    *
+   </content>
+   <comment type="text">
+    Ne serait-ce pas tout simplement un substantif ?}
+   </comment>
+  </answer>
+ </word>
+ <word name="voisins$">
+  <answer id="0">
+   <score type="num">
+    100
+   </score>
+   <content type="text">
+    =voisin.M-PL
+   </content>
+   <comment type="text">
+    C’est bien ça !
+   </comment>
+  </answer>
+  <answer id="1">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    voisin.M.PL
+   </content>
+   <comment type="text">
+    Le pluriel n’est-il pas marqué ?
+   </comment>
+  </answer>
+  <answer id="2">
+   <score type="num">
+    75
+   </score>
+   <content type="text">
+    voisin-M-PL
+   </content>
+   <comment type="text">
+    Y a-t-il une marque du masculin ici ?
+   </comment>
+  </answer>
+  <answer id="3">
+   <score type="num">
+    50
+   </score>
+   <content type="text">
+    voisin-M.PL
+   </content>
+   <comment type="text">
+    Y a-t-il une marque du masculin ? N’y a-t-il pas une marque du pluriel ?
+   </comment>
+  </answer>
+  <answer id="4">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    voisins.M*
+   </content>
+   <comment type="text">
+    Ce mot est invariable en nombre ?
+   </comment>
+  </answer>
+  <answer id="5">
+   <score type="num">
+    5
+   </score>
+   <content type="text">
+    oisin*
+   </content>
+   <comment type="text">
+    Etes-vous sûr de ne rien oublier ? Pensez aux propriétés du nom…
+   </comment>
+  </answer>
+  <answer id="6">
+   <score type="num">
+    10
+   </score>
+   <content type="text">
+    voisin
+   </content>
+   <comment type="text">
+    Quel genre, quel nombre ?
    </comment>
   </answer>
   <answer id="7">

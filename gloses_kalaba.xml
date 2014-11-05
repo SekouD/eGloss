@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <glosses>
- <syntagm name="ba">
+ <word name="ba">
   <answer id="0">
    <score type="num">
     100
@@ -100,8 +100,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase, sachant que ce système linguistique repose sur une écriture et donc lecture de droite à gauche. Observez de plus près le corpus…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ba#">
+ </word>
+ <word name="ba#">
   <answer id="0">
    <score type="num">
     100
@@ -212,8 +212,8 @@
     ’tomber’ est l’un des lexèmes qui différencient ces deux phrases, et on peut assez facilement déduire sa position dans la phrase. Et en l’occurrence, ce n’est pas ici…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ba##">
+ </word>
+ <word name="ba##">
   <answer id="0">
    <score type="num">
     100
@@ -346,8 +346,8 @@
     Non, ‘ba’ n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ba###">
+ </word>
+ <word name="ba###">
   <answer id="0">
    <score type="num">
     100
@@ -480,8 +480,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ba####">
+ </word>
+ <word name="ba####">
   <answer id="0">
    <score type="num">
     100
@@ -614,8 +614,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘ba’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ba#####">
+ </word>
+ <word name="ba#####">
   <answer id="0">
    <score type="num">
     100
@@ -748,8 +748,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ba######">
+ </word>
+ <word name="ba######">
   <answer id="0">
    <score type="num">
     100
@@ -871,8 +871,8 @@
     Non, ce n’est pas un adjectif.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ba#######">
+ </word>
+ <word name="ba#######">
   <answer id="0">
    <score type="num">
     100
@@ -994,8 +994,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="babalada">
+ </word>
+ <word name="babalada">
   <answer id="0">
    <score type="num">
     100
@@ -1095,8 +1095,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="babalada#">
+ </word>
+ <word name="babalada#">
   <answer id="0">
    <score type="num">
     100
@@ -1207,8 +1207,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="babaladi">
+ </word>
+ <word name="babaladi">
   <answer id="0">
    <score type="num">
     100
@@ -1286,8 +1286,8 @@
     Non, ce mot n’est pas un nom. Analysez la structure des phrases pour trouver quel type de mot se trouve toujours à cette position-là…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="babaladi#">
+ </word>
+ <word name="babaladi#">
   <answer id="0">
    <score type="num">
     100
@@ -1365,8 +1365,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="babaladu">
+ </word>
+ <word name="babaladu">
   <answer id="0">
    <score type="num">
     100
@@ -1444,8 +1444,8 @@
     Très bien ! Vous notez ainsi que le verbe occupe la première position dans la phrase, en lisant de droite à gauche.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="babaladu#">
+ </word>
+ <word name="babaladu#">
   <answer id="0">
    <score type="num">
     100
@@ -1523,8 +1523,8 @@
     Très bien ! Vous notez ainsi que le verbe occupe la première position dans la phrase, en lisant de droite à gauche.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="babaladu##">
+ </word>
+ <word name="babaladu##">
   <answer id="0">
    <score type="num">
     100
@@ -1613,8 +1613,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="babaladu###">
+ </word>
+ <word name="babaladu###">
   <answer id="0">
    <score type="num">
     100
@@ -1703,8 +1703,8 @@
     Ce lexème est le seul qui est différent par rapport à la deuxième phrase, ne peut-on pas alors en déduire facilement sa place ? Est-ce qu’il se trouve à cette position-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bafatiga">
+ </word>
+ <word name="bafatiga">
   <answer id="0">
    <score type="num">
     100
@@ -1804,8 +1804,8 @@
     Très bien !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bafatiga#">
+ </word>
+ <word name="bafatiga#">
   <answer id="0">
    <score type="num">
     100
@@ -1916,8 +1916,8 @@
     Bien, si l’on se centre sur cette paire de phrases, on peut en déduire le lexème correspondant à ‘bafatiga’, par opposition à ‘babalada’. Et ‘bafatiga’ signifie bien ‘tomber’…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ban">
+ </word>
+ <word name="ban">
   <answer id="0">
    <score type="num">
     100
@@ -1995,8 +1995,8 @@
     Non, le verbe n’occupe pas la dernière position dans la phrase, sachant que ce système linguistique repose sur une écriture et donc une lecture de droite à gauche.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ban#">
+ </word>
+ <word name="ban#">
   <answer id="0">
    <score type="num">
     100
@@ -2074,8 +2074,8 @@
     Non, le verbe n’occupe pas la dernière position dans la phrase, sachant que ce système linguistique repose sur une écriture et donc une lecture de droite à gauche.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ban##">
+ </word>
+ <word name="ban##">
   <answer id="0">
    <score type="num">
     100
@@ -2164,8 +2164,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ban###">
+ </word>
+ <word name="ban###">
   <answer id="0">
    <score type="num">
     100
@@ -2254,8 +2254,8 @@
     Ce lexème est le seul qui est différent par rapport à la deuxième phrase, ne peut-on pas alors en déduire facilement sa place ? Est-ce qu’il se trouve à cette position-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ban####">
+ </word>
+ <word name="ban####">
   <answer id="0">
    <score type="num">
     100
@@ -2388,8 +2388,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="batopaza">
+ </word>
+ <word name="batopaza">
   <answer id="0">
    <score type="num">
     100
@@ -2522,8 +2522,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="batopaza#">
+ </word>
+ <word name="batopaza#">
   <answer id="0">
    <score type="num">
     100
@@ -2645,8 +2645,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="batopazi">
+ </word>
+ <word name="batopazi">
   <answer id="0">
    <score type="num">
     100
@@ -2746,8 +2746,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘batopazi’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="batopazi#">
+ </word>
+ <word name="batopazi#">
   <answer id="0">
    <score type="num">
     100
@@ -2836,8 +2836,8 @@
     Non, ce mot n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bi">
+ </word>
+ <word name="bi">
   <answer id="0">
    <score type="num">
     100
@@ -2926,8 +2926,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bi#">
+ </word>
+ <word name="bi#">
   <answer id="0">
    <score type="num">
     100
@@ -3016,8 +3016,8 @@
     Hum…ce mot est plutôt à l’autre bout de la phrase…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bi##">
+ </word>
+ <word name="bi##">
   <answer id="0">
    <score type="num">
     100
@@ -3117,8 +3117,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bi###">
+ </word>
+ <word name="bi###">
   <answer id="0">
    <score type="num">
     100
@@ -3218,8 +3218,8 @@
     Non, ce petit mot n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bigab">
+ </word>
+ <word name="bigab">
   <answer id="0">
    <score type="num">
     100
@@ -3330,8 +3330,8 @@
     Le mot transcrit ‘bigab’ se trouve aussi dans la première phrase, mais avec une autre désinence. Le lexème qui lui correspond peut être déductible. Regardez la traduction française des deux phrases …}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bigab#">
+ </word>
+ <word name="bigab#">
   <answer id="0">
    <score type="num">
     100
@@ -3431,8 +3431,8 @@
     Non, le verbe n’occupe jamais cette place-là dans le corpus. Interrogez-vous sur l’ordre des mots dans les phrases de ce système linguistique. SVO ? OVS ? VSO ? Pensez que l’on lit et écrit la phrase de droite à gauche dans ce système…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bigib">
+ </word>
+ <word name="bigib">
   <answer id="0">
    <score type="num">
     100
@@ -3565,8 +3565,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘bigib’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bigib#">
+ </word>
+ <word name="bigib#">
   <answer id="0">
    <score type="num">
     100
@@ -3688,8 +3688,8 @@
     Très bien !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bigik">
+ </word>
+ <word name="bigik">
   <answer id="0">
    <score type="num">
     100
@@ -3800,8 +3800,8 @@
     Le mot transcrit ‘bigik’ se trouve aussi dans la deuxième phrase, mais avec une autre désinence. Le lexème qui lui correspond peut être déductible. Regardez la traduction française des deux phrases …}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bigik#">
+ </word>
+ <word name="bigik#">
   <answer id="0">
    <score type="num">
     100
@@ -3901,8 +3901,8 @@
     Non, le verbe n’occupe jamais cette place-là dans le corpus. Interrogez-vous sur l’ordre des mots dans les phrases de ce système linguistique. SVO ? OVS ? VSO ? Pensez que l’on lit et écrit la phrase de droite à gauche dans ce système…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bigil">
+ </word>
+ <word name="bigil">
   <answer id="0">
    <score type="num">
     100
@@ -4075,8 +4075,8 @@
     Pensez aux propriétés grammaticales des adjectifs. Regardez le nom avec lequel BIGIL s’accorde dans la phrase. Cela devrait vous aider…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="biguk">
+ </word>
+ <word name="biguk">
   <answer id="0">
    <score type="num">
     100
@@ -4165,8 +4165,8 @@
     Bien tenté, mais ce n’est pas ça !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bigul">
+ </word>
+ <word name="bigul">
   <answer id="0">
    <score type="num">
     100
@@ -4266,8 +4266,8 @@
     ’bigul’ est un mot qui n’est présent que dans la deuxième phrase, donc le lexème français qui lui correspond devrait être facilement déductible. Et en l’occurrence, ce n’est pas ‘pompier’.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bigul#">
+ </word>
+ <word name="bigul#">
   <answer id="0">
    <score type="num">
     100
@@ -4356,8 +4356,8 @@
     Non, ce mot n’est pas un nom, et vous n’êtes pas centré sur le bon GN.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bolilai">
+ </word>
+ <word name="bolilai">
   <answer id="0">
    <score type="num">
     100
@@ -4468,8 +4468,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bollai">
+ </word>
+ <word name="bollai">
   <answer id="0">
    <score type="num">
     100
@@ -4558,8 +4558,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bollai#">
+ </word>
+ <word name="bollai#">
   <answer id="0">
    <score type="num">
     100
@@ -4692,8 +4692,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bu">
+ </word>
+ <word name="bu">
   <answer id="0">
    <score type="num">
     100
@@ -4771,8 +4771,8 @@
     Si vous observez attentivement le corpus, vous verrez que le verbe a toujours la même place dans les phrases…Et en l’occurrence, il n’est pas à cette position-là…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bu#">
+ </word>
+ <word name="bu#">
   <answer id="0">
    <score type="num">
     100
@@ -4850,8 +4850,8 @@
     Si vous observez attentivement le corpus, vous verrez que le verbe a toujours la même place dans les phrases…Et en l’occurrence, il n’est pas à cette position-là…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bu##">
+ </word>
+ <word name="bu##">
   <answer id="0">
    <score type="num">
     100
@@ -4940,8 +4940,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bu###">
+ </word>
+ <word name="bu###">
   <answer id="0">
    <score type="num">
     100
@@ -5030,8 +5030,8 @@
     Ce lexème est le seul qui est différent par rapport à la deuxième phrase, ne peut-on pas alors en déduire facilement sa place ? Est-ce qu’il se trouve à cette position-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bu####">
+ </word>
+ <word name="bu####">
   <answer id="0">
    <score type="num">
     100
@@ -5109,8 +5109,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bufatigi">
+ </word>
+ <word name="bufatigi">
   <answer id="0">
    <score type="num">
     100
@@ -5210,8 +5210,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘bufatigi’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bufatigi#">
+ </word>
+ <word name="bufatigi#">
   <answer id="0">
    <score type="num">
     100
@@ -5311,8 +5311,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘bufatigi’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bufatigi##">
+ </word>
+ <word name="bufatigi##">
   <answer id="0">
    <score type="num">
     100
@@ -5401,8 +5401,8 @@
     Bien !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="bufatigi###">
+ </word>
+ <word name="bufatigi###">
   <answer id="0">
    <score type="num">
     100
@@ -5491,8 +5491,8 @@
     Bien !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="butopaza">
+ </word>
+ <word name="butopaza">
   <answer id="0">
    <score type="num">
     100
@@ -5625,8 +5625,8 @@
     Le lexème français correspondant à ‘butopaza’ est facilement déductible, et en l’occurrence, ce n’est pas ‘petit’.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="butopaza#">
+ </word>
+ <word name="butopaza#">
   <answer id="0">
    <score type="num">
     100
@@ -5748,8 +5748,8 @@
     Non, ce n’est pas un adjectif.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="butopazi">
+ </word>
+ <word name="butopazi">
   <answer id="0">
    <score type="num">
     100
@@ -5849,8 +5849,8 @@
     Non, ‘butopazi’ n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="butopazi#">
+ </word>
+ <word name="butopazi#">
   <answer id="0">
    <score type="num">
     100
@@ -5950,8 +5950,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="butopazi##">
+ </word>
+ <word name="butopazi##">
   <answer id="0">
    <score type="num">
     100
@@ -6051,8 +6051,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘butopazi’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="butopazi###">
+ </word>
+ <word name="butopazi###">
   <answer id="0">
    <score type="num">
     100
@@ -6141,8 +6141,8 @@
     Non, ce mot n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="gilib">
+ </word>
+ <word name="gilib">
   <answer id="0">
    <score type="num">
     100
@@ -6209,8 +6209,8 @@
     Correct, bravo !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="gilut">
+ </word>
+ <word name="gilut">
   <answer id="0">
    <score type="num">
     100
@@ -6310,8 +6310,8 @@
     Bien essayé ! ‘gilut’ fait bien partie du GN ayant pour noyau ‘table’…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="gilut#">
+ </word>
+ <word name="gilut#">
   <answer id="0">
    <score type="num">
     100
@@ -6411,8 +6411,8 @@
     Hum…ce lexème est-il dans cette phrase-là ? }
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka">
+ </word>
+ <word name="ka">
   <answer id="0">
    <score type="num">
     100
@@ -6490,8 +6490,8 @@
     Non, le verbe n’occupe jamais cette place-là dans les phrases si vous observez le corpus.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka#">
+ </word>
+ <word name="ka#">
   <answer id="0">
    <score type="num">
     100
@@ -6569,8 +6569,8 @@
     Non, le verbe n’occupe jamais cette place-là dans les phrases si vous observez le corpus.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka##">
+ </word>
+ <word name="ka##">
   <answer id="0">
    <score type="num">
     100
@@ -6659,8 +6659,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka###">
+ </word>
+ <word name="ka###">
   <answer id="0">
    <score type="num">
     100
@@ -6749,8 +6749,8 @@
     Ce lexème est le seul qui est différent par rapport à la deuxième phrase, ne peut-on pas alors en déduire facilement sa place ? Est-ce qu’il se trouve à cette position-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka####">
+ </word>
+ <word name="ka####">
   <answer id="0">
    <score type="num">
     100
@@ -6850,8 +6850,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka#####">
+ </word>
+ <word name="ka#####">
   <answer id="0">
    <score type="num">
     100
@@ -6951,8 +6951,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka######">
+ </word>
+ <word name="ka######">
   <answer id="0">
    <score type="num">
     100
@@ -7052,8 +7052,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka#######">
+ </word>
+ <word name="ka#######">
   <answer id="0">
    <score type="num">
     100
@@ -7164,8 +7164,8 @@
     ’tomber’ est l’un des lexèmes qui différencient ces deux phrases, et on peut assez facilement déduire sa position dans la phrase. Et en l’occurrence, ce n’est pas ici…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka########">
+ </word>
+ <word name="ka########">
   <answer id="0">
    <score type="num">
     100
@@ -7276,8 +7276,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka#########">
+ </word>
+ <word name="ka#########">
   <answer id="0">
    <score type="num">
     100
@@ -7388,8 +7388,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka##########">
+ </word>
+ <word name="ka##########">
   <answer id="0">
    <score type="num">
     100
@@ -7489,8 +7489,8 @@
     Si vous observez la paire de phrases, vous pourrez voir que ‘ka’ est dans la deuxième phrase, mais pas dans la première. Le lexème qui lui correspond est facilement déductible. Et en l’occurrence, ce n’est pas ‘tomber’.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka###########">
+ </word>
+ <word name="ka###########">
   <answer id="0">
    <score type="num">
     100
@@ -7579,8 +7579,8 @@
     Non,le verbe n’occupe jamais cette position dans la phrase. Observez de plus prèsle corpus…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka############">
+ </word>
+ <word name="ka############">
   <answer id="0">
    <score type="num">
     100
@@ -7647,8 +7647,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka#############">
+ </word>
+ <word name="ka#############">
   <answer id="0">
    <score type="num">
     100
@@ -7715,8 +7715,8 @@
     Non, ce petit mot n’est pas un adjectif.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka##############">
+ </word>
+ <word name="ka##############">
   <answer id="0">
    <score type="num">
     100
@@ -7849,8 +7849,8 @@
     Non, ‘ka’ n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka###############">
+ </word>
+ <word name="ka###############">
   <answer id="0">
    <score type="num">
     100
@@ -7983,8 +7983,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka################">
+ </word>
+ <word name="ka################">
   <answer id="0">
    <score type="num">
     100
@@ -8084,8 +8084,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus, et l’ordre des mots dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka#################">
+ </word>
+ <word name="ka#################">
   <answer id="0">
    <score type="num">
     100
@@ -8218,8 +8218,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘ka’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka##################">
+ </word>
+ <word name="ka##################">
   <answer id="0">
    <score type="num">
     100
@@ -8352,8 +8352,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka###################">
+ </word>
+ <word name="ka###################">
   <answer id="0">
    <score type="num">
     100
@@ -8475,8 +8475,8 @@
     Non, ce n’est pas un adjectif.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka####################">
+ </word>
+ <word name="ka####################">
   <answer id="0">
    <score type="num">
     100
@@ -8598,8 +8598,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ka#####################">
+ </word>
+ <word name="ka#####################">
   <answer id="0">
    <score type="num">
     100
@@ -8719,8 +8719,8 @@
     Regardez le nombre du nom que ce mot détermine…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kab">
+ </word>
+ <word name="kab">
   <answer id="0">
    <score type="num">
     100
@@ -8820,8 +8820,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘kab’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kab#">
+ </word>
+ <word name="kab#">
   <answer id="0">
    <score type="num">
     100
@@ -8921,8 +8921,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘kab’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kab##">
+ </word>
+ <word name="kab##">
   <answer id="0">
    <score type="num">
     100
@@ -9011,8 +9011,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kab###">
+ </word>
+ <word name="kab###">
   <answer id="0">
    <score type="num">
     100
@@ -9101,8 +9101,8 @@
     Non,le verbe n’occupe jamais cette position dans la phrase. Observez de plus prèsle corpus…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kabi">
+ </word>
+ <word name="kabi">
   <answer id="0">
    <score type="num">
     100
@@ -9202,8 +9202,8 @@
     Bien !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kabilai">
+ </word>
+ <word name="kabilai">
   <answer id="0">
    <score type="num">
     100
@@ -9314,8 +9314,8 @@
     Correct !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kalabulamaba">
+ </word>
+ <word name="kalabulamaba">
   <answer id="0">
    <score type="num">
     100
@@ -9382,8 +9382,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kalabulamaba#">
+ </word>
+ <word name="kalabulamaba#">
   <answer id="0">
    <score type="num">
     100
@@ -9450,8 +9450,8 @@
     Non, ce mot n’est pas un adjectif.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kalabumilita">
+ </word>
+ <word name="kalabumilita">
   <answer id="0">
    <score type="num">
     100
@@ -9584,8 +9584,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kalububogoti">
+ </word>
+ <word name="kalububogoti">
   <answer id="0">
    <score type="num">
     100
@@ -9663,8 +9663,8 @@
     Non, ce mot n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kalububogoti#">
+ </word>
+ <word name="kalububogoti#">
   <answer id="0">
    <score type="num">
     100
@@ -9742,8 +9742,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kalubulamabi">
+ </word>
+ <word name="kalubulamabi">
   <answer id="0">
    <score type="num">
     100
@@ -9854,8 +9854,8 @@
     Non, ce mot n’est pas un substantif.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kalubumilita">
+ </word>
+ <word name="kalubumilita">
   <answer id="0">
    <score type="num">
     100
@@ -9944,8 +9944,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kalubumilita#">
+ </word>
+ <word name="kalubumilita#">
   <answer id="0">
    <score type="num">
     100
@@ -10034,8 +10034,8 @@
     Hum…ce mot est plutôt à l’autre bout de la phrase…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kelabudisaka">
+ </word>
+ <word name="kelabudisaka">
   <answer id="0">
    <score type="num">
     100
@@ -10135,8 +10135,8 @@
     C’est bien ça !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kelubudisaki">
+ </word>
+ <word name="kelubudisaki">
   <answer id="0">
    <score type="num">
     100
@@ -10236,8 +10236,8 @@
     C’est bien ça !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ki">
+ </word>
+ <word name="ki">
   <answer id="0">
    <score type="num">
     100
@@ -10337,8 +10337,8 @@
     Non, ‘ki’ n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ki#">
+ </word>
+ <word name="ki#">
   <answer id="0">
    <score type="num">
     100
@@ -10416,8 +10416,8 @@
     Non, ce petit mot n’est pas un nom…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ki##">
+ </word>
+ <word name="ki##">
   <answer id="0">
    <score type="num">
     100
@@ -10517,8 +10517,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘ki’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ki###">
+ </word>
+ <word name="ki###">
   <answer id="0">
    <score type="num">
     100
@@ -10618,8 +10618,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘ki’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ki####">
+ </word>
+ <word name="ki####">
   <answer id="0">
    <score type="num">
     100
@@ -10708,8 +10708,8 @@
     Non, ce petit mot n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ki#####">
+ </word>
+ <word name="ki#####">
   <answer id="0">
    <score type="num">
     100
@@ -10798,8 +10798,8 @@
     Non, ce petit mot n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ki######">
+ </word>
+ <word name="ki######">
   <answer id="0">
    <score type="num">
     100
@@ -10888,8 +10888,8 @@
     Non, ce petit mot n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ki#######">
+ </word>
+ <word name="ki#######">
   <answer id="0">
    <score type="num">
     100
@@ -10978,8 +10978,8 @@
     Non, ce n’est pas ça. Mais vous avez trouvé la bonne classe grammaticale.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kilabumilita">
+ </word>
+ <word name="kilabumilita">
   <answer id="0">
    <score type="num">
     100
@@ -11112,8 +11112,8 @@
     Non, ce n’est pas un substantif.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kilubulamabi">
+ </word>
+ <word name="kilubulamabi">
   <answer id="0">
    <score type="num">
     100
@@ -11224,8 +11224,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kollai">
+ </word>
+ <word name="kollai">
   <answer id="0">
    <score type="num">
     100
@@ -11314,8 +11314,8 @@
     Bien ! Vous remarquez ainsi que les déterminants ne sont pas à gauche des noms comme en français.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kollai#">
+ </word>
+ <word name="kollai#">
   <answer id="0">
    <score type="num">
     100
@@ -11448,8 +11448,8 @@
     Très bien !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ku">
+ </word>
+ <word name="ku">
   <answer id="0">
    <score type="num">
     100
@@ -11560,8 +11560,8 @@
     Peut-on réellement déduire le mot correspondant à ‘ku’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ku#">
+ </word>
+ <word name="ku#">
   <answer id="0">
    <score type="num">
     100
@@ -11672,8 +11672,8 @@
     Peut-on réellement déduire le mot correspondant à ‘ku’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ku##">
+ </word>
+ <word name="ku##">
   <answer id="0">
    <score type="num">
     100
@@ -11773,8 +11773,8 @@
     Non, le verbe n’occupe jamais cette place-là dans le corpus. Interrogez-vous sur l’ordre des mots dans les phrases de ce système linguistique. SVO ? OVS ? VSO ? Pensez que l’on lit et écrit la phrase de droite à gauche dans ce système…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ku###">
+ </word>
+ <word name="ku###">
   <answer id="0">
    <score type="num">
     100
@@ -11874,8 +11874,8 @@
     Non, le verbe n’occupe jamais cette place-là dans le corpus. Interrogez-vous sur l’ordre des mots dans les phrases de ce système linguistique. SVO ? OVS ? VSO ? Pensez que l’on lit et écrit la phrase de droite à gauche dans ce système...}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ku####">
+ </word>
+ <word name="ku####">
   <answer id="0">
    <score type="num">
     100
@@ -11953,8 +11953,8 @@
     Non, mais vous êtes sur le bon GN…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ku#####">
+ </word>
+ <word name="ku#####">
   <answer id="0">
    <score type="num">
     100
@@ -12054,8 +12054,8 @@
     Non, ce petit mot n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ku######">
+ </word>
+ <word name="ku######">
   <answer id="0">
    <score type="num">
     100
@@ -12155,8 +12155,8 @@
     Non, ce petit mot n’est pas un nom. Mais vous êtes sur le bon GN.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="ku#######">
+ </word>
+ <word name="ku#######">
   <answer id="0">
    <score type="num">
     100
@@ -12267,8 +12267,8 @@
     Non, ce petit mot n’est pas un substantif.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kulubadisaka">
+ </word>
+ <word name="kulubadisaka">
   <answer id="0">
    <score type="num">
     100
@@ -12379,8 +12379,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘kulubadisaka’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kulubadisaka#">
+ </word>
+ <word name="kulubadisaka#">
   <answer id="0">
    <score type="num">
     100
@@ -12491,8 +12491,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘kulubadisaka’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kulubadisaka##">
+ </word>
+ <word name="kulubadisaka##">
   <answer id="0">
    <score type="num">
     100
@@ -12592,8 +12592,8 @@
     Bien !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kulubadisaka###">
+ </word>
+ <word name="kulubadisaka###">
   <answer id="0">
    <score type="num">
     100
@@ -12693,8 +12693,8 @@
     Bien !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kulububogotu">
+ </word>
+ <word name="kulububogotu">
   <answer id="0">
    <score type="num">
     100
@@ -12794,8 +12794,8 @@
     Non, ce mot n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="kulububogotu#">
+ </word>
+ <word name="kulububogotu#">
   <answer id="0">
    <score type="num">
     100
@@ -12895,8 +12895,8 @@
     Non, ce mot n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="la">
+ </word>
+ <word name="la">
   <answer id="0">
    <score type="num">
     100
@@ -12985,8 +12985,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="la#">
+ </word>
+ <word name="la#">
   <answer id="0">
    <score type="num">
     100
@@ -13075,8 +13075,8 @@
     Non, réfléchissez et essayez autre chose !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="la##">
+ </word>
+ <word name="la##">
   <answer id="0">
    <score type="num">
     100
@@ -13187,8 +13187,8 @@
     Peut-on réellement déduire le mot correspondant à ‘la’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="la###">
+ </word>
+ <word name="la###">
   <answer id="0">
    <score type="num">
     100
@@ -13299,8 +13299,8 @@
     Peut-on réellement déduire le mot correspondant à ‘la’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="la####">
+ </word>
+ <word name="la####">
   <answer id="0">
    <score type="num">
     100
@@ -13400,8 +13400,8 @@
     Non, le verbe n’occupe jamais cette place-là dans le corpus. Interrogez-vous sur l’ordre des mots dans les phrases de ce système linguistique. SVO ? OVS ? VSO ? Pensez que l’on lit et écrit la phrase de droite à gauche dans ce système…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="la#####">
+ </word>
+ <word name="la#####">
   <answer id="0">
    <score type="num">
     100
@@ -13501,8 +13501,8 @@
     Non, le verbe n’occupe jamais cette place-là dans le corpus. Interrogez-vous sur l’ordre des mots dans les phrases de ce système linguistique. SVO ? OVS ? VSO ? Pensez que l’on lit et écrit la phrase de droite à gauche dans ce système…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="la######">
+ </word>
+ <word name="la######">
   <answer id="0">
    <score type="num">
     100
@@ -13602,8 +13602,8 @@
     Si vous observez la paire de phrases, vous pourrez voir que ‘la’ est dans la première phrase, mais pas dans la deuxième. Le lexème qui lui correspond est facilement déductible. Et en l’occurrence, ce n’est pas ‘tomber’.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="la#######">
+ </word>
+ <word name="la#######">
   <answer id="0">
    <score type="num">
     100
@@ -13692,8 +13692,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="la########">
+ </word>
+ <word name="la########">
   <answer id="0">
    <score type="num">
     100
@@ -13826,8 +13826,8 @@
     Non, ‘la’ n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="la#########">
+ </word>
+ <word name="la#########">
   <answer id="0">
    <score type="num">
     100
@@ -13960,8 +13960,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="la##########">
+ </word>
+ <word name="la##########">
   <answer id="0">
    <score type="num">
     100
@@ -14061,8 +14061,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus, et l’ordre des mots dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="labab">
+ </word>
+ <word name="labab">
   <answer id="0">
    <score type="num">
     100
@@ -14162,8 +14162,8 @@
     Non, ce petit mot n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="labub">
+ </word>
+ <word name="labub">
   <answer id="0">
    <score type="num">
     100
@@ -14263,8 +14263,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus, et l’ordre des mots dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="li">
+ </word>
+ <word name="li">
   <answer id="0">
    <score type="num">
     100
@@ -14342,8 +14342,8 @@
     Non, vous n’êtes pas sur le bon GN…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="li#">
+ </word>
+ <word name="li#">
   <answer id="0">
    <score type="num">
     100
@@ -14421,8 +14421,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="li##">
+ </word>
+ <word name="li##">
   <answer id="0">
    <score type="num">
     100
@@ -14522,8 +14522,8 @@
     Non, ‘li’ n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="li###">
+ </word>
+ <word name="li###">
   <answer id="0">
    <score type="num">
     100
@@ -14623,8 +14623,8 @@
     Hum…ce lexème est-il dans cette phrase-là ? }
    </comment>
   </answer>
- </syntagm>
- <syntagm name="li####">
+ </word>
+ <word name="li####">
   <answer id="0">
    <score type="num">
     100
@@ -14724,8 +14724,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘li’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="li#####">
+ </word>
+ <word name="li#####">
   <answer id="0">
    <score type="num">
     100
@@ -14825,8 +14825,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘li’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="li######">
+ </word>
+ <word name="li######">
   <answer id="0">
    <score type="num">
     100
@@ -14915,8 +14915,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="li#######">
+ </word>
+ <word name="li#######">
   <answer id="0">
    <score type="num">
     100
@@ -15005,8 +15005,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="li########">
+ </word>
+ <word name="li########">
   <answer id="0">
    <score type="num">
     100
@@ -15084,8 +15084,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="li#########">
+ </word>
+ <word name="li#########">
   <answer id="0">
    <score type="num">
     100
@@ -15185,8 +15185,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus, et l’ordre des mots dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="li##########">
+ </word>
+ <word name="li##########">
   <answer id="0">
    <score type="num">
     100
@@ -15286,8 +15286,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus, et l’ordre des mots dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="li###########">
+ </word>
+ <word name="li###########">
   <answer id="0">
    <score type="num">
     100
@@ -15398,8 +15398,8 @@
     Non, ce petit mot n’est pas un substantif.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="li############">
+ </word>
+ <word name="li############">
   <answer id="0">
    <score type="num">
     100
@@ -15510,8 +15510,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="lu">
+ </word>
+ <word name="lu">
   <answer id="0">
    <score type="num">
     100
@@ -15611,8 +15611,8 @@
     Non, ce petit mot n’est pas un nom. Mais vous êtes sur le bon GN.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="lu#">
+ </word>
+ <word name="lu#">
   <answer id="0">
    <score type="num">
     100
@@ -15723,8 +15723,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="lu##">
+ </word>
+ <word name="lu##">
   <answer id="0">
    <score type="num">
     100
@@ -15888,8 +15888,8 @@
     Regardez le nombre du nom que ce mot détermine…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="minesa">
+ </word>
+ <word name="minesa">
   <answer id="0">
    <score type="num">
     100
@@ -15967,8 +15967,8 @@
     Observez attentivement le corpus, et vous remarquerez que le verbe n’occupe jamais cette position-là dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="minesa#">
+ </word>
+ <word name="minesa#">
   <answer id="0">
    <score type="num">
     100
@@ -16046,8 +16046,8 @@
     Observez attentivement le corpus, et vous remarquerez que le verbe n’occupe jamais cette position-là dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="minesa##">
+ </word>
+ <word name="minesa##">
   <answer id="0">
    <score type="num">
     100
@@ -16136,8 +16136,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="minesa###">
+ </word>
+ <word name="minesa###">
   <answer id="0">
    <score type="num">
     100
@@ -16226,8 +16226,8 @@
     Ce lexème est le seul qui est différent par rapport à la deuxième phrase, ne peut-on pas alors en déduire facilement sa place ? Est-ce qu’il se trouve à cette position-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="minesa####">
+ </word>
+ <word name="minesa####">
   <answer id="0">
    <score type="num">
     100
@@ -16327,8 +16327,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="minesa#####">
+ </word>
+ <word name="minesa#####">
   <answer id="0">
    <score type="num">
     100
@@ -16439,8 +16439,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="minesa######">
+ </word>
+ <word name="minesa######">
   <answer id="0">
    <score type="num">
     100
@@ -16518,8 +16518,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="mirumilai">
+ </word>
+ <word name="mirumilai">
   <answer id="0">
    <score type="num">
     100
@@ -16597,8 +16597,8 @@
     Non, ce n’est pas ça.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="mirumuka">
+ </word>
+ <word name="mirumuka">
   <answer id="0">
    <score type="num">
     100
@@ -16709,8 +16709,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="mirumulai">
+ </word>
+ <word name="mirumulai">
   <answer id="0">
    <score type="num">
     100
@@ -16788,8 +16788,8 @@
     Observez attentivement le corpus, et vous vous rendrez compte que le verbe n’occupe jamais cette position-là dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="mirumulai#">
+ </word>
+ <word name="mirumulai#">
   <answer id="0">
    <score type="num">
     100
@@ -16878,8 +16878,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="misotaka">
+ </word>
+ <word name="misotaka">
   <answer id="0">
    <score type="num">
     100
@@ -17012,8 +17012,8 @@
     Bien, vous avez trouvé la bonne classe grammaticale, mais vous n’êtes pas centré sur le bon GN.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="misotalai">
+ </word>
+ <word name="misotalai">
   <answer id="0">
    <score type="num">
     100
@@ -17113,8 +17113,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="misotalai#">
+ </word>
+ <word name="misotalai#">
   <answer id="0">
    <score type="num">
     100
@@ -17214,8 +17214,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="misotalai##">
+ </word>
+ <word name="misotalai##">
   <answer id="0">
    <score type="num">
     100
@@ -17326,8 +17326,8 @@
     ’tomber’ est l’un des lexèmes qui différencient ces deux phrases, et on peut assez facilement déduire sa position dans la phrase. Et en l’occurrence, ce n’est pas ici…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="misotalai###">
+ </word>
+ <word name="misotalai###">
   <answer id="0">
    <score type="num">
     100
@@ -17438,8 +17438,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="misotalai####">
+ </word>
+ <word name="misotalai####">
   <answer id="0">
    <score type="num">
     100
@@ -17572,8 +17572,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="misotalai#####">
+ </word>
+ <word name="misotalai#####">
   <answer id="0">
    <score type="num">
     100
@@ -17695,8 +17695,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="misotilai">
+ </word>
+ <word name="misotilai">
   <answer id="0">
    <score type="num">
     100
@@ -17774,8 +17774,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="misotilai#">
+ </word>
+ <word name="misotilai#">
   <answer id="0">
    <score type="num">
     100
@@ -17875,8 +17875,8 @@
     Si vous observez la paire de phrases, vous pourrez voir que ‘tubalilai’ est dans la première phrase, mais pas dans la deuxième. Le lexème qui lui correspond est facilement déductible. Et en l’occurrence, ce n’est pas ‘pompier’.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="misotilai##">
+ </word>
+ <word name="misotilai##">
   <answer id="0">
    <score type="num">
     100
@@ -17965,8 +17965,8 @@
     Vous avez trouvé la bonne classe grammaticale, mais vous n’êtes pas centré sur le bon GN.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="mizabela">
+ </word>
+ <word name="mizabela">
   <answer id="0">
    <score type="num">
     100
@@ -18066,8 +18066,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="mizabela#">
+ </word>
+ <word name="mizabela#">
   <answer id="0">
    <score type="num">
     100
@@ -18178,8 +18178,8 @@
     ’tomber’ est l’un des lexèmes qui différencient ces deux phrases, et on peut assez facilement déduire sa position dans la phrase. Et en l’occurrence, ce n’est pas ici…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="mizabela##">
+ </word>
+ <word name="mizabela##">
   <answer id="0">
    <score type="num">
     100
@@ -18257,8 +18257,8 @@
     Très bien !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="nonilai">
+ </word>
+ <word name="nonilai">
   <answer id="0">
    <score type="num">
     100
@@ -18336,8 +18336,8 @@
     Non, vous n’êtes pas sur le bon GN…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="nonilai#">
+ </word>
+ <word name="nonilai#">
   <answer id="0">
    <score type="num">
     100
@@ -18415,8 +18415,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="nonilai##">
+ </word>
+ <word name="nonilai##">
   <answer id="0">
    <score type="num">
     100
@@ -18516,8 +18516,8 @@
     Si vous observez la paire de phrases, vous pourrez voir que ‘nonilai’ est dans la deuxième phrase, mais pas dans la première. Le lexème qui lui correspond est facilement déductible. Et en l’occurrence, ce n’est pas ‘tomber’.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="nonilai###">
+ </word>
+ <word name="nonilai###">
   <answer id="0">
    <score type="num">
     100
@@ -18606,8 +18606,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="norab">
+ </word>
+ <word name="norab">
   <answer id="0">
    <score type="num">
     100
@@ -18718,8 +18718,8 @@
     Le mot transcrit ‘norab’ ne se trouve pas dans la deuxième phrase. Le lexème qui lui correspond peut être déductible. Regardez la traduction française des deux phrases …}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="norab#">
+ </word>
+ <word name="norab#">
   <answer id="0">
    <score type="num">
     100
@@ -18819,8 +18819,8 @@
     Non, le verbe n’occupe jamais cette place-là dans le corpus. Interrogez-vous sur l’ordre des mots dans les phrases de ce système linguistique. SVO ? OVS ? VSO ? Pensez que l’on lit et écrit la phrase de droite à gauche dans ce système…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="norab##">
+ </word>
+ <word name="norab##">
   <answer id="0">
    <score type="num">
     100
@@ -18920,8 +18920,8 @@
     Non, ce mot n’est pas un nom.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="norib">
+ </word>
+ <word name="norib">
   <answer id="0">
    <score type="num">
     100
@@ -19021,8 +19021,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus, et l’ordre des mots dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="nulik">
+ </word>
+ <word name="nulik">
   <answer id="0">
    <score type="num">
     100
@@ -19133,8 +19133,8 @@
     Le mot transcrit ‘nulik’ ne se trouve pas dans la première phrase. Le lexème qui lui correspond peut être déductible. Regardez la traduction française des deux phrases…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="nulik#">
+ </word>
+ <word name="nulik#">
   <answer id="0">
    <score type="num">
     100
@@ -19234,8 +19234,8 @@
     Non, le verbe n’occupe jamais cette place-là dans le corpus. Interrogez-vous sur l’ordre des mots dans les phrases de ce système linguistique. SVO ? OVS ? VSO ? Pensez que l’on lit et écrit la phrase de droite à gauche dans ce système…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="nulil">
+ </word>
+ <word name="nulil">
   <answer id="0">
    <score type="num">
     100
@@ -19368,8 +19368,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="nulil#">
+ </word>
+ <word name="nulil#">
   <answer id="0">
    <score type="num">
     100
@@ -19491,8 +19491,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="nuluk">
+ </word>
+ <word name="nuluk">
   <answer id="0">
    <score type="num">
     100
@@ -19581,8 +19581,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="nulut">
+ </word>
+ <word name="nulut">
   <answer id="0">
    <score type="num">
     100
@@ -19693,8 +19693,8 @@
     Non, ce mot n’est pas un substantif. Mais vous êtes centré sur le bon GN.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="nulut#">
+ </word>
+ <word name="nulut#">
   <answer id="0">
    <score type="num">
     100
@@ -19805,8 +19805,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pabetaka">
+ </word>
+ <word name="pabetaka">
   <answer id="0">
    <score type="num">
     100
@@ -19939,8 +19939,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pabetalai">
+ </word>
+ <word name="pabetalai">
   <answer id="0">
    <score type="num">
     100
@@ -20051,8 +20051,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘pabetalai’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pabetalai#">
+ </word>
+ <word name="pabetalai#">
   <answer id="0">
    <score type="num">
     100
@@ -20163,8 +20163,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘pabetalai’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pabetalai##">
+ </word>
+ <word name="pabetalai##">
   <answer id="0">
    <score type="num">
     100
@@ -20264,8 +20264,8 @@
     Non, le verbe n’occupe jamais cette place-là dans le corpus. Interrogez-vous sur l’ordre des mots dans les phrases de ce système linguistique. SVO ? OVS ? VSO ? Pensez que l’on lit et écrit la phrase de droite à gauche dans ce système…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pabetalai###">
+ </word>
+ <word name="pabetalai###">
   <answer id="0">
    <score type="num">
     100
@@ -20365,8 +20365,8 @@
     Non, le verbe n’occupe jamais cette place-là dans le corpus. Interrogez-vous sur l’ordre des mots dans les phrases de ce système linguistique. SVO ? OVS ? VSO ? Pensez que l’on lit et écrit la phrase de droite à gauche dans ce système…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pabetika">
+ </word>
+ <word name="pabetika">
   <answer id="0">
    <score type="num">
     100
@@ -20455,8 +20455,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pabetika#">
+ </word>
+ <word name="pabetika#">
   <answer id="0">
    <score type="num">
     100
@@ -20545,8 +20545,8 @@
     Bien essayé, mais ce n’est pas ça…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pabetuka">
+ </word>
+ <word name="pabetuka">
   <answer id="0">
    <score type="num">
     100
@@ -20624,8 +20624,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="padila">
+ </word>
+ <word name="padila">
   <answer id="0">
    <score type="num">
     100
@@ -20692,8 +20692,8 @@
     Non, ce mot n’est pas un adjectif.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="padilaka">
+ </word>
+ <word name="padilaka">
   <answer id="0">
    <score type="num">
     100
@@ -20760,8 +20760,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="padonisa">
+ </word>
+ <word name="padonisa">
   <answer id="0">
    <score type="num">
     100
@@ -20828,8 +20828,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="padonisaka">
+ </word>
+ <word name="padonisaka">
   <answer id="0">
    <score type="num">
     100
@@ -20896,8 +20896,8 @@
     Non, ce mot n’est pas un adjectif.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="parupi">
+ </word>
+ <word name="parupi">
   <answer id="0">
    <score type="num">
     100
@@ -20997,8 +20997,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘parupi’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="parupi#">
+ </word>
+ <word name="parupi#">
   <answer id="0">
    <score type="num">
     100
@@ -21098,8 +21098,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘parupi’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="parupi##">
+ </word>
+ <word name="parupi##">
   <answer id="0">
    <score type="num">
     100
@@ -21188,8 +21188,8 @@
     Très bien !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="parupi###">
+ </word>
+ <word name="parupi###">
   <answer id="0">
    <score type="num">
     100
@@ -21278,8 +21278,8 @@
     Très bien !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="parupuka">
+ </word>
+ <word name="parupuka">
   <answer id="0">
    <score type="num">
     100
@@ -21357,8 +21357,8 @@
     Bien !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="parupuka#">
+ </word>
+ <word name="parupuka#">
   <answer id="0">
    <score type="num">
     100
@@ -21469,8 +21469,8 @@
     Vous avez trouvé la bonne classe grammaticale, mais vous n’êtes pas centré sur le bon GN.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="parupulai">
+ </word>
+ <word name="parupulai">
   <answer id="0">
    <score type="num">
     100
@@ -21548,8 +21548,8 @@
     Observez attentivement le corpus, et vous vous rendrez compte que le verbe n’occupe jamais cette position-là dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="parupulai#">
+ </word>
+ <word name="parupulai#">
   <answer id="0">
    <score type="num">
     100
@@ -21638,8 +21638,8 @@
     Bien, si l’on se centre sur cette paire de phrases qui ne diffèrent que sur un seul mot, on peut en déduire le lexème correspondant à ‘parupulai’.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pok">
+ </word>
+ <word name="pok">
   <answer id="0">
    <score type="num">
     100
@@ -21739,8 +21739,8 @@
     Non, le verbe n’occupe pas la dernière position dans la phrase, sachant que ce système linguistique repose sur une écriture et donc lecture de droite à gauche.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pok#">
+ </word>
+ <word name="pok#">
   <answer id="0">
    <score type="num">
     100
@@ -21840,8 +21840,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pok##">
+ </word>
+ <word name="pok##">
   <answer id="0">
    <score type="num">
     100
@@ -21952,8 +21952,8 @@
     ’tomber’ est l’un des lexèmes qui différencient ces deux phrases, et on peut assez facilement déduire sa position dans la phrase. Et en l’occurrence, ce n’est pas ici…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pok###">
+ </word>
+ <word name="pok###">
   <answer id="0">
    <score type="num">
     100
@@ -22064,8 +22064,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pok####">
+ </word>
+ <word name="pok####">
   <answer id="0">
    <score type="num">
     100
@@ -22198,8 +22198,8 @@
     Bien, vous avez trouvé la bonne classe grammaticale, mais vous n’êtes pas centré sur le bon GN.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pok#####">
+ </word>
+ <word name="pok#####">
   <answer id="0">
    <score type="num">
     100
@@ -22332,8 +22332,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘pok’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pok######">
+ </word>
+ <word name="pok######">
   <answer id="0">
    <score type="num">
     100
@@ -22455,8 +22455,8 @@
     Non, ce n’est pas un adjectif.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="pok#######">
+ </word>
+ <word name="pok#######">
   <answer id="0">
    <score type="num">
     100
@@ -22693,8 +22693,8 @@
     Pensez aux propriétés grammaticales des noms.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="suki">
+ </word>
+ <word name="suki">
   <answer id="0">
    <score type="num">
     100
@@ -22794,8 +22794,8 @@
     Hum…ce lexème est-il dans cette phrase-là ? }
    </comment>
   </answer>
- </syntagm>
- <syntagm name="sukika">
+ </word>
+ <word name="sukika">
   <answer id="0">
    <score type="num">
     100
@@ -22895,8 +22895,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus, et l’ordre des mots dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="sukka">
+ </word>
+ <word name="sukka">
   <answer id="0">
    <score type="num">
     100
@@ -22996,8 +22996,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus, et l’ordre des mots dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tubalalai">
+ </word>
+ <word name="tubalalai">
   <answer id="0">
    <score type="num">
     100
@@ -23130,8 +23130,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘tubalalai’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tubalalai#">
+ </word>
+ <word name="tubalalai#">
   <answer id="0">
    <score type="num">
     100
@@ -23253,8 +23253,8 @@
     Non, ce n’est pas un adjectif.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tubalilai">
+ </word>
+ <word name="tubalilai">
   <answer id="0">
    <score type="num">
     100
@@ -23354,8 +23354,8 @@
     Non, mais vous avez trouvé la bonne classe grammaticale…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tubalilai#">
+ </word>
+ <word name="tubalilai#">
   <answer id="0">
    <score type="num">
     100
@@ -23455,8 +23455,8 @@
     Si vous observez la paire de phrases, vous pourrez voir que ‘tubalilai’ est dans la première phrase, mais pas dans la deuxième. Le lexème qui lui correspond est facilement déductible. Et en l’occurrence, ce n’est pas ‘tomber’.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tubalilai##">
+ </word>
+ <word name="tubalilai##">
   <answer id="0">
    <score type="num">
     100
@@ -23545,8 +23545,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tubalilai###">
+ </word>
+ <word name="tubalilai###">
   <answer id="0">
    <score type="num">
     100
@@ -23646,8 +23646,8 @@
     Si vous observez la paire de phrases, vous pourrez voir que ‘tubalilai’ est dans la première phrase, mais pas dans la deuxième. Le lexème qui lui correspond est facilement déductible. Et en l’occurrence, ce n’est pas ‘pompier’.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tubalilai####">
+ </word>
+ <word name="tubalilai####">
   <answer id="0">
    <score type="num">
     100
@@ -23736,8 +23736,8 @@
     Vous avez trouvé la bonne classe grammaticale, mais vous n’êtes pas centré sur le bon GN.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tukatalai">
+ </word>
+ <word name="tukatalai">
   <answer id="0">
    <score type="num">
     100
@@ -23837,8 +23837,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus, et l’ordre des mots dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tukatuka">
+ </word>
+ <word name="tukatuka">
   <answer id="0">
    <score type="num">
     100
@@ -23949,8 +23949,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘tukatuka’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tukatuka#">
+ </word>
+ <word name="tukatuka#">
   <answer id="0">
    <score type="num">
     100
@@ -24061,8 +24061,8 @@
     Peut-on réellement déduire le lexème correspondant à ‘tukatuka’ à partir de cette paire de phrases seulement ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tukatuka##">
+ </word>
+ <word name="tukatuka##">
   <answer id="0">
    <score type="num">
     100
@@ -24162,8 +24162,8 @@
     Non, le verbe n’occupe jamais cette place-là dans le corpus. Interrogez-vous sur l’ordre des mots dans les phrases de ce système linguistique. SVO ? OVS ? VSO ? Pensez que l’on lit et écrit la phrase de droite à gauche dans ce système…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tukatuka###">
+ </word>
+ <word name="tukatuka###">
   <answer id="0">
    <score type="num">
     100
@@ -24263,8 +24263,8 @@
     Non, le verbe n’occupe jamais cette place-là dans le corpus. Interrogez-vous sur l’ordre des mots dans les phrases de ce système linguistique. SVO ? OVS ? VSO ? Pensez que l’on lit et écrit la phrase de droite à gauche dans ce système…}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tukatulai">
+ </word>
+ <word name="tukatulai">
   <answer id="0">
    <score type="num">
     100
@@ -24364,8 +24364,8 @@
     Correct, bravo !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tukatulai#">
+ </word>
+ <word name="tukatulai#">
   <answer id="0">
    <score type="num">
     100
@@ -24465,8 +24465,8 @@
     Correct, bravo !}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="tukatulai##">
+ </word>
+ <word name="tukatulai##">
   <answer id="0">
    <score type="num">
     100
@@ -24844,8 +24844,8 @@
     Observez le corpus, et regardez si on ne peut pas faire un lien entre une marque des noms selon leur fonction et selon le type du verbe associé.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="turata">
+ </word>
+ <word name="turata">
   <answer id="0">
    <score type="num">
     100
@@ -24978,8 +24978,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="turata#">
+ </word>
+ <word name="turata#">
   <answer id="0">
    <score type="num">
     100
@@ -25101,8 +25101,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="turatalai">
+ </word>
+ <word name="turatalai">
   <answer id="0">
    <score type="num">
     100
@@ -25169,8 +25169,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="turatalai#">
+ </word>
+ <word name="turatalai#">
   <answer id="0">
    <score type="num">
     100
@@ -25237,8 +25237,8 @@
     Non, ce mot n’est pas un adjectif, mais vous êtes sur le bon GN.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="turatalai##">
+ </word>
+ <word name="turatalai##">
   <answer id="0">
    <score type="num">
     100
@@ -25338,8 +25338,8 @@
     Non, le verbe n’occupe jamais cette position dans la phrase. Observez de plus près le corpus, et l’ordre des mots dans la phrase.}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="turatika">
+ </word>
+ <word name="turatika">
   <answer id="0">
    <score type="num">
     100
@@ -25439,8 +25439,8 @@
     Non, vous n’êtes pas sur le bon GN, mais vous avez quand même trouvé la bonne classe grammaticale...}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="turatilai">
+ </word>
+ <word name="turatilai">
   <answer id="0">
    <score type="num">
     100
@@ -25540,8 +25540,8 @@
     Hum…ce lexème est-il dans cette phrase-là ?}
    </comment>
   </answer>
- </syntagm>
- <syntagm name="turatuka">
+ </word>
+ <word name="turatuka">
   <answer id="0">
    <score type="num">
     100
@@ -25641,5 +25641,5 @@
     Non, vous n’êtes pas sur le bon GN, mais vous avez quand même trouvé la bonne classe grammaticale...}
    </comment>
   </answer>
- </syntagm>
+ </word>
 </glosses>
