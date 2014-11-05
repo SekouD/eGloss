@@ -36,11 +36,12 @@ def extract_gloses(xml_file):
                 update_dict(gloses_francais_dict, liste_mot_reponse)
     liste_doublons = []
     for key, values in gloses_francais_dict['unique'].items():
-        if key in gloses_francais_dict['duplicates']:
+        if key in gloses_francais_dict['duplicates'] and key in ('que', 'qui', 'du', 'des'):
             gloses_francais_dict['duplicates'][key + "$"] = values
             liste_doublons.append(key)
     for elt in liste_doublons:
-        gloses_francais_dict['unique'].pop(elt)
+        if elt in ('que', 'qui', 'du', 'des'):
+            gloses_francais_dict['unique'].pop(elt)
     return
 
 
@@ -138,6 +139,8 @@ def generate_answer_dict(reponse):
         comment = reponse[reponse.find('#') + 1:]
     else:
         comment = 'None'
+    if content.startswith(':'):
+        content = content[1:]
     answer_dict = dict(zip(['score', 'content', 'comment'], [score, content, comment]))
     return answer_dict
 
@@ -251,17 +254,7 @@ if __name__ == "__main__":
     with codecs.open(file_name, 'r', encoding='utf8') as file_obj:
         extract_gloses(file_obj)
 
-    # gloses_francais_xml = generate_xml(gloses_francais_dict['unique'])
-    # save_xml(gloses_francais_xml, 'gloses_francais_unique-v2')
-    #
-    # gloses_francais_xml = generate_xml(gloses_francais_dict['duplicates'])
-    # save_xml(gloses_francais_xml, 'gloses_francais_duplicates-v2')
-    #
-    # gloses_kalaba_xml = generate_xml(gloses_kalaba_dict['unique'])
-    # save_xml(gloses_kalaba_xml, 'gloses_kalaba_unique-v2')
-    #
-    # gloses_kalaba_xml = generate_xml(gloses_kalaba_dict['duplicates'])
-    # save_xml(gloses_kalaba_xml, 'gloses_kalaba_duplicates-v2')
+
 
     # [(key, key + "$") for key in gloses_francais_dict['duplicates'] if (key + "$") in gloses_francais_dict['duplicates']]
     #
@@ -269,15 +262,25 @@ if __name__ == "__main__":
     # gloses_francais_dict['duplicates'][elt[0]][i] != gloses_francais_dict['duplicates'][elt[1]][i] for elt in
     #  liste_doublons for i in range(len(gloses_francais_dict['duplicates'][key]))]
 
-liste_doublons = [(key, key + "$") for key in gloses_francais_dict['duplicates'] if
-                  (key + "$") in gloses_francais_dict['duplicates'] and len(gloses_francais_dict['duplicates'][key]) == len(gloses_francais_dict['duplicates'][key + "$"])]
-champsdifferents = {}
-for elt in liste_doublons:
-    champsdifferents[elt] = []
-    if elt[0] in gloses_francais_dict['duplicates']:
-        for i in range(len(gloses_francais_dict['duplicates'][elt[0]])):
-            if gloses_francais_dict['duplicates'][elt[0]][i] != gloses_francais_dict['duplicates'][elt[1]][i]:
-                champsdifferents[elt].append((
-                    gloses_francais_dict['duplicates'][elt[0]][i], gloses_francais_dict['duplicates'][elt[1]][i]))
+    liste_doublons = [(key, key + "$") for key in gloses_francais_dict['duplicates'] if
+                      (key + "$") in gloses_francais_dict['duplicates'] and len(gloses_francais_dict['duplicates'][key]) == len(gloses_francais_dict['duplicates'][key + "$"])]
+    champsdifferents = {}
+    for elt in liste_doublons:
+        champsdifferents[elt] = []
+        if elt[0] in gloses_francais_dict['duplicates']:
+            for i in range(len(gloses_francais_dict['duplicates'][elt[0]])):
+                if gloses_francais_dict['duplicates'][elt[0]][i] != gloses_francais_dict['duplicates'][elt[1]][i]:
+                    champsdifferents[elt].append((
+                        gloses_francais_dict['duplicates'][elt[0]][i], gloses_francais_dict['duplicates'][elt[1]][i]))
 
-print(champsdifferents)
+    gloses_francais_xml = generate_xml(gloses_francais_dict['unique'])
+    save_xml(gloses_francais_xml, 'Gloses Francais Xml/gloses_francais_unique-v2')
+
+    gloses_francais_xml = generate_xml(gloses_francais_dict['duplicates'])
+    save_xml(gloses_francais_xml, 'Gloses Francais Xml/gloses_francais_duplicates-v2')
+
+    gloses_kalaba_xml = generate_xml(gloses_kalaba_dict['unique'])
+    save_xml(gloses_kalaba_xml, 'Gloses Kalaba Xml/gloses_kalaba_unique-v2')
+
+    gloses_kalaba_xml = generate_xml(gloses_kalaba_dict['duplicates'])
+    save_xml(gloses_kalaba_xml, 'Gloses Kalaba Xml/gloses_kalaba_duplicates-v2')
