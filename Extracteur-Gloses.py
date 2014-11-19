@@ -352,6 +352,10 @@ if __name__ == "__main__":
     create_db(dbname1)
     update_db(dbname1, gloses_francais_dict)
 
+    dbname2 = "gloses_kalaba.db"
+    create_db(dbname2)
+    update_db(dbname2, gloses_kalaba_dict)
+
 
 
     gloses_francais_xml = generate_xml(gloses_francais_dict['unique'])
