@@ -9,6 +9,8 @@ __author__ = 'Sekou Diao'
 import argparse
 import codecs
 from bs4 import BeautifulSoup as BS, NavigableString
+import sqlite3
+from os.path import isfile, getsize
 
 
 def extract_gloses(xml_file):
@@ -36,12 +38,11 @@ def extract_gloses(xml_file):
                 update_dict(gloses_francais_dict, liste_mot_reponse)
     liste_doublons = []
     for key, values in gloses_francais_dict['unique'].items():
-        if key in gloses_francais_dict['duplicates'] and key in ('que', 'qui', 'du', 'des'):
+        if key in gloses_francais_dict['duplicates']:
             gloses_francais_dict['duplicates'][key + "$"] = values
             liste_doublons.append(key)
     for elt in liste_doublons:
-        if elt in ('que', 'qui', 'du', 'des'):
-            gloses_francais_dict['unique'].pop(elt)
+        gloses_francais_dict['unique'].pop(elt)
     return
 
 
@@ -165,6 +166,62 @@ def update_dict(dic, zip_mot_reponses):
         recursive_update(dic, mot.lower(), answers)
     return
 
+def update_db(dbname, dic):
+    """
+
+    :param dbname:
+    :param dic:
+    :return:
+    """
+    glosesdb = sqlite3.connect(dbname)
+    gloses = glosesdb.cursor()
+    compteur_mot = {}
+    for key in dic:
+        for mot in dic[key]:
+            if "$" in mot:
+                mot_nu = mot.rstrip("$")
+            elif "#" in mot:
+                mot_nu = mot.rstrip("#")
+            else:
+                mot_nu = mot
+            if not mot_nu in compteur_mot:
+                compteur_mot[mot_nu] = 1
+            else:
+                compteur_mot[mot_nu] += 1
+            gloses.execute("INSERT into words values (?,?) ", (mot_nu, compteur_mot[mot_nu]))
+            for reponse in dic[key][mot]:
+                gloses.execute("INSERT into answers values (?,?,?,?,?) ", (mot_nu, compteur_mot[mot_nu], reponse['score'], reponse['content'], reponse['comment']))
+    glosesdb.commit()
+    return
+
+
+def create_db(dbname):
+    """
+
+    :param dbname:
+    :return:
+    """
+    if not _isSQLite3(dbname):
+        glosesdb = sqlite3.connect(dbname)
+        gloses = glosesdb.cursor()
+        gloses.execute("""PRAGMA foreign_keys = ON """)
+        create_words_table = '''CREATE TABLE `words` (
+                `word`	TEXT,
+                `id`	INT,
+                PRIMARY KEY(`word`, `id`)
+            )'''
+        create_answers_table = '''CREATE TABLE `answers` (
+                `word`	TEXT,
+                `id`	INT,
+                `score`	INT,
+                `content`	TEXT,
+                `comment`	TEXT,
+                FOREIGN KEY(`word`, `id`) REFERENCES words(`word`, `id`)
+            )'''
+        gloses.execute(create_words_table)
+        gloses.execute(create_answers_table)
+        glosesdb.commit()
+    return
 
 def recursive_update(dic, key, value):
     """
@@ -236,6 +293,24 @@ def save_xml(xml_obj, filename):
         xml_file.close()
     return
 
+def _isSQLite3(filename):
+    """
+
+    :param filename:
+    :return: bool
+    """
+    if not isfile(filename):
+        return False
+    if getsize(filename) < 100:  # SQLite database file header is 100 bytes
+        return False
+    else:
+        fd = open(filename, 'rb')
+        header = fd.read(100)
+        fd.close()
+        if header[0:16] == b'SQLite format 3\000':
+            return True
+        else:
+            return False
 
 if __name__ == "__main__":
     # Creates the 2 dictionary objects that will hold the results of the words/answers extraction process
@@ -273,14 +348,20 @@ if __name__ == "__main__":
                     champsdifferents[elt].append((
                         gloses_francais_dict['duplicates'][elt[0]][i], gloses_francais_dict['duplicates'][elt[1]][i]))
 
+    dbname1 = "gloses_francais.db"
+    create_db(dbname1)
+    update_db(dbname1, gloses_francais_dict)
+
+
+
     gloses_francais_xml = generate_xml(gloses_francais_dict['unique'])
-    save_xml(gloses_francais_xml, 'Gloses Francais Xml/gloses_francais_unique-v2')
+    save_xml(gloses_francais_xml, 'Gloses Francais Xml/gloses_francais_unique-v4')
 
     gloses_francais_xml = generate_xml(gloses_francais_dict['duplicates'])
-    save_xml(gloses_francais_xml, 'Gloses Francais Xml/gloses_francais_duplicates-v2')
+    save_xml(gloses_francais_xml, 'Gloses Francais Xml/gloses_francais_duplicates-v4')
 
     gloses_kalaba_xml = generate_xml(gloses_kalaba_dict['unique'])
-    save_xml(gloses_kalaba_xml, 'Gloses Kalaba Xml/gloses_kalaba_unique-v2')
+    save_xml(gloses_kalaba_xml, 'Gloses Kalaba Xml/gloses_kalaba_unique-v4')
 
     gloses_kalaba_xml = generate_xml(gloses_kalaba_dict['duplicates'])
-    save_xml(gloses_kalaba_xml, 'Gloses Kalaba Xml/gloses_kalaba_duplicates-v2')
+    save_xml(gloses_kalaba_xml, 'Gloses Kalaba Xml/gloses_kalaba_duplicates-v4')
