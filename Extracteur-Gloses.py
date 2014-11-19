@@ -177,7 +177,7 @@ def update_db(dbname, dic):
     gloses = glosesdb.cursor()
     compteur_mot = {}
     for key in dic:
-        for mot in dic[key].keys():
+        for mot in sorted(dic[key].keys()):
             if "$" in mot:
                 mot_nu = mot.rstrip("$")
             elif "#" in mot:
