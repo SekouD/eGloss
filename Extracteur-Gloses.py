@@ -359,13 +359,13 @@ if __name__ == "__main__":
 
 
     gloses_francais_xml = generate_xml(gloses_francais_dict['unique'])
-    save_xml(gloses_francais_xml, 'Gloses Francais Xml/gloses_francais_unique-v4')
+    save_xml(gloses_francais_xml, 'Xml/gloses_francais_unique-v4')
 
     gloses_francais_xml = generate_xml(gloses_francais_dict['duplicates'])
-    save_xml(gloses_francais_xml, 'Gloses Francais Xml/gloses_francais_duplicates-v4')
+    save_xml(gloses_francais_xml, 'Xml/gloses_francais_duplicates-v4')
 
     gloses_kalaba_xml = generate_xml(gloses_kalaba_dict['unique'])
-    save_xml(gloses_kalaba_xml, 'Gloses Kalaba Xml/gloses_kalaba_unique-v4')
+    save_xml(gloses_kalaba_xml, 'Xml/gloses_kalaba_unique-v4')
 
     gloses_kalaba_xml = generate_xml(gloses_kalaba_dict['duplicates'])
-    save_xml(gloses_kalaba_xml, 'Gloses Kalaba Xml/gloses_kalaba_duplicates-v4')
+    save_xml(gloses_kalaba_xml, 'Xml/gloses_kalaba_duplicates-v4')
