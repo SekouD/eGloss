@@ -348,24 +348,24 @@ if __name__ == "__main__":
                     champsdifferents[elt].append((
                         gloses_francais_dict['duplicates'][elt[0]][i], gloses_francais_dict['duplicates'][elt[1]][i]))
 
-    dbname1 = "gloses_francais.db"
+    dbname1 = 'GlosesFrancais/Sqlite/gloses_francais1.db'
     create_db(dbname1)
     update_db(dbname1, gloses_francais_dict)
 
-    dbname2 = "gloses_kalaba.db"
+    dbname2 = 'GlosesKalaba/Sqlite/gloses_kalaba1.db'
     create_db(dbname2)
     update_db(dbname2, gloses_kalaba_dict)
 
 
 
     gloses_francais_xml = generate_xml(gloses_francais_dict['unique'])
-    save_xml(gloses_francais_xml, 'Xml/gloses_francais_unique-v4')
+    save_xml(gloses_francais_xml, 'GlosesFrancais/Xml/gloses_francais_unique-v4')
 
     gloses_francais_xml = generate_xml(gloses_francais_dict['duplicates'])
-    save_xml(gloses_francais_xml, 'Xml/gloses_francais_duplicates-v4')
+    save_xml(gloses_francais_xml, 'GlosesFrancais/Xml/gloses_francais_duplicates-v4')
 
     gloses_kalaba_xml = generate_xml(gloses_kalaba_dict['unique'])
-    save_xml(gloses_kalaba_xml, 'Xml/gloses_kalaba_unique-v4')
+    save_xml(gloses_kalaba_xml, 'GlosesKalaba/Xml/gloses_kalaba_unique-v4')
 
     gloses_kalaba_xml = generate_xml(gloses_kalaba_dict['duplicates'])
-    save_xml(gloses_kalaba_xml, 'Xml/gloses_kalaba_duplicates-v4')
+    save_xml(gloses_kalaba_xml, 'GlosesKalaba/Xml/gloses_kalaba_duplicates-v4')
